@@ -1,0 +1,74 @@
+{
+	"name": "RUSH HOUR",
+	"authors": [ "Ross LaManna", "Jim Kouf", "Ross LaManna" ],
+	"scenes": [	
+		{
+			"id": 1,  
+			"transition": "FADE IN",
+			"locations": [
+				{ 
+					"interior": false,
+					"place": "HONG KONG",
+					"time": "NIGHT",
+					"camera_movements": [ 
+						{
+							"id": 0,
+							"on": "LOCATION",
+							"desc": "We’re in a HELICOPTER POV flying over Hong Kong's dazzling skyline. SUPER - HONG KONG - JUNE 30, 1997",
+							"sentences": [ 
+								{ 
+									"camera_movement_id": 0,
+									"character": "NEWS ANNOUNCER", 
+									"notes": "british accent", 
+									"desc": "FADE UP the sound of a RADIO NEWSCAST as we continue to fly over luxury, high rise condos, gleaming corporate headquarters, and busy freeways.", 
+									"line": "...and now, in something less than three hours, what was once known as the Asian pearl of the British Empire will revert forever to The People's Republic of China…"
+								} 
+							]
+						}
+
+					]
+				}
+			]		
+		},
+		{
+			"id": 2,
+			"transition":  "CUT TO",
+			"locations": [
+				{
+					"interior": true,
+					"place": "A WAREHOUSE",
+					"time": "NIGHT",
+					"camera_movements": [ 
+						{
+							"id": 0,
+							"on": "LOCATION",
+							"desc": "We're CLOSE on a huge gleaming DRAGON made of tin. The dragon seems to float effortlessly across a concrete warehouse floor. PULL BACK until we see that it's riding on a fork lift toward a SHIP docked at the warehouse. As the dragon moves, we see it pass PRICELESS CHINESE ART OBJECTS including ceramics, glass paintings, and huge statues. CHINESE MEN move quickly as they load this precious cargo into the hold of the ship."
+						}
+					]
+				},
+				{ 
+					"interior": true,
+					"place": "THE SHIP",
+					"time": "NIGHT",
+					"camera_movements": [ 
+						{ 
+							"id" : 0,
+							"on": "LOCATION",
+							"desc": "Another GUARD, cradling an M-16, walks around a railing and looks over the side. Suddenly, A HAND reaches up and pulls him over the edge. He disappears and a beat later we HEAR A SPLASH."
+						},
+						{
+							"id": 1,
+							"on": "ANOTHER GUARD",
+							"desc": "He's coming up a LADDER, automatic weapon slung over his shoulder. He HEARS something, turns on the ladder. Nothing. When he starts back up WHACK! A foot kicks him off the ladder and the ship. SPLASH."
+						}, 
+						{
+							"id": 2,
+							"on": "LOCATION",
+							"desc": "The top of the warehouse. We see another man's FACE peer over the edge. And then disappear again."
+						}
+					]
+				}
+			]		
+		}
+	]
+}
