@@ -4,7 +4,7 @@
     "characters": [
         "NEWS ANNOUNCER",
         "LEE"
-    ]
+    ],
 	"scenes": [	
 		{
 			"id": 1,  
@@ -28,9 +28,9 @@
 									"line": "...and now, in something less than three hours, what was once known as the Asian pearl of the British Empire will revert forever to The People's Republic of China…"
 								} 
 							],
-                            "key_words": [
-                                "HELICOPTER POV", "HONG KONG", "FADE UP", "RADIO NEWSCAST", "SUPER - HONG KONG - JUNE 30, 1997"
-                            ]
+						    "key_words": [
+							"HELICOPTER POV", "HONG KONG", "FADE UP", "RADIO NEWSCAST", "SUPER - HONG KONG - JUNE 30, 1997"
+						    ]
 						}
 					]
 				}
