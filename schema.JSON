@@ -1,0 +1,156 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Body",
+    "definitions": {
+        "Body": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "characters": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "scenes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Scene"
+                    }
+                }
+            },
+            "required": [
+                "authors",
+                "characters",
+                "name",
+                "scenes"
+            ],
+            "title": "Body"
+        },
+        "Scene": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "transition": {
+                    "type": "string"
+                },
+                "locations": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Location"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "locations",
+                "transition"
+            ],
+            "title": "Scene"
+        },
+        "Location": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "position": {
+                    "type": "string"
+                },
+                "place": {
+                    "type": "string"
+                },
+                "time": {
+                    "type": "string"
+                },
+                "shots": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Shot"
+                    }
+                }
+            },
+            "required": [
+                "place",
+                "position",
+                "shots",
+                "time"
+            ],
+            "title": "Location"
+        },
+        "Shot": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "on": {
+                    "type": "string"
+                },
+                "desc": {
+                    "type": "string"
+                },
+                "sentences": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Sentence"
+                    }
+                },
+                "key_words": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [
+                "desc",
+                "id",
+                "key_words",
+                "on",
+                "sentences"
+            ],
+            "title": "Shot"
+        },
+        "Sentence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "shot_id": {
+                    "type": "integer"
+                },
+                "character": {
+                    "type": "string"
+                },
+                "notes": {
+                    "type": "string"
+                },
+                "desc": {
+                    "type": "string"
+                },
+                "line": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "character",
+                "desc",
+                "line",
+                "notes",
+                "shot_id"
+            ],
+            "title": "Sentence"
+        }
+    }
+}
