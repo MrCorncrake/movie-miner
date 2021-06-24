@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-06/schema#",
-    "$ref": "#/definitions/Body",
+    "$ref": "#/definitions/Scenario",
     "definitions": {
-        "Body": {
+        "Scenario": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -34,7 +34,7 @@
                 "name",
                 "scenes"
             ],
-            "title": "Body"
+            "title": "Scenario"
         },
         "Scene": {
             "type": "object",
