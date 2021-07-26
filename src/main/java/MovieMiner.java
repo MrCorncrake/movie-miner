@@ -11,6 +11,7 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.PDFTextStripperByArea;
+import scenario.ParseException;
 import scenario.Scenario;
 
 public class MovieMiner {
@@ -55,7 +56,12 @@ public class MovieMiner {
                 // Adding script text to parser
                 ScriptParser scriptParser = new ScriptParser(text);
                 // Creating scenario object
-                Scenario scenario = scriptParser.parse();
+                Scenario scenario = null;
+                try {
+                    scenario = scriptParser.parse();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
 
                 // Choosing name of output json file
                 System.out.println("Give name of output json file:");
