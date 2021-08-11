@@ -1,5 +1,7 @@
 import scenario.ParseException;
 import scenario.Scenario;
+import scenario.Scene;
+import utils.Pair;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,7 +12,6 @@ import java.util.stream.Collectors;
 public class ScriptParser {
 
     private final String text;
-    private String remainingText;
     private final Scenario scenario = new Scenario();
     private final List<String> sceneDelimiters;
 
@@ -32,15 +33,10 @@ public class ScriptParser {
         String temp = parseTitleAndAuthors(text);
         System.out.println("Title: " + scenario.getName());
         System.out.println("Authors: " + scenario.getAuthors());
+        temp = parseScenes(temp);
         System.out.println("Remaining text:\n" + temp);
-        this.remainingText = temp;
         return scenario;
     }
-
-    public String getRemainingText() {
-        return remainingText;
-    }
-
     private String parseTitleAndAuthors(String text) throws ParseException {
         int splitAt = text.length();
         for (String delimiter : sceneDelimiters) {
@@ -66,5 +62,39 @@ public class ScriptParser {
         scenario.setName(title);
         // Return remaining text
         return text.substring(splitAt);
+    }
+
+    private String parseScenes(String text) {
+        List<Pair<Integer, String>> scenesList = new ArrayList<>();
+        List<Scene> scenes = new ArrayList<>();
+        int count = 0;
+        for (String delimiter : sceneDelimiters) {
+            for (int i = -1; (i = text.indexOf(delimiter, i + 1)) != -1; i++) {
+                count++;
+                Pair<Integer, String> tmp = new Pair<>(count, delimiter);
+                scenesList.add(tmp);
+            }
+        }
+
+        scenesList.sort((o1, o2) -> {
+            if (o1.getL() < o2.getL()) {
+                return -1;
+            } else if (o1.getL().equals(o2.getL())) {
+                return 0;
+            } else {
+                return 1;
+            }
+        });
+
+        for(Pair<Integer, String>a:scenesList){
+            Scene tmp = new Scene();
+            tmp.setId(a.getL());
+            tmp.setTransition(a.getR());
+            scenes.add(tmp);
+        }
+
+        scenario.setScenes(scenes);
+
+        return "a";
     }
 }

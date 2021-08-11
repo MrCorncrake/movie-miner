@@ -13,7 +13,6 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.PDFTextStripperByArea;
 import scenario.ParseException;
 import scenario.Scenario;
-import scenario.Scene;
 
 public class MovieMiner {
     public static void main(String[] args) {
@@ -61,16 +60,6 @@ public class MovieMiner {
                 Scenario scenario = null;
                 try {
                     scenario = scriptParser.parse();
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                }
-                String temp = scriptParser.getRemainingText();
-                // Adding script text to parser
-                ScenesExtractor scenesParser = new ScenesExtractor(temp, scenario);
-                // Creating scenario object
-                Scene scene = null;
-                try {
-                    scene = scenesParser.parse();
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
