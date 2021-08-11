@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 public class ScriptParser {
 
     private final String text;
+    private String remainingText;
     private final Scenario scenario = new Scenario();
     private final List<String> sceneDelimiters;
 
@@ -32,7 +33,12 @@ public class ScriptParser {
         System.out.println("Title: " + scenario.getName());
         System.out.println("Authors: " + scenario.getAuthors());
         System.out.println("Remaining text:\n" + temp);
+        this.remainingText = temp;
         return scenario;
+    }
+
+    public String getRemainingText() {
+        return remainingText;
     }
 
     private String parseTitleAndAuthors(String text) throws ParseException {
@@ -42,8 +48,9 @@ public class ScriptParser {
             splitAt = Math.min(i, splitAt);
         }
         if(splitAt == text.length()) throw new ParseException("No first scene!");
-
+        System.out.println(splitAt);
         String titleAndAuthors = text.substring(0, splitAt);
+        System.out.println(titleAndAuthors);
         // Extract title
         String title = titleAndAuthors.split(" *-*\\n*\\W\\sby")[0];
         title = title.replaceAll("\r\n|  +|--+", ""); // remove \n and long space/dash lines

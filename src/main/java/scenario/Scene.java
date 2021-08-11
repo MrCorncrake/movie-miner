@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class Scene {
-    private int id;
+    private Integer id;
     private String transition;
     private List<Location> locations = new ArrayList<>();
 }

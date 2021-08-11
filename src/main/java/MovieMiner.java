@@ -13,6 +13,7 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.PDFTextStripperByArea;
 import scenario.ParseException;
 import scenario.Scenario;
+import scenario.Scene;
 
 public class MovieMiner {
     public static void main(String[] args) {
@@ -20,14 +21,15 @@ public class MovieMiner {
         mapper.findAndRegisterModules();
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Give path to file:");
-        String file = input.nextLine();
+//        System.out.println("Give path to file:");
+//        String file = input.nextLine();
 
         System.out.println("Does script contain header and footer? (true/false)");
         boolean hasFooterAndHeader = Boolean.parseBoolean(input.nextLine());
 
         try {
-            PDDocument document = PDDocument.load(new File(file));
+//            PDDocument document = PDDocument.load(new File(file));
+            PDDocument document = PDDocument.load(new File("rush_hour.pdf"));
             if (!document.isEncrypted()) {
                 String text;
                 if (hasFooterAndHeader) {
@@ -59,6 +61,16 @@ public class MovieMiner {
                 Scenario scenario = null;
                 try {
                     scenario = scriptParser.parse();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                String temp = scriptParser.getRemainingText();
+                // Adding script text to parser
+                ScenesExtractor scenesParser = new ScenesExtractor(temp, scenario);
+                // Creating scenario object
+                Scene scene = null;
+                try {
+                    scene = scenesParser.parse();
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
