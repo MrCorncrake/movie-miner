@@ -33,8 +33,11 @@ public class ScriptParser {
         String temp = parseTitleAndAuthors(text);
         System.out.println("Title: " + scenario.getName());
         System.out.println("Authors: " + scenario.getAuthors());
-        temp = parseScenes(temp);
-        System.out.println("Remaining text:\n" + temp);
+
+        List<Pair<Integer, String>> scenesList = new ArrayList<>();
+        scenesList = parseScenes(temp);
+        //If you want to check the results, put the break poin in next line, and run debug mode.
+        System.out.println("Ok");
         return scenario;
     }
     private String parseTitleAndAuthors(String text) throws ParseException {
@@ -64,7 +67,7 @@ public class ScriptParser {
         return text.substring(splitAt);
     }
 
-    private String parseScenes(String text) {
+    private List<Pair<Integer, String>> parseScenes(String text) {
         List<Pair<Integer, String>> scenesList = new ArrayList<>();
         List<Scene> scenes = new ArrayList<>();
         int count = 0;
@@ -72,29 +75,39 @@ public class ScriptParser {
             for (int i = -1; (i = text.indexOf(delimiter, i + 1)) != -1; i++) {
                 count++;
                 Pair<Integer, String> tmp = new Pair<>(count, delimiter);
+                tmp.setDelPos(i);
                 scenesList.add(tmp);
             }
         }
 
         scenesList.sort((o1, o2) -> {
-            if (o1.getL() < o2.getL()) {
+            if (o1.getDelPos() < o2.getDelPos()) {
                 return -1;
-            } else if (o1.getL().equals(o2.getL())) {
+            } else if (o1.getDelPos() == o2.getDelPos()) {
                 return 0;
             } else {
                 return 1;
             }
         });
 
-        for(Pair<Integer, String>a:scenesList){
+        for(int i=0; i <scenesList.size(); i++){
+            int EndPos = text.length();
+            if(i<scenesList.size()-1){
+                EndPos = scenesList.get(i+1).getDelPos();
+            }
+            else
+                EndPos = text.length();
+
+            scenesList.get(i).setRest(text.substring(scenesList.get(i).getDelPos(),EndPos ));
             Scene tmp = new Scene();
-            tmp.setId(a.getL());
-            tmp.setTransition(a.getR());
+            tmp.setId(scenesList.get(i).getL());
+            tmp.setTransition(scenesList.get(i).getR());
+
             scenes.add(tmp);
         }
 
         scenario.setScenes(scenes);
 
-        return "a";
+        return scenesList;
     }
 }
