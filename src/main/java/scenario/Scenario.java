@@ -13,4 +13,8 @@ public class Scenario {
     private List<String> authors = new ArrayList<>();
     private List<String> characters = new ArrayList<>();
     private List<Scene> scenes = new ArrayList<>();
+
+    public Scene getScene(int index){
+        return scenes.get(index);
+    }
 }

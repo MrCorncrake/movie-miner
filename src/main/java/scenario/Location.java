@@ -13,4 +13,10 @@ public class Location {
     private String place;
     private String time;
     private List<Shot> shots = new ArrayList<>();
+
+    public Location(String position, String place, String time){
+        this.position = position;
+        this.place = place;
+        this.time = time;
+    }
 }
