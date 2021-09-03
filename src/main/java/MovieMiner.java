@@ -20,14 +20,15 @@ public class MovieMiner {
         mapper.findAndRegisterModules();
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Give path to file:");
-        String file = input.nextLine();
+//        System.out.println("Give path to file:");
+//        String file = input.nextLine();
 
         System.out.println("Does script contain header and footer? (true/false)");
         boolean hasFooterAndHeader = Boolean.parseBoolean(input.nextLine());
 
         try {
-            PDDocument document = PDDocument.load(new File(file));
+//            PDDocument document = PDDocument.load(new File(file));
+            PDDocument document = PDDocument.load(new File("rush_hour.pdf"));
             if (!document.isEncrypted()) {
                 String text;
                 if (hasFooterAndHeader) {
