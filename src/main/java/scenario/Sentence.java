@@ -11,4 +11,8 @@ public class Sentence {
     private String notes;
     private String desc;
     private String line;
+
+    public Sentence(int shot_id) {
+        this.shot_id = shot_id;
+    }
 }

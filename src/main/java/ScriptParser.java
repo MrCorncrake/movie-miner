@@ -1,7 +1,4 @@
-import scenario.Location;
-import scenario.ParseException;
-import scenario.Scenario;
-import scenario.Scene;
+import scenario.*;
 import utils.Pair;
 import utils.ParserRegex;
 
@@ -123,17 +120,18 @@ public class ScriptParser {
             rawText.add(matcher.group(0));
         }
 
-        String rawScene[] = locationsString.split(ParserRegex.LOCATION); //raw text for further processing
+        List<String> rawScene = new ArrayList<>(Arrays.asList(locationsString.split(ParserRegex.LOCATION))); //raw text for further processing
+        rawScene.remove(0);
 
         //Iterates over lines designating locations in given scene
-        for (String s : rawText) {
-            locations.add(parseLocation(s));
+        for (int i = 0; i < rawText.size(); i++) {
+            locations.add(parseLocation(rawText.get(i), rawScene.get(i)));
         }
 
         return locations;
     }
 
-    private Location parseLocation(String locationString) {
+    private Location parseLocation(String locationString, String shotsString) {
         String[] parts = locationString.split(ParserRegex.DECONSTRUCT); //splitting of line designating location into separate parts
         String position = parts[0];
         String place = "";
@@ -144,7 +142,57 @@ public class ScriptParser {
         } else {
             for (int j = 1; j < parts.length; j++) place = String.join(" ", place, parts[j]);
         }
-        return new Location(position, place, time);
+
+        List<Shot> shots = parseShots(shotsString);
+        return new Location(position, place, time, shots);
     }
 
+    private List<Shot> parseShots(String text) {
+        // List of "on" shots
+        List<String> onList = extractDelimiters(text, ParserRegex.ON_SPLIT);
+        onList.add(0, "LOCATION"); // For default shot
+
+        String[] rawShots = text.split(ParserRegex.ON_SPLIT); // Raw shots text (contains default shot text as well as text for every "on" shot)
+
+        List<Shot> shots = new ArrayList<>();
+        for (int i = 0; i < rawShots.length; i++) shots.add(parseShot(onList.get(i), rawShots[i], i));
+        return shots;
+    }
+
+    private Shot parseShot(String on, String text, int shotId) {
+        Shot shot = new Shot(shotId);
+
+        // Setting "on"
+        shot.setOn(on);
+        // Setting list of keywords
+        shot.setKey_words(extractDelimiters(text, ParserRegex.KEYWORD));
+        // Creating list containing characters that speak sentences
+        List<String> characters = extractDelimiters(text, ParserRegex.SENTENCE_SPLIT);
+        // Creating list containing shot desc on index 0 and sentences to be parsed
+        List<String> rawSentences = new ArrayList<>(Arrays.asList(text.split(ParserRegex.SENTENCE_SPLIT)));
+        // Setting shot desc
+        shot.setDesc(rawSentences.remove(0));
+        // Parsing sentences
+        List<Sentence> sentences = new ArrayList<>();
+        for (int i = 0; i < characters.size() ; i++) sentences.add(parseSentence(characters.get(i), rawSentences.get(i), shotId));
+        // Setting sentences
+        shot.setSentences(sentences);
+
+        return shot;
+    }
+
+    private Sentence parseSentence(String character, String text, int shotId) {
+        Sentence sentence = new Sentence(shotId);
+        sentence.setCharacter(character.replaceAll("\r\n(\t|    )| \r\n|\r\n", ""));
+        //TODO Split line from the rest (on new line without additional space)
+        sentence.setLine(text);
+        return sentence;
+    }
+
+    private List<String> extractDelimiters(String text, String regex) {
+        Matcher matcher = Pattern.compile(regex, Pattern.MULTILINE).matcher(text);
+        List<String> delimiters = new ArrayList<>();
+        while(matcher.find()) delimiters.add(matcher.group(0));
+        return delimiters;
+    }
 }
