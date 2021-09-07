@@ -133,13 +133,10 @@
                 "character": {
                     "type": "string"
                 },
-                "notes": {
-                    "type": "string"
-                },
-                "desc": {
-                    "type": "string"
-                },
                 "line": {
+                    "type": "string"
+                },
+                "followup": {
                     "type": "string"
                 }
             },

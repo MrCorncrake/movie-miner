@@ -45,9 +45,7 @@ public class ScriptParser {
             splitAt = Math.min(i, splitAt);
         }
         if(splitAt == text.length()) throw new ParseException("No first scene!");
-        System.out.println(splitAt);
         String titleAndAuthors = text.substring(0, splitAt);
-        System.out.println(titleAndAuthors);
         // Extract title
         String title = titleAndAuthors.split(ParserRegex.TITLE_AUTHOR_SPLIT)[0];
         title = title.replaceAll("\r\n|  +|--+", ""); // remove \n and long space/dash lines
@@ -112,14 +110,8 @@ public class ScriptParser {
     }
 
     private List<Location> parseLocations(String locationsString) {
-        final Pattern pattern = Pattern.compile(ParserRegex.LOCATION, Pattern.MULTILINE);
         List<Location> locations = new ArrayList<>();
-        List<String> rawText = new ArrayList<>();
-        Matcher matcher = pattern.matcher(locationsString);
-        while (matcher.find()){
-            rawText.add(matcher.group(0));
-        }
-
+        List<String> rawText = extractDelimiters(locationsString, ParserRegex.LOCATION);
         List<String> rawScene = new ArrayList<>(Arrays.asList(locationsString.split(ParserRegex.LOCATION))); //raw text for further processing
         rawScene.remove(0);
 
@@ -144,7 +136,7 @@ public class ScriptParser {
         }
 
         List<Shot> shots = parseShots(shotsString);
-        return new Location(position, place, time, shots);
+        return new Location(position, place.replaceAll(" {2}", ""), time, shots);
     }
 
     private List<Shot> parseShots(String text) {
@@ -163,15 +155,15 @@ public class ScriptParser {
         Shot shot = new Shot(shotId);
 
         // Setting "on"
-        shot.setOn(on);
-        // Setting list of keywords
-        shot.setKey_words(extractDelimiters(text, ParserRegex.KEYWORD));
+        shot.setOn(clearString(on));
+        // Setting list of keywords (removing duplicates)
+        shot.setKey_words(new ArrayList<>(new HashSet<>(extractDelimiters(text, ParserRegex.KEYWORD))));
         // Creating list containing characters that speak sentences
         List<String> characters = extractDelimiters(text, ParserRegex.SENTENCE_SPLIT);
         // Creating list containing shot desc on index 0 and sentences to be parsed
         List<String> rawSentences = new ArrayList<>(Arrays.asList(text.split(ParserRegex.SENTENCE_SPLIT)));
         // Setting shot desc
-        shot.setDesc(rawSentences.remove(0));
+        shot.setDesc(clearString(rawSentences.remove(0)));
         // Parsing sentences
         List<Sentence> sentences = new ArrayList<>();
         for (int i = 0; i < characters.size() ; i++) sentences.add(parseSentence(characters.get(i), rawSentences.get(i), shotId));
@@ -183,9 +175,11 @@ public class ScriptParser {
 
     private Sentence parseSentence(String character, String text, int shotId) {
         Sentence sentence = new Sentence(shotId);
-        sentence.setCharacter(character.replaceAll("\r\n(\t|    )| \r\n|\r\n", ""));
-        //TODO Split line from the rest (on new line without additional space)
-        sentence.setLine(text);
+        sentence.setCharacter(character.replaceAll(ParserRegex.CLEAR_CHARACTER, ""));
+        String line = text.split(" \r\n [A-Z]")[0];
+        String followup = clearString(text.substring(line.length()));
+        sentence.setLine(clearString(text));
+        sentence.setFollowup(followup);
         return sentence;
     }
 
@@ -194,5 +188,12 @@ public class ScriptParser {
         List<String> delimiters = new ArrayList<>();
         while(matcher.find()) delimiters.add(matcher.group(0));
         return delimiters;
+    }
+
+    private String clearString(String text) {
+        String cleared = text.replaceAll("\r\n ", " ");
+        cleared = cleared.replaceAll(" {2}", " ");
+        while (cleared.startsWith(" ")) cleared = cleared.substring(1);
+        return cleared;
     }
 }

@@ -8,9 +8,8 @@ import lombok.NoArgsConstructor;
 public class Sentence {
     private int shot_id;
     private String character;
-    private String notes;
-    private String desc;
     private String line;
+    private String followup;
 
     public Sentence(int shot_id) {
         this.shot_id = shot_id;
