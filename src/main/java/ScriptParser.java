@@ -181,7 +181,7 @@ public class ScriptParser {
         characterSet.add(sentence.getCharacter());
         String line = text.split(ParserRegex.LINE_SPLIT)[0];
         String followup = clearString(text.substring(line.length()));
-        sentence.setLine(clearString(text));
+        sentence.setLine(clearString(line));
         sentence.setFollowup(followup);
         return sentence;
     }
