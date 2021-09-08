@@ -16,6 +16,7 @@ public class ScriptParser {
     private final Scenario scenario = new Scenario();
     private final List<String> sceneDelimiters;
     private final List<String> timeCheck;
+    private final Set<String> characterSet = new HashSet<>();
 
     public ScriptParser(String text) {
         this.text = text;
@@ -35,6 +36,7 @@ public class ScriptParser {
     public Scenario parse() throws ParseException {
         String temp = parseTitleAndAuthors(text);
         parseScenes(temp);
+        scenario.setCharacters(new ArrayList<>(characterSet));
         return scenario;
     }
 
@@ -176,6 +178,7 @@ public class ScriptParser {
     private Sentence parseSentence(String character, String text, int shotId) {
         Sentence sentence = new Sentence(shotId);
         sentence.setCharacter(character.replaceAll(ParserRegex.CLEAR_CHARACTER, ""));
+        characterSet.add(sentence.getCharacter());
         String line = text.split(" \r\n [A-Z]")[0];
         String followup = clearString(text.substring(line.length()));
         sentence.setLine(clearString(text));
