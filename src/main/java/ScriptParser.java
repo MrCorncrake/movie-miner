@@ -50,12 +50,12 @@ public class ScriptParser {
         String titleAndAuthors = text.substring(0, splitAt);
         // Extract title
         String title = titleAndAuthors.split(ParserRegex.TITLE_AUTHOR_SPLIT)[0];
-        title = title.replaceAll("\r\n|  +|--+", ""); // remove \n and long space/dash lines
+        title = title.replaceAll(ParserRegex.CLEAR_TITLE, ""); // remove \n and long space/dash lines
         // Extract authors
         String authors = titleAndAuthors.split(ParserRegex.TITLE_AUTHOR_SPLIT)[1];
         List<String> authorsList = Arrays.asList(authors.split(ParserRegex.AND_BY_SPLIT));
         Set<String> authorsSet = authorsList
-                .stream().map(author -> author.replaceAll("  +|\r\n |\r\n", "")) // remove spaces and new lines
+                .stream().map(author -> author.replaceAll(ParserRegex.CLEAR_AUTHOR, ""))  // remove spaces and new lines
                 .collect(Collectors.toSet());
 
         // Save title and authors in scenario object
@@ -179,7 +179,7 @@ public class ScriptParser {
         Sentence sentence = new Sentence(shotId);
         sentence.setCharacter(character.replaceAll(ParserRegex.CLEAR_CHARACTER, ""));
         characterSet.add(sentence.getCharacter());
-        String line = text.split(" \r\n [A-Z]")[0];
+        String line = text.split(ParserRegex.LINE_SPLIT)[0];
         String followup = clearString(text.substring(line.length()));
         sentence.setLine(clearString(text));
         sentence.setFollowup(followup);
