@@ -41,7 +41,6 @@ public class ScriptParser {
     }
 
     private String parseTitleAndAuthors(String text) throws ParseException {
-        System.out.println(text);
         int splitAt = text.length();
         for (String delimiter : sceneDelimiters) {
             int i = text.indexOf(delimiter);
