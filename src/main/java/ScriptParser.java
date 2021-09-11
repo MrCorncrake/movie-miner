@@ -41,10 +41,11 @@ public class ScriptParser {
     }
 
     private String parseTitleAndAuthors(String text) throws ParseException {
+        System.out.println(text);
         int splitAt = text.length();
         for (String delimiter : sceneDelimiters) {
             int i = text.indexOf(delimiter);
-            splitAt = Math.min(i, splitAt);
+            if (i > 0) splitAt = Math.min(i, splitAt);
         }
         if(splitAt == text.length()) throw new ParseException("No first scene!");
         String titleAndAuthors = text.substring(0, splitAt);
