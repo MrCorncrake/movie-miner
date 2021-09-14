@@ -23,16 +23,16 @@ public class MovieMiner {
         System.out.println("Give path to file:");
         String file = input.nextLine();
 
-        System.out.println("Does script contain header and footer? (true/false)");
-        boolean hasFooterAndHeader = Boolean.parseBoolean(input.nextLine());
+        //System.out.println("Does script contain header and footer? (true/false)");
+        //boolean hasFooterAndHeader = Boolean.parseBoolean(input.nextLine());
 
         try {
             PDDocument document = PDDocument.load(new File(file));
             if (!document.isEncrypted()) {
                 String text;
-                if (hasFooterAndHeader) {
+//                if (hasFooterAndHeader) {
                     // Region representing page without header and footer
-                    Rectangle2D region = new Rectangle2D.Double(0, 100, 550, 600);
+                    Rectangle2D region = new Rectangle2D.Double(0, 50, 550, 600);
                     String regionName = "page";
 
                     PDFTextStripperByArea stripper = new PDFTextStripperByArea();
@@ -46,12 +46,12 @@ public class MovieMiner {
                         textBuilder.append(stripper.getTextForRegion(regionName));
                     }
                     text = textBuilder.toString();
-                }
-                else {
-                    // Creating string with the whole script
-                    PDFTextStripper stripper = new PDFTextStripper();
-                    text = stripper.getText(document);
-                }
+//                }
+//                else {
+//                    // Creating string with the whole script
+//                    PDFTextStripper stripper = new PDFTextStripper();
+//                    text = stripper.getText(document);
+//                }
 
                 // Adding script text to parser
                 ScriptParser scriptParser = new ScriptParser(text);
