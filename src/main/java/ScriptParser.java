@@ -1,5 +1,4 @@
 import scenario.*;
-import utils.Pair;
 import utils.ParserRegex;
 
 import java.io.IOException;
@@ -68,15 +67,15 @@ public class ScriptParser {
         List<String> linesAdjusted = new ArrayList<>();
         for (String line : lines) {
             String newLine = line;
-            for (String transition : transitions) {
-                if (newLine.contains(transition)) {
-                    while (newLine.startsWith(" ")) newLine = newLine.substring(1);
-                    break;
-                }
-            }
+            if (containsTransition(newLine)) while (newLine.startsWith(" ")) newLine = newLine.substring(1);
             linesAdjusted.add(newLine);
         }
         return linesAdjusted;
+    }
+
+    private boolean containsTransition(String line) {
+        for (String transition : transitions) if (line.contains(transition)) return true;
+        return false;
     }
 
     private List<String> standardizeIndentations(List<String> lines) {
@@ -109,13 +108,12 @@ public class ScriptParser {
         String temp;
         temp = adjustText(text);
         temp = parseTitleAndAuthors(temp);
-        System.out.println(temp);
-        // parseScenes(temp);
-        //scenario.setCharacters(new ArrayList<>(characterSet));
+        parseScenes(temp);
+        scenario.setCharacters(new ArrayList<>(characterSet));
         return scenario;
     }
 
-    private String parseTitleAndAuthors(String text) throws ParseException {
+    private String parseTitleAndAuthors(String text) {
         int splitAt = text.indexOf("\r\n");
         // Extract title
         String title = text.substring(0, splitAt);
@@ -137,66 +135,49 @@ public class ScriptParser {
     }
 
     private void parseScenes(String text) throws ParseException {
-        List<Pair<Integer, String>> scenesList = new ArrayList<>();
         List<Scene> scenes = new ArrayList<>();
+        List<String> lines = new ArrayList<>(Arrays.asList(text.split("\r\n")));
+        lines.remove(0); // Remove ""
 
-        int count = 0;
-        for (String delimiter : transitions) {
-            for (int i = -1; (i = text.indexOf(delimiter, i + 1)) != -1; i++) {
-                count++;
-                Pair<Integer, String> tmp = new Pair<>(count, delimiter);
-                tmp.setDelPos(i);
-                scenesList.add(tmp);
-            }
-        }
-        scenesList.sort(Comparator.comparingInt(Pair::getDelPos));
-
-        for (int i=0; i <scenesList.size(); i++){
-            int EndPos;
-            if (i<scenesList.size()-1) {
-                EndPos = scenesList.get(i+1).getDelPos();
-            } else
-                EndPos = text.length();
-
-            // Remaining text containing locations
-            String locationsString = text.substring(scenesList.get(i).getDelPos(),EndPos );
-
-            // Extracting transition string
-            String transition = null;
-            for (String delimiter: transitions) {
-                if (locationsString.startsWith(delimiter)) {
-                    transition = delimiter;
-                    break;
+        int sceneNumber = 1;
+        List<String> sceneLines = new ArrayList<>();
+        String transit = "";
+        for (String line : lines) {
+            if (containsTransition(line)) {
+                if (!sceneLines.isEmpty()) {
+                    scenes.add(parseScene(sceneNumber, transit, sceneLines));
+                    sceneNumber++;
+                    sceneLines = new ArrayList<>();
                 }
+                transit = line;
+            } else {
+                if (line.contains("INT.") || line.contains("EXT.")) {
+                    if (!sceneLines.isEmpty()) {
+                        scenes.add(parseScene(sceneNumber, transit, sceneLines));
+                        sceneNumber++;
+                        sceneLines = new ArrayList<>();
+                        transit = "";
+                    }
+                }
+                sceneLines.add(line);
             }
-            if (transition == null) throw new ParseException("Unknown scene delimiter! Scene no.: " + i);
-
-            Scene tmp = new Scene();
-            tmp.setId(scenesList.get(i).getL());
-            tmp.setTransition(transition);
-            //tmp.setLocations(parseLocations(locationsString)); // Further parsing
-
-            scenes.add(tmp);
         }
-
         scenario.setScenes(scenes);
     }
 
-    private List<Scene> parseLocations(String locationsString) {
-        List<Scene> scenes = new ArrayList<>();
-        List<String> rawText = extractDelimiters(locationsString, ParserRegex.LOCATION);
-        List<String> rawScene = new ArrayList<>(Arrays.asList(locationsString.split(ParserRegex.LOCATION))); //raw text for further processing
-        rawScene.remove(0);
-
-        //Iterates over lines designating locations in given scene
-        for (int i = 0; i < rawText.size(); i++) {
-            scenes.add(parseLocation(rawText.get(i), rawScene.get(i)));
-        }
-
-        return scenes;
+    private Scene parseScene(int id, String transition, List<String> lines)  throws ParseException  {
+        // ID and transition
+        Scene scene = new Scene(id, transition);
+        // Location: position, place and time
+        parseLocation(scene, lines.remove(0));
+        // Shots
+        StringBuilder shotsString = new StringBuilder();
+        for (String line : lines) shotsString.append(line).append("\r\n");
+        scene.setShots(parseShots(shotsString.toString()));
+        return scene;
     }
 
-    private Scene parseLocation(String locationString, String shotsString) {
+    private void parseLocation(Scene scene, String locationString) {
         String[] parts = locationString.split(ParserRegex.DECONSTRUCT); //splitting of line designating location into separate parts
         String position = parts[0];
         String place = "";
@@ -207,12 +188,12 @@ public class ScriptParser {
         } else {
             for (int j = 1; j < parts.length; j++) place = String.join(" ", place, parts[j]);
         }
-
-        List<Shot> shots = parseShots(shotsString);
-        return new Scene(position, place.replaceAll(" {2}", ""), time, shots);
+        scene.setPosition(position);
+        scene.setPlace(place.replaceAll(" {2}", ""));
+        scene.setTime(time);
     }
 
-    private List<Shot> parseShots(String text) {
+    private List<Shot> parseShots(String text) throws ParseException {
         // List of "on" shots
         List<String> onList = extractDelimiters(text, ParserRegex.ON_SPLIT);
         onList.add(0, "LOCATION"); // For default shot
@@ -224,7 +205,7 @@ public class ScriptParser {
         return shots;
     }
 
-    private Shot parseShot(String on, String text, int shotId) {
+    private Shot parseShot(String on, String text, int shotId) throws ParseException {
         Shot shot = new Shot(shotId);
 
         // Setting "on"
@@ -239,7 +220,12 @@ public class ScriptParser {
         shot.setDesc(clearString(rawSentences.remove(0)));
         // Parsing sentences
         List<Sentence> sentences = new ArrayList<>();
-        for (int i = 0; i < characters.size() ; i++) sentences.add(parseSentence(characters.get(i), rawSentences.get(i), shotId));
+        try {
+            for (int i = 0; i < characters.size(); i++)
+                sentences.add(parseSentence(characters.get(i), rawSentences.get(i), shotId));
+        } catch (IndexOutOfBoundsException ex) {
+            throw new ParseException("Unknown transition:\n" + text);
+        }
         // Setting sentences
         shot.setSentences(sentences);
 
@@ -265,7 +251,7 @@ public class ScriptParser {
     }
 
     private String clearString(String text) {
-        String cleared = text.replaceAll("\r\n ", " ");
+        String cleared = text.replaceAll("\r\n", " ");
         cleared = cleared.replaceAll(" {2}", " ");
         while (cleared.startsWith(" ")) cleared = cleared.substring(1);
         return cleared;

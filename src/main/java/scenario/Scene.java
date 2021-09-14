@@ -16,10 +16,8 @@ public class Scene {
     private String time;
     private List<Shot> shots = new ArrayList<>();
 
-    public Scene(String position, String place, String time, List<Shot> shots){
-        this.position = position;
-        this.place = place;
-        this.time = time;
-        this.shots = shots;
+    public Scene(Integer id, String transition) {
+        this.id = id;
+        this.transition = transition;
     }
 }
