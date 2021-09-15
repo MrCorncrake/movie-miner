@@ -14,16 +14,14 @@ public class ScriptParser {
     private final String text;
     private final Scenario scenario = new Scenario();
     private final List<String> transitions;
-    private final List<String> timeCheck;
     private final Set<String> characterSet = new HashSet<>();
 
     public ScriptParser(String text) {
         this.text = text;
-        this.transitions = getDelimiters("transitions.txt");
-        this.timeCheck = getDelimiters("time_delimiters.txt");
+        this.transitions = getKeywords("transitions.txt");
     }
 
-    private List<String> getDelimiters(String filename) {
+    private List<String> getKeywords(String filename) {
         try {
             return Files.readAllLines(Paths.get(filename));
         } catch (IOException e) {
@@ -178,19 +176,21 @@ public class ScriptParser {
     }
 
     private void parseLocation(Scene scene, String locationString) {
-        String[] parts = locationString.split(ParserRegex.DECONSTRUCT); //splitting of line designating location into separate parts
-        String position = parts[0];
-        String place = "";
-        String time = "";
-        if (timeCheck.contains(parts[parts.length - 1])) {
-            time = parts[parts.length - 1];
-            for (int j = 1; j < parts.length - 1; j++) place = String.join(" ", place, parts[j]);
-        } else {
-            for (int j = 1; j < parts.length; j++) place = String.join(" ", place, parts[j]);
+        String position = "";
+        if (locationString.startsWith("INT. ")) {
+            position = "INT.";
+            locationString = locationString.substring(4);
         }
+        else if (locationString.startsWith("EXT. ")) {
+            position = "EXT.";
+            locationString = locationString.substring(4);
+        }
+        String[] parts = locationString.split(" *-+ +"); //splitting of line designating location into separate parts
+        String time = "";
+        for (int i = 1; i < parts.length; i++) time = String.join(" ", time, parts[i]);
         scene.setPosition(position);
-        scene.setPlace(place.replaceAll(" {2}", ""));
-        scene.setTime(time);
+        scene.setPlace(clearString(parts[0]));
+        scene.setTime(clearString(time));
     }
 
     private List<Shot> parseShots(String text) throws ParseException {
@@ -252,7 +252,7 @@ public class ScriptParser {
 
     private String clearString(String text) {
         String cleared = text.replaceAll("\r\n", " ");
-        cleared = cleared.replaceAll(" {2}", " ");
+        cleared = cleared.replaceAll("  +", " ");
         while (cleared.startsWith(" ")) cleared = cleared.substring(1);
         return cleared;
     }
