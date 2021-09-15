@@ -46,24 +46,6 @@
                 "transition": {
                     "type": "string"
                 },
-                "locations": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Location"
-                    }
-                }
-            },
-            "required": [
-                "id",
-                "locations",
-                "transition"
-            ],
-            "title": "Scene"
-        },
-        "Location": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
                 "position": {
                     "type": "string"
                 },
@@ -86,7 +68,7 @@
                 "shots",
                 "time"
             ],
-            "title": "Location"
+            "title": "Scene"
         },
         "Shot": {
             "type": "object",
