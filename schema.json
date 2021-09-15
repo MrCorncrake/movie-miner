@@ -68,7 +68,7 @@
                 "shots",
                 "time"
             ],
-            "title": "Location"
+            "title": "Scene"
         },
         "Shot": {
             "type": "object",

@@ -28,7 +28,7 @@ public class MovieMiner {
             System.out.println("Give name of output json file:");
             String json = input.nextLine();
             // Writing scenario object to json file
-            Files.write(Paths.get(json), Collections.singleton(mapper.writeValueAsString(scenario)));
+            Files.write(Paths.get(json), Collections.singleton(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(scenario)));
         } catch (ReaderException | IOException | ParseException ex) {
             ex.printStackTrace();
         }
