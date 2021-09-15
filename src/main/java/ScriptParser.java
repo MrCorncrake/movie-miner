@@ -1,4 +1,5 @@
 import scenario.*;
+import utils.ParseException;
 import utils.ParserRegex;
 
 import java.io.IOException;

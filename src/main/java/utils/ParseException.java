@@ -1,4 +1,4 @@
-package scenario;
+package utils;
 
 public class ParseException extends Exception {
     public ParseException(String message) {
