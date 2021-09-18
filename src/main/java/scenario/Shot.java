@@ -14,4 +14,8 @@ public class Shot {
     private String desc;
     private List<Sentence> sentences = new ArrayList<>();
     private List<String> key_words = new ArrayList<>();
+
+    public Shot(int id) {
+        this.id = id;
+    }
 }
