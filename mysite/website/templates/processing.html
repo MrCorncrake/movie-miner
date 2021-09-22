@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}JS_Views{% endblock %}
+{% block content %}
+
+<h1> Movie Script Parser </h1>
+
+<div>
+    <span id="progress-status">...</span><br/>
+    <progress max="100"></progress>
+</div>
+<script>
+    let server = "http://127.0.0.1:5000";
+    var progress_interval;
+
+    function check_progress(progress_bar) {
+        function worker() {
+            $.get(server+'/progress', function(data) {
+                let progress = parseInt(data.progress);
+                let status = data.status;
+
+                $("#progress-status").html(status);
+                if (progress < 100) {
+                    console.log(progress);
+                    progress_bar.value = progress;
+                } else {
+                    progress_bar.value = 100;
+                    clearInterval(progress_interval);
+                }
+            })
+        }
+
+        progress_interval = setInterval(worker, 1000);
+    }
+
+    $(function() {
+        check_progress($("progress").get(0));
+    });
+
+</script>
+{% endblock %}

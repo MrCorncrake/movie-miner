@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}JS_Views{% endblock %}
+{% block content %}
+
+<h1> Movie Script Parser </h1>
+<div id="upload_wrapper">
+    <h6>Drop and upload your file</h6>
+<!--    <form action="{{ url_for('views.upload_files') }}" class="dropzone">-->
+<!--    </form>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>-->
+    <form method=post enctype=multipart/form-data>
+        <p><input type=file id="file_input" name=file>
+            <input type=submit id="upload_btn" value=Upload>
+        </p>
+    </form>
+
+</div>
+
+<div>
+    <span id="progress-status">...</span><br/>
+    <progress max="100"></progress>
+</div>
+
+<script>
+    let server = "http://127.0.0.1:5000";
+    var progress_interval;
+
+    function check_progress(progress_bar) {
+        function worker() {
+            $.get(server+'/progress', function(data) {
+                let progress = parseInt(data.progress);
+                let status = data.status;
+
+                $("#progress-status").html(status);
+                if (progress < 100) {
+                    console.log(progress);
+                    progress_bar.value = progress;
+                } else {
+                    progress_bar.value = 100;
+                    clearInterval(progress_interval);
+                }
+            })
+        }
+
+        progress_interval = setInterval(worker, 1000);
+    }
+
+    $(document).on("click", "#upload_btn", function(e){
+        check_progress($("progress").get(0));
+    });
+
+<!--    $(function() {-->
+<!--        check_progress($("progress").get(0));-->
+<!--    });-->
+
+</script>
+{% endblock %}
