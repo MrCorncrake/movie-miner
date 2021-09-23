@@ -11,6 +11,7 @@ RESULT_PATH = 'tmp2.json'
 
 process = Blueprint('process', __name__)
 
+
 @process.route('/process')
 def script_parser(PDF_NAME):
     print("Script Parser processing")
