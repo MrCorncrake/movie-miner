@@ -57,6 +57,7 @@ class ProcessingThread(threading.Thread):
             return redirect(url_for('views.download_file', json_name=result_name))
         return '', 204
 
+
 @views.route('/')
 def home():
 
@@ -64,7 +65,9 @@ def home():
     # files = os.listdir(app.config['UPLOAD_PATH'])
     return render_template('home.html')
 
+
 progressing_threads = {}
+
 
 @views.route('/progress/')
 def progress():
@@ -77,9 +80,9 @@ def progress():
 
     return jsonify(data)
 
+
 @views.route('/', methods=['POST'])
 def upload_files():
-
 
     # thread_id = random.randint(0, 10000)
     # progressing_threads[thread_id] = ProcessingThread()
@@ -108,6 +111,7 @@ def upload_files():
         return redirect(url_for('views.download_file', json_name=result_name))
     return '', 204
 
+
 # @views.route('/process/<pdf_path>')
 def script_parser(pdf_path):
     print("parsing files")
@@ -119,6 +123,7 @@ def script_parser(pdf_path):
     result_path = os.path.join(sys.path[0],'results', result_name)
     subprocess.call(['java', '-jar', JAR_PATH, pdf_path, TXT_PATH, result_path])
     # return redirect(url_for('views.download_file',json_name=result_name))
+
 
 @views.route('/results/<json_name>')
 def download_file (json_name):
@@ -143,6 +148,8 @@ def download_file (json_name):
     app.logger.debug(rv.last_modified)  # 2012-11-24 08:51:27
     app.logger.debug(request.if_modified_since)  # 2012-11-24 08:51:27
     return rv
+
+
 @views.errorhandler(413)
 def too_large(e):
     return "File is too large", 413
