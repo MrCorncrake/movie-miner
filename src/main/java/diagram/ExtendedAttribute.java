@@ -22,4 +22,9 @@ public class ExtendedAttribute {
     public String getValue() {
         return value;
     }
+
+    public ExtendedAttribute(String name, String value) {
+        this.name = name;
+        this.value = value;
+    }
 }

@@ -17,7 +17,7 @@ public class XPDLTest {
         Package p = new Package("Test1", "Test Package");
         p.setConformanceClass(new ConformanceClass());
         ArrayList<Participant> participants = new ArrayList<>();
-        participants.add(new Participant("Test Participant"));
+        participants.add(new Participant("TestParticipant"));   //Space not allowed in id!
         p.setParticipantsList(participants);
 
         try {

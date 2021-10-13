@@ -19,6 +19,8 @@ public class Participant {
     public Participant(String id) {
         this.id = id;
         participantType = new ParticipantType();
+        extendedAttributesList = new ArrayList<>();
+        extendedAttributesList.add(new ExtendedAttribute("JaWE_TYPE", "LANE_DEFAULT"));
     }
 
     @XmlAttribute(name="Id")
@@ -43,7 +45,6 @@ public class Participant {
     }
 
     private static class ParticipantType {
-
         @XmlAttribute(name="Type")
         public String getType() {
             return "ROLE";
