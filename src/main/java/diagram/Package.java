@@ -21,6 +21,8 @@ public class Package {
     private PackageHeader packageHeader;
     private ConformanceClass conformanceClass;
     private ArrayList<Participant> participantsList;
+    private ArrayList<Pool> poolsList;
+    private ArrayList<ExtendedAttribute> extendedAttributesList;
 
     public Package(String id, String name) {
         this.id = id;
@@ -57,6 +59,28 @@ public class Package {
     @XmlElement(name = "Participant", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setParticipantsList(ArrayList<Participant> participantsList) {
         this.participantsList = participantsList;
+    }
+
+    public ArrayList<Pool> getPoolsList() {
+        return poolsList;
+    }
+
+    @XmlElementWrapper(name = "Pools", namespace="http://www.wfmc.org/2008/XPDL2.1")
+
+    @XmlElement(name = "Pool", namespace="http://www.wfmc.org/2008/XPDL2.1")
+    public void setPoolsList(ArrayList<Pool> poolsList) {
+        this.poolsList = poolsList;
+    }
+
+    public ArrayList<ExtendedAttribute> getExtendedAttributesList() {
+        return extendedAttributesList;
+    }
+
+    @XmlElementWrapper(name = "ExtendedAttributes")
+
+    @XmlElement(name = "ExtendedAttribute")
+    public void setExtendedAttributesList(ArrayList<ExtendedAttribute> extendedAttributesList) {
+        this.extendedAttributesList = extendedAttributesList;
     }
 
     @Setter

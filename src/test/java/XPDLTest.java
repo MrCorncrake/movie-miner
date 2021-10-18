@@ -1,6 +1,5 @@
-import diagram.ConformanceClass;
+import diagram.*;
 import diagram.Package;
-import diagram.Participant;
 import utils.XPDLNamespaceMapper;
 
 import javax.xml.bind.JAXBContext;
@@ -16,9 +15,48 @@ public class XPDLTest {
     public static void main(String[] args) {
         Package p = new Package("Test1", "Test Package");
         p.setConformanceClass(new ConformanceClass());
+
         ArrayList<Participant> participants = new ArrayList<>();
         participants.add(new Participant("TestParticipant"));   //Space not allowed in id!
         p.setParticipantsList(participants);
+
+        ArrayList<Pool> pools = new ArrayList<>();
+        Pool pool = new Pool("Test_pool1", "Rush Hour", true, true, "HORIZONTAL", "Title");
+        pools.add(pool);
+        p.setPoolsList(pools);
+
+        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos1 = new ArrayList<>();
+        NodeGraphicsInfo ngi1 = new NodeGraphicsInfo();
+        ngi1.setBorderColor("0,0,0");
+        ngi1.setFillColor("255,255,215");
+        ngi1.setIsVisible(true);
+        ngi1.setToolId("JaWE");
+        nodeGraphicsInfos1.add(ngi1);
+        pool.setNodeGraphicsInfosList(nodeGraphicsInfos1);
+
+        ArrayList<Lane> lanes = new ArrayList<>();
+        Lane lane = new Lane("Test_pool1_lan1", "Test_par1");
+        lanes.add(lane);
+        pool.setLanesList(lanes);
+
+        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos2 = new ArrayList<>();
+        NodeGraphicsInfo ngi2 = new NodeGraphicsInfo();
+        ngi2.setBorderColor("0,0,0");
+        ngi2.setFillColor("220,220,220");
+        ngi2.setIsVisible(true);
+        ngi2.setToolId("JaWE");
+        nodeGraphicsInfos2.add(ngi2);
+        lane.setNodeGraphicsInfosList(nodeGraphicsInfos2);
+
+        ArrayList<String> performers = new ArrayList<>();
+        performers.add("TestParticipant");
+        lane.setPerformersList(performers);
+
+        ArrayList<ExtendedAttribute> extendedAttributes = new ArrayList<>();
+        extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL", "Movie-Miner"));
+        extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL_VERSION", "1.0-Snapshot"));
+        extendedAttributes.add(new ExtendedAttribute("JaWE_CONFIGURATION", "default"));
+        p.setExtendedAttributesList(extendedAttributes);
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Package.class);
