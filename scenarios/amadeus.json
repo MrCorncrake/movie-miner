@@ -1,7 +1,7 @@
 {
   "name" : "AMADEUS",
   "authors" : [ "Peter Shaffer", "Final Draft" ],
-  "characters" : [ "THE MAGIC FLUTE", "ACTRESSES", "OTTAVIO", "BYSTANDER", "COLLOREDO", "MOZART (V.O.)", "GERTRUDE", "ALLEGRO", "PRESENTS", "ATTENDANT", "SECOND LADY", "CAVALIERI", "DOCTOR GULDEN", "MOZART", "SOPRANO", "HORSE", "SCHIKANEDER TROUPE OF PLAYERS", "VALET", "THE THREE GIRLS", "VOGLER", "EMMANUEL SCHIKANEDER", "CONSTANZE", "COMMENDATORE", "OLD SALIERI (V.O.)", "LEOPOLD", "BYSTANDERS", "THREE LADIES", "ALL SONGS AND SPEECHES WRITTEN", "PARODY", "THIRD LADY", "FIRST LADY", "ARCO", "LEOPOLD (V.O.)", "MAJORDOMO", "FLUNKY", "LOCAL PRIEST", "JOSEPH", "PAPAGENO", "SCHIKANEDER", "EIGHT DWARVES", "PRIEST", "QUEEN OF THE NIGHT", "DWARVES", "ALL THREE TOGETHER", "UGLY OLD WOMAN", "MADAME WEBER", "THE COMMENDATORE", "FIRST PRIEST", "LORL", "ALL THREE LADIES", "FRAU WEBER", "BONNO", "SCHLUMBERG", "OFFICER", "FRAU SCHLUMBERG", "OLD SALIERI", "GUESTS", "LEOPOLD (O.S.)", "SALIERI", "CAST OF SERAGLIO", "LACKEY", "VOICE", "ANDANTE", "SERVANT" ],
+  "characters" : [ "THE MAGIC FLUTE", "ACTRESSES", "OTTAVIO", "BYSTANDER", "COLLOREDO", "MOZART (V.O.)", "GERTRUDE", "ALLEGRO", "PRESENTS", "VON STRACK", "ATTENDANT", "SECOND LADY", "CAVALIERI", "DOCTOR GULDEN", "MOZART", "SOPRANO", "HORSE", "SCHIKANEDER TROUPE OF PLAYERS", "VALET", "THE THREE GIRLS", "VON SWIETEN", "VOGLER", "EMMANUEL SCHIKANEDER", "CONSTANZE", "COMMENDATORE", "OLD SALIERI (V.O.)", "LEOPOLD", "BYSTANDERS", "THREE LADIES", "ALL SONGS AND SPEECHES WRITTEN", "PARODY", "THIRD LADY", "FIRST LADY", "ARCO", "LEOPOLD (V.O.)", "MAJORDOMO", "FLUNKY", "LOCAL PRIEST", "JOSEPH", "PAPAGENO", "SCHIKANEDER", "EIGHT DWARVES", "PRIEST", "QUEEN OF THE NIGHT", "DWARVES", "ALL THREE TOGETHER", "UGLY OLD WOMAN", "MADAME WEBER", "THE COMMENDATORE", "FIRST PRIEST", "LORL", "ALL THREE LADIES", "FRAU WEBER", "BONNO", "SCHLUMBERG", "OFFICER", "FRAU SCHLUMBERG", "OLD SALIERI", "GUESTS", "LEOPOLD (O.S.)", "SALIERI", "CAST OF SERAGLIO", "LACKEY", "VOICE", "ANDANTE", "SERVANT" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "",
@@ -1139,113 +1139,94 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "At the table sits the EMPEROR JOSEPH II, eating his frugal dinner and sipping goat's milk. He is an intelligent, dapper man of forty, wearing a military uniform. Around him but standing, are his Chamberlain, JOHANN V",
-      "sentences" : [ ],
-      "key_words" : [ "EMPEROR JOSEPH II", "JOHANN" ]
-    }, {
-      "id" : 1,
-      "on" : "ON STRACK",
-      "desc" : ": stiff and highly correct. COUNT ORSINI-ROSENBERG: a corpulent man of sixty, highly conscious of his position as Director of the Opera. BAR",
-      "sentences" : [ ],
-      "key_words" : [ "ROSENBERG", "BAR", "COUNT ORSINI" ]
-    }, {
-      "id" : 2,
-      "on" : "ON VON SWIETEN",
-      "desc" : ", the Imperial Librarian: a grave but kindly and educated man in his mid-fifties. FIRST KAPELLMEISTER GIUSEPPE BONNO: very Italian, cringing and time-serving, aged about seventy. And Salieri, wearing decorous black, as usual. At a side-table, two Imperial secretaries, using quill pens and inkstands, write down everything of importance that is said.",
+      "desc" : "At the table sits the EMPEROR JOSEPH II, eating his frugal dinner and sipping goat's milk. He is an intelligent, dapper man of forty, wearing a military uniform. Around him but standing, are his Chamberlain, JOHANN VON STRACK: stiff and highly correct. COUNT ORSINI-ROSENBERG: a corpulent man of sixty, highly conscious of his position as Director of the Opera. BARON VON SWIETEN, the Imperial Librarian: a grave but kindly and educated man in his mid-fifties. FIRST KAPELLMEISTER GIUSEPPE BONNO: very Italian, cringing and time-serving, aged about seventy. And Salieri, wearing decorous black, as usual. At a side-table, two Imperial secretaries, using quill pens and inkstands, write down everything of importance that is said.",
       "sentences" : [ {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "How good is he, this Mozart? V",
+        "line" : "How good is he, this Mozart?",
         "followup" : ""
-      } ],
-      "key_words" : [ "JOSEPH", "FIRST", "KAPELLMEISTER GIUSEPPE BONNO" ]
-    }, {
-      "id" : 3,
-      "on" : "ON SWIETEN",
-      "desc" : "He's remarkable, Majesty. I heard an extraordinary serious opera of his last month. Idomeneo, King of Crete. ORSINI-ROSENBERG That? A most tiresome piece. I heard it, too. V",
-      "sentences" : [ ],
-      "key_words" : [ "ROSENBERG", "ORSINI" ]
-    }, {
-      "id" : 4,
-      "on" : "ON SWIETEN",
-      "desc" : "Tiresome? ORSINI-ROSENBERG A young man trying to impress beyond his abilities. Too much spice. Too many notes. V",
-      "sentences" : [ ],
-      "key_words" : [ "ROSENBERG", "ORSINI" ]
-    }, {
-      "id" : 5,
-      "on" : "ON SWIETEN",
-      "desc" : "Majesty, I thought it the most promising work I've heard in years.",
-      "sentences" : [ {
-        "shot_id" : 5,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "He's remarkable, Majesty. I heard an extraordinary serious opera of his last month. Idomeneo, King of Crete. ORSINI-ROSENBERG That? A most tiresome piece. I heard it, too.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Tiresome? ORSINI-ROSENBERG A young man trying to impress beyond his abilities. Too much spice. Too many notes.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Majesty, I thought it the most promising work I've heard in years.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Ah-ha. Well then, we should make some effort to acquire him. We could use a good German composer in Vienna, surely? V",
+        "line" : "Ah-ha. Well then, we should make some effort to acquire him. We could use a good German composer in Vienna, surely?",
         "followup" : ""
-      } ],
-      "key_words" : [ "JOSEPH", "I'" ]
-    }, {
-      "id" : 6,
-      "on" : "ON STRACK",
-      "desc" : "I agree, Majesty, but I'm afraid it's not possible. The young man is still in the pay of the Archbishop.",
-      "sentences" : [ {
-        "shot_id" : 6,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "I agree, Majesty, but I'm afraid it's not possible. The young man is still in the pay of the Archbishop.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Very small pay, I imagine. I'm sure he could be tempted with the right offer. Say, an opera in German for our National Theatre. V",
+        "line" : "Very small pay, I imagine. I'm sure he could be tempted with the right offer. Say, an opera in German for our National Theatre.",
         "followup" : ""
-      } ],
-      "key_words" : [ "JOSEPH", "I'" ]
-    }, {
-      "id" : 7,
-      "on" : "ON SWIETEN",
-      "desc" : "Excellent, sire! ORSINI-ROSENBERG But not German, I beg your Majesty! Italian is the proper language for opera. All educated people agree on that.",
-      "sentences" : [ {
-        "shot_id" : 7,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Excellent, sire! ORSINI-ROSENBERG But not German, I beg your Majesty! Italian is the proper language for opera. All educated people agree on that.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Ah-ha. What do you say, Chamberlain? V",
+        "line" : "Ah-ha. What do you say, Chamberlain?",
         "followup" : ""
-      } ],
-      "key_words" : [ "ROSENBERG", "JOSEPH", "ORSINI" ]
-    }, {
-      "id" : 8,
-      "on" : "ON STRACK",
-      "desc" : "In my opinion, it is time we had a piece in our own language, sir. Plain German. For plain people. He looks defiantly at Orsini-Rosenberg.",
-      "sentences" : [ {
-        "shot_id" : 8,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "In my opinion, it is time we had a piece in our own language, sir. Plain German. For plain people.",
+        "followup" : "He looks defiantly at Orsini-Rosenberg."
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha. Kapellmeister?",
         "followup" : ""
       }, {
-        "shot_id" : 8,
+        "shot_id" : 0,
         "character" : "BONNO",
         "line" : "(Italian accent) Majesty, I must agree with Herr Dirretore. Opera is an Italian art, solamente. German is - scusate - too bruta for singing, too rough.",
         "followup" : ""
       }, {
-        "shot_id" : 8,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha. Court Composer, what do you say?",
         "followup" : ""
       }, {
-        "shot_id" : 8,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "I think it is an interesting notion to keep Mozart in Vienna, Majesty. It should really infuriate the Archbishop beyond measure - if that is your Majesty's intention.",
         "followup" : ""
       }, {
-        "shot_id" : 8,
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "You are cattivo, Court Composer. (briskly, to Von Strack) I want to meet this young man. Chamberlain, arrange a pleasant welcome for him. V",
+        "line" : "You are cattivo, Court Composer. (briskly, to Von Strack) I want to meet this young man. Chamberlain, arrange a pleasant welcome for him.",
         "followup" : ""
-      } ],
-      "key_words" : [ "SALIERI", "BONNO", "JOSEPH" ]
-    }, {
-      "id" : 9,
-      "on" : "ON STRACK",
-      "desc" : "Yes, sir.",
-      "sentences" : [ {
-        "shot_id" : 9,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Yes, sir.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Well. There it is. ",
         "followup" : ""
       } ],
-      "key_words" : [ "JOSEPH" ]
+      "key_words" : [ "EMPEROR JOSEPH II", "JOSEPH", "ORSINI", "VON STRACK", "ROSENBERG", "BONNO", "BARON VON SWIETEN", "FIRST", "VON SWIETEN", "SALIERI", "COUNT ORSINI", "KAPELLMEISTER GIUSEPPE BONNO", "JOHANN VON STRACK", "I'" ]
     } ]
   }, {
     "id" : 38,
@@ -1361,82 +1342,80 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "(to Von Strack) Well, what do you have for me today? V",
+        "line" : "(to Von Strack) Well, what do you have for me today?",
         "followup" : ""
-      } ],
-      "key_words" : [ "JOSEPH" ]
-    }, {
-      "id" : 1,
-      "on" : "ON STRACK",
-      "desc" : "Your Majesty, Herr Mozart -",
-      "sentences" : [ {
-        "shot_id" : 1,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Your Majesty, Herr Mozart -",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Yes, what about him? V",
+        "line" : "Yes, what about him?",
         "followup" : ""
-      } ],
-      "key_words" : [ "JOSEPH" ]
-    }, {
-      "id" : 2,
-      "on" : "ON STRACK",
-      "desc" : "He's here.",
-      "sentences" : [ {
-        "shot_id" : 2,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "He's here.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha. Well. There it is. Good.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Majesty, I hope you won't think it improper, but I have written a little March of Welcome in his honour.",
         "followup" : "He produces a paper."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "What a charming idea. May I see?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "(handing it over) It's just a trifle, of course.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "May I try it?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Majesty.",
         "followup" : "The Emperor goes to the instrument, sits and plays the first bars of it. Quite well."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Delightful, Court Composer. Would you permit me to play it as he comes in?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "You do me too much honour, Sire.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Let's have some fun. (to the waiting Majordomo) Bring in Herr Mozart, please. But slowly, slowly. I need a minute to practice.",
         "followup" : "The Majordomo bows and goes. The Emperor addresses himself to the march. He plays a wrong note."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "A-flat, Majesty.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha! ",
         "followup" : ""
       } ],
-      "key_words" : [ "SALIERI", "JOSEPH" ]
+      "key_words" : [ "JOSEPH", "SALIERI", "VON STRACK" ]
     } ]
   }, {
     "id" : 41,
@@ -1465,289 +1444,284 @@
         "shot_id" : 0,
         "character" : "MAJORDOMO",
         "line" : "Herr Mozart.",
-        "followup" : "Mozart comes in eagerly. Immediately the march begins, played by His Majesty. All the courtiers stand, listening with admiration. Joseph plays well, but applies himself fiercely to the manuscript. Mozart, still bewildered, regards the scene, but does not seem to pay attention to the music itself. It finishes and all clap obsequiously. ORSINI-ROSENBERG Bravo, Your Majesty! V"
-      } ],
-      "key_words" : [ "ROSENBERG", "MAJORDOMO", "ORSINI" ]
-    }, {
-      "id" : 1,
-      "on" : "ON STRACK",
-      "desc" : "Well done, Sire! The Emperor rises, pleased with himself. He snatches the manuscript off the stand and holds it in his hand for the rest of the scene.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "Mozart comes in eagerly. Immediately the march begins, played by His Majesty. All the courtiers stand, listening with admiration. Joseph plays well, but applies himself fiercely to the manuscript. Mozart, still bewildered, regards the scene, but does not seem to pay attention to the music itself. It finishes and all clap obsequiously. ORSINI-ROSENBERG Bravo, Your Majesty!"
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Well done, Sire!",
+        "followup" : "The Emperor rises, pleased with himself. He snatches the manuscript off the stand and holds it in his hand for the rest of the scene."
+      }, {
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Gentlemen, gentlemen, a little less enthusiasm, I beg you. Ah, Mozart.",
         "followup" : "He extends his hand. Mozart throws himself to his knees, and to Joseph's discomfort kisses the royal hand with fervour."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Your Majesty!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "No, no, please! It is not a holy relic. (raising Mozart up) You know we have met already? In this very room. Perhaps you won't remember it, you were only six years old. (to the others) He was giving the most brilliant little concert here. As he got off the stool, he slipped and fell. My sister Antoinette helped him up herself, and do you know what he did? Jumped straight into her arms and said, Will you marry me, yes or no?",
         "followup" : "Embarrassed, Mozart bursts into a wild giggle. Joseph helps him out."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "You know all these gentlemen, I'm sure.",
         "followup" : "Von Strack and Bonno nod."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "The Baron Von Swieten. V",
+        "line" : "The Baron Von Swieten.",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART", "JOSEPH", "I'" ]
-    }, {
-      "id" : 2,
-      "on" : "ON SWIETEN",
-      "desc" : "I'm a great admirer of yours, young man. Welcome.",
-      "sentences" : [ {
-        "shot_id" : 2,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "I'm a great admirer of yours, young man. Welcome.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Oh, thank you.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "The Director of our Opera. Count Orsini-Rosenberg.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "(bowing excitedly) Oh sir, yes! The honour is mine. Absolutely.",
         "followup" : "Orsini-Rosenberg nods without enthusiasm."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "And here is our illustrious Court Composer, Herr Salieri.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "(taking his hand) Finally! Such an immense joy. Diletto straordinario!",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "I know your work well, Signore. Do you know I actually composed some variations on a melody of yours?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Really?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Mio caro Adone.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Ah!",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "A funny little tune, but it yielded some good things.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "And now he has returned the compliment. Herr Salieri composed that March of Welcome for you.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "(speaking expertly) Really? Oh, grazie, Signore! Sono commosso! E un onore per mo eccezionale. Compositore brilliante e famossissimo!",
         "followup" : "He bows elaborately. Salieri inclines himself, dryly."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "My pleasure.",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Well, there it is. Now to business. Young man, we are going to commission an opera from you. What do you say?",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Majesty!",
         "followup" : ""
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "(to the courtiers) Did we vote in the end for German or Italian? ORSINI-ROSENBERG Well, actually, Sire, if you remember, we did finally incline to Italian. V",
+        "line" : "(to the courtiers) Did we vote in the end for German or Italian? ORSINI-ROSENBERG Well, actually, Sire, if you remember, we did finally incline to Italian.",
         "followup" : ""
-      } ],
-      "key_words" : [ "ROSENBERG", "MOZART", "JOSEPH", "ORSINI", "SALIERI", "I'" ]
-    }, {
-      "id" : 3,
-      "on" : "ON STRACK",
-      "desc" : "Did we? V",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 4,
-      "on" : "ON SWIETEN",
-      "desc" : "I don't think it was really decided, Director.",
-      "sentences" : [ {
-        "shot_id" : 4,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Did we?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "I don't think it was really decided, Director.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Oh, German! German! Please let it be German.",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Why so?",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Because I've already found the most wonderful libretto! ORSINI-ROSENBERG Oh? Have I seen it?",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "I - I don't think you have, Herr Director. Not yet. I mean, it's quite n - Of course, I'll show it to you immediately. ORSINI-ROSENBERG I think you'd better.",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Well, what is it about? Tell us the story.",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "It's actually quite amusing, Majesty. It's set - the whole thing is set in a - in a -",
         "followup" : "He stops short with a little giggle."
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Yes, where?",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "In a Pasha's Harem, Majesty. A Seraglio.",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha. ORSINI-ROSENBERG You mean in Turkey?",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Exactly. ORSINI-ROSENBERG Then why especially does it have to be in German?",
         "followup" : ""
       }, {
-        "shot_id" : 4,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Well not especially. It can be in Turkish, if you really want. I don't care.",
-        "followup" : "He giggles again. Orsini-Rosenberg looks at him sourly. V"
-      } ],
-      "key_words" : [ "ROSENBERG", "MOZART", "JOSEPH", "ORSINI", "I'" ]
-    }, {
-      "id" : 5,
-      "on" : "ON SWIETEN",
-      "desc" : "(kindly) My dear fellow, the language is not finally the point. Do you really think that subject is quite appropriate for a national theatre?",
-      "sentences" : [ {
-        "shot_id" : 5,
+        "followup" : "He giggles again. Orsini-Rosenberg looks at him sourly."
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "(kindly) My dear fellow, the language is not finally the point. Do you really think that subject is quite appropriate for a national theatre?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Why not? It's charming. I mean, I don't actually show concubines exposing their! their! It's not indecent! (to Joseph) It's highly moral, Majesty. It's full of proper German virtues. I swear it. Absolutely!",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Well, I'm glad to hear that.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Excuse me, Sire, but what do you think these could be? Being a foreigner, I would love to learn.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Cattivo again, Court Composer. Well, tell him, Mozart. Name us a German virtue.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Love, Sire!",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Ah, love! Well of course in Italy we know nothing about that.",
         "followup" : "The Italian faction - Orsini-Rosenberg and Bonno - laugh discreetly."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "No, I don't think you do. I mean watching Italian opera, all those male sopranos screeching. Stupid fat couples rolling their eyes about! That's not love - it's just rubbish.",
         "followup" : "An embarrassed pause. Bonno giggles in nervous amusement."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Majesty, you choose the language. It will be my task to set it to the finest music ever offered a monarch.",
         "followup" : "Pause. Joseph is clearly pleased."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Well, there it is. Let it be German.",
         "followup" : "He nods - he has wanted this result all the time. He turns and makes for the door. All bow. Then he becomes aware of the manuscript in his hand."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah, this is yours.",
         "followup" : "Mozart does not take it."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Keep it, Sire, if you want to. It is already here in my head.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "What? On one hearing only?",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "I think so, Sire, yes.",
         "followup" : "Pause."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Show me.",
         "followup" : "Mozart bows and hands the manuscript back to the Emperor. Then he goes to the forte-piano and seats himself. The others, except for Salieri, gather around the manuscript held by the King. Mozart plays the first half of the march with deadly accuracy."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "(to Salieri) The rest is just the same, isn't it?",
         "followup" : "He plays the first half again but stops in the middle of a phrase, which he repeats dubiously."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "That really doesn't work, does it?",
         "followup" : "All the courtiers look at Salieri."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Did you try this? Wouldn't it be just a little more -?",
         "followup" : "He plays another phrase."
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Or this - yes, this! Better.",
         "followup" : "He plays another phrase. Gradually, he alters the music so that it turns into the celebrated march to be used later in The Marriage of Figaro, Non Piu Andrai. He plays it with increasing abandon and virtuosity. Salieri watches with a fixed smile on his face. The court watches, astonished. He finishes in great glory, takes his hands off the keys with a gesture of triumph - and grins. "
       } ],
-      "key_words" : [ "MOZART", "JOSEPH", "SALIERI", "I'" ]
+      "key_words" : [ "ORSINI", "VON STRACK", "ROSENBERG", "MOZART", "VON SWIETEN", "MAJORDOMO", "JOSEPH", "SALIERI", "I'" ]
     } ]
   }, {
     "id" : 43,
@@ -2768,109 +2742,100 @@
       "sentences" : [ {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "What is this, Herr Chamberlain? V",
+        "line" : "What is this, Herr Chamberlain?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 1,
-      "on" : "ON STRACK",
-      "desc" : "What is what?",
-      "sentences" : [ {
-        "shot_id" : 1,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "What is what?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Why do I have to submit samples of my work to some stupid committee? Just to teach a sixteen-year-old girl. V",
+        "line" : "Why do I have to submit samples of my work to some stupid committee? Just to teach a sixteen-year-old girl.",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 2,
-      "on" : "ON STRACK",
-      "desc" : "Because His Majesty wishes it.",
-      "sentences" : [ {
-        "shot_id" : 2,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Because His Majesty wishes it.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Is the Emperor angry with me? V",
+        "line" : "Is the Emperor angry with me?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 3,
-      "on" : "ON STRACK",
-      "desc" : "On the contrary.",
-      "sentences" : [ {
-        "shot_id" : 3,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "On the contrary.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Then why doesn't he simply appoint me to the post? V",
+        "line" : "Then why doesn't he simply appoint me to the post?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 4,
-      "on" : "ON STRACK",
-      "desc" : "Mozart, you are not the only composer in Vienna.",
-      "sentences" : [ {
-        "shot_id" : 4,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Mozart, you are not the only composer in Vienna.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "No, but I'm the best. V",
+        "line" : "No, but I'm the best.",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART", "I'" ]
-    }, {
-      "id" : 5,
-      "on" : "ON STRACK",
-      "desc" : "A little modesty would suit you better.",
-      "sentences" : [ {
-        "shot_id" : 5,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "A little modesty would suit you better.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Who is on this committee? V",
+        "line" : "Who is on this committee?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 6,
-      "on" : "ON STRACK",
-      "desc" : "Kapellmeister Bonno, Count Orsini- Rosenberg and Court Composer Salieri.",
-      "sentences" : [ {
-        "shot_id" : 6,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Kapellmeister Bonno, Count Orsini- Rosenberg and Court Composer Salieri.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Naturally, the Italians! Of course! Always the Italians! V",
+        "line" : "Naturally, the Italians! Of course! Always the Italians!",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 7,
-      "on" : "ON STRACK",
-      "desc" : "Mozart -",
-      "sentences" : [ {
-        "shot_id" : 7,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Mozart -",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "They hate my music. It terrifies them. The only sound Italians understand is banality. Tonic and dominant, tonic and dominant, from here to Resurrection! (singing angrily) Ba-ba! Ba-ba! Ba-ba! Ba-ba! Anything else is morbid. V",
+        "line" : "They hate my music. It terrifies them. The only sound Italians understand is banality. Tonic and dominant, tonic and dominant, from here to Resurrection! (singing angrily) Ba-ba! Ba-ba! Ba-ba! Ba-ba! Anything else is morbid.",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 8,
-      "on" : "ON STRACK",
-      "desc" : "Mozart -",
-      "sentences" : [ {
-        "shot_id" : 8,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Mozart -",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Show them one interesting modulation and they faint. Ohime! Morbidezza! Morbidezza! Italians are musical idiots and you want them to judge my music! V",
+        "line" : "Show them one interesting modulation and they faint. Ohime! Morbidezza! Morbidezza! Italians are musical idiots and you want them to judge my music!",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 9,
-      "on" : "ON STRACK",
-      "desc" : "Look, young man, the issue is simple. If you want this post, you must submit your stuff in the same way as all your colleagues.",
-      "sentences" : [ {
-        "shot_id" : 9,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Look, young man, the issue is simple. If you want this post, you must submit your stuff in the same way as all your colleagues.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Must I? Well, I won't! I tell you straight: I will not! ",
         "followup" : ""
       } ],
-      "key_words" : [ "MOZART" ]
+      "key_words" : [ "MOZART", "VON STRACK", "I'" ]
     } ]
   }, {
     "id" : 61,
@@ -5225,81 +5190,80 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Thank you, Sire! V",
+        "line" : "Thank you, Sire!",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART", "JOSEPH" ]
-    }, {
-      "id" : 1,
-      "on" : "ON SWIETEN",
-      "desc" : "Well done, Mozart. Really quite fine.",
-      "sentences" : [ {
-        "shot_id" : 1,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Well done, Mozart. Really quite fine.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Baron!",
         "followup" : "He sees his wife and father standing by in the crowd. Leopold is signaling insistently."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Majesty, may I ask you to do me the greatest favour?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "What is it?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "May I introduce my father? He is on a short visit here and returning very soon to Salzburg. He would so much like to kiss your hand. It would make his whole stay so memorable for him.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah! By all means.",
         "followup" : "Leopold comes forward eagerly and fawningly kisses the royal hand."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LEOPOLD",
         "line" : "Your Majesty.",
         "followup" : "Constanze curtsies."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Good evening. (to Leopold) We have met before, Herr Mozart.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LEOPOLD",
         "line" : "That's right, Your Majesty. Twenty years ago. No, twenty-two! twenty- three! And I remember word for word what you said to me. You said - you said --",
         "followup" : "He searches his memory."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Bravo?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LEOPOLD",
         "line" : "No! Yes, 'bravo,' of course 'bravo'! Everybody always says 'bravo' when Wolfi plays. Like the King of England. When we played for the King of England, he got up at the end and said, 'Bravo! Bravo! Bravo!' three times. Three bravo's. And the Pope four! Four bravo's from the Holy Father, and one 'bellissimo.'",
         "followup" : "All the courtiers around are looking at him."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Father -",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LEOPOLD",
         "line" : "Hush! I'm talking to His Majesty. Your Majesty, I wish to express only one thing - that you who are the Father of us all, could teach our children the gratitude they owe to fathers. It is not for nothing that the Fifth Commandment tells us: 'Honour your Father and Mother, that your days may be long upon the earth.'",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Ah-ha. Well. There it is. ",
         "followup" : ""
       } ],
-      "key_words" : [ "MOZART", "JOSEPH", "LEOPOLD", "I'" ]
+      "key_words" : [ "MOZART", "JOSEPH", "VON SWIETEN", "LEOPOLD", "I'" ]
     } ]
   }, {
     "id" : 102,
@@ -5373,27 +5337,19 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "V",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON STRACK",
-      "desc" : "I know we banned this play, but frankly I can't remember why. Can you refresh my memory, Herr Director? ORSINI-ROSENBERG For the same reason, Herr Chamberlain, that it was banned in France. V",
-      "sentences" : [ ],
-      "key_words" : [ "ROSENBERG", "ORSINI" ]
-    }, {
-      "id" : 2,
-      "on" : "ON STRACK",
-      "desc" : "Oh yes, yes. And that was? ORSINI-ROSENBERG Well, the play makes a hero out of a valet. He outwits his noble master and exposes him as a lecher. Do you see the implications? This would be, in a grander situation, as if a Chamberlain were to expose an Emperor. V",
-      "sentences" : [ ],
-      "key_words" : [ "ROSENBERG", "ORSINI" ]
-    }, {
-      "id" : 3,
-      "on" : "ON STRACK",
-      "desc" : "Ah. ",
-      "sentences" : [ ],
-      "key_words" : [ ]
+      "desc" : "VON STRACK I know we banned this play, but frankly I can't remember why. Can you refresh my memory, Herr Director? ORSINI-ROSENBERG For the same reason, Herr Chamberlain, that it was banned in France.",
+      "sentences" : [ {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Oh yes, yes. And that was? ORSINI-ROSENBERG Well, the play makes a hero out of a valet. He outwits his noble master and exposes him as a lecher. Do you see the implications? This would be, in a grander situation, as if a Chamberlain were to expose an Emperor.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Ah. ",
+        "followup" : ""
+      } ],
+      "key_words" : [ "ROSENBERG", "VON STRACK", "ORSINI" ]
     } ]
   }, {
     "id" : 104,
@@ -5508,111 +5464,105 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Twenty, sire! How about twenty? Twenty minutes of continuous music. No recitatives. V",
+        "line" : "Twenty, sire! How about twenty? Twenty minutes of continuous music. No recitatives.",
         "followup" : ""
-      } ],
-      "key_words" : [ "ROSENBERG", "MOZART", "JOSEPH", "ORSINI", "LACKEY" ]
-    }, {
-      "id" : 1,
-      "on" : "ON SWIETEN",
-      "desc" : "Mozart -",
-      "sentences" : [ {
-        "shot_id" : 1,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Mozart -",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "(ignoring him) Sire, only opera can do this. In a play, if more than one person speaks at the same time, it's just noise. No one can understand a word. But with music, with music you can have twenty individuals all talking at once, and it's not noise - it's a perfect harmony. Isn't that marvelous? V",
+        "line" : "(ignoring him) Sire, only opera can do this. In a play, if more than one person speaks at the same time, it's just noise. No one can understand a word. But with music, with music you can have twenty individuals all talking at once, and it's not noise - it's a perfect harmony. Isn't that marvelous?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART" ]
-    }, {
-      "id" : 2,
-      "on" : "ON SWIETEN",
-      "desc" : "Mozart, music is not the issue here. No one doubts your talent. It is your judgment of literature that's in question. Even with the politics taken out, this thing would still remain a vulgar farce. Why waste your spirit on such rubbish? Surely you can choose more elevated themes?",
-      "sentences" : [ {
-        "shot_id" : 2,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Mozart, music is not the issue here. No one doubts your talent. It is your judgment of literature that's in question. Even with the politics taken out, this thing would still remain a vulgar farce. Why waste your spirit on such rubbish? Surely you can choose more elevated themes?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Elevated? What does that mean? Elevated! The only thing a man should elevate is - oh, excuse me. I'm sorry. I'm stupid. But I am fed up to the teeth with elevated things! Old dead legends! How can we go on forever writing about gods and legends? V",
+        "line" : "Elevated? What does that mean? Elevated! The only thing a man should elevate is - oh, excuse me. I'm sorry. I'm stupid. But I am fed up to the teeth with elevated things! Old dead legends! How can we go on forever writing about gods and legends?",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART", "I'" ]
-    }, {
-      "id" : 3,
-      "on" : "ON SWIETEN",
-      "desc" : "(aroused) Because they do. They go on forever - at least what they represent. The eternal in us, not the ephemeral. Opera is here to ennoble us. You and me, just as much as His Majesty.",
-      "sentences" : [ {
-        "shot_id" : 3,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "(aroused) Because they do. They go on forever - at least what they represent. The eternal in us, not the ephemeral. Opera is here to ennoble us. You and me, just as much as His Majesty.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "BONNO",
         "line" : "Bello! Bello, Barone. Veramente.",
         "followup" : ""
       }, {
-        "shot_id" : 3,
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Oh, bello, bello, bello! Come on now, be honest. Wouldn't you all rather listen to your hairdressers than Hercules? Or Horatius? Or Orpheus? All those old bores! people so lofty they sound as if they shit marble! V",
+        "line" : "Oh, bello, bello, bello! Come on now, be honest. Wouldn't you all rather listen to your hairdressers than Hercules? Or Horatius? Or Orpheus? All those old bores! people so lofty they sound as if they shit marble!",
         "followup" : ""
-      } ],
-      "key_words" : [ "MOZART", "BONNO" ]
-    }, {
-      "id" : 4,
-      "on" : "ON SWIETEN",
-      "desc" : "What? V",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 5,
-      "on" : "ON STRACK",
-      "desc" : "Govern your tongue, sir! How dare you? Beat. All look at the Emperor.",
-      "sentences" : [ {
-        "shot_id" : 5,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "What?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Govern your tongue, sir! How dare you?",
+        "followup" : "Beat. All look at the Emperor."
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Forgive me, Majesty. I'm a vulgar man. But I assure you, my music is not.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "You are passionate, Mozart! But you do not persuade.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Sire, the whole opera is finished. Do you know how much work went into it?",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "BONNO",
         "line" : "His Majesty has been more than patient, Signore.",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "How can I persuade you if you won't let me show it? ORSINI-ROSENBERG That will do, Herr Mozart!",
         "followup" : ""
       }, {
-        "shot_id" : 5,
+        "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Just let me tell you how it begins. V",
+        "line" : "Just let me tell you how it begins.",
         "followup" : ""
-      } ],
-      "key_words" : [ "ROSENBERG", "MOZART", "BONNO", "JOSEPH", "ORSINI", "I'" ]
-    }, {
-      "id" : 6,
-      "on" : "ON STRACK",
-      "desc" : "Herr Mozart -",
-      "sentences" : [ {
-        "shot_id" : 6,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON STRACK",
+        "line" : "Herr Mozart -",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "May I just do that, Majesty? Show you how it begins? Just that?",
         "followup" : "A slight pause. Then Joseph nods."
       }, {
-        "shot_id" : 6,
+        "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Please.",
         "followup" : "Mozart falls on his knees."
       }, {
-        "shot_id" : 6,
+        "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Look! There's a servant, down on his knees. Do you know why? Not from any oppression. No, he's simply measuring a space. Do you know what for? His bed. His wedding bed to see if it will fit.",
         "followup" : "He giggles. "
       } ],
-      "key_words" : [ "MOZART", "JOSEPH" ]
+      "key_words" : [ "JOSEPH", "ORSINI", "VON STRACK", "ROSENBERG", "MOZART", "BONNO", "VON SWIETEN", "LACKEY", "I'" ]
     } ]
   }, {
     "id" : 105,
@@ -6881,42 +6831,39 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Von Swieten and Salieri stand close together. Several scholars and students are examining scrolls and manuscripts at the other end of the room. V",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON SWIETEN",
-      "desc" : "(keeping his voice down) This is embarrassing, you know. You introduced Mozart to some of my friends and he's begging from practically all of them. It has to stop.",
+      "desc" : "Von Swieten and Salieri stand close together. Several scholars and students are examining scrolls and manuscripts at the other end of the room.",
       "sentences" : [ {
-        "shot_id" : 1,
-        "character" : "SALIERI",
-        "line" : "I agree, Baron. V",
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "(keeping his voice down) This is embarrassing, you know. You introduced Mozart to some of my friends and he's begging from practically all of them. It has to stop.",
         "followup" : ""
-      } ],
-      "key_words" : [ "SALIERI" ]
-    }, {
-      "id" : 2,
-      "on" : "ON SWIETEN",
-      "desc" : "Can't you think of anyone who might commission some work from him? I've done my best. I got him to arrange some Bach for my Sunday concerts. He got a fee - what I could afford. Can't you think of anyone who might do something for him?",
-      "sentences" : [ {
-        "shot_id" : 2,
+      }, {
+        "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "No, Baron, no. I'm afraid Mozart is a lost cause. He has managed to alienate practically the whole of Vienna. He is constantly drunk. He never pays his debts. I can't think of one person to whom I dare recommend him. V",
+        "line" : "I agree, Baron.",
         "followup" : ""
-      } ],
-      "key_words" : [ "SALIERI", "I'" ]
-    }, {
-      "id" : 3,
-      "on" : "ON SWIETEN",
-      "desc" : "How sad. It's tragic, isn't it? Such a talent.",
-      "sentences" : [ {
-        "shot_id" : 3,
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "Can't you think of anyone who might commission some work from him? I've done my best. I got him to arrange some Bach for my Sunday concerts. He got a fee - what I could afford. Can't you think of anyone who might do something for him?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "SALIERI",
+        "line" : "No, Baron, no. I'm afraid Mozart is a lost cause. He has managed to alienate practically the whole of Vienna. He is constantly drunk. He never pays his debts. I can't think of one person to whom I dare recommend him.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "VON SWIETEN",
+        "line" : "How sad. It's tragic, isn't it? Such a talent.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "SALIERI",
         "line" : "Indeed. Just a moment - as a matter of fact I think I do know someone who could commission a work from him. A very appropriate person to do so. Yes.",
         "followup" : "The opening measures of the Piano Concerto in D Minor steal in. "
       } ],
-      "key_words" : [ "SALIERI" ]
+      "key_words" : [ "SALIERI", "I'", "VON SWIETEN" ]
     } ]
   }, {
     "id" : 132,
