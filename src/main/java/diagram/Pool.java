@@ -1,6 +1,6 @@
 package diagram;
 
-import lombok.Getter;
+import diagram.infos.NodeGraphicsInfo;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 

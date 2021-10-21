@@ -1,5 +1,8 @@
 import diagram.*;
 import diagram.Package;
+import diagram.events.Event;
+import diagram.events.StartEvent;
+import diagram.infos.NodeGraphicsInfo;
 import utils.XPDLNamespaceMapper;
 
 import javax.xml.bind.JAXBContext;
@@ -16,10 +19,12 @@ public class XPDLTest {
         Package p = new Package("Test1", "Test Package");
         p.setConformanceClass(new ConformanceClass());
 
+        // Participants
         ArrayList<Participant> participants = new ArrayList<>();
         participants.add(new Participant("TestParticipant"));   //Space not allowed in id!
         p.setParticipantsList(participants);
 
+        // Pools
         ArrayList<Pool> pools = new ArrayList<>();
         Pool pool = new Pool("Test_pool1", "Rush Hour", true, true, "HORIZONTAL", "Title");
         pools.add(pool);
@@ -52,6 +57,37 @@ public class XPDLTest {
         performers.add("TestParticipant");
         lane.setPerformersList(performers);
 
+        // Workflow processes
+        ArrayList<WorkflowProcess> workflowProcesses = new ArrayList<>();
+        WorkflowProcess wp = new WorkflowProcess();
+        wp.setId("Title");
+        wp.setName("Rush Hour");
+        workflowProcesses.add(wp);
+        p.setWorkflowProcessesList(workflowProcesses);
+
+        ArrayList<Activity> activities = new ArrayList<>();
+        Activity activity = new Activity();
+        Event event = new Event();
+        event.setStartEvent(new StartEvent());
+        activity.setEvent(event);
+        activity.setId("1");
+        activities.add(activity);
+        wp.setActivitiesList(activities);
+
+        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos3 = new ArrayList<>();
+        NodeGraphicsInfo ngi3 = new NodeGraphicsInfo();
+        ngi3.setBorderColor("0,0,0");
+        ngi3.setFillColor("102,204,51");
+        ngi3.setHeight(31);
+        ngi3.setWidth(31);
+        ngi3.setIsVisible(true);
+        ngi3.setLaneId("Test_pool1_lan1");
+        ngi3.setToolId("JaWE");
+        ngi3.setCoordinates(70,72);
+        nodeGraphicsInfos3.add(ngi3);
+        activity.setNodeGraphicsInfosList(nodeGraphicsInfos3);
+
+        // Other
         ArrayList<ExtendedAttribute> extendedAttributes = new ArrayList<>();
         extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL", "Movie-Miner"));
         extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL_VERSION", "1.0-Snapshot"));

@@ -22,6 +22,7 @@ public class Package {
     private ConformanceClass conformanceClass;
     private ArrayList<Participant> participantsList;
     private ArrayList<Pool> poolsList;
+    private ArrayList<WorkflowProcess> workflowProcessesList;
     private ArrayList<ExtendedAttribute> extendedAttributesList;
 
     public Package(String id, String name) {
@@ -70,6 +71,17 @@ public class Package {
     @XmlElement(name = "Pool", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setPoolsList(ArrayList<Pool> poolsList) {
         this.poolsList = poolsList;
+    }
+
+    public ArrayList<WorkflowProcess> getWorkflowProcessesList() {
+        return workflowProcessesList;
+    }
+
+    @XmlElementWrapper(name = "WorkflowProcesses", namespace="http://www.wfmc.org/2008/XPDL2.1")
+
+    @XmlElement(name = "WorkflowProcess", namespace="http://www.wfmc.org/2008/XPDL2.1")
+    public void setWorkflowProcessesList(ArrayList<WorkflowProcess> workflowProcessesList) {
+        this.workflowProcessesList = workflowProcessesList;
     }
 
     public ArrayList<ExtendedAttribute> getExtendedAttributesList() {

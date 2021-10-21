@@ -1,18 +1,18 @@
-package diagram;
+package diagram.infos;
 
-import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Setter;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 
 @Setter
-@NoArgsConstructor
-public class NodeGraphicsInfo {
+public abstract class GraphicsInfo {
 
     private String borderColor;
     private String fillColor;
     private Boolean isVisible;
+    private String style;
     private String toolId;
     private String laneId;
     private Integer height;
@@ -33,6 +33,11 @@ public class NodeGraphicsInfo {
     @XmlAttribute(name="IsVisible")
     public Boolean getVisible() {
         return isVisible;
+    }
+
+    @XmlAttribute(name="Style")
+    public String getStyle() {
+        return style;
     }
 
     @XmlAttribute(name="ToolId")
@@ -60,8 +65,12 @@ public class NodeGraphicsInfo {
         return coordinates;
     }
 
+    public void setCoordinates(Integer xCoordinate,  Integer yCoordinate) {
+        this.coordinates = new Coordinates(xCoordinate, yCoordinate);
+    }
+
     @Setter
-    @NoArgsConstructor
+    @AllArgsConstructor
     private static class Coordinates {
         private Integer xCoordinate;
         private Integer yCoordinate;
