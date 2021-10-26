@@ -19,8 +19,8 @@ public class Pool {
     private String name;
     private String orientation;
     private String process;
-    private ArrayList<Lane> lanesList;
-    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList;
+    private ArrayList<Lane> lanesList = new ArrayList<>();
+    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList = new ArrayList<>();
 
     public Pool(String id, String name, Boolean boundaryVisible, Boolean mainPool, String orientation, String process) {
         this.id = id;

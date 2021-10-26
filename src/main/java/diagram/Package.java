@@ -20,10 +20,10 @@ public class Package {
 
     private PackageHeader packageHeader;
     private ConformanceClass conformanceClass;
-    private ArrayList<Participant> participantsList;
-    private ArrayList<Pool> poolsList;
-    private ArrayList<WorkflowProcess> workflowProcessesList;
-    private ArrayList<ExtendedAttribute> extendedAttributesList;
+    private ArrayList<Participant> participantsList = new ArrayList<>();
+    private ArrayList<Pool> poolsList = new ArrayList<>();
+    private ArrayList<WorkflowProcess> workflowProcessesList = new ArrayList<>();
+    private ArrayList<ExtendedAttribute> extendedAttributesList = new ArrayList<>();
 
     public Package(String id, String name) {
         this.id = id;

@@ -1,5 +1,6 @@
 import diagram.*;
 import diagram.Package;
+import diagram.builders.DiagramBuilder;
 import diagram.events.Event;
 import diagram.events.StartEvent;
 import diagram.infos.NodeGraphicsInfo;
@@ -12,69 +13,40 @@ import javax.xml.bind.PropertyException;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
 
 public class XPDLTest {
     public static void main(String[] args) {
-        Package p = new Package("Test1", "Test Package");
-        p.setConformanceClass(new ConformanceClass());
+        DiagramBuilder diagramBuilder = new DiagramBuilder("Test", "Test Package", "Movie", false);
 
         // Participants
-        ArrayList<Participant> participants = new ArrayList<>();
-        participants.add(new Participant("TestParticipant"));   //Space not allowed in id!
-        p.setParticipantsList(participants);
+        diagramBuilder.getDiagram().getParticipantsList().add(new Participant("TestParticipant")); //Space not allowed in id!
 
-        // Pools
-        ArrayList<Pool> pools = new ArrayList<>();
-        Pool pool = new Pool("Test_pool1", "Rush Hour", true, true, "HORIZONTAL", "Title");
-        pools.add(pool);
-        p.setPoolsList(pools);
-
-        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos1 = new ArrayList<>();
         NodeGraphicsInfo ngi1 = new NodeGraphicsInfo();
         ngi1.setBorderColor("0,0,0");
         ngi1.setFillColor("255,255,215");
         ngi1.setIsVisible(true);
         ngi1.setToolId("JaWE");
-        nodeGraphicsInfos1.add(ngi1);
-        pool.setNodeGraphicsInfosList(nodeGraphicsInfos1);
+        diagramBuilder.getPool().getNodeGraphicsInfosList().add(ngi1);
 
-        ArrayList<Lane> lanes = new ArrayList<>();
         Lane lane = new Lane("Test_pool1_lan1", "Test_par1");
-        lanes.add(lane);
-        pool.setLanesList(lanes);
+        diagramBuilder.getPool().getLanesList().add(lane);
 
-        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos2 = new ArrayList<>();
         NodeGraphicsInfo ngi2 = new NodeGraphicsInfo();
         ngi2.setBorderColor("0,0,0");
         ngi2.setFillColor("220,220,220");
         ngi2.setIsVisible(true);
         ngi2.setToolId("JaWE");
-        nodeGraphicsInfos2.add(ngi2);
-        lane.setNodeGraphicsInfosList(nodeGraphicsInfos2);
+        lane.getNodeGraphicsInfosList().add(ngi2);
 
-        ArrayList<String> performers = new ArrayList<>();
-        performers.add("TestParticipant");
-        lane.setPerformersList(performers);
+        lane.getPerformersList().add("TestParticipant");
 
-        // Workflow processes
-        ArrayList<WorkflowProcess> workflowProcesses = new ArrayList<>();
-        WorkflowProcess wp = new WorkflowProcess();
-        wp.setId("Title");
-        wp.setName("Rush Hour");
-        workflowProcesses.add(wp);
-        p.setWorkflowProcessesList(workflowProcesses);
-
-        ArrayList<Activity> activities = new ArrayList<>();
         Activity activity = new Activity();
         Event event = new Event();
         event.setStartEvent(new StartEvent());
         activity.setEvent(event);
         activity.setId("1");
-        activities.add(activity);
-        wp.setActivitiesList(activities);
+        diagramBuilder.getProcess().getActivitiesList().add(activity);
 
-        ArrayList<NodeGraphicsInfo> nodeGraphicsInfos3 = new ArrayList<>();
         NodeGraphicsInfo ngi3 = new NodeGraphicsInfo();
         ngi3.setBorderColor("0,0,0");
         ngi3.setFillColor("102,204,51");
@@ -84,15 +56,7 @@ public class XPDLTest {
         ngi3.setLaneId("Test_pool1_lan1");
         ngi3.setToolId("JaWE");
         ngi3.setCoordinates(70,72);
-        nodeGraphicsInfos3.add(ngi3);
-        activity.setNodeGraphicsInfosList(nodeGraphicsInfos3);
-
-        // Other
-        ArrayList<ExtendedAttribute> extendedAttributes = new ArrayList<>();
-        extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL", "Movie-Miner"));
-        extendedAttributes.add(new ExtendedAttribute("EDITING_TOOL_VERSION", "1.0-Snapshot"));
-        extendedAttributes.add(new ExtendedAttribute("JaWE_CONFIGURATION", "default"));
-        p.setExtendedAttributesList(extendedAttributes);
+        activity.getNodeGraphicsInfosList().add(ngi3);
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Package.class);
@@ -113,10 +77,10 @@ public class XPDLTest {
             }
 
             //send to console
-            jaxbMarshaller.marshal(p, System.out);
+            jaxbMarshaller.marshal(diagramBuilder.getDiagram(), System.out);
             //send to file system
             OutputStream os = new FileOutputStream("test.xpdl" );
-            jaxbMarshaller.marshal(p, os);
+            jaxbMarshaller.marshal(diagramBuilder.getDiagram(), os);
 
         } catch (JAXBException | FileNotFoundException e) {
             e.printStackTrace();

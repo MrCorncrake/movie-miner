@@ -14,7 +14,7 @@ public class Participant {
 
     private String id;
     private ParticipantType participantType;
-    private ArrayList<ExtendedAttribute> extendedAttributesList;
+    private ArrayList<ExtendedAttribute> extendedAttributesList = new ArrayList<>();
 
     public Participant(String id) {
         this.id = id;

@@ -16,7 +16,7 @@ public class Transition {
     private String id;
     private String from;
     private String to;
-    private ArrayList<ConnectorGraphicsInfo> ConnectorGraphicsInfosList;
+    private ArrayList<ConnectorGraphicsInfo> ConnectorGraphicsInfosList = new ArrayList<>();
 
     @XmlAttribute(name="Id")
     public String getId() {

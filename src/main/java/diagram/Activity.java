@@ -19,9 +19,9 @@ public class Activity {
     private String name;
     private Event event;
     private Implementation implementation;
-    private ArrayList<String> performersList;
-    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList;
-    private ArrayList<TransitionRestriction> transitionRestrictionsList;
+    private ArrayList<String> performersList = new ArrayList<>();
+    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList = new ArrayList<>();
+    private ArrayList<TransitionRestriction> transitionRestrictionsList = new ArrayList<>();
 
     @XmlAttribute(name="Id")
     public String getId() {

@@ -11,24 +11,30 @@ import java.util.Date;
 @Setter
 public class WorkflowProcess {
 
-    private String Id;
-    private String Name;
+    private String id;
+    private String name;
     private ProcessHeader processHeader;
-    private ArrayList<Activity> activitiesList;
-    private ArrayList<Transition> transitionsList;
+    private ArrayList<Activity> activitiesList = new ArrayList<>();
+    private ArrayList<Transition> transitionsList = new ArrayList<>();
 
     public WorkflowProcess() {
         this.processHeader = new ProcessHeader();
     }
 
+    public WorkflowProcess(String id, String name) {
+        this.processHeader = new ProcessHeader();
+        this.id = id;
+        this.name = name;
+    }
+
     @XmlAttribute(name="Id")
     public String getId() {
-        return Id;
+        return id;
     }
 
     @XmlAttribute(name="Name")
     public String getName() {
-        return Name;
+        return name;
     }
 
     @XmlElement(name = "ProcessHeader", namespace="http://www.wfmc.org/2008/XPDL2.1")

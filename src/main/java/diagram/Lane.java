@@ -15,8 +15,8 @@ public class Lane {
 
     private String id;
     private String name;
-    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList;
-    private ArrayList<String> performersList;
+    private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList = new ArrayList<>();
+    private ArrayList<String> performersList = new ArrayList<>();
 
     public Lane(String id, String name) {
         this.id = id;
