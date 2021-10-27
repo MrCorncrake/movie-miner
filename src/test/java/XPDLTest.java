@@ -34,9 +34,9 @@ public class XPDLTest {
         ngi3.setHeight(31);
         ngi3.setWidth(31);
         ngi3.setIsVisible(true);
-        ngi3.setLaneId("Test_pool1_lan1");
+        ngi3.setLaneId("Test_pool_lane1");
         ngi3.setToolId("JaWE");
-        ngi3.setCoordinates(70,72);
+        ngi3.setCoordinates(74,61);
         activity.getNodeGraphicsInfosList().add(ngi3);
 
         try {
