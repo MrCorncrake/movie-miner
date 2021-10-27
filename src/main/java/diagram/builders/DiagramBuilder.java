@@ -2,6 +2,7 @@ package diagram.builders;
 
 import diagram.*;
 import diagram.Package;
+import diagram.infos.NodeGraphicsInfo;
 import lombok.Getter;
 import utils.DiagramGlobals;
 
@@ -12,16 +13,22 @@ public class DiagramBuilder {
     @Getter
     private final Package diagram;
 
+    // Package Attributes
     private final ExtendedAttribute editingTool;
     private final ExtendedAttribute editingToolVersion;
     private final ExtendedAttribute JaWEConfiguration;
 
+    // Pool Attributes
+    private final NodeGraphicsInfo poolNodeGraphicInfo;
+
     @Getter
-    private final WorkflowProcess process;
+    private final WorkflowProcess workflowProcess;
     @Getter
     private final Pool pool;
 
     private final Boolean vertical;
+
+    private int laneCounter = 0;
 
     public DiagramBuilder(String id, String packageName, String diagramName, Boolean vertical) {
         this.vertical = vertical;
@@ -36,11 +43,32 @@ public class DiagramBuilder {
         extendedAttributes.add(editingToolVersion);
         extendedAttributes.add(JaWEConfiguration);
         // Main diagram classes
-        process = new WorkflowProcess("Movie", diagramName);
+        workflowProcess = new WorkflowProcess("Movie", diagramName);
         pool = new Pool(id + "_pool", diagramName, true, true, vertical ? "VERTICAL" : "HORIZONTAL", "Movie");
-        diagram.getWorkflowProcessesList().add(process);
+        poolNodeGraphicInfo = new NodeGraphicsInfo();
+        poolNodeGraphicInfo.setBorderColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
+        poolNodeGraphicInfo.setFillColor(DiagramGlobals.POOL_DEFAULT_FILL_COLOUR);
+        poolNodeGraphicInfo.setIsVisible(true);
+        poolNodeGraphicInfo.setToolId("JaWE");
+        pool.getNodeGraphicsInfosList().add(poolNodeGraphicInfo);
+
+        diagram.getWorkflowProcessesList().add(workflowProcess);
         diagram.getPoolsList().add(pool);
     }
+
+    public LaneBuilder addLane(String performer) {
+        LaneBuilder laneBuilder = new LaneBuilder(workflowProcess, pool.getId() + "_lane" + ++laneCounter, "Test_par" + laneCounter, performer);
+        pool.getLanesList().add(laneBuilder.getLane());
+        diagram.getParticipantsList().add(laneBuilder.getPerformer());
+        return laneBuilder;
+    }
+
+    public void removeLane(LaneBuilder laneBuilder) {
+        pool.getLanesList().remove(laneBuilder.getLane());
+        diagram.getParticipantsList().remove(laneBuilder.getPerformer());
+    }
+
+    // Diagram config
 
     public void setEditingTool(String editingTool) {
         this.editingTool.setValue(editingTool);
@@ -54,7 +82,18 @@ public class DiagramBuilder {
         this.JaWEConfiguration.setValue(jaWEConfiguration);
     }
 
+    // Pool config
 
+    public void setPoolBorderColor(String red, String green, String blue) {
+        poolNodeGraphicInfo.setBorderColor(red + "," + green + "," + blue);
+    }
 
+    public void setPoolFillColor(String red, String green, String blue) {
+        poolNodeGraphicInfo.setBorderColor(red + "," + green + "," + blue);
+    }
+
+    public void setPoolIsVisible(Boolean visible) {
+        poolNodeGraphicInfo.setIsVisible(visible);
+    }
 
 }

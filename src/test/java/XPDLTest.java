@@ -1,6 +1,7 @@
 import diagram.*;
 import diagram.Package;
 import diagram.builders.DiagramBuilder;
+import diagram.builders.LaneBuilder;
 import diagram.events.Event;
 import diagram.events.StartEvent;
 import diagram.infos.NodeGraphicsInfo;
@@ -18,34 +19,14 @@ public class XPDLTest {
     public static void main(String[] args) {
         DiagramBuilder diagramBuilder = new DiagramBuilder("Test", "Test Package", "Movie", false);
 
-        // Participants
-        diagramBuilder.getDiagram().getParticipantsList().add(new Participant("TestParticipant")); //Space not allowed in id!
-
-        NodeGraphicsInfo ngi1 = new NodeGraphicsInfo();
-        ngi1.setBorderColor("0,0,0");
-        ngi1.setFillColor("255,255,215");
-        ngi1.setIsVisible(true);
-        ngi1.setToolId("JaWE");
-        diagramBuilder.getPool().getNodeGraphicsInfosList().add(ngi1);
-
-        Lane lane = new Lane("Test_pool1_lan1", "Test_par1");
-        diagramBuilder.getPool().getLanesList().add(lane);
-
-        NodeGraphicsInfo ngi2 = new NodeGraphicsInfo();
-        ngi2.setBorderColor("0,0,0");
-        ngi2.setFillColor("220,220,220");
-        ngi2.setIsVisible(true);
-        ngi2.setToolId("JaWE");
-        lane.getNodeGraphicsInfosList().add(ngi2);
-
-        lane.getPerformersList().add("TestParticipant");
+        LaneBuilder laneBuilder = diagramBuilder.addLane("TestParticipant");
 
         Activity activity = new Activity();
         Event event = new Event();
         event.setStartEvent(new StartEvent());
         activity.setEvent(event);
         activity.setId("1");
-        diagramBuilder.getProcess().getActivitiesList().add(activity);
+        diagramBuilder.getWorkflowProcess().getActivitiesList().add(activity);
 
         NodeGraphicsInfo ngi3 = new NodeGraphicsInfo();
         ngi3.setBorderColor("0,0,0");
