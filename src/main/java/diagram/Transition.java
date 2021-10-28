@@ -18,6 +18,10 @@ public class Transition {
     private String to;
     private ArrayList<ConnectorGraphicsInfo> ConnectorGraphicsInfosList = new ArrayList<>();
 
+    public Transition(String id) {
+        this.id = id;
+    }
+
     @XmlAttribute(name="Id")
     public String getId() {
         return id;

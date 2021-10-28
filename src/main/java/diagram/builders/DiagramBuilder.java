@@ -26,12 +26,9 @@ public class DiagramBuilder {
     @Getter
     private final Pool pool;
 
-    private final Boolean vertical;
-
     private int laneCounter = 0;
 
-    public DiagramBuilder(String id, String packageName, String diagramName, Boolean vertical) {
-        this.vertical = vertical;
+    public DiagramBuilder(String id, String packageName, String diagramName) {
         diagram = new Package(id, packageName);
         diagram.setConformanceClass(new ConformanceClass());
         // Diagram attributes
@@ -44,12 +41,12 @@ public class DiagramBuilder {
         extendedAttributes.add(JaWEConfiguration);
         // Main diagram classes
         workflowProcess = new WorkflowProcess("Movie", diagramName);
-        pool = new Pool(id + "_pool", diagramName, true, true, vertical ? "VERTICAL" : "HORIZONTAL", "Movie");
+        pool = new Pool(id + "_pool", diagramName, true, true, "HORIZONTAL", "Movie");
         poolNodeGraphicInfo = new NodeGraphicsInfo();
         poolNodeGraphicInfo.setBorderColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
         poolNodeGraphicInfo.setFillColor(DiagramGlobals.POOL_DEFAULT_FILL_COLOUR);
         poolNodeGraphicInfo.setIsVisible(true);
-        poolNodeGraphicInfo.setToolId("JaWE");
+        poolNodeGraphicInfo.setToolId(DiagramGlobals.TOOL_ID);
         pool.getNodeGraphicsInfosList().add(poolNodeGraphicInfo);
 
         diagram.getWorkflowProcessesList().add(workflowProcess);
@@ -65,6 +62,8 @@ public class DiagramBuilder {
 
     public void removeLane(LaneBuilder laneBuilder) {
         pool.getLanesList().remove(laneBuilder.getLane());
+        workflowProcess.getActivitiesList().removeAll(laneBuilder.getActivities());
+        workflowProcess.getTransitionsList().removeAll(laneBuilder.getTransitions());
         diagram.getParticipantsList().remove(laneBuilder.getPerformer());
     }
 

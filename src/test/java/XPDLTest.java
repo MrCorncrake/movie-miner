@@ -1,10 +1,6 @@
-import diagram.*;
 import diagram.Package;
 import diagram.builders.DiagramBuilder;
 import diagram.builders.LaneBuilder;
-import diagram.events.Event;
-import diagram.events.StartEvent;
-import diagram.infos.NodeGraphicsInfo;
 import utils.XPDLNamespaceMapper;
 
 import javax.xml.bind.JAXBContext;
@@ -17,27 +13,10 @@ import java.io.OutputStream;
 
 public class XPDLTest {
     public static void main(String[] args) {
-        DiagramBuilder diagramBuilder = new DiagramBuilder("Test", "Test Package", "Movie", false);
-
+        DiagramBuilder diagramBuilder = new DiagramBuilder("Test", "Test Package", "Movie");
         LaneBuilder laneBuilder = diagramBuilder.addLane("TestParticipant");
-
-        Activity activity = new Activity();
-        Event event = new Event();
-        event.setStartEvent(new StartEvent());
-        activity.setEvent(event);
-        activity.setId("1");
-        diagramBuilder.getWorkflowProcess().getActivitiesList().add(activity);
-
-        NodeGraphicsInfo ngi3 = new NodeGraphicsInfo();
-        ngi3.setBorderColor("0,0,0");
-        ngi3.setFillColor("102,204,51");
-        ngi3.setHeight(31);
-        ngi3.setWidth(31);
-        ngi3.setIsVisible(true);
-        ngi3.setLaneId("Test_pool_lane1");
-        ngi3.setToolId("JaWE");
-        ngi3.setCoordinates(74,61);
-        activity.getNodeGraphicsInfosList().add(ngi3);
+        laneBuilder.addStartActivity(0, "Test");
+        laneBuilder.addEndActivity(1);
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Package.class);

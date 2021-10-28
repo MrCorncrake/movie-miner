@@ -1,10 +1,8 @@
 package diagram.infos;
 
-import lombok.AllArgsConstructor;
 import lombok.Setter;
 
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
 
 @Setter
 public abstract class GraphicsInfo {
@@ -17,8 +15,6 @@ public abstract class GraphicsInfo {
     private String laneId;
     private Integer height;
     private Integer width;
-
-    private Coordinates coordinates;
 
     @XmlAttribute(name="BorderColor")
     public String getBorderColor() {
@@ -58,31 +54,5 @@ public abstract class GraphicsInfo {
     @XmlAttribute(name="Width")
     public Integer getWidth() {
         return width;
-    }
-
-    @XmlElement(name = "Coordinates", namespace="http://www.wfmc.org/2008/XPDL2.1")
-    public Coordinates getCoordinates() {
-        return coordinates;
-    }
-
-    public void setCoordinates(Integer xCoordinate,  Integer yCoordinate) {
-        this.coordinates = new Coordinates(xCoordinate, yCoordinate);
-    }
-
-    @Setter
-    @AllArgsConstructor
-    private static class Coordinates {
-        private Integer xCoordinate;
-        private Integer yCoordinate;
-
-        @XmlAttribute(name="XCoordinate")
-        public Integer getXCoordinate() {
-            return xCoordinate;
-        }
-
-        @XmlAttribute(name="YCoordinate")
-        public Integer getYCoordinate() {
-            return yCoordinate;
-        }
     }
 }
