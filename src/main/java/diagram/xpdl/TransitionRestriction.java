@@ -1,7 +1,7 @@
-package diagram;
+package diagram.xpdl;
 
-import diagram.restrictions.Join;
-import diagram.restrictions.Split;
+import diagram.xpdl.restrictions.Join;
+import diagram.xpdl.restrictions.Split;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 

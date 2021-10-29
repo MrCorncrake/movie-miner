@@ -1,4 +1,4 @@
-package diagram;
+package diagram.xpdl;
 
 import lombok.NoArgsConstructor;
 import lombok.Setter;

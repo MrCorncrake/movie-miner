@@ -1,4 +1,4 @@
-import diagram.Package;
+import diagram.xpdl.Package;
 import diagram.builders.DiagramBuilder;
 import diagram.builders.LaneBuilder;
 import utils.XPDLNamespaceMapper;

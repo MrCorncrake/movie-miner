@@ -1,7 +1,7 @@
 package diagram.builders;
 
-import diagram.Activity;
-import diagram.infos.NodeGraphicsInfo;
+import diagram.xpdl.Activity;
+import diagram.xpdl.infos.NodeGraphicsInfo;
 import lombok.Getter;
 import utils.DiagramGlobals;
 

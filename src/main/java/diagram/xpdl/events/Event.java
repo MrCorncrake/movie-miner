@@ -1,4 +1,4 @@
-package diagram.events;
+package diagram.xpdl.events;
 
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,8 +1,8 @@
-package diagram;
+package diagram.xpdl;
 
-import diagram.events.Event;
-import diagram.implementations.Implementation;
-import diagram.infos.NodeGraphicsInfo;
+import diagram.xpdl.events.Event;
+import diagram.xpdl.implementations.Implementation;
+import diagram.xpdl.infos.NodeGraphicsInfo;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 

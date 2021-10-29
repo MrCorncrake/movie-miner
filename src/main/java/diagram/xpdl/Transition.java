@@ -1,6 +1,6 @@
-package diagram;
+package diagram.xpdl;
 
-import diagram.infos.ConnectorGraphicsInfo;
+import diagram.xpdl.infos.ConnectorGraphicsInfo;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 

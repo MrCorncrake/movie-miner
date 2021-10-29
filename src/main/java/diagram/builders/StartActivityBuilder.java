@@ -1,7 +1,7 @@
 package diagram.builders;
 
-import diagram.events.Event;
-import diagram.events.StartEvent;
+import diagram.xpdl.events.Event;
+import diagram.xpdl.events.StartEvent;
 import utils.DiagramGlobals;
 
 public class StartActivityBuilder extends BaseActivityBuilder {

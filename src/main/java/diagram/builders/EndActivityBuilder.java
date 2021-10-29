@@ -1,7 +1,7 @@
 package diagram.builders;
 
-import diagram.events.EndEvent;
-import diagram.events.Event;
+import diagram.xpdl.events.EndEvent;
+import diagram.xpdl.events.Event;
 import utils.DiagramGlobals;
 
 public class EndActivityBuilder extends BaseActivityBuilder {

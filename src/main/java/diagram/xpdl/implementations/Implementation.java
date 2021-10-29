@@ -1,4 +1,4 @@
-package diagram.implementations;
+package diagram.xpdl.implementations;
 
 import lombok.Setter;
 

@@ -1,8 +1,8 @@
 package diagram.builders;
 
-import diagram.*;
-import diagram.infos.ConnectorGraphicsInfo;
-import diagram.infos.NodeGraphicsInfo;
+import diagram.xpdl.infos.ConnectorGraphicsInfo;
+import diagram.xpdl.infos.NodeGraphicsInfo;
+import diagram.xpdl.*;
 import lombok.Getter;
 import utils.DiagramGlobals;
 

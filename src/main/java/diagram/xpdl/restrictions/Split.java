@@ -1,4 +1,4 @@
-package diagram.restrictions;
+package diagram.xpdl.restrictions;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

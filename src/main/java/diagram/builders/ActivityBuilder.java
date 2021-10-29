@@ -1,9 +1,9 @@
 package diagram.builders;
 
-import diagram.TransitionRestriction;
-import diagram.implementations.Implementation;
-import diagram.restrictions.Join;
-import diagram.restrictions.Split;
+import diagram.xpdl.TransitionRestriction;
+import diagram.xpdl.implementations.Implementation;
+import diagram.xpdl.restrictions.Join;
+import diagram.xpdl.restrictions.Split;
 import lombok.Getter;
 import utils.DiagramGlobals;
 
