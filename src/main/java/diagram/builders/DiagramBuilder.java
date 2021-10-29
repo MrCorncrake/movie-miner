@@ -28,6 +28,8 @@ public class DiagramBuilder {
 
     private int laneCounter = 0;
 
+    private final ArrayList<LaneBuilder> laneBuildersList = new ArrayList<>();
+
     public DiagramBuilder(String id, String packageName, String diagramName) {
         diagram = new Package(id, packageName);
         diagram.setConformanceClass(new ConformanceClass());
@@ -57,6 +59,7 @@ public class DiagramBuilder {
         LaneBuilder laneBuilder = new LaneBuilder(workflowProcess, pool.getId() + "_lane" + ++laneCounter, "Test_par" + laneCounter, performer);
         pool.getLanesList().add(laneBuilder.getLane());
         diagram.getParticipantsList().add(laneBuilder.getPerformer());
+        laneBuildersList.add(laneBuilder);
         return laneBuilder;
     }
 
@@ -65,6 +68,8 @@ public class DiagramBuilder {
         workflowProcess.getActivitiesList().removeAll(laneBuilder.getActivities());
         workflowProcess.getTransitionsList().removeAll(laneBuilder.getTransitions());
         diagram.getParticipantsList().remove(laneBuilder.getPerformer());
+        laneBuildersList.remove(laneBuilder);
+        laneBuildersList.forEach((LaneBuilder lb) -> lb.disconnectFromLane(laneBuilder));
     }
 
     // Diagram config

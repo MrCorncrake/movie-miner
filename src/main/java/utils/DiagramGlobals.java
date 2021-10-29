@@ -10,7 +10,9 @@ public abstract class DiagramGlobals {
     public static final String TRANSITION_STYLE = "NO_ROUTING_SPLINE";
     public static final Integer ACTIVITY_Y_BASE = 55;
     public static final Integer ACTIVITY_X_BASE = 70;
-    public static final Integer ACTIVITY_SPACING = 100;
+    public static final Integer ACTIVITY_SPACING = 150;
     public static final Integer START_ACTIVITY_SIZE = 31;
     public static final Integer END_ACTIVITY_SIZE = 31;
+    public static final Integer ACTIVITY_WIDTH = 90;
+    public static final Integer ACTIVITY_HEIGHT = 60;
 }

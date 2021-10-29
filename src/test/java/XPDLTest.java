@@ -14,9 +14,21 @@ import java.io.OutputStream;
 public class XPDLTest {
     public static void main(String[] args) {
         DiagramBuilder diagramBuilder = new DiagramBuilder("Test", "Test Package", "Movie");
+
         LaneBuilder laneBuilder = diagramBuilder.addLane("TestParticipant");
         laneBuilder.addStartActivity(0, "Test");
-        laneBuilder.addEndActivity(1);
+        laneBuilder.addActivity(1, "Scene 1 - TestParticipant");
+        laneBuilder.addActivity(2, "Scene 2 - TestParticipant");
+        laneBuilder.addActivity(3, "Scene 3 - TestParticipant");
+        laneBuilder.addEndActivity(4);
+
+        LaneBuilder laneBuilder2 = diagramBuilder.addLane("TestParticipant2");
+        laneBuilder2.addStartActivity(1, "Test");
+        laneBuilder2.addActivity(2, "Scene 2 - TestParticipant2");
+        laneBuilder2.addActivity(4, "Scene 3 - TestParticipant2");
+        laneBuilder2.addEndActivity(5);
+
+        laneBuilder.connectToLaneAt(laneBuilder2, 2);
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Package.class);

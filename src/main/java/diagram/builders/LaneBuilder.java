@@ -7,6 +7,7 @@ import lombok.Getter;
 import utils.DiagramGlobals;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class LaneBuilder {
 
@@ -30,6 +31,9 @@ public class LaneBuilder {
 
     @Getter
     private final ArrayList<Transition> transitions = new ArrayList<>();
+
+    @Getter
+    private final HashMap<Integer, ActivityBuilder> activityBuildersMap = new HashMap<>();
 
     public LaneBuilder(WorkflowProcess workflowProcess, String id, String name, String performer) {
         this.workflowProcess = workflowProcess;
@@ -62,14 +66,17 @@ public class LaneBuilder {
         lane.getPerformersList().clear();
         lane.getPerformersList().add(performer);
         this.performer.setId(performer);
+        for(Integer i : activityBuildersMap.keySet()) {
+                activityBuildersMap.get(i).setPerformer(performer);
+        }
     }
 
     // Transitions
 
-    private void addTransition(Activity to) {
+    private void addTransition(BaseActivityBuilder from, BaseActivityBuilder to) {
         Transition transition = new Transition(lane.getId() + "_transition" + transitionCounter++);
-        transition.setFrom(lastActivity.getActivity().getId());
-        transition.setTo(to.getId());
+        transition.setFrom(from.getActivity().getId());
+        transition.setTo(to.getActivity().getId());
 
         ConnectorGraphicsInfo connectorGraphicsInfo = new ConnectorGraphicsInfo();
         connectorGraphicsInfo.setFillColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
@@ -79,27 +86,67 @@ public class LaneBuilder {
 
         transition.getConnectorGraphicsInfosList().add(connectorGraphicsInfo);
 
+        if(to instanceof ActivityBuilder) {
+            ((ActivityBuilder) to).addTransitionRef(transition.getId());
+        }
+
         transitions.add(transition);
         workflowProcess.getTransitionsList().add(transition);
     }
 
+    public boolean connectToLaneAt(LaneBuilder lane, Integer position) {
+        if (activityBuildersMap.containsKey(position) && lane.activityBuildersMap.containsKey(position)) {
+            addTransition(activityBuildersMap.get(position), lane.activityBuildersMap.get(position));
+            lane.addTransition(lane.activityBuildersMap.get(position), activityBuildersMap.get(position));
+            return true;
+        }
+        return false;
+    }
+
+    public void disconnectFromLane(LaneBuilder lane) {
+        ArrayList<Transition> toRemove = new ArrayList<>();
+        transitions.forEach((Transition t) -> {
+            if(t.getTo().contains(lane.getLane().getId()))  {
+                toRemove.add(t);
+            }
+        });
+        transitions.removeAll(toRemove);
+        for(Integer i : activityBuildersMap.keySet()) {
+            toRemove.forEach((Transition t) -> activityBuildersMap.get(i).removeTransitionRef(t.getId()));
+            lane.getTransitions().forEach((Transition t) -> activityBuildersMap.get(i).removeTransitionRef(t.getId()));
+        }
+    }
+
     // Activities
 
-    public StartActivityBuilder addStartActivity(Integer position, String name) {
+    private void addAnyActivity(Integer position, BaseActivityBuilder activityBuilder) {
+        activities.add(activityBuilder.getActivity());
+        workflowProcess.getActivitiesList().add(activityBuilder.getActivity());
+        lastActivity = activityBuilder;
+    }
+
+    public boolean addStartActivity(Integer position, String name) {
+        if(activityBuildersMap.containsKey(position)) return false;
         StartActivityBuilder startActivityBuilder = new StartActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), position);
-        activities.add(startActivityBuilder.getActivity());
-        workflowProcess.getActivitiesList().add(startActivityBuilder.getActivity());
-        lastActivity = startActivityBuilder;
-        return startActivityBuilder;
+        addAnyActivity(position, startActivityBuilder);
+        return true;
     }
 
-    public EndActivityBuilder addEndActivity(Integer position) {
+    public boolean addEndActivity(Integer position) {
+        if(activityBuildersMap.containsKey(position)) return false;
         EndActivityBuilder endActivityBuilder = new EndActivityBuilder(lane.getId() + "_activity" + activityCounter++, lane.getId(), position);
-        activities.add(endActivityBuilder.getActivity());
-        addTransition(endActivityBuilder.getActivity());
-        workflowProcess.getActivitiesList().add(endActivityBuilder.getActivity());
-        return endActivityBuilder;
+        addTransition(lastActivity, endActivityBuilder);
+        addAnyActivity(position, endActivityBuilder);
+        return true;
     }
 
+    public boolean addActivity(Integer position, String name) {
+        if(activityBuildersMap.containsKey(position)) return false;
+        ActivityBuilder activityBuilder = new ActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), performer.getId(),position);
+        addTransition(lastActivity, activityBuilder);
+        addAnyActivity(position, activityBuilder);
+        activityBuildersMap.put(position, activityBuilder);
+        return true;
+    }
 
 }
