@@ -107,6 +107,7 @@ public class LaneBuilder {
         ArrayList<Transition> toRemove = new ArrayList<>();
         transitions.forEach((Transition t) -> {
             if(t.getTo().contains(lane.getLane().getId()))  {
+                workflowProcess.getTransitionsList().remove(t);
                 toRemove.add(t);
             }
         });
@@ -119,7 +120,7 @@ public class LaneBuilder {
 
     // Activities
 
-    private void addAnyActivity(Integer position, BaseActivityBuilder activityBuilder) {
+    private void addAnyActivity(BaseActivityBuilder activityBuilder) {
         activities.add(activityBuilder.getActivity());
         workflowProcess.getActivitiesList().add(activityBuilder.getActivity());
         lastActivity = activityBuilder;
@@ -128,7 +129,7 @@ public class LaneBuilder {
     public boolean addStartActivity(Integer position, String name) {
         if(activityBuildersMap.containsKey(position)) return false;
         StartActivityBuilder startActivityBuilder = new StartActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), position);
-        addAnyActivity(position, startActivityBuilder);
+        addAnyActivity(startActivityBuilder);
         return true;
     }
 
@@ -136,7 +137,7 @@ public class LaneBuilder {
         if(activityBuildersMap.containsKey(position)) return false;
         EndActivityBuilder endActivityBuilder = new EndActivityBuilder(lane.getId() + "_activity" + activityCounter++, lane.getId(), position);
         addTransition(lastActivity, endActivityBuilder);
-        addAnyActivity(position, endActivityBuilder);
+        addAnyActivity(endActivityBuilder);
         return true;
     }
 
@@ -144,7 +145,7 @@ public class LaneBuilder {
         if(activityBuildersMap.containsKey(position)) return false;
         ActivityBuilder activityBuilder = new ActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), performer.getId(),position);
         addTransition(lastActivity, activityBuilder);
-        addAnyActivity(position, activityBuilder);
+        addAnyActivity(activityBuilder);
         activityBuildersMap.put(position, activityBuilder);
         return true;
     }
