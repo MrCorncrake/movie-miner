@@ -1,7 +1,7 @@
 {
   "name" : "INDEPENDENCE DAY",
   "authors" : [ "Dean Devlin", "Roland Emmerich" ],
-  "characters" : [ "ALEX", "TALL MAN", "THOMSON", "TEDDY", "STEVE", "MECHANIC #2", "MECHANIC #1", "SECOND OFFICER", "PILOT", "TALL MAN (O.S.)", "RUSSIAN #2", "RUSSIAN #1", "EAGLE #2 PILOT", "MARTY", "TECHNICIAN", "PHILIP", "DYLAN", "JIMMY", "REDNECK", "MIGUEL", "MAN", "PRESS AIDE", "REGINALD", "JASMINE (O.S.)", "RUSSELL", "MITCHELL", "TECHY", "BLITZER", "SAILOR #1", "FEMALE CO-WORKER", "CHIEF OF STAFF", "OKUN", "CNN REPORTER", "TECHNICIAN #2", "TECHNICIAN #1", "WATSON", "RADAR TECH #1", "RADAR TECH #2", "GENERAL GRAY", "RADIO VOICE", "ALICIA", "JASMINE", "PUNDIT #2", "PUNDIT #1", "OFFICER", "LIEUTENANT", "SECRET SERVICE GUY", "WOMAN'S VOICE", "OPERATOR", "WOLF BLITZER", "RADIO", "STEVE (O.S.)", "POLICE (P.A.)", "DAVID", "CHAPLAIN", "WHITMORE", "GUARD", "JAPANESE PILOT", "MED ASSIST #1", "MED ASSIST #2", "RUSSELL (O.S.)", "RADIO NEWSMAN", "MALE VOICE (V.O.)", "AAC CINC", "AIDE #1", "NIMZIKI", "SOLDIER", "AIDE #2", "AIDE #3", "SUPERVISOR", "MOISHE", "PATRICIA", "TIFFANY", "NEWSCASTER", "COMMANDING OFFICER", "AIDE", "MARTY (O.S.)", "MALE VOICE (O.S.)", "SOLIDER", "MARIO", "BELIEVERS", "PRESIDENT WHITMORE", "MARGARET", "TROY", "REPORTER", "GENERAL GREY", "HOUSEWIFE", "NEWSCASTERS", "LUCAS", "COMMANDER", "STAFFER", "SECRET SERVICEMAN", "TECH THREE", "TECH TWO", "SECURITY GUARD", "OLDER BOY", "TECH ONE", "PRESIDENT", "ISAACS", "CONSTANCE" ],
+  "characters" : [ "ALEX", "TALL MAN", "THOMSON", "TEDDY", "DAVID", "STEVE", "CHAPLAIN", "WHITMORE", "MECHANIC #2", "MECHANIC #1", "SECOND OFFICER", "PILOT", "RUSSIAN #2", "RUSSIAN #1", "GUARD", "JAPANESE PILOT", "EAGLE #2 PILOT", "MARTY", "MED ASSIST #1", "MED ASSIST #2", "TECHNICIAN", "POLICE", "RADIO NEWSMAN", "PHILIP", "AAC CINC", "AIDE #1", "NIMZIKI", "SOLDIER", "AIDE #2", "AIDE #3", "DYLAN", "SUPERVISOR", "MOISHE", "PATRICIA", "TIFFANY", "JIMMY", "REDNECK", "NEWSCASTER", "COMMANDING OFFICER", "AIDE", "MIGUEL", "MAN", "SOLIDER", "PRESS AIDE", "MARIO", "REGINALD", "BELIEVERS", "RUSSELL", "PRESIDENT WHITMORE", "MITCHELL", "TECHY", "BLITZER", "SAILOR #1", "FEMALE CO-WORKER", "CHIEF OF STAFF", "MARGARET", "TROY", "REPORTER", "OKUN", "GENERAL GREY", "CNN REPORTER", "CO-WORKER #3", "CO-WORKER #2", "HOUSEWIFE", "NEWSCASTERS", "TECHNICIAN #2", "TECHNICIAN #1", "WATSON", "LUCAS", "RADAR TECH #1", "RADAR TECH #2", "COMMANDER", "STAFFER", "SECRET SERVICEMAN", "GENERAL GRAY", "RADIO VOICE", "ALICIA", "JASMINE", "TECH THREE", "MALE VOICE", "PUNDIT #2", "TECH TWO", "PUNDIT #1", "OFFICER", "SECURITY GUARD", "LIEUTENANT", "SECRET SERVICE GUY", "OLDER BOY", "WOMAN'S VOICE", "OPERATOR", "TECH ONE", "PRESIDENT", "WOLF BLITZER", "RADIO", "ISAACS", "CONSTANCE" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "",
@@ -1025,7 +1025,7 @@
         "line" : "Damn it, he was doing you a favor. You know how hard it is to find someone who doesn't think you're completely crazy? What are we supposed to do now? Huh? Where are we supposed to go now?",
         "followup" : "Pissed, Miguel peels away, kicking gravel back at Russell. Pathetically, he reaches into his jacket and pulls out a bottle of Jack Daniels. He takes a healthy swig. "
       } ],
-      "key_words" : [ "RUSSELL", "MIGUEL'S POV", "ITS SIDE", "MOMENTS LATER", "SEES", "ANGLE", "LINE OF TREES", "WING AIRPLANE", "SLICES", "AN OLD BI", "BUZZES", "RUSSELL BRENNON", "MIGUEL", "OTHER SIDE OF TREES", "I'" ]
+      "key_words" : [ "RUSSELL", "MIGUEL'S POV", "ITS SIDE", "MOMENTS LATER", "SEES", "ANGLE", "LINE OF TREES", "SLICES", "BUZZES", "RUSSELL BRENNON", "MIGUEL", "AN OLD BI-WING AIRPLANE", "OTHER SIDE OF TREES", "I'" ]
     } ]
   }, {
     "id" : 31,
@@ -1394,7 +1394,7 @@
         "line" : "(stopping in doorway) David, are you watching this?",
         "followup" : "David waves her away, deep in concentration. Suddenly a computer BEEPS. Excitedly David prints out his finding. He grabs it and exits. "
       } ],
-      "key_words" : [ "FEMALE CO", "BEEPS", "WORKER" ]
+      "key_words" : [ "BEEPS", "FEMALE CO-WORKER" ]
     } ]
   }, {
     "id" : 44,
@@ -1502,8 +1502,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "CONSTANCE (filtered) ...the other two are on our Eastern seaboard headed towards New York and Washington, D.C... Suddenly hectic CO-WORKER #2 appear at the door. CO-WORKER #2 Jamie says this building has an old bomb shelter. We're heading down there now.",
+      "desc" : "CONSTANCE (filtered) ...the other two are on our Eastern seaboard headed towards New York and Washington, D.C... Suddenly hectic CO-WORKER #2 appear at the door.",
       "sentences" : [ {
+        "shot_id" : 0,
+        "character" : "CO-WORKER #2",
+        "line" : "Jamie says this building has an old bomb shelter. We're heading down there now.",
+        "followup" : ""
+      }, {
         "shot_id" : 0,
         "character" : "MARTY",
         "line" : "(dry; to David) Feel no shame in hiding. ",
@@ -1638,8 +1643,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "David pushes past the people making their way down, fighting against the tide. Another CO-WORKER (#3) stops halfway. CO-WORKER #3 Aren't you coming, David?",
+      "desc" : "David pushes past the people making their way down, fighting against the tide. Another CO-WORKER (#3) stops halfway.",
       "sentences" : [ {
+        "shot_id" : 0,
+        "character" : "CO-WORKER #3",
+        "line" : "Aren't you coming, David?",
+        "followup" : ""
+      }, {
         "shot_id" : 0,
         "character" : "DAVID",
         "line" : "No way, I've got to see this. ",
@@ -1990,7 +2000,7 @@
       "desc" : "Steve picks up the morning paper and opens it. He doesn't notice the DOZENS of neighbors quickly packing up and rushing to get away as he reads the paper oblivious.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "JASMINE (O.S.)",
+        "character" : "JASMINE",
         "line" : "You want milk with your coffee?",
         "followup" : "Jasmine appears behind him, her view, too, obscured by the open newspaper. Suddenly another HELICOPTER room overhead. Annoyed, Steve lowers his paper. STEVE AND JASMINE'S POV As the paper is lowered we SEE the helicopter SWOOP down. As it flies away we SEE... THE ALIEN CRAFT Covering all of Los Angeles. This is the first time we see the entire craft. It is stupendous. Steve's jaw hits the floor. The milk goes CRASHING as Jasmine SCREAMS. "
       } ],
@@ -2026,7 +2036,7 @@
         "followup" : "As he speaks we get quick glimpses of the other ships."
       }, {
         "shot_id" : 0,
-        "character" : "MARTY (O.S.)",
+        "character" : "MARTY",
         "line" : "I know, babycakes. Calm down.",
         "followup" : "David spins around at the sound of the voice but the room is still empty. David leans down and looks under a desk where he finds Marty still on the phone with his wife."
       }, {
@@ -2677,7 +2687,7 @@
         "followup" : "Dangerously close to a heart attack, Moishe is, for once, at a loss for words. Over their adrenaline pumped faces..."
       }, {
         "shot_id" : 0,
-        "character" : "MALE VOICE (V.O.)",
+        "character" : "MALE VOICE",
         "line" : "...put your hands together for Sabrina! ",
         "followup" : ""
       } ],
@@ -2842,7 +2852,7 @@
       "desc" : "A crowded locker room. Steve enters.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "MALE VOICE (O.S.)",
+        "character" : "MALE VOICE",
         "line" : "Where the hell've you been?",
         "followup" : ""
       }, {
@@ -3469,7 +3479,7 @@
         "followup" : "She digs her drawing of an alien out of her purse as she excitedly rushes up to the others. She holds it up to the sky, proudly. POLICE HELICOPTER From out of nowhere the helicopter LIFTS up over the side of the building, shining its spotlight down the believers below."
       }, {
         "shot_id" : 0,
-        "character" : "POLICE (P.A.)",
+        "character" : "POLICE",
         "line" : "...we are evacuating the city. Please leave the building at once.",
         "followup" : "The sign holders begin to \"boo\" the police, ignoring them. "
       } ],
@@ -4204,7 +4214,7 @@
       "on" : "LOCATION",
       "desc" : "In unison these amazing birds DIVE together, realigning themselves into six groups of five, spreading out to attack different areas of the ship. STEVE'S GROUP The first attack group, Steve's, are the first to near the colossal alien craft. Simultaneously they drop their AIM-9 sidewinder missiles. PACK OF AIM-9 SIDEWINDER MISSILES They reach the same quarter-mile proximity and EXPLODE. ",
       "sentences" : [ ],
-      "key_words" : [ "EXPLODE", "SIDEWINDER MISSILES", "DIVE", "AIM", "STEVE'S GROUP", "PACK OF AIM" ]
+      "key_words" : [ "EXPLODE", "DIVE", "AIM", "STEVE'S GROUP", "PACK OF AIM-9 SIDEWINDER MISSILES" ]
     } ]
   }, {
     "id" : 154,
@@ -4756,7 +4766,7 @@
         "followup" : "Suddenly we HEAR the CLICKING of a rifle COCKING."
       }, {
         "shot_id" : 0,
-        "character" : "MALE VOICE (O.S.)",
+        "character" : "MALE VOICE",
         "line" : "Who's got the key?",
         "followup" : "Jasmine turns and see a REDNECK leveling his rifle at her. Behind him a small damaged sports car pulls up, packed to the gills with stolen, looted appliances."
       }, {
@@ -4776,7 +4786,7 @@
         "followup" : "Two GUYS rush from their vehicle over to the maintenance truck, pulling the injured off the tailback."
       }, {
         "shot_id" : 0,
-        "character" : "TALL MAN (O.S.)",
+        "character" : "TALL MAN",
         "line" : "Repent! Sinners! Repent! The end hast come!",
         "followup" : "Running up from behind, the Tall Man comes over screaming. The Redneck turns his gun on him."
       }, {
@@ -6396,7 +6406,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "STEVE (O.S.)",
+        "character" : "STEVE",
         "line" : "I wouldn't say that, sir.",
         "followup" : "Everyone turns to Steve who steps through the crowd."
       }, {
@@ -6856,7 +6866,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "MALE VOICE (O.S.)",
+        "character" : "MALE VOICE",
         "line" : "Do you have the ring?",
         "followup" : "As we REVERSE ANGLE we see that we are in a military CHAPEL, a large crucifix on the wall. A CHAPLAIN stands by the altar."
       }, {
@@ -7870,7 +7880,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "RUSSELL (O.S.)",
+        "character" : "RUSSELL",
         "line" : "Sorry I'm late, Mr. President.",
         "followup" : "The President spins and SEES darting out of the clouds... RUSSELL'S OLD BI-PLANE Russell ZOOMS past the President and alien attackers, barely missing their FIRE."
       }, {
@@ -7884,7 +7894,7 @@
         "line" : "(into mic) It's okay, Sir. I'm packin'.",
         "followup" : "We SEE he has a large MISSILES propped up in the seat behind him. A light on it flashes ARMED. "
       } ],
-      "key_words" : [ "RUSSELL", "ARMED", "SEES", "RUSSELL'S OLD BI", "SEE", "PLANE", "FIRE", "PRESIDENT", "ZOOMS", "MISSILES", "I'" ]
+      "key_words" : [ "RUSSELL", "ARMED", "SEES", "RUSSELL'S OLD BI-PLANE", "SEE", "FIRE", "PRESIDENT", "ZOOMS", "MISSILES", "I'" ]
     } ]
   }, {
     "id" : 279,

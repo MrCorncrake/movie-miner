@@ -1,7 +1,7 @@
 {
   "name" : "RUSH HOUR",
   "authors" : [ "Ross LaManna", "Jim Kouf" ],
-  "characters" : [ "MAN'S VOICE", "WHITNEY", "EVANS", "GRIFFIN (cont'd)", "LAFONTAINE", "DRIVER", "CARTER (cont'd)", "BODYGUARD", "LOIS VO", "SANG", "FIRST DETECTIVE", "CARTER'S VOICE", "NEWS ANNOUNCER", "JOHNSON (cont'd)", "BIG DUDE", "OSCAR", "SOON YOUNG'S VOICE", "HESS", "CARTER", "FBI AGENT WILLIS", "RUSS", "PATIO AGENT", "EVANS VOICE", "DIEL", "LEE AND CARTER", "GRIFFIN", "LOIS", "AGENT", "LOIS (cont'd)", "LEE (cont'd)", "SOCIALITE", "MONROE", "THE DETECTIVE", "SOON YOUNG", "AGENT WHITNEY", "LEAD AGENT TACTICAL TEAM", "WHITNEY (cont'd)", "OFFICER", "POLICE OFFICER", "LEE", "ATTRACTIVE WAITRESS", "JOHNSON", "SANG'S VOICE", "CARTER VO", "LEE VO", "RUSS (cont'd)", "HAN", "FBI AGENT GEIGER", "HOSTESS", "LEE'S VOICE", "SECOND DETECTIVE", "SECOND POLICE OFFICER", "LAFONTAINE (cont'd)", "FLIGHT ATTENDANT" ],
+  "characters" : [ "MAN'S VOICE", "WHITNEY", "EVANS", "CARTER", "FBI AGENT WILLIS", "RUSS", "LAFONTAINE", "DRIVER", "PATIO AGENT", "EVANS VOICE", "DIEL", "LEE AND CARTER", "GRIFFIN", "LOIS", "AGENT", "CHI-YING", "SOCIALITE", "BODYGUARD", "LOIS VO", "MONROE", "THE DETECTIVE", "SANG", "FIRST DETECTIVE", "CARTER'S VOICE", "SOON YOUNG", "AGENT WHITNEY", "LEAD AGENT TACTICAL TEAM", "NEWS ANNOUNCER", "OFFICER", "POLICE OFFICER", "LEE", "BIG DUDE", "ATTRACTIVE WAITRESS", "OSCAR", "JOHNSON", "SANG'S VOICE", "CARTER VO", "LEE VO", "HAN", "FBI AGENT GEIGER", "HOSTESS", "SOON YOUNG'S VOICE", "LEE'S VOICE", "HESS", "SECOND DETECTIVE", "SECOND POLICE OFFICER", "FLIGHT ATTENDANT" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "FADE IN:",
@@ -400,7 +400,7 @@
         "followup" : "Lois shoves Johnson ahead, revealing the GUN in one hand and Johnson's TRANSMITTER in the other."
       }, {
         "shot_id" : 1,
-        "character" : "LOIS (cont'd)",
+        "character" : "LOIS",
         "line" : "(to Lafontaine ) Let's kill her. (cocking the .38) I'll flip you for it.",
         "followup" : "Lafontaine turns to Carter, but Carter is already throwing a punch. Connecting. Lafontaine falls. The remote drops as Lois FIRES at Carter. The bullet ricochets off the car. Lafontaine sees the remote, makes a dive for it. But another hand gets there first. Lois turns the gun on Johnson."
       }, {
@@ -473,7 +473,7 @@
         "followup" : "Carter looks at Johnson and points to his heart. She suddenly looks pissed."
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON (cont'd)",
+        "character" : "JOHNSON",
         "line" : "Oh, give it up! ",
         "followup" : ""
       } ],
@@ -511,8 +511,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "ESTABLISHING. FLAG of PEOPLES REPUBLIC OF CHINA hanging from a standard. A MERCEDES waiting in front. DRIVER and BODY GUARD with the car. Han and Soon Young finally appear. Heading for the car. Soon Young gets into the back seat. And just as Han is about to get in next to her, Chi-Ying comes out after him. CHI-YING Telephone. China. The Ambassador holds up his hands in exasperation. What's a guy to do? ",
+      "desc" : "ESTABLISHING. FLAG of PEOPLES REPUBLIC OF CHINA hanging from a standard. A MERCEDES waiting in front. DRIVER and BODY GUARD with the car. Han and Soon Young finally appear. Heading for the car. Soon Young gets into the back seat. And just as Han is about to get in next to her, Chi-Ying comes out after him.",
       "sentences" : [ {
+        "shot_id" : 0,
+        "character" : "CHI-YING",
+        "line" : "Telephone. China.",
+        "followup" : "The Ambassador holds up his hands in exasperation. What's a guy to do? "
+      }, {
         "shot_id" : 0,
         "character" : "HAN",
         "line" : "Drop her off, then come back. (to Body Guard) Go with them. (to Soon Young) I love you.",
@@ -688,7 +693,7 @@
         "followup" : "DAN WHITNEY, thirty-eight, ex-football type, solid American, shakes hands with the Ambassador."
       }, {
         "shot_id" : 0,
-        "character" : "RUSS (cont'd)",
+        "character" : "RUSS",
         "line" : "I know this is a difficult time but...",
         "followup" : ""
       }, {
@@ -832,7 +837,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Captain wants to see me.",
         "followup" : ""
       }, {
@@ -1231,7 +1236,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Yeah, gotta be careful. Might get run over by a Sky Cap. ",
         "followup" : ""
       } ],
@@ -1297,7 +1302,7 @@
         "followup" : "No response from Lee. Carter assumes he can't speak English."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Oh shit, you gotta be kiddin'. Carter holds out his FBI IDENTIFICATION.",
         "followup" : ""
       }, {
@@ -2230,7 +2235,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "I see you came via Malibu.",
         "followup" : ""
       }, {
@@ -2480,7 +2485,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(to himself) Lame ass country. ",
         "followup" : ""
       } ],
@@ -2519,7 +2524,7 @@
       "desc" : "He pulls across the street from a MINI-MART. We see EMPTY PHONE BOOTHS out front.",
       "sentences" : [ {
         "shot_id" : 1,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Wait here.",
         "followup" : "Carter shuts the door. Starts away. Stops. Then returns to the car, reaches in and quickly snaps a hand cuff on Lee's arm and another on the steering wheel."
       }, {
@@ -2575,7 +2580,7 @@
         "followup" : "Carter reaches down to start the car and finds that his steering wheel is gone. Along with Lee."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Sonuvabitch! ",
         "followup" : ""
       } ],
@@ -2598,7 +2603,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "WHITNEY (cont'd)",
+        "character" : "WHITNEY",
         "line" : "Where's Carter?",
         "followup" : ""
       }, {
@@ -2653,7 +2658,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Hold me back. (yelling) After I kick it first!",
         "followup" : ""
       }, {
@@ -3019,7 +3024,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(back to phone) I mean I don't think he even gets paid in dollars. They probably pay in yang or yin or...rice, whatever it is they got there. Lee walks over. Carter holds the phone so Lee can hear.",
         "followup" : ""
       }, {
@@ -3127,7 +3132,7 @@
         "followup" : "Carter offers a smile, then starts back toward Lee. The smile disappears as he turns his back on Russ."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(to himself) Prick. ",
         "followup" : ""
       } ],
@@ -3248,7 +3253,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Let's go see a friend of mine. ",
         "followup" : ""
       } ],
@@ -3325,7 +3330,7 @@
         "followup" : "Carter gets out of the car and walks away. Lee doesn't move. After a beat, Carter comes back."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "What?",
         "followup" : ""
       }, {
@@ -3366,22 +3371,22 @@
       "desc" : "CARTER (to the guy) That better not be what I think it is. Gimme that. Carter swipes the joint out of the guy's hand. He takes a big hit. He holds it and tastes it for a beat. Lee is looking at Carter in disbelief.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Wait a minute. He takes ANOTHER HIT. Gives the joint back.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Don't leave town. I'm watching you.",
         "followup" : "Carter keeps moving. He walks by a luscious looking girl with tight stuff on."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "You see my ride, baby? You'd look good in that. Go outside. Take a look. He walks by a guy who gives him a dirty look.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "What are you lookin' at, dickhead? three more wait and four nasty looking BITCHES watch the action.",
         "followup" : "One of the players looks nervous when he sees Carter. This is OSCAR."
       }, {
@@ -3523,7 +3528,7 @@
         "followup" : "Carter spots one of the fighters ON THE FLOOR as they walk out. It's the same guy who was smoking the joint. The guy moans as they go past."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(to the doper/fighter) Hey, lightweight, I told you to lay off that shit. (over his shoulder) Get an education! ",
         "followup" : ""
       } ],
@@ -3652,7 +3657,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LAFONTAINE (cont'd)",
+        "character" : "LAFONTAINE",
         "line" : "(quietly) Fang Shan. A restaurant. China Town. ",
         "followup" : ""
       } ],
@@ -4534,7 +4539,7 @@
         "followup" : "Carter's outburst draws Sang's attention. And Lee takes advantage - swinging the tray of food at him. The metal tray smashes into Sang's head, food flying. The men charge Lee. Lee swings the tray, smacking the first two in the heads, blocking a punch from a third, then flinging it like a frisbee at Shu, catching him in the forehead."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(shocked) Damn, you're good!",
         "followup" : "Carter gets immediately decked by two guys who run into the room."
       }, {
@@ -5167,7 +5172,7 @@
         "followup" : "Carter moves up the aisle to a FLIGHT ATTENDANT. He takes a handkerchief out of his pocket and puts it over his face."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Excuse me. I'm declaring a medical emergency.",
         "followup" : ""
       }, {
@@ -5197,22 +5202,22 @@
         "followup" : "A collective GASP goes up from the first class passengers."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Especially bad breath.",
         "followup" : "Lee immediately starts MOANING. Carter suddenly goes into FAKE CHINESE, directed at Lee. Lee looks at him for a beat and then ANSWERS IN REAL MANDARIN. Oh God, we're in trouble. He's already started the chills... Lee starts SHAKING like he has a fever."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "And diarrhea. Lee looks at him like, łhow am I supposed to do that?˛",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "I mean gas?",
         "followup" : "Lee looks over at a middle aged woman, and COUGHS at her. The woman SCREAMS."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "Open the door!",
         "followup" : ""
       }, {
@@ -5420,7 +5425,7 @@
         "followup" : "Lee gallantly opens the door for Johnson who reluctantly gets in the back seat. Lee starts to get back there with her."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "(to Lee) Where the hell are you goin'?!",
         "followup" : "Lee gets up front. "
       } ],
@@ -5702,7 +5707,7 @@
         "followup" : ""
       }, {
         "shot_id" : 5,
-        "character" : "GRIFFIN (cont'd)",
+        "character" : "GRIFFIN",
         "line" : "Welcome to Chinese Expo. The exhibit you see before you represents over a thousand years of Chinese art. Up until several months ago, most of this exhibit was in the hands of one private collector. (pause) Me. So, I should say more correctly, welcome to my exhibit. ",
         "followup" : ""
       } ],
@@ -5719,12 +5724,12 @@
       "desc" : "He looks up at Griffin too as Johnson keeps filling him in.",
       "sentences" : [ {
         "shot_id" : 7,
-        "character" : "GRIFFIN (cont'd)",
+        "character" : "GRIFFIN",
         "line" : "Great collectors are born, not made. It took most of my life to find and catalog the priceless pieces you see. And then, in one fell swoop, they were taken from me. But tonight, I will be paid in full. Griffin holds up a DETONATOR.",
         "followup" : ""
       }, {
         "shot_id" : 7,
-        "character" : "GRIFFIN (cont'd)",
+        "character" : "GRIFFIN",
         "line" : "A bomb is wired to Ambassador Han's daughter in a car outside.",
         "followup" : "AUDIBLE GASPS from the floor. Carter immediately ducks down in the crowd and runs bent over for the exit."
       } ],
@@ -5735,12 +5740,12 @@
       "desc" : "He turns to his lapel mike. It's immediately ripped off his collar by Sang. Other agents on the floor are quickly stopped from communicating by Griffin's men.",
       "sentences" : [ {
         "shot_id" : 8,
-        "character" : "GRIFFIN (cont'd)",
+        "character" : "GRIFFIN",
         "line" : "No one moves! Lee stares up at Griffin trying to figure out what to do.",
         "followup" : ""
       }, {
         "shot_id" : 8,
-        "character" : "GRIFFIN (cont'd)",
+        "character" : "GRIFFIN",
         "line" : "She will die if I push this button. But if you are all patient, my transportation will be here shortly and you can continue to enjoy my collection. Everyone just stay calm. (to Han) You just picked on the wrong guy, my friend. ",
         "followup" : ""
       } ],
@@ -5919,12 +5924,12 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON (cont'd)",
+        "character" : "JOHNSON",
         "line" : "Get rid of it. The detonator can still set it off. And this... She points to a SWITCH on the front of the vest. ",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON (cont'd)",
+        "character" : "JOHNSON",
         "line" : "Don't touch. It's a back up. Short fuse. Five...maybe ten seconds.",
         "followup" : ""
       }, {
@@ -6156,7 +6161,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LEE (cont'd)",
+        "character" : "LEE",
         "line" : "It is so sad. So much beauty ruined. So much of our culture gone. Yes. But... (pointing) Life goes on.",
         "followup" : "He's pointing to Soon Young who is in the arms of her mother. Lee smiles."
       } ],
@@ -6202,7 +6207,7 @@
         "followup" : "Carter looks at Lee and points up to the ladder that leads to the catwalk."
       }, {
         "shot_id" : 1,
-        "character" : "CARTER (cont'd)",
+        "character" : "CARTER",
         "line" : "You got circus blood in you?",
         "followup" : ""
       }, {

@@ -1,7 +1,7 @@
 {
   "name" : "TITANIC",
   "authors" : [ "James Cameron" ],
-  "characters" : [ "OLD ROSE", "GENTLEMAN", "LOVEJOY", "ISMAY (V.O.)", "CHIEF ENGINEER BELL", "FIRST OFFICER MURDOCH", "JACK AND ROSE", "LUCILE", "CREWMAN", "BELL", "HELGA", "MOODY", "SEAMAN", "MOTHER", "LIZZY", "ISADOR", "REPORTER (V.O.)", "MURDOCH", "MAN", "CAMERAMAN", "LOVETT", "CARDPLAYER", "MADELEINE", "BJORN", "GUGGENHEIM", "STEWARD BARNES", "CARPATHIA STEWARD", "SMITH", "DANIEL", "JOUGHIN", "PUBKEEPER", "HUSBAND", "ROSE", "SVEN", "COLONEL GRACIE", "CNN REPORTER (V.O.)", "BROCK", "SIR COSMO", "LOVETT (V.O.)", "BODINE (V.O.)", "STEWARD", "HARTLEY", "OPERATOR", "YURI", "ASTOR", "EVANS", "JACK / ROSE", "IDA", "WOMAN", "MASTER AT ARMS", "GROVES", "HITCHINS", "MOLLY", "BARRETT", "YOUNG STEWARD", "TOMMY", "IRISH WOMAN", "BUELL", "LIGHTOLLER", "MOLLY BROWN", "TRUDY", "HUTCHINSON", "FATHER BYLES", "CAL", "FABRIZIO", "LOWE", "ANATOLY", "FIREMAN HENDRICKSON", "CAPTAIN SMITH", "FABRIZIO / JACK", "LITTLE BOY", "ANNOUNCER", "PURSER MCELROY", "WAITER", "STEWARD #2", "FLEET (V.O.)", "STEWARD #1", "BODINE", "FLEET", "RUTH", "SEVERAL PEOPLE", "OLD ROSE (V.O.)", "CUT TO REVERSE:", "PHILLIPS", "WOMAN IN CROWD", "IRISH MAN", "MARVIN", "GRACIE", "OLAF", "PORTER", "ROWE", "LEE", "ISMAY", "BRIDE", "MCCAULEY", "ANDREWS", "IMMIGRATION OFFICER", "YALEY", "JACK" ],
+  "characters" : [ "OLD ROSE", "EVANS", "GENTLEMAN", "LOVEJOY", "JACK / ROSE", "IDA", "CHIEF ENGINEER BELL", "WOMAN", "MASTER AT ARMS", "FIRST OFFICER MURDOCH", "GROVES", "HITCHINS", "JACK AND ROSE", "MOLLY", "LUCILE", "BARRETT", "YOUNG STEWARD", "TOMMY", "CREWMAN", "IRISH WOMAN", "BUELL", "BELL", "HELGA", "LIGHTOLLER", "MOODY", "MOLLY BROWN", "SEAMAN", "MOTHER", "TRUDY", "HUTCHINSON", "FATHER BYLES", "LIZZY", "CAL", "FABRIZIO", "ISADOR", "LOWE", "MURDOCH", "ANATOLY", "MAN", "CAMERAMAN", "FIREMAN HENDRICKSON", "LOVETT", "CARDPLAYER", "CAPTAIN SMITH", "MADELEINE", "BJORN", "GUGGENHEIM", "FABRIZIO / JACK", "LITTLE BOY", "ANNOUNCER", "STEWARD BARNES", "PURSER MCELROY", "WAITER", "STEWARD #2", "STEWARD #1", "CARPATHIA STEWARD", "BODINE", "REPORTER", "FLEET", "RUTH", "CNN REPORTER", "SEVERAL PEOPLE", "SMITH", "CUT TO REVERSE:", "PHILLIPS", "WOMAN IN CROWD", "IRISH MAN", "DANIEL", "JOUGHIN", "MARVIN", "GRACIE", "PUBKEEPER", "HUSBAND", "OLAF", "ROSE", "SVEN", "COLONEL GRACIE", "PORTER", "ROWE", "LEE", "BROCK", "ISMAY", "SIR COSMO", "STEWARD", "BRIDE", "MCCAULEY", "HARTLEY", "OPERATOR", "ANDREWS", "IMMIGRATION OFFICER", "YURI", "YALEY", "JACK", "ASTOR" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "",
@@ -106,7 +106,7 @@
         "followup" : "Mir Two drives aft down the starboard side, past the huge anchor while Mir One passes over the seemingly endless forecastle deck, with its massive anchor chains still laid out in two neat rows, its bronze windlass caps gleaming. The 22 foot long subs are like white bugs next to the enormous wreck."
       }, {
         "shot_id" : 0,
-        "character" : "LOVETT (V.O.)",
+        "character" : "LOVETT",
         "line" : "Dive nine. Here we are again on the deck of Titanic... two and a half miles down. The pressure is three tons per square inch, enough to crush us like a freight train going over an ant if our hull fails. These windows are nine inches thick and if they go, it's sayonara in two microseconds.",
         "followup" : "Mir Two lands on the boat deck, next to the ruins of the Officer's Quarters. Mir One lands on the roof of the deck hous nearby."
       }, {
@@ -116,7 +116,7 @@
         "followup" : "Bodine slips on a pair of 3-D electronic goggles, and grabs the joystick controls of the ROV. OUTSIDE THE SUB, the ROV, a small orange and black robot called SNOOP DOG, lifts from its cradle and flies forward."
       }, {
         "shot_id" : 0,
-        "character" : "BODINE (V.O.)",
+        "character" : "BODINE",
         "line" : "Walkin' the dog.",
         "followup" : "Snoop Dog drives itself away from the sub, paying out its umbilical behind it like a robot yo-yo. Its twin stereo-video cameras swivel like insect eyes. The ROV descends through an open shaft that once was the beautiful First Class Grand Staircase. Snoop Dog goes down several decks, then moves laterally into the First Class Reception Room. SNOOP'S VIDEO POV Moving through the cavernous interior. The remains of the ornate handcarved woodwork which gave the ship its elegance move through the floodlights, the lines blurred by slow dissolution and descending rusticle formations. Stalactites of rust hang down so that at times it looks like a natural grotto, then the scene shifts and the lines of a ghostly undersea mansion can be seen again. MONTAGE STYLE As Snoop passes the ghostly images of Titanic's opulence: A grand piano in amazingly good shape, crashed on its side against a wall. The keys gleam black and white in the lights. A chandelier, still hanging from the ceiling by its wire... glinting as Snoop moves around it. Its lights play across the floor, revealing a champagne bottle, then some WHITE STAR LINE china... a woman's high- top \"granny shoe\". Then something eerie: what looks like a child's skull resolves into the porcelain head of a doll. Snoop enters a corridor which is much better preserved. Here and there a door still hangs on its rusted hinges. An ornate piece of molding, a wall sconce... hint at the grandeur of the past. THE ROV Turns and goes through a black doorway, entering room B-52, the sitting room of a \"promenade suite\", one of the most luxurious staterooms on Titanic."
       }, {
@@ -289,17 +289,17 @@
       "desc" : "PULL BACK from the screen, showing the CNN report playing on a TV set in the living room of a small rustic house. It is full of ceramics, figurines, folk art, the walls crammed with drawings and paintings... things collected over a lifetime. PANNING to show a glassed-in studio attached to the house. Outside it is a quiet morning in Ojai, California. In the studio, amid incredible clutter, an ANCIENT WOMAN is throwing a pot on a potter's wheel. The liquid red clay covers her hands... hands that are gnarled and age-spotted, but still surprisingly strong and supple. A woman in her early forties assists her.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "LOVETT (V.O.)",
+        "character" : "LOVETT",
         "line" : "I've planned this expedition for three years, and we're out here recovering some amazing things... things that will have enormous historical and educational value.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CNN REPORTER (V.O.)",
+        "character" : "CNN REPORTER",
         "line" : "But it's no secret that education is not your main purpose. You're a treasure hunter. So what is the treasure you're hunting?",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LOVETT (V.O.)",
+        "character" : "LOVETT",
         "line" : "I'd rather show you than tell you, and we think we're very close to doing just that.",
         "followup" : "The old woman's name is ROSE CALVERT. Her face is a wrinkled mass, her body shapeless and shrunken under a one-piece African-print dress. But her eyes are just as bright and alive as those of a young girl. Rose gets up and walks into the living room, wiping pottery clay from her hands with a rag. A Pomeranian dog gets up and comes in with her. The younger woman, LIZZY CALVERT, rushes to help her."
       }, {
@@ -309,7 +309,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "REPORTER (V.O.)",
+        "character" : "REPORTER",
         "line" : "Your expedition is at the center of a storm of controversy over salvage rights and even ethics. Many are calling you a grave robber.",
         "followup" : "TIGHT ON THE SCREEN"
       }, {
@@ -841,12 +841,12 @@
         "followup" : "Rose looks up as the hull of Titanic looms over them... a great iron wall, Bible black and sever. Cal motions her forward, and she enters the gangway to the D Deck doors with a sense of overwhelming dread."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "It was the ship of dreams... to everyone else. To me it was a slave ship, taking me back to America in chains.",
         "followup" : "CLOSE ON CAL'S HAND IN SLOW-MOTION As it closes possessively over Rose's arm. He escorts her up the gangway and the black hull of Titanic swallows them."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Outwardly I was everything a well brought up girl should be. Inside, I was screaming. ",
         "followup" : ""
       } ],
@@ -1174,12 +1174,12 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "At Cherbourg a woman came aboard named Margaret Brown, but we all called her Molly. History would call her the Unsinkable Molly Brown. Her husband had struck gold someplace out west, and she was what mother called \"new money\".",
         "followup" : "At 45, MOLLY BROWN is a tough talking straightshooter who dresses in the finery of her genteel peers but will never be one of them."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "By the next afternoon we had made our final stop and we were steaming west from the coast of Ireland, with nothing out ahead of us but ocean... ",
         "followup" : ""
       } ],
@@ -1235,7 +1235,7 @@
         "followup" : "THE CAMERA ARCS around them, until they are framed against the sea. NOW WE PULL BACK, across the forecastle deck. Rising, as we continue back, and the ships rolls endlessly forward underneath. Over the bridge wing, along the boat deck until her funnels come INTO FRAME besides us and march past like the pillars of heaven, one by one. We pull back and up, until we are looking down the funnels, and the people strolling on the decks and standing at the rail become antlike. And still we pull back until the great lady is seen whole in a gorgeous aerial portrait, black and severe in her majesty."
       }, {
         "shot_id" : 0,
-        "character" : "ISMAY (V.O.)",
+        "character" : "ISMAY",
         "line" : "She is the largest moving object ever made by the hand of man in all history... ",
         "followup" : ""
       } ],
@@ -1369,7 +1369,7 @@
       "desc" : "SLOWLY PUSHING IN ON ROSE as she sits, flanked by people in heated conversation. Cal and Ruth are laughing together, while on the other side LADY DUFF-GORDON is holding forth animatedly. We don't hear what they are saying. Rose is staring at her plate, barely listening to the inconsequential babble around her.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "I saw my whole life as if I'd already lived it... an endless parade of parties and cotillions, yachts and polo matches... always the same narrow people, the same mindless chatter. I felt like I was standing at a great precipice, with no one to pull me back, no one who cared... or even noticed.",
         "followup" : "ANGLE BENEATH TABLE Showing Rose's hand, holding a tiny fork from her crab salad. She pokes the crab-fork into the skin of her arm, harder and harder until it draws blood. "
       } ],
@@ -1747,7 +1747,7 @@
         "followup" : "CAMERA begins to TRACK IN ON ROSE. Closer and closer, during the following:"
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Of course his gift was only to reflect light back onto himself, to illuminate the greatness that was Caledon Hockley. It was a cold stone... a heart of ice.",
         "followup" : "Finally, when Rose's eyes FILL FRAME, we MORPH SLOWLY to her eyes as the are now... transforming through 84 years of life... TRANSITION "
       } ],
@@ -1944,7 +1944,7 @@
       "desc" : "MATCH DISSOLVE from the rusting hulk to the gleaming new Titanic in 1912, passing the end of the enclosed promenade just as Rose walks into the sunlight right in front of us. She is stunningly dressed and walking with purpose.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "As if I hadn't felt the sun in years.",
         "followup" : "IT IS SATURDAY APRIL 13, 1912. Rose unlatches the gate to go down into third class. The steerage men on the deck stop what they're doing and stare at her. "
       } ],
@@ -2435,7 +2435,7 @@
         "followup" : "Jack has a little spit running down his chin. He doesn't know it. Molly Brown is grinning. As Rose proceeds with the introductions, we hear..."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "The others were gracious and curious about the man who'd saved my life. But my mother looked at him like an insect. A dangerous insect which must be squashed quickly.",
         "followup" : ""
       }, {
@@ -2645,7 +2645,7 @@
       "desc" : "Like a ballroom at the palace, alive and lit by a constellation of chandeliers, full of elegantly dressed people and beautiful music from BANDLEADER WALLACE HARTLEY'S small orchestra. As Rose and Jack enter and move across the room to their table, Cal and Ruth beside them, we hear...",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "He must have been nervous but he never faltered. They assumed he was one of them... a young captain of industry perhaps... new money, obviously, but still a member of the club. Mother of course, could always be counted upon... ",
         "followup" : ""
       } ],
@@ -3639,7 +3639,7 @@
       "desc" : "BACK TO 1912. Jack is signing the drawing. Rose, wearing her kimono again, is leaning on his shoulder, watching.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Sorry to disappoint you Mr. Bodine.",
         "followup" : "Rose gazes at the drawing. He has X-rayed her soul."
       }, {
@@ -3993,7 +3993,7 @@
         "followup" : "She hugs his head to her chest, and just holds on for dear life."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Well, I wasn't the first teenage girl to get seduced in the backseat of a car, and certainly not the last, by several million. He had such fine hands, artists' hands, but strong too... roughened by work. I remember their touch even now. ",
         "followup" : ""
       } ],
@@ -4141,7 +4141,7 @@
       "desc" : "Inside the enclosed wheelhouse, SIXTH OFFICER MOODY walks unhurriedly to the telephone, picking it up.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "FLEET (V.O.)",
+        "character" : "FLEET",
         "line" : "Is someone there?",
         "followup" : ""
       }, {
@@ -7403,7 +7403,7 @@
         "followup" : "We see that in his way, the only way he knows, he does truly love her. After a moment, he turns and walks away."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "That was the last time I ever saw him. He married, of course, and inherited his millions. The crash of 28 hit his interests hard, and he put a pistol in his mouth that year. His children fought over the scraps of his estate like hyenas, or so I read.",
         "followup" : "ANGLE ON ROSE At the railing of the Carpathia, 9pm April 18th. She gazes up at the Statue of Liberty, looking just as it does today, welcoming her home with her glowing torch. It is just as Fabrizio saw it, so clearly, in his mind. LATER CARPATHIA DISGORGES THE SURVIVORS At the Cunard pier, Pier 54. Over 30,000 people line the dock and fill the surrounding streets. The magnesium flashes of the photographers go off like small bombs, lighting an amazing tableau. Several hundred police keep the mob back. The dock is packed with friends and relatives, officials, ambulances, and the press -- Reporters and photographers swarm everywhere... 6 deep at the foot of the gangways, lining the tops of cars and trucks... it is the 1912 equivalent of a media circus. They jostle to get close to the survivors, tugging on them as they pass and shouting over each other to ask them questions. Rose is covered with a woolen shawl and walking with a group of steerage passengers. Immigration officers are asking them questions as they come off the gangway."
       }, {
@@ -7418,7 +7418,7 @@
         "followup" : "The officer steers her toward a holding area for processing. Rose walks forward with the dazed immigrants. The BOOM! of photographer's magnesium flashes cause them to flinch, and the glare is blinding. There is a sudden disturbance near her as two men burst through the cordon, running to embrace an older woman along the survivors, who cries out with joy. The reporters converge on this emotional scene, and flashes explode. Rose uses this moment to slip away into the crowd. She pushes through the jostling people, moving with purpose, and none challenges her in the confusion."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Can you exchange one life for another? A caterpillar turns into a butterfly. If a mindless insect can do it, why couldn't I? Was it any more unimaginable than the sinking of the Titanic?",
         "followup" : "TRACKING WITH HER as she walks away, further and further until she flashes and the roar are far behind her, and she is still walking, determined. "
       } ],

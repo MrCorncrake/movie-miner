@@ -1,7 +1,7 @@
 {
   "name" : "AMADEUS",
   "authors" : [ "Peter Shaffer", "Final Draft" ],
-  "characters" : [ "THE MAGIC FLUTE", "ACTRESSES", "OTTAVIO", "BYSTANDER", "COLLOREDO", "MOZART (V.O.)", "GERTRUDE", "ALLEGRO", "PRESENTS", "VON STRACK", "ATTENDANT", "SECOND LADY", "CAVALIERI", "DOCTOR GULDEN", "MOZART", "SOPRANO", "HORSE", "SCHIKANEDER TROUPE OF PLAYERS", "VALET", "THE THREE GIRLS", "VON SWIETEN", "VOGLER", "EMMANUEL SCHIKANEDER", "CONSTANZE", "COMMENDATORE", "OLD SALIERI (V.O.)", "LEOPOLD", "BYSTANDERS", "THREE LADIES", "ALL SONGS AND SPEECHES WRITTEN", "PARODY", "THIRD LADY", "FIRST LADY", "ARCO", "LEOPOLD (V.O.)", "MAJORDOMO", "FLUNKY", "LOCAL PRIEST", "JOSEPH", "PAPAGENO", "SCHIKANEDER", "EIGHT DWARVES", "PRIEST", "QUEEN OF THE NIGHT", "DWARVES", "ALL THREE TOGETHER", "UGLY OLD WOMAN", "MADAME WEBER", "THE COMMENDATORE", "FIRST PRIEST", "LORL", "ALL THREE LADIES", "FRAU WEBER", "BONNO", "SCHLUMBERG", "OFFICER", "FRAU SCHLUMBERG", "OLD SALIERI", "GUESTS", "LEOPOLD (O.S.)", "SALIERI", "CAST OF SERAGLIO", "LACKEY", "VOICE", "ANDANTE", "SERVANT" ],
+  "characters" : [ "THE MAGIC FLUTE", "ACTRESSES", "OTTAVIO", "BYSTANDER", "COLLOREDO", "GERTRUDE", "ALLEGRO", "PRESENTS", "VON STRACK", "ATTENDANT", "SECOND LADY", "CAVALIERI", "DOCTOR GULDEN", "MOZART", "SOPRANO", "HORSE", "SCHIKANEDER TROUPE OF PLAYERS", "VALET", "THE THREE GIRLS", "VON SWIETEN", "VOGLER", "EMMANUEL SCHIKANEDER", "CONSTANZE", "COMMENDATORE", "LEOPOLD", "BYSTANDERS", "THREE LADIES", "ALL SONGS AND SPEECHES WRITTEN", "PARODY", "THIRD LADY", "FIRST LADY", "ARCO", "MAJORDOMO", "FLUNKY", "LOCAL PRIEST", "JOSEPH", "PAPAGENO", "SCHIKANEDER", "EIGHT DWARVES", "PRIEST", "QUEEN OF THE NIGHT", "DWARVES", "ALL THREE TOGETHER", "UGLY OLD WOMAN", "MADAME WEBER", "THE COMMENDATORE", "FIRST PRIEST", "LORL", "ALL THREE LADIES", "FRAU WEBER", "BONNO", "SCHLUMBERG", "OFFICER", "FRAU SCHLUMBERG", "OLD SALIERI", "GUESTS", "SALIERI", "CAST OF SERAGLIO", "LACKEY", "VOICE", "ORSINI-ROSENBERG", "ANDANTE", "SERVANT" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "",
@@ -470,7 +470,7 @@
       "desc" : "There are twelve children and twenty adults in the square. We see the fourteen-year-old Salieri blindfolded, playing a game of Blindman's Bluff with other Italian children, running about in the bright sunshine and laughing.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "I was still playing childish games when he was playing music for kings and emperors. Even the Pope in Rome! ",
         "followup" : ""
       } ],
@@ -488,12 +488,12 @@
       "desc" : "We see the six-year-old MOZART, also blindfolded, seated in a gilded chair on a pile of books, playing the harpsichord for the POPE and a suite of CARDINALS and other churchmen. Beside the little boy stands LEOPOLD, his father, smirking with pride.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "I admit I was jealous when I heard the tales they told about him. Not of the brilliant little prodigy himself, but of his father, who had taught him everything.",
         "followup" : "The piece finishes. Leopold lowers the lid of the harpsichord and lifts up his little son to stand on it. Mozart removes the blindfold to show a pale little face with staring eyes. Both father and son bow. A Papal Chamberlain presents Leopold with a gold snuff box whilst the cardinals decorously applaud. Over this scene Old Salieri speaks."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "My father did not care for music. He wanted me only to be a merchant, like himself. As anonymous as he was. When I told how I wished I could be like Mozart, he would say, Why? Do you want to be a trained monkey? Would you like me to drag you around Europe doing tricks like a circus freak? How could I tell him what music meant to me? ",
         "followup" : ""
       } ],
@@ -524,17 +524,17 @@
       "desc" : "The music continues and swells. We see the twelve-year-old Salieri seated between his plump and placid parents in the congregation, listening in rapture. His father is a heavy- looking, self-approving man, obviously indifferent to the music. A large and austere Christ on the cross hangs over the altar. Candles burn below his image.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Even then a spray of sounded notes could make me dizzy, almost to falling.",
         "followup" : "The boy falls forward on his knees. So do his parents and the other members of the congregation. He stares up at Christ who stares back at him."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Whilst my father prayed earnestly to God to protect commerce, I would offer up secretly the proudest prayer a boy could think of. Lord, make me a great composer! Let me celebrate your glory through music - and be celebrated myself! Make me famous through the world, dear God! Make me immortal! After I die let people speak my name forever with love for what I wrote! In return I vow I will give you my chastity - my industry, my deepest humility, every hour of my life. And I will help my fellow man all I can. Amen and amen!",
         "followup" : "The music swells to a crescendo. The candles flare. We see the Christ through the flames looking at the boy benignly."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "And do you know what happened? A miracle! ",
         "followup" : ""
       } ],
@@ -578,17 +578,17 @@
       "desc" : "1780'S A grand room crowded with guests. A small group of Gypsy musicians is playing in the background. Thirteen members of the Archbishop's orchestra - all wind players, complete with 18th-century wind instruments: elaborate-looking bassoons, basset horns, etc. and wearing their employer's livery - are laying out music on stands at one end of the room. At the other end is a large gilded chair, bearing the arms of the ARCHBISHOP OF SALZBURG. A throng of people is standing, talking, and preparing to sit upon the rows of waiting chairs to hear a concert.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "One day he came to Vienna to play some of his music at the residence of his employer, the Prince-Archbishop of Salzburg. Eagerly I went there to seek him out. That night changed my life.",
         "followup" : "We see Salieri, age thirty-one, a neat, carefully turned-cut man in decent black clothes and clean white linen, walking through the crowd of guests. We follow him."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "As I went through the salon, I played a game with myself. This man had written his first concerto at the age of four; his first symphony at seven; a full-scale opera at twelve. Did it show? Is talent like that written on the face?",
         "followup" : "We see shots of assorted young men staring back at Salieri as he moves through the crowd."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Which one of them could he be?",
         "followup" : "Some of the men recognize Salieri and bow respectfully. Then suddenly a servant bearing a large tray of cakes and pastries stalks past. Instantly riveted by the sight of such delights, Salieri follows him out of the Grand Salon. "
       } ],
@@ -954,7 +954,7 @@
       "desc" : "Mozart is conducting the Adagio from his Serenade (K. 361), guiding the thirteen wind instrumentalists. The squeezebox opening of the movement begins. Salieri appears at the door at the back of the salon. He stares in disbelief at Mozart.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "So that was he! That giggling, dirty- minded creature I'd just seen crawling on the floor. Mozart. The phenomenon whose legend had haunted my youth. Impossible.",
         "followup" : "The music swells up and Salieri listens to it with eyes closed - amazed, transported - suddenly engulfed by the sound. Finally it fades down and away and changes into applause. Salieri opens his eyes. The audience is clearly delighted. Mozart bows to them, also delighted. Colloredo rises abruptly, and without looking at Mozart or applauding and leaves the Salon. Count Arco approaches the composer. Mozart turns to him, radiant."
       }, {
@@ -1101,7 +1101,7 @@
       "desc" : "Salieri, in this vast room, is standing and looking at the full score of the Serenade. He turns the pages back to the slow movement. Instantly, we again hear its lyrical strains. CU, Salieri, reading the score of the Adagio in helpless fascination. The music is played against his description of it.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Extraordinary! On the page it looked nothing. The beginning simple, almost comic. Just a pulse - bassoons and basset horns - like a rusty squeezebox. Then suddenly - high above it - an oboe, a single note, hanging there unwavering, till a clarinet took over and sweetened it into a phrase of such delight! This was no composition by a performing monkey! This was a music I'd never heard. Filled with such longing, such unfulfillable longing, it had me trembling. It seemed to me that I was hearing a voice of God.",
         "followup" : "Suddenly the music snaps off. Mozart stands before him as he lays down the score."
       }, {
@@ -1111,7 +1111,7 @@
         "followup" : "He takes the score, bows, and struts briskly out of the room. Salieri stares uncomprehendingly after the jaunty little figure."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "But why? ",
         "followup" : ""
       } ],
@@ -1148,12 +1148,22 @@
       }, {
         "shot_id" : 0,
         "character" : "VON SWIETEN",
-        "line" : "He's remarkable, Majesty. I heard an extraordinary serious opera of his last month. Idomeneo, King of Crete. ORSINI-ROSENBERG That? A most tiresome piece. I heard it, too.",
+        "line" : "He's remarkable, Majesty. I heard an extraordinary serious opera of his last month. Idomeneo, King of Crete.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "That? A most tiresome piece. I heard it, too.",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "VON SWIETEN",
-        "line" : "Tiresome? ORSINI-ROSENBERG A young man trying to impress beyond his abilities. Too much spice. Too many notes.",
+        "line" : "Tiresome?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "A young man trying to impress beyond his abilities. Too much spice. Too many notes.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -1178,7 +1188,12 @@
       }, {
         "shot_id" : 0,
         "character" : "VON SWIETEN",
-        "line" : "Excellent, sire! ORSINI-ROSENBERG But not German, I beg your Majesty! Italian is the proper language for opera. All educated people agree on that.",
+        "line" : "Excellent, sire!",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "But not German, I beg your Majesty! Italian is the proper language for opera. All educated people agree on that.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -1226,7 +1241,7 @@
         "line" : "Well. There it is. ",
         "followup" : ""
       } ],
-      "key_words" : [ "EMPEROR JOSEPH II", "JOSEPH", "ORSINI", "VON STRACK", "ROSENBERG", "BONNO", "BARON VON SWIETEN", "FIRST", "VON SWIETEN", "SALIERI", "COUNT ORSINI", "KAPELLMEISTER GIUSEPPE BONNO", "JOHANN VON STRACK", "I'" ]
+      "key_words" : [ "EMPEROR JOSEPH II", "JOSEPH", "ORSINI", "VON STRACK", "ROSENBERG", "BONNO", "BARON VON SWIETEN", "FIRST", "VON SWIETEN", "SALIERI", "COUNT ORSINI-ROSENBERG", "KAPELLMEISTER GIUSEPPE BONNO", "JOHANN VON STRACK", "I'" ]
     } ]
   }, {
     "id" : 38,
@@ -1444,7 +1459,12 @@
         "shot_id" : 0,
         "character" : "MAJORDOMO",
         "line" : "Herr Mozart.",
-        "followup" : "Mozart comes in eagerly. Immediately the march begins, played by His Majesty. All the courtiers stand, listening with admiration. Joseph plays well, but applies himself fiercely to the manuscript. Mozart, still bewildered, regards the scene, but does not seem to pay attention to the music itself. It finishes and all clap obsequiously. ORSINI-ROSENBERG Bravo, Your Majesty!"
+        "followup" : "Mozart comes in eagerly. Immediately the march begins, played by His Majesty. All the courtiers stand, listening with admiration. Joseph plays well, but applies himself fiercely to the manuscript. Mozart, still bewildered, regards the scene, but does not seem to pay attention to the music itself. It finishes and all clap obsequiously."
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Bravo, Your Majesty!",
+        "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "VON STRACK",
@@ -1558,7 +1578,12 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "(to the courtiers) Did we vote in the end for German or Italian? ORSINI-ROSENBERG Well, actually, Sire, if you remember, we did finally incline to Italian.",
+        "line" : "(to the courtiers) Did we vote in the end for German or Italian?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Well, actually, Sire, if you remember, we did finally incline to Italian.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -1583,12 +1608,22 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Because I've already found the most wonderful libretto! ORSINI-ROSENBERG Oh? Have I seen it?",
+        "line" : "Because I've already found the most wonderful libretto!",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Oh? Have I seen it?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "I - I don't think you have, Herr Director. Not yet. I mean, it's quite n - Of course, I'll show it to you immediately. ORSINI-ROSENBERG I think you'd better.",
+        "line" : "I - I don't think you have, Herr Director. Not yet. I mean, it's quite n - Of course, I'll show it to you immediately.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "I think you'd better.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -1613,12 +1648,22 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Ah-ha. ORSINI-ROSENBERG You mean in Turkey?",
+        "line" : "Ah-ha.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "You mean in Turkey?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Exactly. ORSINI-ROSENBERG Then why especially does it have to be in German?",
+        "line" : "Exactly.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Then why especially does it have to be in German?",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -1931,7 +1976,7 @@
         "followup" : "After a few moments of this showy aria, with the composer and the singer staring at each other - he conducting elaborately for her benefit, and she following his beat with rapturous eyes - the music fades, and Salieri speaks over it."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "There she was. I had no idea where they met - or how - yet there she stood on stage for all to see. Showing off like the greedy songbird she was. Ten minutes of ghastly scales and arpeggios, whizzing up and down like fireworks at a fairground.",
         "followup" : "Music up again for the last 30 bars of the aria."
       }, {
@@ -2112,7 +2157,12 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Well, I mean occasionally it seems to have, how shall one say? (he stops in difficulty; to Orsini- Rosenberg) How shall one say, Director? ORSINI-ROSENBERG Too many notes, Your Majesty?",
+        "line" : "Well, I mean occasionally it seems to have, how shall one say? (he stops in difficulty; to Orsini- Rosenberg) How shall one say, Director?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Too many notes, Your Majesty?",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -2455,7 +2505,7 @@
         "followup" : "She turns and collapses, crying with rage, into Salieri's arms. We focus on him."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "At that moment I knew beyond any doubt. He'd had her. The Creature had had my darling girl. ",
         "followup" : ""
       } ],
@@ -2579,7 +2629,7 @@
         "followup" : "In deepest gratitude he kisses the Archbishop's hand. He motions Leopold to rise. We hear the first dark fortissimo chord which begins the Overture to Don Giovanni: the theme associated with the character of the Commendatore."
       }, {
         "shot_id" : 0,
-        "character" : "LEOPOLD (V.O.)",
+        "character" : "LEOPOLD",
         "line" : "My dear son.",
         "followup" : "The second fortissimo chord sounds. "
       } ],
@@ -2597,7 +2647,7 @@
       "desc" : "We see a huge CU, of Mozart's head, looking front and down, as if reading his father's letter. We hear Leopold's voice over this image, no longer whining and anxious, but impressive.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "LEOPOLD (V.O.)",
+        "character" : "LEOPOLD",
         "line" : "I write to you with urgent news. I am coming to Vienna. Take no further steps toward marriage until we meet. You are too gullible to see your own danger. As you honour the father who has devoted his entire life to yours, do as I bid, and await my coming.",
         "followup" : ""
       }, {
@@ -2635,7 +2685,7 @@
       "desc" : "There is a view of a castle in background. Leopold sits alone in his room. He is reading a letter from Wolfgang. At his feet are his trunks, half-packed for the journey he will not now take. We hear Mozart's voice reading the following letter and we see, as the camera roves around the room, mementos of the young prodigy's early life: the little forte-piano made for him; the little violin made for him; an Order presented to him. We see a little starling in a wicker cage. And we see portraits of the boy on the walls, concluding with the familiar family portrait of Wolfgang and his sister Nannerl seated at the keyboard with Leopold standing, and the picture of their mother on the wall behind them.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "MOZART (V.O.)",
+        "character" : "MOZART",
         "line" : "Most beloved father, it is done. Do not blame me that I did not wait to see your dear face. I knew you would have tried to dissuade me from my truest happiness and I could not have borne it. Your every word is precious to me. Remember how you have always told me Vienna is the City of Musicians. To conquer here is to conquer Europe! With my wife I can do it. I vow I will become regular in my habits and productive as never before. She is wonderful, Papa, and I know that you will love her. And one day soon when I am a wealthy man, you will come and live with us, and we will be so happy. I long for that day, best of Papas, and kiss your hand a hundred thousand times.",
         "followup" : "The music of the Mass fades as Leopold crumples the letter in his hand. "
       } ],
@@ -3151,7 +3201,7 @@
       "desc" : "CU, The manuscript in Mozart's handwriting. The music begins to sound under the following:",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Displace one note and there would be diminishment. Displace one phrase, and the structure would fall. It was clear to me. That sound I had heard in the Archbishop's palace had been no accident. Here again was the very voice of God! I was staring through the cage of those meticulous ink- strokes at an absolute, inimitable beauty.",
         "followup" : "The music swells. What we now hear is an amazing collage of great passages from Mozart's music, ravishing to Salieri and to us. The Court Composer, oblivious to Constanze, who sits happily chewing chestnuts, her mouth covered in sugar, walks around and around his salon, reading the pages and dropping them on the floor when he is done with them. We see his agonized and wondering face: he shudders as if in a rough and tumbling sea; he experiences the point where beauty and great pain coalesce. More pages fall than he can read, scattering across the floor in a white cascade, as he circles the room. Finally, we hear the tremendous Qui Tollis from the Mass in C Minor. It seems to break over him like a wave and, unable to bear any more of it, he slams the portfolio shut. Instantly, the music breaks off, reverberating in his head. He stands shaking, staring wildly. Constanze gets up, perplexed."
       }, {
@@ -3312,7 +3362,7 @@
       "desc" : "Salieri sits at his desk, staring up at the cross.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "Evening came to that room. I sat there not knowing whether the girl would return or not. I prayed as I'd never prayed before.",
         "followup" : ""
       }, {
@@ -3426,7 +3476,7 @@
       "desc" : "CU, Salieri standing, his eyes shut, shaking in distress. He opens them and sees Christ across the room, staring at him from the wall.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "From now on, we are enemies, You and I! ",
         "followup" : ""
       } ],
@@ -3462,7 +3512,7 @@
       "desc" : "CU, the fireplace. In it lies the olivewood Christ on the cross, burning.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "What use after all is Man, if not to teach God His lessons?",
         "followup" : "The cross flames up and disintegrates. Salieri stares at it. "
       } ],
@@ -4693,7 +4743,7 @@
       "desc" : "Salieri sits at his desk. He holds in his hand the small black party mask and stares in hatred at the place on the wall where the crucifix used to hang. Faintly we see the mark of the cross.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "That was not Mozart laughing, Father. That was God. That was God! God laughing at me through that obscene giggle. Go on, Signore. Laugh. Rub my nose in it. Show my mediocrity for all to see. You wait! I will laugh at You! Before I leave this earth, I will laugh at You! Amen! ",
         "followup" : ""
       } ],
@@ -4987,7 +5037,7 @@
       "desc" : "Mozart stands trying to blot out the noise of his father's shouting from the next room.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "LEOPOLD (O.S.)",
+        "character" : "LEOPOLD",
         "line" : "Dinner at eight! Dinner at ten! Dinner when anyone feels like it! If anyone feels like it!",
         "followup" : "The ensemble of Ah, Tutti contenti! Saremo cosi from Act IV of Figaro resumes, coming to his aid and rising to greet the listener with its serene harmonies. Relieved, Mozart languidly picks up his cue and plays a shot on the billiard table: he is sucked back into his own world of sound. "
       } ],
@@ -5278,12 +5328,22 @@
       "sentences" : [ {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "I've just learned something that might be of interest to you, Herr Director. ORSINI-ROSENBERG Yes?",
+        "line" : "I've just learned something that might be of interest to you, Herr Director.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Yes?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Mozart is writing a new opera. An Italian opera. ORSINI-ROSENBERG Italian?",
+        "line" : "Mozart is writing a new opera. An Italian opera.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Italian?",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5293,32 +5353,62 @@
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "And that's not all. He has chosen for his subject, Figaro. The Marriage of Figaro. ORSINI-ROSENBERG You mean that play?",
+        "line" : "And that's not all. He has chosen for his subject, Figaro. The Marriage of Figaro.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "You mean that play?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Exactly. ORSINI-ROSENBERG He's setting that play to music?",
+        "line" : "Exactly.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "He's setting that play to music?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Yes. ORSINI-ROSENBERG You must be mad.",
+        "line" : "Yes.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "You must be mad.",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "BONNO",
-        "line" : "What is this Marriage of Figaro? ORSINI-ROSENBERG It's a French play, Kapellmeister. It has been banned by the Emperor.",
+        "line" : "What is this Marriage of Figaro?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "It's a French play, Kapellmeister. It has been banned by the Emperor.",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "BONNO",
         "line" : "Hah!",
-        "followup" : "He crosses himself, wide-eyed with alarm. ORSINI-ROSENBERG Are you absolutely sure?"
+        "followup" : "He crosses himself, wide-eyed with alarm."
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Are you absolutely sure?",
+        "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "I've seen the manuscript. ORSINI-ROSENBERG Where?",
+        "line" : "I've seen the manuscript.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Where?",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5337,11 +5427,21 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "VON STRACK I know we banned this play, but frankly I can't remember why. Can you refresh my memory, Herr Director? ORSINI-ROSENBERG For the same reason, Herr Chamberlain, that it was banned in France.",
+      "desc" : "VON STRACK I know we banned this play, but frankly I can't remember why. Can you refresh my memory, Herr Director?",
       "sentences" : [ {
         "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "For the same reason, Herr Chamberlain, that it was banned in France.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "VON STRACK",
-        "line" : "Oh yes, yes. And that was? ORSINI-ROSENBERG Well, the play makes a hero out of a valet. He outwits his noble master and exposes him as a lecher. Do you see the implications? This would be, in a grander situation, as if a Chamberlain were to expose an Emperor.",
+        "line" : "Oh yes, yes. And that was?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Well, the play makes a hero out of a valet. He outwits his noble master and exposes him as a lecher. Do you see the implications? This would be, in a grander situation, as if a Chamberlain were to expose an Emperor.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5409,7 +5509,12 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "Well, Majesty, it is only a comedy. ORSINI-ROSENBERG What you think, Mozart, is scarcely the point. It is what His Majesty thinks that counts.",
+        "line" : "Well, Majesty, it is only a comedy.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "What you think, Mozart, is scarcely the point. It is what His Majesty thinks that counts.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5534,7 +5639,12 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "How can I persuade you if you won't let me show it? ORSINI-ROSENBERG That will do, Herr Mozart!",
+        "line" : "How can I persuade you if you won't let me show it?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "That will do, Herr Mozart!",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5586,11 +5696,21 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Orsini-Rosenberg and Bonno are sitting with Salieri. ORSINI-ROSENBERG Well, Mozart is already rehearsing.",
+      "desc" : "Orsini-Rosenberg and Bonno are sitting with Salieri.",
       "sentences" : [ {
         "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Well, Mozart is already rehearsing.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Incredible. ORSINI-ROSENBERG The Emperor has given him permission.",
+        "line" : "Incredible.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "The Emperor has given him permission.",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5600,17 +5720,32 @@
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Well, gentlemen, so be it. In that case I think we should help Mozart all we can and do our best to protect him against the Emperor's anger. ORSINI-ROSENBERG What anger?",
+        "line" : "Well, gentlemen, so be it. In that case I think we should help Mozart all we can and do our best to protect him against the Emperor's anger.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "What anger?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "About the ballet. ORSINI-ROSENBERG Ballet? What ballet?",
+        "line" : "About the ballet.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Ballet? What ballet?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "SALIERI",
-        "line" : "Excuse me - didn't His Majesty specifically forbid ballet in his opera? ORSINI-ROSENBERG Yes, absolutely. Is there a ballet in Figaro?",
+        "line" : "Excuse me - didn't His Majesty specifically forbid ballet in his opera?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Yes, absolutely. Is there a ballet in Figaro?",
         "followup" : ""
       }, {
         "shot_id" : 0,
@@ -5629,8 +5764,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "It is a full orchestral rehearsal. Mozart is conducting from the harpsichord with his hands; he does not use a baton. The singers are all in practice clothes, not costumes. We are in the Act III and we hear the recitativo exchange just before the march begins. Orsini-Rosenberg and Bonno sit watching chairs. Suddenly the march starts. Peasants and friends start to dance in and at the same moment, Orsini-Rosenberg gets up and comes down to Mozart. He is accompanied by an anxious Bonno. ORSINI-ROSENBERG Mozart! Herr Mozart, may I have a word with you please. Right away.",
+      "desc" : "It is a full orchestral rehearsal. Mozart is conducting from the harpsichord with his hands; he does not use a baton. The singers are all in practice clothes, not costumes. We are in the Act III and we hear the recitativo exchange just before the march begins. Orsini-Rosenberg and Bonno sit watching chairs. Suddenly the march starts. Peasants and friends start to dance in and at the same moment, Orsini-Rosenberg gets up and comes down to Mozart. He is accompanied by an anxious Bonno.",
       "sentences" : [ {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Mozart! Herr Mozart, may I have a word with you please. Right away.",
+        "followup" : ""
+      }, {
         "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Certainly, Herr Director.",
@@ -5639,17 +5779,37 @@
         "shot_id" : 0,
         "character" : "MOZART",
         "line" : "Five minutes, please!",
-        "followup" : "The company disperses, curious. The musicians look at Orsini- Rosenberg. ORSINI-ROSENBERG Did you not know that His Majesty has expressly forbidden ballet in his operas?"
+        "followup" : "The company disperses, curious. The musicians look at Orsini- Rosenberg."
       }, {
         "shot_id" : 0,
-        "character" : "MOZART",
-        "line" : "Yes, but this is not a ballet. This is a dance at Figaro's wedding. ORSINI-ROSENBERG Exactly. A dance.",
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Did you not know that His Majesty has expressly forbidden ballet in his operas?",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "But surely the Emperor didn't mean to prohibit dancing when it's part of the story. ORSINI-ROSENBERG It is dangerous for you to interpret His Majesty's edicts. Give me your score, please.",
-        "followup" : "Mozart hands him the score from which he is conducting. ORSINI-ROSENBERG Thank you. He rips out a page. Bonno watches in terror."
+        "line" : "Yes, but this is not a ballet. This is a dance at Figaro's wedding.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Exactly. A dance.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "MOZART",
+        "line" : "But surely the Emperor didn't mean to prohibit dancing when it's part of the story.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "It is dangerous for you to interpret His Majesty's edicts. Give me your score, please.",
+        "followup" : "Mozart hands him the score from which he is conducting."
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Thank you.",
+        "followup" : "He rips out a page. Bonno watches in terror."
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
@@ -5658,7 +5818,12 @@
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
-        "line" : "What are you doing, Herr Director? ORSINI-ROSENBERG Taking out what you should never have put in.",
+        "line" : "What are you doing, Herr Director?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Taking out what you should never have put in.",
         "followup" : "He goes on tearing the pages determinedly. "
       } ],
       "key_words" : [ "ROSENBERG", "MOZART", "III", "ORSINI" ]
@@ -5797,7 +5962,12 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "Why? ORSINI-ROSENBERG It is your regulation, Sire. No ballet in your opera.",
+        "line" : "Why?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "It is your regulation, Sire. No ballet in your opera.",
         "followup" : "Mozart strains to hear what they are saying but cannot."
       }, {
         "shot_id" : 0,
@@ -5817,13 +5987,28 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "No, no, no! This is nonsense. Let me hear the scene with the music. ORSINI-ROSENBERG But, Sire -",
+        "line" : "No, no, no! This is nonsense. Let me hear the scene with the music.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "But, Sire -",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
         "line" : "Oblige me.",
-        "followup" : "Orsini-Rosenberg acknowledges his defeat. ORSINI-ROSENBERG Yes, Majesty. Orsini-Rosenberg rises and goes down to where Mozart sits anxiously with the musicians, watching his approach. ORSINI-ROSENBERG Can we see the scene with the music back, please?"
+        "followup" : "Orsini-Rosenberg acknowledges his defeat."
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Yes, Majesty.",
+        "followup" : "Orsini-Rosenberg rises and goes down to where Mozart sits anxiously with the musicians, watching his approach."
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Can we see the scene with the music back, please?",
+        "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "MOZART",
@@ -5837,7 +6022,12 @@
       }, {
         "shot_id" : 0,
         "character" : "JOSEPH",
-        "line" : "(to Orsini-Rosenberg) What I hoped by that edict, Director, was simply to prevent hours of dancing like in French opera. There it is endless, as you know. ORSINI-ROSENBERG Quite so, Majesty.",
+        "line" : "(to Orsini-Rosenberg) What I hoped by that edict, Director, was simply to prevent hours of dancing like in French opera. There it is endless, as you know.",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
+        "character" : "ORSINI-ROSENBERG",
+        "line" : "Quite so, Majesty.",
         "followup" : "CUT BACK TO Mozart at the forte-piano, raising his hands. The musicians raise their bows. With a flourish the happy composer begins a reprise of the scene which had been cut out. The music of the march begins faintly; the celebrants of Figaro's wedding start to enter as the Count and the Countess sit in their chairs. In the theatre we see increasing pleasure on the Emperor's face, sullenness and defeat on the courtiers'. Then, suddenly, without interruption, on a crescendo repeat of the march, we "
       } ],
       "key_words" : [ "ROSENBERG", "MOZART", "BONNO", "CUT BACK TO", "JOSEPH", "ORSINI", "SALIERI", "I'" ]
@@ -5880,7 +6070,7 @@
       "desc" : "We see the tableau on stage with the Count kneeling to the Countess. All are singing.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "I saw a woman disguised in her maid's clothes hear her husband speak the first tender words he has offered her in years, only because he thinks she is someone else. I heard the music of true forgiveness filling the theatre, conferring on all who sat there a perfect absolution. God was singing through this little man to all the world - unstoppable - making my defeat more bitter with each passing bar.",
         "followup" : "CU, Salieri in his box, tears on his cheeks. He watches the ensemble and we listen to it for a long moment. Finally it fades, but continues underneath the following: "
       } ],
@@ -6015,7 +6205,7 @@
       "desc" : "A performance of Salieri's grand opera, Axur: King of Ormus. Deafening applause from a crowded house. We see the reception of the aria which we saw Cavalieri singing on the stage near the start of the film. Cavalieri, in a mythological Persian costume, is bowing to the rapturous throng; below her is Salieri. We see the Emperor, Von Strack, Orsini-Rosenberg, Bonno and Von Swieten, all applauding. We hear great cries of 'Salieri! Salieri!' and 'Bravo!' and 'Brava!' CU, Salieri looking at the crowd with immense pleasure. Then suddenly at: CU, Mozart standing in a box and clapping wildly. Behind him, seated, are Schikaneder and the three girls we saw before in Mozart's apartment. CU, Salieri staring fixedly at Mozart, then Mozart still clapping, apparently with tremendous enthusiasm.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "What was this? I never saw him excited before by any music but his own. Could he mean it? ",
         "followup" : ""
       } ],
@@ -6216,12 +6406,12 @@
         "followup" : "The figure advances on the libertine. We see Mozart conducting, pale and deeply involved. Music fades down a little."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "So rose the dreadful ghost in his next and blackest opera. There on the stage stood the figure of a dead commander calling out 'Repent! Repent!'",
         "followup" : "The music swells. We see Salieri standing alone in the back of a box, unseen, in semi-darkness. We also see that the theatre is only half full. Music fades down."
       }, {
         "shot_id" : 0,
-        "character" : "OLD SALIERI (V.O.)",
+        "character" : "OLD SALIERI",
         "line" : "And I knew - only I understood - that the horrifying apparition was Leopold, raised from the dead. Wolfgang had actually summoned up his own father to accuse his son before all the world. It was terrifying and wonderful to watch.",
         "followup" : "Music swells up again. We watch the scene on stage as the Commendatore addresses Giovanni. Then back to Salieri in the box. Music down again. "
       } ],
