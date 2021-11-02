@@ -1,7 +1,7 @@
 {
   "name" : "TITANIC",
   "authors" : [ "James Cameron" ],
-  "characters" : [ "OLD ROSE", "GENTLEMAN", "LOVEJOY", "ISMAY (V.O.)", "CHIEF ENGINEER BELL", "FIRST OFFICER MURDOCH", "JACK AND ROSE", "LUCILE", "CREWMAN", "BELL", "HELGA", "MOODY", "SEAMAN", "MOTHER", "LIZZY", "ISADOR", "REPORTER (V.O.)", "MURDOCH", "MAN", "CAMERAMAN", "LOVETT", "CARDPLAYER", "MADELEINE", "BJORN", "GUGGENHEIM", "STEWARD BARNES", "CARPATHIA STEWARD", "SMITH", "DANIEL", "JOUGHIN", "PUBKEEPER", "HUSBAND", "ROSE", "SVEN", "COLONEL GRACIE", "CNN REPORTER (V.O.)", "BROCK", "SIR COSMO", "LOVETT (V.O.)", "BODINE (V.O.)", "STEWARD", "HARTLEY", "OPERATOR", "YURI", "ASTOR", "EVANS", "JACK / ROSE", "IDA", "WOMAN", "MASTER AT ARMS", "GROVES", "HITCHINS", "MOLLY", "BARRETT", "YOUNG STEWARD", "TOMMY", "IRISH WOMAN", "BUELL", "LIGHTOLLER", "MOLLY BROWN", "TRUDY", "HUTCHINSON", "FATHER BYLES", "CAL", "FABRIZIO", "LOWE", "ANATOLY", "FIREMAN HENDRICKSON", "CAPTAIN SMITH", "FABRIZIO / JACK", "LITTLE BOY", "ANNOUNCER", "PURSER MCELROY", "WAITER", "STEWARD #2", "FLEET (V.O.)", "STEWARD #1", "BODINE", "FLEET", "RUTH", "SEVERAL PEOPLE", "OLD ROSE (V.O.)", "CUT TO REVERSE:", "PHILLIPS", "WOMAN IN CROWD", "IRISH MAN", "MARVIN", "GRACIE", "OLAF", "PORTER", "ROWE", "LEE", "ISMAY", "BRIDE", "MCCAULEY", "ANDREWS", "YALEY", "JACK" ],
+  "characters" : [ "OLD ROSE", "EVANS", "GENTLEMAN", "LOVEJOY", "JACK / ROSE", "IDA", "CHIEF ENGINEER BELL", "WOMAN", "MASTER AT ARMS", "FIRST OFFICER MURDOCH", "GROVES", "HITCHINS", "JACK AND ROSE", "MOLLY", "LUCILE", "BARRETT", "YOUNG STEWARD", "TOMMY", "CREWMAN", "IRISH WOMAN", "BUELL", "BELL", "HELGA", "LIGHTOLLER", "MOODY", "MOLLY BROWN", "SEAMAN", "MOTHER", "TRUDY", "HUTCHINSON", "FATHER BYLES", "LIZZY", "CAL", "FABRIZIO", "ISADOR", "LOWE", "MURDOCH", "ANATOLY", "MAN", "CAMERAMAN", "FIREMAN HENDRICKSON", "LOVETT", "CARDPLAYER", "CAPTAIN SMITH", "MADELEINE", "BJORN", "GUGGENHEIM", "FABRIZIO / JACK", "LITTLE BOY", "ANNOUNCER", "STEWARD BARNES", "PURSER MCELROY", "WAITER", "STEWARD #2", "STEWARD #1", "CARPATHIA STEWARD", "BODINE", "REPORTER", "FLEET", "RUTH", "CNN REPORTER", "SEVERAL PEOPLE", "SMITH", "CUT TO REVERSE:", "PHILLIPS", "WOMAN IN CROWD", "IRISH MAN", "DANIEL", "JOUGHIN", "MARVIN", "GRACIE", "PUBKEEPER", "HUSBAND", "OLAF", "ROSE", "SVEN", "COLONEL GRACIE", "PORTER", "ROWE", "LEE", "BROCK", "ISMAY", "SIR COSMO", "STEWARD", "BRIDE", "MCCAULEY", "HARTLEY", "OPERATOR", "ANDREWS", "IMMIGRATION OFFICER", "YURI", "YALEY", "JACK", "ASTOR" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "",
@@ -78,113 +78,95 @@
         "shot_id" : 0,
         "character" : "ANATOLY",
         "line" : "Do you see it? I don't see it... there!",
-        "followup" : "Out of the darkness, like a ghostly apparition, the bow of the ship appears. Its knife-edge prow is coming straight at us, seeming to plow the bottom sediment like ocean waves. It towers above the seafloor, standing just as it landed 84 years ago. THE TITANIC Or what is left of her. Mir One goes up and over the bow railing, intact except for an overgrowth of \"rusticles\" draping it like mutated Spanish moss. TIGHT "
-      } ],
-      "key_words" : [ "BODINE", "THE TITANIC", "ANATOLY", "THRUM", "THE TWO SUBS", "MINUTES LATER", "TIGHT" ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE EYEPIECE MONITOR",
-      "desc" : "of a video camcorder. Brock Lovett's face fills the BLACK AND WHITE FRAME.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "Out of the darkness, like a ghostly apparition, the bow of the ship appears. Its knife-edge prow is coming straight at us, seeming to plow the bottom sediment like ocean waves. It towers above the seafloor, standing just as it landed 84 years ago. THE TITANIC Or what is left of her. Mir One goes up and over the bow railing, intact except for an overgrowth of \"rusticles\" draping it like mutated Spanish moss. TIGHT ON THE EYEPIECE MONITOR of a video camcorder. Brock Lovett's face fills the BLACK AND WHITE FRAME."
+      }, {
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "It still gets me every time.",
         "followup" : "The image pans to the front viewport, looking over Anatoly's shoulder, to the bow railing visible in the lights beyond. Anatoly turns."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ANATOLY",
         "line" : "Is just your guilt because of stealing from the dead.",
         "followup" : "CUT WIDER To show that Brock is operating the camera himself, turning it in his hand so it points at his own face."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Thanks, Tolya. Work with me, here.",
         "followup" : "Brock resumes his serious, pensive gaze out the front port, with the camera aimed at himself at arm's length."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "It still gets me every time... to see the sad ruin of the great ship sitting here, where she landed at 2:30 in the morning, April 15, 1912, after her long fall from the world above.",
         "followup" : "Anatoly rolls his eyes and mutters in Russian. Bodine chuckles and watches the sonar."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "You are so full of shit, boss.",
         "followup" : "Mir Two drives aft down the starboard side, past the huge anchor while Mir One passes over the seemingly endless forecastle deck, with its massive anchor chains still laid out in two neat rows, its bronze windlass caps gleaming. The 22 foot long subs are like white bugs next to the enormous wreck."
       }, {
-        "shot_id" : 1,
-        "character" : "LOVETT (V.O.)",
+        "shot_id" : 0,
+        "character" : "LOVETT",
         "line" : "Dive nine. Here we are again on the deck of Titanic... two and a half miles down. The pressure is three tons per square inch, enough to crush us like a freight train going over an ant if our hull fails. These windows are nine inches thick and if they go, it's sayonara in two microseconds.",
         "followup" : "Mir Two lands on the boat deck, next to the ruins of the Officer's Quarters. Mir One lands on the roof of the deck hous nearby."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Right. Let's go to work.",
         "followup" : "Bodine slips on a pair of 3-D electronic goggles, and grabs the joystick controls of the ROV. OUTSIDE THE SUB, the ROV, a small orange and black robot called SNOOP DOG, lifts from its cradle and flies forward."
       }, {
-        "shot_id" : 1,
-        "character" : "BODINE (V.O.)",
+        "shot_id" : 0,
+        "character" : "BODINE",
         "line" : "Walkin' the dog.",
         "followup" : "Snoop Dog drives itself away from the sub, paying out its umbilical behind it like a robot yo-yo. Its twin stereo-video cameras swivel like insect eyes. The ROV descends through an open shaft that once was the beautiful First Class Grand Staircase. Snoop Dog goes down several decks, then moves laterally into the First Class Reception Room. SNOOP'S VIDEO POV Moving through the cavernous interior. The remains of the ornate handcarved woodwork which gave the ship its elegance move through the floodlights, the lines blurred by slow dissolution and descending rusticle formations. Stalactites of rust hang down so that at times it looks like a natural grotto, then the scene shifts and the lines of a ghostly undersea mansion can be seen again. MONTAGE STYLE As Snoop passes the ghostly images of Titanic's opulence: A grand piano in amazingly good shape, crashed on its side against a wall. The keys gleam black and white in the lights. A chandelier, still hanging from the ceiling by its wire... glinting as Snoop moves around it. Its lights play across the floor, revealing a champagne bottle, then some WHITE STAR LINE china... a woman's high- top \"granny shoe\". Then something eerie: what looks like a child's skull resolves into the porcelain head of a doll. Snoop enters a corridor which is much better preserved. Here and there a door still hangs on its rusted hinges. An ornate piece of molding, a wall sconce... hint at the grandeur of the past. THE ROV Turns and goes through a black doorway, entering room B-52, the sitting room of a \"promenade suite\", one of the most luxurious staterooms on Titanic."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "I'm in the sitting room. Heading for bedroom B-54.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Stay off the floor. Don't stir it up like you did yesterday.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "I'm tryin' boss.",
         "followup" : "Glinting in the lights are the brass fixtures of the near- perfectly preserved fireplace. An albino Galathea crab crawls over it. Nearby are the remains of a divan and a writing desk. The Dog crosses the ruins of the once elegant room toward another DOOR. It squeezes through the doorframe, scraping rust and wood chunks loose on both sides. It moves out of a cloud of rust and keeps on going."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "I'm crossing the bedroom.",
         "followup" : "The remains of a pillared canopy bed. Broken chairs, a dresser. Through the collapsed wall of the bathroom, the porcelain commode and bathtub took almost new, gleaming in the dark."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Okay, I want to see what's under that wardrobe door.",
         "followup" : "SEVERAL ANGLES As the ROV deploys its MANIPULATOR ARMS and starts moving debris aside. A lamp is lifted, its ceramic colors as bright as they were in 1912."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Easy, Lewis. Take it slow.",
         "followup" : "Lewis grips a wardrobe door, lying at an angle in a corner, and pulls it with Snoop's gripper. It moves reluctantly in a cloud of silt. Under it is a dark object. The silt clears and Snoop's cameras show them what was under the door..."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "Ooohh daddy-oh, are you seein' what I'm seein'?",
-        "followup" : "CLOSE "
-      } ],
-      "key_words" : [ "LOVETT", "CLOSE", "MANIPULATOR ARMS", "DOOR", "BODINE", "MONTAGE STYLE", "SNOOP'S VIDEO POV", "CUT WIDER", "BLACK AND WHITE FRAME", "SNOOP DOG", "WHITE STAR LINE", "SEVERAL ANGLES", "THE ROV", "OUTSIDE THE SUB", "ANATOLY", "ROV", "I'" ]
-    }, {
-      "id" : 2,
-      "on" : "ON LOVETT",
-      "desc" : "Watching his monitors. By his expression it is like he is seeing the Holy Grail.",
-      "sentences" : [ {
-        "shot_id" : 2,
+        "followup" : "CLOSE ON LOVETT Watching his monitors. By his expression it is like he is seeing the Holy Grail."
+      }, {
+        "shot_id" : 0,
         "character" : "LOVETT",
-        "line" : "Oh baby baby baby. (grabs the mike) It's payday, boys. ",
+        "line" : "Oh baby baby baby. (grabs the mike) It's payday, boys.",
         "followup" : ""
       } ],
-      "key_words" : [ "LOVETT" ]
+      "key_words" : [ "LOVETT", "TIGHT ON THE EYEPIECE MONITOR", "MANIPULATOR ARMS", "DOOR", "BODINE", "MONTAGE STYLE", "THE TITANIC", "SNOOP'S VIDEO POV", "THE TWO SUBS", "CLOSE ON LOVETT", "MINUTES LATER", "CUT WIDER", "BLACK AND WHITE FRAME", "SNOOP DOG", "WHITE STAR LINE", "SEVERAL ANGLES", "THE ROV", "OUTSIDE THE SUB", "ANATOLY", "THRUM", "ROV", "I'" ]
     }, {
-      "id" : 3,
+      "id" : 1,
       "on" : "ON THE SCREEN",
-      "desc" : "In the glare of the lights, is the object of their quest: a small STEEL COMBINATI",
+      "desc" : "In the glare of the lights, is the object of their quest: a small STEEL COMBINATION SAFE. ",
       "sentences" : [ ],
-      "key_words" : [ "STEEL COMBINATI" ]
-    }, {
-      "id" : 4,
-      "on" : "ON SAFE",
-      "desc" : ". ",
-      "sentences" : [ ],
-      "key_words" : [ ]
+      "key_words" : [ "STEEL COMBINATION SAFE" ]
     } ]
   }, {
     "id" : 6,
@@ -307,17 +289,17 @@
       "desc" : "PULL BACK from the screen, showing the CNN report playing on a TV set in the living room of a small rustic house. It is full of ceramics, figurines, folk art, the walls crammed with drawings and paintings... things collected over a lifetime. PANNING to show a glassed-in studio attached to the house. Outside it is a quiet morning in Ojai, California. In the studio, amid incredible clutter, an ANCIENT WOMAN is throwing a pot on a potter's wheel. The liquid red clay covers her hands... hands that are gnarled and age-spotted, but still surprisingly strong and supple. A woman in her early forties assists her.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "LOVETT (V.O.)",
+        "character" : "LOVETT",
         "line" : "I've planned this expedition for three years, and we're out here recovering some amazing things... things that will have enormous historical and educational value.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CNN REPORTER (V.O.)",
+        "character" : "CNN REPORTER",
         "line" : "But it's no secret that education is not your main purpose. You're a treasure hunter. So what is the treasure you're hunting?",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LOVETT (V.O.)",
+        "character" : "LOVETT",
         "line" : "I'd rather show you than tell you, and we think we're very close to doing just that.",
         "followup" : "The old woman's name is ROSE CALVERT. Her face is a wrinkled mass, her body shapeless and shrunken under a one-piece African-print dress. But her eyes are just as bright and alive as those of a young girl. Rose gets up and walks into the living room, wiping pottery clay from her hands with a rag. A Pomeranian dog gets up and comes in with her. The younger woman, LIZZY CALVERT, rushes to help her."
       }, {
@@ -327,32 +309,26 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "REPORTER (V.O.)",
+        "character" : "REPORTER",
         "line" : "Your expedition is at the center of a storm of controversy over salvage rights and even ethics. Many are calling you a grave robber.",
-        "followup" : "TIGHT "
-      } ],
-      "key_words" : [ "LIZZY CALVERT", "CNN", "TV", "LOVETT", "ROSE", "ROSE CALVERT", "ANCIENT WOMAN", "PULL BACK", "REPORTER", "CNN REPORTER", "PANNING", "I'", "TIGHT" ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE SCREEN",
-      "desc" : "",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "TIGHT ON THE SCREEN"
+      }, {
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Nobody called the recovery of the artifacts from King Tut's tomb grave robbing. I have museum-trained experts here, making sure this stuff is preserved and catalogued properly. Look at this drawing, which was found today...",
         "followup" : "The video camera pans off Brock to the drawing, in a tray of water. The image of the woman with the necklace FILLS FRAME."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "...a piece of paper that's been underwater for 84 years... and my team are able to preserve it intact. Should this have remained unseen at the bottom of the ocean for eternity, when we can see it and enjoy it now...?",
         "followup" : "ROSE is galvanized by this image. Her mouth hangs open in amazement."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I'll be God damned. ",
         "followup" : ""
       } ],
-      "key_words" : [ "LOVETT", "FILLS FRAME", "ROSE", "I'" ]
+      "key_words" : [ "LIZZY CALVERT", "CNN", "TV", "LOVETT", "ROSE", "ROSE CALVERT", "ANCIENT WOMAN", "PULL BACK", "REPORTER", "TIGHT ON THE SCREEN", "CNN REPORTER", "FILLS FRAME", "PANNING", "I'" ]
     } ]
   }, {
     "id" : 10,
@@ -439,15 +415,9 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "SMASH CUT TO AN ENORMOUS SEA STALLI",
+      "desc" : "SMASH CUT TO AN ENORMOUS SEA STALLION HELICOPTER thundering across the ocean. PAN 180 degrees as it roars past. There is no land at either horizon. The Keldysh is visible in the distance. CLOSE ON A WINDOW Of the monster helicopter. Rose's face is visible, looking out calmly. ",
       "sentences" : [ ],
-      "key_words" : [ "SMASH CUT TO AN ENORMOUS SEA STALLI" ]
-    }, {
-      "id" : 1,
-      "on" : "ON HELICOPTER",
-      "desc" : "thundering across the ocean. PAN 180 degrees as it roars past. There is no land at either horizon. The Keldysh is visible in the distance. CLOSE ON A WINDOW Of the monster helicopter. Rose's face is visible, looking out calmly. ",
-      "sentences" : [ ],
-      "key_words" : [ "PAN", "WINDOW", "CLOSE ON" ]
+      "key_words" : [ "PAN", "SMASH CUT TO AN ENORMOUS SEA STALLION HELICOPTER", "WINDOW", "CLOSE ON" ]
     } ]
   }, {
     "id" : 13,
@@ -773,126 +743,114 @@
         "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I don't see what all the fuss is about. It doesn't look any bigger than the Mauretania.",
-        "followup" : "A PERSONAL VALET opens the door on the other side of the car for CALED"
-      } ],
-      "key_words" : [ "DAIMLER", "CALED", "SHOT CONTINUES IN", "ROSE", "WHITE STAR LINE", "RENAULT TOURING CAR", "RENAULT", "BENZ", "FLORIOUS REVEAL", "HATCH", "LIVERIED DRIVER", "IN FOREGROUND", "PERSONAL VALET", "YOUNG WOMAN" ]
-    }, {
-      "id" : 1,
-      "on" : "ON HOCKLEY",
-      "desc" : ", the 30 year old heir to the elder Hockley's fortune. \"Cal\" is handsome, arrogant and rich beyond meaning.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "A PERSONAL VALET opens the door on the other side of the car for CALEDON HOCKLEY, the 30 year old heir to the elder Hockley's fortune. \"Cal\" is handsome, arrogant and rich beyond meaning."
+      }, {
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "You can be blasé about some things, Rose, but not about Titanic. It's over a hundred feet longer than Mauretania, and far more luxurious. It has squash courts, a Parisian cafe... even Turkish baths.",
         "followup" : "Cal turns and fives his hand to Rose's mother, RUTH DEWITT BUKATER, who descends from the touring car being him. Ruth is a 40ish society empress, from one of the most prominent Philadelphia families. She is a widow, and rules her household with iron will."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Your daughter is much too hard to impress, Ruth. (indicating a puddle) Mind your step.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "RUTH",
         "line" : "(gazing at the leviathan) So this is the ship they say is unsinkable.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "It is unsinkable. God himself couldn't sink this ship.",
         "followup" : "Cal speaks with the pride of a host providing a special experience. This entire entourage of rich Americans is impeccably turned out, a quintessential example of the Edwardian upper class, complete with servants. Cal's VALET, SPICER LOVEJOY, is a tall and impassive, dour as an undertaker. Behind him emerge TWO MAIDS, personal servants to Ruth and Rose. A WHITE STAR LINE PORTER scurries toward them, harried by last minute loading."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PORTER",
         "line" : "Sir, you'll have to check your baggage through the main terminal, round that way --",
         "followup" : "Cal nonchalantly hands the man a fiver. The porter's eyes dilate. Five pounds was a monster tip in those days."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "I put my faith in you, good sir. (curtly, indicating Lovejoy) See my man.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PORTER",
         "line" : "Yes, sir. My pleasure, sir.",
         "followup" : "Cal never tires of the effect of money on the unwashed masses."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVEJOY",
         "line" : "(to the porter) These trunks here, and 12 more in the Daimler. We'll have all this lot up in the rooms.",
         "followup" : "The White Star man looks stricken when he sees the enormous pile of steamer trunks and suitcases loading down the second car, including wooden crates and steel safe. He whistles frantically for some cargo-handlers nearby who come running. Cal breezes on, leaving the minions to scramble. He quickly checks his pocket watch."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "We'd better hurry. This way, ladies.",
         "followup" : "He indicates the way toward the first class gangway. They move into the crowd. TRUDY BOLT, Rose's maid, hustles behind them, laden with bags of her mistress's most recent purchases... things too delicate for the baggage handlers. Cal leads, weaving between vehicles and handcarts, hurrying passengers (mostly second class and steerage) and well- wishers. Most of the first class passengers are avoiding the smelly press of the dockside crowd by using an elevated boarding bridge, twenty feet above. They pass a line of steerage passengers in their coarse wool and tweeds, queued up inside movable barriers like cattle in a chute. A HEALTH OFFICER examines their heads one by one, checking scalp and eyelashes for lice. They pass a well-dressed young man cranking the handle of a wooden Biograph \"cinematograph\" camera mounted on a tripod. DANIEL MARVIN (whose father founded the Biograph Film Studio) is filming his young bride in front of the Titanic. MARY MARVIN stands stiffly and smiles, self conscious."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "DANIEL",
         "line" : "Look up at the ship, darling, that's it. You're amazed! You can't believe how big it is! Like a mountain. That's great.",
         "followup" : "Mary Marvin, without an acting fiber in her body, does a bad Clara Bow pantomime of awe, hands raised. Cal is jostled by two yelling steerage boys who shove past him. And he is bumped again a second later by the boys' father."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Steady!!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MAN",
         "line" : "Sorry squire!",
         "followup" : "The Cockney father pushes on, after his kids, shouting."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Steerage swine. Apparently missed his annual bath.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "RUTH",
         "line" : "Honestly, Cal, if you weren't forever booking everything at the last instant, we could have gone through the terminal instead of running along the dock like some squalid immigrant family.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "All part of my charm, Ruth. At any rate, it was my darling fiancee's beauty rituals which made us late.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "You told me to change.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "I couldn't let you wear black on sailing day, sweetpea. It's bad luck.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I felt like black.",
         "followup" : "Cal guides them out of the path of a horse-drawn wagon loaded down with two tons of OXFORD MARMALADE, in wooden cases, for Titanic's Victualling Department."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Here I've pulled every string I could to book us on the grandest ship in history, in her most luxurious suites... and you act as if you're going to your execution.",
         "followup" : "Rose looks up as the hull of Titanic looms over them... a great iron wall, Bible black and sever. Cal motions her forward, and she enters the gangway to the D Deck doors with a sense of overwhelming dread."
       }, {
-        "shot_id" : 1,
-        "character" : "OLD ROSE (V.O.)",
+        "shot_id" : 0,
+        "character" : "OLD ROSE",
         "line" : "It was the ship of dreams... to everyone else. To me it was a slave ship, taking me back to America in chains.",
-        "followup" : "CLOSE "
-      } ],
-      "key_words" : [ "OLD ROSE", "WHITE STAR LINE PORTER", "LOVEJOY", "CLOSE", "RUTH", "DANIEL", "BUKATER", "MARVIN", "DANIEL MARVIN", "ROSE", "VALET", "TWO MAIDS", "PORTER", "RUTH DEWITT", "CAL", "SPICER LOVEJOY", "TRUDY BOLT", "MARY", "HEALTH OFFICER", "OXFORD MARMALADE", "MAN", "I'" ]
-    }, {
-      "id" : 2,
-      "on" : "ON CAL'S HAND IN SLOW",
-      "desc" : "-MOTION As it closes possessively over Rose's arm. He escorts her up the gangway and the black hull of Titanic swallows them.",
-      "sentences" : [ {
-        "shot_id" : 2,
-        "character" : "OLD ROSE (V.O.)",
+        "followup" : "CLOSE ON CAL'S HAND IN SLOW-MOTION As it closes possessively over Rose's arm. He escorts her up the gangway and the black hull of Titanic swallows them."
+      }, {
+        "shot_id" : 0,
+        "character" : "OLD ROSE",
         "line" : "Outwardly I was everything a well brought up girl should be. Inside, I was screaming. ",
         "followup" : ""
       } ],
-      "key_words" : [ "OLD ROSE", "MOTION" ]
+      "key_words" : [ "OLD ROSE", "WHITE STAR LINE PORTER", "LOVEJOY", "FLORIOUS REVEAL", "DANIEL MARVIN", "SHOT CONTINUES IN", "VALET", "RUTH DEWITT", "CAL", "HATCH", "LIVERIED DRIVER", "SPICER LOVEJOY", "MAN", "PERSONAL VALET", "DAIMLER", "RENAULT TOURING CAR", "RENAULT", "BENZ", "RUTH", "IN FOREGROUND", "DANIEL", "BUKATER", "YOUNG WOMAN", "MARVIN", "ROSE", "WHITE STAR LINE", "CALEDON HOCKLEY", "TWO MAIDS", "PORTER", "CLOSE ON CAL'S HAND IN SLOW-MOTION", "TRUDY BOLT", "MARY", "HEALTH OFFICER", "OXFORD MARMALADE", "I'" ]
     } ]
   }, {
     "id" : 19,
@@ -931,80 +889,74 @@
         "shot_id" : 0,
         "character" : "JACK",
         "line" : "(jaunty) Hit me again, Sven.",
-        "followup" : "Jack takes the card and slips it into his hand. EXTREME CLOSEUP JACK'S EYES They betray nothing. CLOSE "
-      } ],
-      "key_words" : [ "VIEW OF TITANIC", "FOUR", "OLAF", "JACK DAWSON", "SVEN", "CLOSE", "EXTREME CLOSEUP JACK'S EYES", "TWO SWEDES", "PULL BACK", "FABRIZIO DE ROSSI", "MEN", "JACK", "I'" ]
-    }, {
-      "id" : 1,
-      "on" : "ON FABRIZIO",
-      "desc" : "Licking his lips nervously as he refuses a card. EXTREME CLOSEUP STACK In the middle of the table. Bills and coins from four counrties. This has been going on for a while. Sitting on top of the money are two 3RD CLASS TICKETS for RMS TITANIC. The Titanic's whistle blows again. Final warning.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "Jack takes the card and slips it into his hand. EXTREME CLOSEUP JACK'S EYES They betray nothing. CLOSE ON FABRIZIO Licking his lips nervously as he refuses a card. EXTREME CLOSEUP STACK In the middle of the table. Bills and coins from four counrties. This has been going on for a while. Sitting on top of the money are two 3RD CLASS TICKETS for RMS TITANIC. The Titanic's whistle blows again. Final warning."
+      }, {
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "The moment of truth boys. Somebody's life's about to change.",
         "followup" : "Fabrizio puts his cards down. So do the Swedes. Jack holds his close."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Let's see... Fabrizio's got niente. Olaf, you've got squat. Sven, uh oh... two pair... mmm. (turns to his friend) Sorry Fabrizio.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FABRIZIO",
         "line" : "What sorry? What you got? You lose my money?? Ma va fa'n culo testa di cazzo --",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Sorry, you're not gonna see your mama again for a long time...",
         "followup" : "He slaps a full house down on the table."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "(grinning) 'Cause you're goin' to America!! Full house boys!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FABRIZIO",
         "line" : "Porca Madonna!! YEEAAAAA!!!",
         "followup" : "The table explodes into shouting in several languages. Jack rakes in the money and the tickets."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "(to the Swedes) Sorry boys. Three of a kind and a pair. I'm high and you're dry and... (to Fabrizio) we're going to --",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FABRIZIO / JACK",
         "line" : "L'AMERICA!!!",
         "followup" : "Olaf balls up one huge farmer's fist. We think he's going to clobber Jack, but he swings round and punches Sven, who flops backward onto the floor and sits there, looking depressed. Olaf forgets about Jack and Fabrizio, who are dancing around, and goes into a rapid harangue of his stupid cousin. Jack kisses the tickets, then jumps on Fabrizio's back and rides him around the pub. It's like they won the lottery."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Goin' home... to the land o' the free and the home of the real hot- dogs! On the TITANIC!! We're ridin' in high style now! We're practically goddamned royalty, ragazzo mio!!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FABRIZIO",
         "line" : "You see? Is my destinio!! Like I told you. I go to l'America!! To be a millionaire!! (to pubkeeper) Capito?? I go to America!!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PUBKEEPER",
         "line" : "No, mate. Titanic go to America. In five minutes.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Shit!! Come on, Fabri! (grabbing their stuff) Come on!! (to all, grinning) It's been grand.",
         "followup" : "They run for the door."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PUBKEEPER",
         "line" : "'Course I'm sure if they knew it was you lot comin', they'd be pleased to wait! ",
         "followup" : ""
       } ],
-      "key_words" : [ "PUBKEEPER", "EXTREME CLOSEUP STACK", "FABRIZIO", "YEEAAAAA", "RMS TITANIC", "RD CLASS TICKETS", "L'AMERICA", "JACK", "TITANIC", "I'" ]
+      "key_words" : [ "VIEW OF TITANIC", "FOUR", "EXTREME CLOSEUP JACK'S EYES", "EXTREME CLOSEUP STACK", "TWO SWEDES", "CLOSE ON FABRIZIO", "FABRIZIO DE ROSSI", "RMS TITANIC", "L'AMERICA", "TITANIC", "PUBKEEPER", "OLAF", "JACK DAWSON", "SVEN", "FABRIZIO", "YEEAAAAA", "PULL BACK", "MEN", "RD CLASS TICKETS", "JACK", "I'" ]
     } ]
   }, {
     "id" : 21,
@@ -1222,12 +1174,12 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "At Cherbourg a woman came aboard named Margaret Brown, but we all called her Molly. History would call her the Unsinkable Molly Brown. Her husband had struck gold someplace out west, and she was what mother called \"new money\".",
         "followup" : "At 45, MOLLY BROWN is a tough talking straightshooter who dresses in the finery of her genteel peers but will never be one of them."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "By the next afternoon we had made our final stop and we were steaming west from the coast of Ireland, with nothing out ahead of us but ocean... ",
         "followup" : ""
       } ],
@@ -1255,45 +1207,39 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE BRIDGE",
-      "desc" : ", CAPTAIN SMITH turns from the binnacle to FIRST OFFICER WILLIAM MURDOCH.",
+      "desc" : "ON THE BRIDGE, CAPTAIN SMITH turns from the binnacle to FIRST OFFICER WILLIAM MURDOCH.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAPTAIN SMITH",
         "line" : "Take her to sea Mister Murdoch. Let's stretch her legs.",
         "followup" : "Murdoch moves the engine telegraph lever to ALL AHEAD FULL. Now begins a kind of musical/visual setpiece... an ode to the great ship. The music is rhythmic, surging forward, with a soaring melody that addresses the majesty and optimism of the ship of dreams. IN THE ENGINE ROOM The telegraph clangs and moves to \"All Ahead Full\"."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CHIEF ENGINEER BELL",
         "line" : "All ahead full!",
         "followup" : "On the catwalk THOMAS ANDREWS, the shipbuilder, watches carefully as the engineers and greasers scramble to adjust valves. Towering above them are the twin RECIPROCATING engines, four stories tall, their ten-foot-long connecting rods surging up and down with the turning of the massive crankshafts. The engines thunder like the footfalls of marching giants. IN THE BOILER ROOMS The STOKERS chant a song as they hurl coal into the roaring furnaces. The \"black gang\" are covered with sweat and coal dust, their muscles working like part of the machinery as they toil in the hellish glow. UNDERWATER The enormous bronze screws chop through the water, hurling the steamer forward and churning up a vortex of foam that lingers for miles behind the juggernaut ship. Smoke pours from the funnels as -- The water flares higher at the bow as the ship's speeds builds. THE CAMERA SWEEPS UP the prow to find Jack, the wind streaming through his hair and -- Captain Smith steps out of the enclosed bridge onto the wing. He stands with his hands on the rail, looking every bit the storybook picture of a Captain... a great patriarch of the sea."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FIRST OFFICER MURDOCH",
         "line" : "Twenty one knots, sir!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SMITH",
         "line" : "She's got a bone in her teeth now, eh, Mr. Murdoch.",
         "followup" : "Smith accepts a cup of tea from FIFTH OFFICER LOWE. He contentedly watches the white V of water hurled outward from the bows like an expression of his own personal power. They are invulnerable, towering over the sea. AT THE BOW Jack and Fabrizio lean far over, looking down. In the glassy bow-wave two dolphins appear, under the water, running fast just in front of the steel blade of the prow. They do it for the sheer joy and exultation of motion. Jack watches the dolphins and grins. They breach, jumping clear of the water and then dive back, crisscrossing in front of the bow, dancing ahead of the juggernaut. Fabrizio looks forward across the Atlantic, staring into the sunsparkles."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FABRIZIO",
         "line" : "I can see the Statue of Liberty already. (grinning at Jack) Very small... of course.",
         "followup" : "THE CAMERA ARCS around them, until they are framed against the sea. NOW WE PULL BACK, across the forecastle deck. Rising, as we continue back, and the ships rolls endlessly forward underneath. Over the bridge wing, along the boat deck until her funnels come INTO FRAME besides us and march past like the pillars of heaven, one by one. We pull back and up, until we are looking down the funnels, and the people strolling on the decks and standing at the rail become antlike. And still we pull back until the great lady is seen whole in a gorgeous aerial portrait, black and severe in her majesty."
       }, {
-        "shot_id" : 1,
-        "character" : "ISMAY (V.O.)",
+        "shot_id" : 0,
+        "character" : "ISMAY",
         "line" : "She is the largest moving object ever made by the hand of man in all history... ",
         "followup" : ""
       } ],
-      "key_words" : [ "THOMAS ANDREWS", "CAPTAIN SMITH", "RECIPROCATING", "CHIEF ENGINEER BELL", "IN THE BOILER ROOMS", "AT THE BOW", "FIRST", "ALL AHEAD FULL", "UNDERWATER", "FIRST OFFICER MURDOCH", "FABRIZIO", "ISMAY", "IN THE ENGINE ROOM", "STOKERS", "NOW WE PULL BACK", "OFFICER WILLIAM MURDOCH", "SMITH", "INTO FRAME", "THE CAMERA ARCS", "THE CAMERA SWEEPS UP", "FIFTH OFFICER LOWE" ]
+      "key_words" : [ "THOMAS ANDREWS", "CAPTAIN SMITH", "RECIPROCATING", "ON THE BRIDGE", "CHIEF ENGINEER BELL", "IN THE BOILER ROOMS", "AT THE BOW", "FIRST", "ALL AHEAD FULL", "UNDERWATER", "FIRST OFFICER MURDOCH", "FABRIZIO", "ISMAY", "IN THE ENGINE ROOM", "STOKERS", "NOW WE PULL BACK", "OFFICER WILLIAM MURDOCH", "SMITH", "INTO FRAME", "THE CAMERA ARCS", "THE CAMERA SWEEPS UP", "FIFTH OFFICER LOWE" ]
     } ]
   }, {
     "id" : 32,
@@ -1402,20 +1348,14 @@
         "shot_id" : 0,
         "character" : "TOMMY",
         "line" : "Like we could forget.",
-        "followup" : "Jack glances across the well deck. At the aft railing of B deck promenade stands ROSE, in a long yellow dress and white gloves. CLOSE "
-      } ],
-      "key_words" : [ "CORA", "ROSE", "TOMMY", "CLOSE", "CARTMELL", "TOMMY RYAN", "JACK", "THE SKETCH", "BLACK FRENCH BULLDOG" ]
-    }, {
-      "id" : 1,
-      "on" : "ON JACK",
-      "desc" : "Unable to take his eyes off of her. They are across from each other, about 60 feet apart, with the well deck like a valley between them. She on her promontory, he on his much lower one. She stares down at the water. He watches her unpin her elaborate hat and take it off. She looks at the frilly absurd thing, then tosses it over the rail. It sails far down to the water and is carried away, astern. A spot of yellow in the vast ocean. He is riveted by her. She looks like a figure in a romantic novel, sad and isolated. Fabrizio taps Tommy and they both look at Jack gazing at Rose. Fabrizio and Tommy grin at each other. Rose turns suddenly and looks right at Jack. He is caught staring, but he doesn't look away. She does, but then looks back. Their eyes meet across the space of the well deck, across the gulf between worlds. Jack sees a man (Cal) come up behind her and take her arm. She jerks her arm away. They argue in pantomime. She storms away, and he goes after her, disappearing along the A-deck promenade. Jack stares after her.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "Jack glances across the well deck. At the aft railing of B deck promenade stands ROSE, in a long yellow dress and white gloves. CLOSE ON JACK Unable to take his eyes off of her. They are across from each other, about 60 feet apart, with the well deck like a valley between them. She on her promontory, he on his much lower one. She stares down at the water. He watches her unpin her elaborate hat and take it off. She looks at the frilly absurd thing, then tosses it over the rail. It sails far down to the water and is carried away, astern. A spot of yellow in the vast ocean. He is riveted by her. She looks like a figure in a romantic novel, sad and isolated. Fabrizio taps Tommy and they both look at Jack gazing at Rose. Fabrizio and Tommy grin at each other. Rose turns suddenly and looks right at Jack. He is caught staring, but he doesn't look away. She does, but then looks back. Their eyes meet across the space of the well deck, across the gulf between worlds. Jack sees a man (Cal) come up behind her and take her arm. She jerks her arm away. They argue in pantomime. She storms away, and he goes after her, disappearing along the A-deck promenade. Jack stares after her."
+      }, {
+        "shot_id" : 0,
         "character" : "TOMMY",
         "line" : "Forget it, boyo. You'd as like have angels fly out o' yer arse as get next to the likes o' her. ",
         "followup" : ""
       } ],
-      "key_words" : [ "TOMMY" ]
+      "key_words" : [ "CORA", "CLOSE ON JACK", "ROSE", "TOMMY", "CARTMELL", "TOMMY RYAN", "JACK", "THE SKETCH", "BLACK FRENCH BULLDOG" ]
     } ]
   }, {
     "id" : 34,
@@ -1426,20 +1366,14 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "SLOWLY PUSHING IN ",
-      "sentences" : [ ],
-      "key_words" : [ "SLOWLY PUSHING IN" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : "as she sits, flanked by people in heated conversation. Cal and Ruth are laughing together, while on the other side LADY DUFF-GORDON is holding forth animatedly. We don't hear what they are saying. Rose is staring at her plate, barely listening to the inconsequential babble around her.",
+      "desc" : "SLOWLY PUSHING IN ON ROSE as she sits, flanked by people in heated conversation. Cal and Ruth are laughing together, while on the other side LADY DUFF-GORDON is holding forth animatedly. We don't hear what they are saying. Rose is staring at her plate, barely listening to the inconsequential babble around her.",
       "sentences" : [ {
-        "shot_id" : 1,
-        "character" : "OLD ROSE (V.O.)",
+        "shot_id" : 0,
+        "character" : "OLD ROSE",
         "line" : "I saw my whole life as if I'd already lived it... an endless parade of parties and cotillions, yachts and polo matches... always the same narrow people, the same mindless chatter. I felt like I was standing at a great precipice, with no one to pull me back, no one who cared... or even noticed.",
         "followup" : "ANGLE BENEATH TABLE Showing Rose's hand, holding a tiny fork from her crab salad. She pokes the crab-fork into the skin of her arm, harder and harder until it draws blood. "
       } ],
-      "key_words" : [ "LADY DUFF", "OLD ROSE", "ANGLE BENEATH TABLE", "GORDON", "I'" ]
+      "key_words" : [ "OLD ROSE", "ANGLE BENEATH TABLE", "SLOWLY PUSHING IN ON ROSE", "LADY DUFF-GORDON", "I'" ]
     } ]
   }, {
     "id" : 35,
@@ -1810,20 +1744,14 @@
         "shot_id" : 0,
         "character" : "CAL",
         "line" : "There's nothing I couldn't give you. There's nothing I'd deny you if you would deny me. Open your heart to me, Rose.",
-        "followup" : "CAMERA begins to TRACK IN "
-      } ],
-      "key_words" : [ "TRACK IN", "ROSE", "CAMERA", "CAL", "HEART", "OF THE OCEAN", "I'" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : ". Closer and closer, during the following:",
-      "sentences" : [ {
-        "shot_id" : 1,
-        "character" : "OLD ROSE (V.O.)",
+        "followup" : "CAMERA begins to TRACK IN ON ROSE. Closer and closer, during the following:"
+      }, {
+        "shot_id" : 0,
+        "character" : "OLD ROSE",
         "line" : "Of course his gift was only to reflect light back onto himself, to illuminate the greatness that was Caledon Hockley. It was a cold stone... a heart of ice.",
         "followup" : "Finally, when Rose's eyes FILL FRAME, we MORPH SLOWLY to her eyes as the are now... transforming through 84 years of life... TRANSITION "
       } ],
-      "key_words" : [ "TRANSITION", "OLD ROSE", "FILL FRAME", "MORPH SLOWLY" ]
+      "key_words" : [ "OLD ROSE", "ROSE", "CAMERA", "TRACK IN ON ROSE", "CAL", "HEART", "TRANSITION", "OF THE OCEAN", "FILL FRAME", "MORPH SLOWLY", "I'" ]
     } ]
   }, {
     "id" : 41,
@@ -2016,7 +1944,7 @@
       "desc" : "MATCH DISSOLVE from the rusting hulk to the gleaming new Titanic in 1912, passing the end of the enclosed promenade just as Rose walks into the sunlight right in front of us. She is stunningly dressed and walking with purpose.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "As if I hadn't felt the sun in years.",
         "followup" : "IT IS SATURDAY APRIL 13, 1912. Rose unlatches the gate to go down into third class. The steerage men on the deck stop what they're doing and stare at her. "
       } ],
@@ -2370,7 +2298,7 @@
         "line" : "Of course I leave it to your good offices to decide what's best, but what a glorious end to your last crossing if we get into New York Tuesday night and surprise them all. (Ismay slaps his hand on the table) Retire with a bang, eh, E.J.?",
         "followup" : "A beat. Then Smith nods, stiffy. "
       } ],
-      "key_words" : [ "SHOT HANDS OFF", "NOEL LUCY MARTHA DYER", "ISMAY", "RUTH", "COUNTESS OF ROTHES", "MOLLY", "SMITH", "TRACKING WITH THEM", "EDWARDS", "I'" ]
+      "key_words" : [ "SHOT HANDS OFF", "ISMAY", "RUTH", "COUNTESS OF ROTHES", "MOLLY", "SMITH", "TRACKING WITH THEM", "NOEL LUCY MARTHA DYER-EDWARDS", "I'" ]
     } ]
   }, {
     "id" : 48,
@@ -2507,7 +2435,7 @@
         "followup" : "Jack has a little spit running down his chin. He doesn't know it. Molly Brown is grinning. As Rose proceeds with the introductions, we hear..."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "The others were gracious and curious about the man who'd saved my life. But my mother looked at him like an insect. A dangerous insect which must be squashed quickly.",
         "followup" : ""
       }, {
@@ -2608,30 +2536,24 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Jack steps in and his breath is taken away by the splendor spread out before him. Overhead is the enormous glass dome, with a crystal chandelier at its center. Sweeping down six stories is the First Class Grand Staircase, the epitome of the opulent naval architecture of the time. And the people: the women in their floor length dresses, elaborate hairstyles and abundant jewelry... the gentlemen in evening dress, standing with one hand at the small of the back, talking quietly. Jack descends to A deck. Several men nod a perfunctory greeting. He nods back, keeping it simple. He feels like a spy. Cal comes down the stairs, with Ruth on his arm, covered in jewelry. They both walk right past Jack, neither one recognizing him. Cal nods at him, one gent to another. But Jack barely has time to be amused. Because just behind Cal and Ruth on the stairs is Rose, a vision in red and black, her low-cut dress showing off her neck and shoulders, her arms sheathed in white gloves that come well above above the elbow. Jack is hypnotized by her beauty. CLOSE ",
-      "sentences" : [ ],
-      "key_words" : [ "CLOSE" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : "As she approaches Jack. He imitates the gentlemen's stance, hand behind his back. She extends her gloved hand and he takes it, kissing the back of her fingers. Rose flushes, beaming noticeably. She can't take her eyes off him.",
+      "desc" : "Jack steps in and his breath is taken away by the splendor spread out before him. Overhead is the enormous glass dome, with a crystal chandelier at its center. Sweeping down six stories is the First Class Grand Staircase, the epitome of the opulent naval architecture of the time. And the people: the women in their floor length dresses, elaborate hairstyles and abundant jewelry... the gentlemen in evening dress, standing with one hand at the small of the back, talking quietly. Jack descends to A deck. Several men nod a perfunctory greeting. He nods back, keeping it simple. He feels like a spy. Cal comes down the stairs, with Ruth on his arm, covered in jewelry. They both walk right past Jack, neither one recognizing him. Cal nods at him, one gent to another. But Jack barely has time to be amused. Because just behind Cal and Ruth on the stairs is Rose, a vision in red and black, her low-cut dress showing off her neck and shoulders, her arms sheathed in white gloves that come well above above the elbow. Jack is hypnotized by her beauty. CLOSE ON ROSE As she approaches Jack. He imitates the gentlemen's stance, hand behind his back. She extends her gloved hand and he takes it, kissing the back of her fingers. Rose flushes, beaming noticeably. She can't take her eyes off him.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "I saw that in a nickelodeon once, and I always wanted to do it.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "Cal, surely you remember Mr. Dawson.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "(caught off guard) Dawson! I didn't recognize you. (studies him) Amazing! You could almost pass for a gentlemen. ",
         "followup" : ""
       } ],
-      "key_words" : [ "ROSE", "JACK", "CAL" ]
+      "key_words" : [ "CLOSE ON ROSE", "ROSE", "JACK", "CAL" ]
     } ]
   }, {
     "id" : 53,
@@ -2642,80 +2564,74 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "CUT TO THE RECEPTI",
-      "sentences" : [ ],
-      "key_words" : [ "CUT TO THE RECEPTI" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROOM ON",
-      "desc" : "D-DECK, as the party descends to dinner. They encounter Molly Brown, looking good in a beaded dress, in her own busty broad-shouldered way. Molly grins when she sees Jack. As they are going into the dining saloon she walks next to him, speaking low:",
+      "desc" : "CUT TO THE RECEPTION ROOM ON D-DECK, as the party descends to dinner. They encounter Molly Brown, looking good in a beaded dress, in her own busty broad-shouldered way. Molly grins when she sees Jack. As they are going into the dining saloon she walks next to him, speaking low:",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Ain't nothin' to it, is there, Jack?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Yeah, you just dress like a pallbearer and keep your nose up.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Remember, the only thing they respect is money, so just act like you've got a lot of it and you're in the club.",
         "followup" : "As they enter the swirling throng, Rose leans close to him, pointing out several notables."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "There's the Countess Rothes. And that's John Jacob Astor... the richest man on the ship. His little wifey there, Madeleine, is my age and in a delicate condition. See how she's trying to hide it. Quite the scandal. (nodding toward a couple) And over there, that's Sir Cosmo and Lucile, Lady Duff-Gordon. She designs naughty lingerie, among her many talents. Very popular with the royals.",
         "followup" : "Cal becomes engrossed in a conversations with Cosmo Duff- Gordon and Colonel Gracie, while Ruth, the Countess and Lucille discuss fashion. Rose picots Jack smoothly, to show him another couple, dressed impeccably."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "And that's Benjamin Guggenheim and his mistress, Madame Aubert. Mrs. Guggenheim is at home with the children, of course.",
         "followup" : "Cal, meanwhile, is accepting the praise of his male counterparts, who are looking at Rose like a prize show horse."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SIR COSMO",
         "line" : "Hockley, she is splendid.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Thank you.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "GRACIE",
         "line" : "Cal's a lucky man. I know him well, and it can only be luck.",
         "followup" : "Ruth steps over, hearing the last. She takes Cal's arm, somewhat coquettishly."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "RUTH",
         "line" : "How can you say that Colonel? Caledon Hockley is a great catch.",
         "followup" : "The entourage strolls toward the dining saloon, where they run into the Astor's going through the ornate double doors."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "J.J., Madeleine, I'd like you to meet Jack Dawson.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ASTOR",
         "line" : "(shaking his hand) Good to meet you Jack. Are you of the Boston Dawsons?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "No, the Chippewa Falls Dawsons, actually.",
         "followup" : "J.J. nods as if he's heard of them, then looks puzzled. Madeleine Astor appraises Jack and whispers girlishly to Rose:"
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MADELEINE",
         "line" : "It's a pity we're both spoken for, isn't it? ",
         "followup" : ""
       } ],
-      "key_words" : [ "GRACIE", "MADELEINE", "ROSE", "CAL", "SIR COSMO", "RUTH", "MOLLY", "DECK", "JACK", "I'", "ASTOR" ]
+      "key_words" : [ "GRACIE", "MADELEINE", "ROSE", "CUT TO THE RECEPTION ROOM ON D-DECK", "CAL", "SIR COSMO", "RUTH", "MOLLY", "JACK", "I'", "ASTOR" ]
     } ]
   }, {
     "id" : 54,
@@ -2729,7 +2645,7 @@
       "desc" : "Like a ballroom at the palace, alive and lit by a constellation of chandeliers, full of elegantly dressed people and beautiful music from BANDLEADER WALLACE HARTLEY'S small orchestra. As Rose and Jack enter and move across the room to their table, Cal and Ruth beside them, we hear...",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "He must have been nervous but he never faltered. They assumed he was one of them... a young captain of industry perhaps... new money, obviously, but still a member of the club. Mother of course, could always be counted upon... ",
         "followup" : ""
       } ],
@@ -3245,20 +3161,14 @@
         "shot_id" : 0,
         "character" : "STEWARD",
         "line" : "Yes sir! (to Jack) Come along you.",
-        "followup" : "END "
-      } ],
-      "key_words" : [ "STEWARD", "LOVEJOY", "END", "JACK" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : "Not seeing Jack hustled out.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "END ON ROSE Not seeing Jack hustled out."
+      }, {
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "(singing) O hear us when we cry to thee for those in peril on the sea. ",
         "followup" : ""
       } ],
-      "key_words" : [ "ROSE" ]
+      "key_words" : [ "STEWARD", "LOVEJOY", "ROSE", "END ON ROSE", "JACK" ]
     } ]
   }, {
     "id" : 63,
@@ -3482,7 +3392,7 @@
         "shot_id" : 0,
         "character" : "RUTH",
         "line" : "Of course the invitations had to be sent back to the printers twice. And the bridesmaids dresses! Let me tell you what an odyssey that has been...",
-        "followup" : "TRACKING SLOWLY IN on Rose as Ruth goes on. REVERSE - ROSE'S POV A tableau of MOTHER and DAUGHTER having tea. The four year old girl, wearing white gloves, daintily picking up a cookie. The mother correcting her on her posture, and the way she holds the teacup. The little girl is trying so hard to please, her expression serious. A glimpse of Rose at that age, and we see the relentless conditioning... the pain to becoming an Edwardian geisha. "
+        "followup" : "TRACKING SLOWLY IN on Rose as Ruth goes on. REVERSE - ROSE'S POV A tableau of MOTHER and DAUGHTER having tea. The four year old girl, wearing white gloves, daintily picking up a cookie. The mother correcting her on her posture, and the way she holds the teacup. The little girl is trying so hard to please, her expression serious. A glimpse of Rose at that age, and we see the relentless conditioning... the pain to becoming an Edwardian geisha."
       } ],
       "key_words" : [ "ROSE'S POV", "RUTH", "DAUGHTER", "MOTHER", "REVERSE", "TRACKING SLOWLY IN" ]
     }, {
@@ -3655,52 +3565,34 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE BUTTERFLY COMB",
-      "desc" : "as Rose draws it out of her hair. She shakes her head and her hair falls free around her shoulders. IN THE SITTING ROOM Jack is laying out his pencils like surgical tools. His sketchbook is open and ready. He looks up as she comes into the room, wearing a silk kimono.",
+      "desc" : "ON THE BUTTERFLY COMB as Rose draws it out of her hair. She shakes her head and her hair falls free around her shoulders. IN THE SITTING ROOM Jack is laying out his pencils like surgical tools. His sketchbook is open and ready. He looks up as she comes into the room, wearing a silk kimono.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "The last thing I need is another picture of me looking like a china doll. As a paying customer, I expect to get what I want.",
         "followup" : "She hands him a dime and steps back, parting the kimono. The blue stone lies on her creamy breast. Her heart is pounding as she slowly lowers the robe. Jake looks so stricken, it is almost comical. The kimono drops to the floor (this is all in cuts, lyrical)."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "Tell me when it looks right to you.",
         "followup" : "She poses on the divan, settling like a cat into the position we remember from the drawing... almost."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Uh... just bend your left leg a little and... and lower your head. Eyes to me. That's it.",
         "followup" : "Jack starts to sketch. He drops his pencil and she stifles a laugh."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I believe you are blushing, Mr. Big Artiste. I can't imagine Monsieur Monet blushing.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "(sweating) He does landscapes.",
-        "followup" : "TIGHT "
+        "followup" : "TIGHT ON JACK as his eyes come up to look at her over the top edge of his sketchpad. We have seen this image of him before, in her memory. It is an image she will carry the rest of her life. Despite his nervousness, he draws with sure strokes, and what emerges is the best thing he has ever done. Her pose is languid, her hands beautiful, and her eyes radiate her energy. PUSH SLOWLY IN ON ROSE'S FACE... TRANSITION: "
       } ],
-      "key_words" : [ "IN THE SITTING ROOM", "ROSE", "JACK", "TIGHT" ]
-    }, {
-      "id" : 2,
-      "on" : "ON JACK",
-      "desc" : "as his eyes come up to look at her over the top edge of his sketchpad. We have seen this image of him before, in her memory. It is an image she will carry the rest of her life. Despite his nervousness, he draws with sure strokes, and what emerges is the best thing he has ever done. Her pose is languid, her hands beautiful, and her eyes radiate her energy. PUSH SLOWLY IN ",
-      "sentences" : [ ],
-      "key_words" : [ "PUSH SLOWLY IN" ]
-    }, {
-      "id" : 3,
-      "on" : "ON ROSE'S FACE",
-      "desc" : "... TRANSITION: ",
-      "sentences" : [ ],
-      "key_words" : [ "TRANSITION" ]
+      "key_words" : [ "IN THE SITTING ROOM", "TRANSITION", "ON THE BUTTERFLY COMB", "PUSH SLOWLY IN ON ROSE'S FACE", "ROSE", "JACK", "TIGHT ON JACK" ]
     } ]
   }, {
     "id" : 74,
@@ -3747,7 +3639,7 @@
       "desc" : "BACK TO 1912. Jack is signing the drawing. Rose, wearing her kimono again, is leaning on his shoulder, watching.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Sorry to disappoint you Mr. Bodine.",
         "followup" : "Rose gazes at the drawing. He has X-rayed her soul."
       }, {
@@ -3790,7 +3682,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "TITANIC glides across an unnatural sea, black and calm as a pool of oil. The ships lights are mirrored almost perfectly in the black water. The sky is brilliant with stars. A meteor traces a bright line across the heavens. ",
+      "desc" : "TITANIC glides across an unnatural sea, black and calm as a pool of oil. The ships lights are mirrored almost perfectly in the black water. The sky is brilliant with stars. A meteor traces a bright line across the heavens.",
       "sentences" : [ ],
       "key_words" : [ "TITANIC" ]
     }, {
@@ -3984,7 +3876,7 @@
       }, {
         "shot_id" : 0,
         "character" : "ROSE",
-        "line" : "To the stars. ",
+        "line" : "To the stars.",
         "followup" : ""
       } ],
       "key_words" : [ "RENAULT", "ROSE", "JACK" ]
@@ -4070,15 +3962,9 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
+      "desc" : "ON TITANIC Steaming hellbent through the darkness, hurling up white water at the bows. The bow comes straight at us, until the bow wave WIPES THE FRAME -- ",
       "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON TITANIC",
-      "desc" : "Steaming hellbent through the darkness, hurling up white water at the bows. The bow comes straight at us, until the bow wave WIPES THE FRAME -- ",
-      "sentences" : [ ],
-      "key_words" : [ "WIPES THE FRAME" ]
+      "key_words" : [ "WIPES THE FRAME", "ON TITANIC" ]
     } ]
   }, {
     "id" : 89,
@@ -4107,7 +3993,7 @@
         "followup" : "She hugs his head to her chest, and just holds on for dear life."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "Well, I wasn't the first teenage girl to get seduced in the backseat of a car, and certainly not the last, by several million. He had such fine hands, artists' hands, but strong too... roughened by work. I remember their touch even now. ",
         "followup" : ""
       } ],
@@ -4255,7 +4141,7 @@
       "desc" : "Inside the enclosed wheelhouse, SIXTH OFFICER MOODY walks unhurriedly to the telephone, picking it up.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "FLEET (V.O.)",
+        "character" : "FLEET",
         "line" : "Is someone there?",
         "followup" : ""
       }, {
@@ -4292,13 +4178,13 @@
         "shot_id" : 0,
         "character" : "BARRETT",
         "line" : "Shut all dampers! Shut 'em!!",
-        "followup" : "FROM THE BRIDGE Murdoch watches the burg growing... straight ahead. The bow finally starts to come left (since the ship turns the reverse of the helm setting). Murdoch's jaw clenches as the bow turns with agonizing slowness. He holds his breath as the horrible physics play out. IN THE CROW'S NEST Frederick Fleet braces himself. THE BOW OF THE SHIP Thunders right at CAMERA and -- KRUUUNCH!! The ship hits the berg on its starboard bow. UNDERWATER We see the ice smashing in the steel hull plates. The iceberg bumps and scrapes along the side of the ship. Rivets pop as the steel plate of the hull flexes under the load. IN #2 HOLD The two stewards stagger as the hull buckles in four feet with a sound like THUNDER. Like a sledgehammer beating along outside the ship, the berg splits the hull plates and the sea pours in, sweeping them off their feet. The icy water swirls around the Renault as the men scramble for the stairs. ON G-DECK Forward Fabrizio is tossed in his bunk by the impact. He hears a sound like the greatly amplified squeal of a skate on ice. IN BOILER ROOM SIX Barret and Hesketh stagger as they hear the ROLLING THUNDER of the collision. They see the starboard side of the ship buckle in toward them and are almost swept off their feet by a rush of water coming in about two feet above the floor. "
+        "followup" : "FROM THE BRIDGE Murdoch watches the burg growing... straight ahead. The bow finally starts to come left (since the ship turns the reverse of the helm setting). Murdoch's jaw clenches as the bow turns with agonizing slowness. He holds his breath as the horrible physics play out. IN THE CROW'S NEST Frederick Fleet braces himself. THE BOW OF THE SHIP Thunders right at CAMERA and -- KRUUUNCH!! The ship hits the berg on its starboard bow. UNDERWATER We see the ice smashing in the steel hull plates. The iceberg bumps and scrapes along the side of the ship. Rivets pop as the steel plate of the hull flexes under the load. IN #2 HOLD The two stewards stagger as the hull buckles in four feet with a sound like THUNDER. Like a sledgehammer beating along outside the ship, the berg splits the hull plates and the sea pours in, sweeping them off their feet. The icy water swirls around the Renault as the men scramble for the stairs. ON G-DECK Forward Fabrizio is tossed in his bunk by the impact. He hears a sound like the greatly amplified squeal of a skate on ice. IN BOILER ROOM SIX Barret and Hesketh stagger as they hear the ROLLING THUNDER of the collision. They see the starboard side of the ship buckle in toward them and are almost swept off their feet by a rush of water coming in about two feet above the floor."
       } ],
-      "key_words" : [ "ROLLING THUNDER", "CHIEF ENGINEER BELL", "UNDERWATER", "FLEET", "FULL ASTERN", "IN BOILER ROOM SIX", "JAMES HESKETH", "SIXTH OFFICER MOODY", "BARRETT", "BELL", "FREDERICK BARRETT", "KRUUUNCH", "HOLD", "ON", "MOODY", "ENGINEERS", "STOP", "IN", "CAMERA", "CRASH SEQUENCE", "SERIES OF CUTS", "FULL SPEED ASTERN", "MURDOCH", "IN THE CROW'S NEST", "DECK", "FROM THE BRIDGE", "THE BOW OF THE SHIP", "THUNDER" ]
+      "key_words" : [ "ROLLING THUNDER", "CHIEF ENGINEER BELL", "UNDERWATER", "FLEET", "FULL ASTERN", "IN BOILER ROOM SIX", "JAMES HESKETH", "ON G-DECK", "SIXTH OFFICER MOODY", "BARRETT", "BELL", "FREDERICK BARRETT", "KRUUUNCH", "HOLD", "MOODY", "ENGINEERS", "STOP", "IN", "CAMERA", "CRASH SEQUENCE", "SERIES OF CUTS", "FULL SPEED ASTERN", "MURDOCH", "IN THE CROW'S NEST", "FROM THE BRIDGE", "THE BOW OF THE SHIP", "THUNDER" ]
     }, {
       "id" : 1,
       "on" : "ON THE FORWARD WELL DECK",
-      "desc" : "Jack and Rose break their kiss and look up in astonishment as the berg sails past, blocking out the sky like a mountain. Fragments break off it and crash down onto the deck, and they have to jump back to avoid flying chunks of ice. ",
+      "desc" : "Jack and Rose break their kiss and look up in astonishment as the berg sails past, blocking out the sky like a mountain. Fragments break off it and crash down onto the deck, and they have to jump back to avoid flying chunks of ice.",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -4342,45 +4228,39 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "CLOSE ",
-      "sentences" : [ ],
-      "key_words" : [ "CLOSE" ]
-    }, {
-      "id" : 1,
-      "on" : "ON MURDOCH",
-      "desc" : "The alarm bells still clatter mindlessly, seeming to reflect his inner state. He is in shock, unable to get a grip on what just happened. He just ran the biggest ship in history into an iceberg on its maiden voyage.",
+      "desc" : "CLOSE ON MURDOCH The alarm bells still clatter mindlessly, seeming to reflect his inner state. He is in shock, unable to get a grip on what just happened. He just ran the biggest ship in history into an iceberg on its maiden voyage.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MURDOCH",
         "line" : "(stiffly, to Moody) Note the time. Enter it in the log.",
         "followup" : "Captain Smith rushes out of his cabin onto the bridge, tucking in his shirt."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SMITH",
         "line" : "What was that, Mr. Murdoch?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MURDOCH",
         "line" : "An iceberg, sir. I put her hard a' starboard and run the engines full astern, but it was too close. I tried to port around it, but she hi... and I --",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SMITH",
         "line" : "Close the emergency doors.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MURDOCH",
         "line" : "The doors are closed.",
         "followup" : "Together they rush out onto the starboard wing, and Murdoch points. Smith looks into the darkness aft, then wheels around to FOURTH OFFICER BOHALL."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SMITH",
         "line" : "Find the Carpenter and get him to sound the ship. ",
         "followup" : ""
       } ],
-      "key_words" : [ "MURDOCH", "SMITH", "FOURTH OFFICER BOHALL" ]
+      "key_words" : [ "MURDOCH", "SMITH", "FOURTH OFFICER BOHALL", "CLOSE ON MURDOCH" ]
     } ]
   }, {
     "id" : 97,
@@ -4941,35 +4821,29 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON PHILLIPS",
-      "desc" : "Looking shocked.",
+      "desc" : "ON PHILLIPS Looking shocked.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PHILLIPS",
         "line" : "CQD, sir?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "SMITH",
         "line" : "That's right. The distress call. CQD. Tell whoever responds that we are going down by the head and need immediate assistance.",
         "followup" : "Smith hurries out."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "PHILLIPS",
         "line" : "Blimey.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BRIDE",
         "line" : "Maybe you ought to try that new distress call... S.O.S. (grinning) It may be our only chance to use it.",
         "followup" : "Phillips laughs in spite of himself and starts sending history's first S.O.S. Dit dit dit, da da da, dit dit dit... over and over. "
       } ],
-      "key_words" : [ "BRIDE", "SMITH", "CQD", "PHILLIPS" ]
+      "key_words" : [ "BRIDE", "SMITH", "CQD", "ON PHILLIPS", "PHILLIPS" ]
     } ]
   }, {
     "id" : 113,
@@ -5147,7 +5021,7 @@
         "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "(to the men) Right! Start the loading. Women and children!",
-        "followup" : "The appalling din of escaping steam abruptly cuts off, leaving a sudden unearthly silence in which Lightoller's voice echoes. "
+        "followup" : "The appalling din of escaping steam abruptly cuts off, leaving a sudden unearthly silence in which Lightoller's voice echoes."
       } ],
       "key_words" : [ "LIGHTOLLER" ]
     }, {
@@ -5333,70 +5207,64 @@
         "shot_id" : 0,
         "character" : "CAL",
         "line" : "Not the better half.",
-        "followup" : "PUSH IN "
-      } ],
-      "key_words" : [ "RUTH", "MARVIN", "DANIEL MARVIN", "MOLLY", "ROSE", "SECOND OFFICER LIGHTOLLER", "PUSH IN", "LIGHTOLLER", "CAL" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE'S FACE",
-      "desc" : "as it hits her like a thunderbolt. Jack is third class. He doesn't stand a chance. Another rocket bursts overhead, bathing her face in white light.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "PUSH IN ON ROSE'S FACE as it hits her like a thunderbolt. Jack is third class. He doesn't stand a chance. Another rocket bursts overhead, bathing her face in white light."
+      }, {
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "You unimaginable bastard.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Come on, Ruth, get in the boat. These are the first class seats right up here. That's it.",
         "followup" : "Molly practically hands her over to Lightoller, then looks around for some other women who might need a push."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Come on, Rose. You're next, darlin'.",
         "followup" : "Rose steps back, shaking her head."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "RUTH",
         "line" : "Rose, get in the boat!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "Goodbye, mother.",
         "followup" : "Ruth, standing in the tippy lifeboat, can do nothing. Cal grabs Rose's arm but she pulls free and walks away through the crowd. Cal catches up to Rose and grabs her again, roughly."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Where are you going? To him? Is that it? To be a whore to that gutter rat?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I'd rather be his whore than your wife.",
         "followup" : "He clenches his jaw and squeezes her arm viciously, pulling her back toward the lifeboat. Rose pulls out a hairpin and jabs him with it. He lets go with a curse and she runs into the crowd."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Lower away!!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "RUTH",
         "line" : "Rose! ROSE!!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Stuff a sock in it, would ya, Ruth. She'll be along.",
         "followup" : "The boat lurches downward as the falls are paid out. TRACKING WITH ROSE, as she runs through the clusters of people. She looks back and a furious Cal is coming after her. She runs breathlessly up to two proper looking men."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "That man tried to take advantage of me in the crowd!",
         "followup" : "Appalled, they turn to see Cal running toward them. Rose runs on as the two men grab Cal, restraining him. She runs through the First Class entrance. Cal breaks free and runs after her. He reaches the entrance, but runs into a knot of people coming out. He pushes rudely through them... "
       } ],
-      "key_words" : [ "ROSE", "CAL", "RUTH", "MOLLY", "TRACKING WITH ROSE", "I'", "LIGHTOLLER" ]
+      "key_words" : [ "RUTH", "MOLLY", "TRACKING WITH ROSE", "LIGHTOLLER", "MARVIN", "DANIEL MARVIN", "ROSE", "SECOND OFFICER LIGHTOLLER", "PUSH IN ON ROSE'S FACE", "CAL", "I'" ]
     } ]
   }, {
     "id" : 123,
@@ -5793,20 +5661,14 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "TIGHT ",
-      "sentences" : [ ],
-      "key_words" : [ "TIGHT" ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE LETTERS TITANIC",
-      "desc" : "painted two feet high on the bow of the doomed steamer. Once 50 feet above the waterline, they now quietly slip below the surface. We see them, gold on black, rippling and dimming to a pale green as they go deeper. IN BOAT SIX Ruth looks back at the Titanic, transfixed by the sight of the dying liner. The bowsprit is now barely above the waterline. Another of Boxhall's rockets EXPLODES overhead. K- BOOM! It lights up the whole area, and we see half a dozen boats in the water, spreading out from the ship.",
+      "desc" : "TIGHT ON THE LETTERS TITANIC painted two feet high on the bow of the doomed steamer. Once 50 feet above the waterline, they now quietly slip below the surface. We see them, gold on black, rippling and dimming to a pale green as they go deeper. IN BOAT SIX Ruth looks back at the Titanic, transfixed by the sight of the dying liner. The bowsprit is now barely above the waterline. Another of Boxhall's rockets EXPLODES overhead. K- BOOM! It lights up the whole area, and we see half a dozen boats in the water, spreading out from the ship.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOLLY",
         "line" : "Now there's somethin' you don't see every day. ",
         "followup" : ""
       } ],
-      "key_words" : [ "IN BOAT SIX", "BOOM", "MOLLY", "EXPLODES" ]
+      "key_words" : [ "IN BOAT SIX", "BOOM", "MOLLY", "TIGHT ON THE LETTERS TITANIC", "EXPLODES" ]
     } ]
   }, {
     "id" : 136,
@@ -5837,15 +5699,9 @@
         "shot_id" : 0,
         "character" : "IRISH MAN",
         "line" : "This'll take the chill off.",
-        "followup" : "Rose takes a mighty belt and hands it to Jack. He grins and follows suit. Jack tries a number of DOORS and IR"
+        "followup" : "Rose takes a mighty belt and hands it to Jack. He grins and follows suit. Jack tries a number of DOORS and IRON GATES along the way, finding them all locked. "
       } ],
-      "key_words" : [ "CRASH", "STEWARD", "JACK AND ROSE", "DOORS", "IR", "IRISH WOMAN", "IRISH MAN" ]
-    }, {
-      "id" : 1,
-      "on" : "ON GATES",
-      "desc" : "along the way, finding them all locked. ",
-      "sentences" : [ ],
-      "key_words" : [ ]
+      "key_words" : [ "CRASH", "STEWARD", "IRON GATES", "JACK AND ROSE", "DOORS", "IRISH WOMAN", "IRISH MAN" ]
     } ]
   }, {
     "id" : 137,
@@ -5856,80 +5712,74 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE BOAT DECK",
-      "desc" : "The action has moved to the aft group of boats, numbers 9, 11, 13 and 15 on the starboard side, and 10, 12, 14 and 16 on the port side. The pace of work is more frantic. You see crew and officers running now to work the davits, their previous complacency gone. Cal pushes through the crowd, scanning for Rose. Around him is chaos and confusion. A woman is calling for a child who has become separated from the crowd. A man is shouting over people's heads. A woman takes hold of Second Officer Lightoller's arm as he is about to launch Boat 10.",
+      "desc" : "ON THE BOAT DECK The action has moved to the aft group of boats, numbers 9, 11, 13 and 15 on the starboard side, and 10, 12, 14 and 16 on the port side. The pace of work is more frantic. You see crew and officers running now to work the davits, their previous complacency gone. Cal pushes through the crowd, scanning for Rose. Around him is chaos and confusion. A woman is calling for a child who has become separated from the crowd. A man is shouting over people's heads. A woman takes hold of Second Officer Lightoller's arm as he is about to launch Boat 10.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "WOMAN",
         "line" : "Will you hold the boat a moment? I have to run back to my room for something --",
         "followup" : "Lightoller grabs her and shoves her bodily into the boat. Thomas Andrews rushes up to him just then."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ANDREWS",
         "line" : "Why are the boats being launched half full?!",
         "followup" : "Lightoller steps past him, helping a seaman clear a snarled fall."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Not now, Mr. Andrews.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ANDREWS",
         "line" : "(pointing down at the water) There, look... twenty or so in a boat built for sixty five. And I saw one boat with only twelve. Twelve!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Well... we were not sure of the weight --",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ANDREWS",
         "line" : "Rubbish! They were tested in Belfast with the weight of 70 men. Now fill these boats, Mr. Lightoller. For God's sake, man!",
         "followup" : "The shot HANDS OFF to Cal, who sees Lovejoy hurrying toward him through the aisle connecting the port and starboard sides of the boat deck."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVEJOY",
         "line" : "She's not on the starboard side either.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "We're running out of time. And this strutting martinet... (indicating Lightoller) ...isn't letting any men in at all.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVEJOY",
         "line" : "The one on the other side is letting men in.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Then that's our play. But we're still going to need some insurance. (he starts off forward) Come on.",
         "followup" : "Cal charges off, heading forward, followed by Lovejoy. The SHOT HANDS OFF to a finely dressed elderly couple, IDA and ISADOR STRAUSS."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ISADOR",
         "line" : "Please, Ida, get into the boat.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "IDA",
         "line" : "No. We've been together for forty years, and where you go, I go. Don't argue with me, Isador, you know it does no good.",
         "followup" : "He looks at her with sadness and great love. They embrace gently."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Lower away!! ",
         "followup" : ""
       } ],
-      "key_words" : [ "SHOT HANDS OFF", "LOVEJOY", "IDA", "WOMAN", "HANDS OFF", "CAL", "ISADOR", "ANDREWS", "ISADOR STRAUSS", "LIGHTOLLER" ]
+      "key_words" : [ "SHOT HANDS OFF", "LOVEJOY", "IDA", "WOMAN", "HANDS OFF", "CAL", "ISADOR", "ANDREWS", "ON THE BOAT DECK", "ISADOR STRAUSS", "LIGHTOLLER" ]
     } ]
   }, {
     "id" : 138,
@@ -6276,20 +6126,14 @@
         "shot_id" : 0,
         "character" : "GRACIE",
         "line" : "(staring at her bedraggled state) Yes, miss... there are still a couple of boats all the way forward. This way, I'll lead you!",
-        "followup" : "Jack grabs her hand and they sprint past Gracie, with Tommy and Fabrizio close behind. ANGLE "
-      } ],
-      "key_words" : [ "GRACIE", "ROSE", "ANGLE", "I'" ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE BAND",
-      "desc" : "Incredibly they are still playing. Jack, Rose and the others run by.",
-      "sentences" : [ {
-        "shot_id" : 1,
+        "followup" : "Jack grabs her hand and they sprint past Gracie, with Tommy and Fabrizio close behind. ANGLE ON THE BAND Incredibly they are still playing. Jack, Rose and the others run by."
+      }, {
+        "shot_id" : 0,
         "character" : "TOMMY",
         "line" : "Music to drown by. Now I know I'm in First Class. ",
         "followup" : ""
       } ],
-      "key_words" : [ "TOMMY", "I'" ]
+      "key_words" : [ "GRACIE", "ANGLE ON THE BAND", "ROSE", "TOMMY", "I'" ]
     } ]
   }, {
     "id" : 151,
@@ -6343,115 +6187,109 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE PORT SIDE",
-      "desc" : "Lightoller is getting people into Boat 2. He keeps his pistol in his hand at this point. Twenty feet below them the sea is pouring into the doors and windows of B-Deck staterooms. They can hear the roar of water cascading into the ship.",
+      "desc" : "ON THE PORT SIDE Lightoller is getting people into Boat 2. He keeps his pistol in his hand at this point. Twenty feet below them the sea is pouring into the doors and windows of B-Deck staterooms. They can hear the roar of water cascading into the ship.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Women and children, please. Women and children only. Step back, sir.",
         "followup" : "Even with Jack's arms wrapped around her, Rose is shivering in the cold. Near her a WOMAN with TWO YOUNG DAUGHTERS looks into the eyes of a HUSBAND she knows she may not see again"
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "HUSBAND",
         "line" : "Goodbye for a little while... only for a little while. (to his two little girls) Go with mummy.",
         "followup" : "The woman stumbles to the boat with the children, hiding her tears from them. Beneath the false good cheer, the man is choked with emotion."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "HUSBAND",
         "line" : "Hold mummy's hand and be a good girl. That's right.",
         "followup" : "Some of the women are stoic, others are overwhelmed by emotion and have to be helped into the boats. A MAN scribbles a note and hands it to a woman who is about to board."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MAN",
         "line" : "Please get this to my wife in DeMoines, Iowa.",
         "followup" : "Jack looks at Tommy and Fabrizio."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "You better check out the other side.",
         "followup" : "They nod and run off, searching for a way around the deckhouse."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I'm not going without you.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Get in the boat, Rose.",
         "followup" : "Cal walks up just then."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Yes. Get in the boat, Rose.",
         "followup" : "She is shocked to see him. She steps instinctively to Jack. Cal looks at her, standing there shivering in her wet slip and stockings, a shocking display in 1912."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "My God, look at you. (taking off his boat) Here, put this on.",
         "followup" : "She numbly shrugs into it. He is doing it for modesty, not the cold."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Quickly, ladies. Step into the boat. Hurry, please!",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Go on. I'll get the next one.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "No. Not without you!",
         "followup" : "She doesn't even care that Cal is standing right there. He sees the emotion between Jack and Rose and his jaw clenches. But then he leans close to her and says..."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "(low) There are boats on the other side that are allowing men in. Jack and I can get off safely. Both of us.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "(he smiles reassuringly) I'll be alright. Hurry up so we can get going... we got our own boat to catch.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "Get in... hurry up, it's almost full.",
         "followup" : "Lightoller grabs her arm and pulls her toward the boat. She reaches out for Jack and her fingers brush his for a moment. Then she finds herself stepping down into the boat. It's all a rush and blur."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LIGHTOLLER",
         "line" : "Lower away!",
         "followup" : "The two men watch at the rail as the boat begins to descend."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "(low) You're a good liar.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Almost as good as you.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "CAL",
         "line" : "I always win, Jack. One way or another. (looks at him, smiling) Pity I didn't keep that drawing. It's going to be worth a lot more by morning.",
         "followup" : "Jack knows he is screwed. He looks down at Rose, not wanting to waste a second of his last view of her. ROSE'S PERCEPTION - IN SLOW MOTION The ropes going through the pulleys as the seamen start to lower. All sound going away... Lightoller giving orders, his lips moving... but Rose hears only the blood pounding in her ears... this cannot be happening... a rocket bursts above in slow-motion, outlining Jack in a halo of light... Rose's hair blowing in slow motion as she gazes up at him, descending away from him... she sees his hand trembling, the tears at the corners of his eyes, and cannot believe the unbearable pain she is feeling... Rose is still staring up, tears pouring down her face. SUDDENLY SHE IS MOVING. She lunges across the women next to her. Reaches the gunwale, climbing it... Hurls herself out of the boat to the rail of the A-Deck promenade, catching it, and scrambling over the rail. The Boat 2 continues down. But Rose is back on Titanic."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "No Rose! NOOOO!!",
         "followup" : "Jack spins from the rail, running for the nearest way down to A-Deck. Hockley too has seen her jump. She is willing to die for this man, this gutter scum. He is overwhelmed by a rage so all consuming it eclipses all thought. "
       } ],
-      "key_words" : [ "TWO YOUNG DAUGHTERS", "WOMAN", "SUDDENLY SHE IS MOVING", "ROSE'S PERCEPTION", "IN SLOW MOTION", "LIGHTOLLER", "HUSBAND", "ROSE", "CAL", "MAN", "JACK", "I'", "NOOOO" ]
+      "key_words" : [ "TWO YOUNG DAUGHTERS", "WOMAN", "SUDDENLY SHE IS MOVING", "ROSE'S PERCEPTION", "IN SLOW MOTION", "LIGHTOLLER", "HUSBAND", "ROSE", "CAL", "ON THE PORT SIDE", "MAN", "JACK", "I'", "NOOOO" ]
     } ]
   }, {
     "id" : 153,
@@ -6523,7 +6361,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Lovejoy moves among the tables and ornate columns, searching... listening... his eyes tracking rapidly. It is a sea of tables, and they could be anywhere. A silver serving trolley rolls downhill, bumping into tables and pillars. He glances behind him. The water is following him into the room, advancing in a hundred foot wide tide. The reception room is now a roiling lake, and the grand staircase is submerged past the first landing. Monstrous groans echo through the ship. ",
+      "desc" : "Lovejoy moves among the tables and ornate columns, searching... listening... his eyes tracking rapidly. It is a sea of tables, and they could be anywhere. A silver serving trolley rolls downhill, bumping into tables and pillars. He glances behind him. The water is following him into the room, advancing in a hundred foot wide tide. The reception room is now a roiling lake, and the grand staircase is submerged past the first landing. Monstrous groans echo through the ship.",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -6534,7 +6372,7 @@
         "shot_id" : 1,
         "character" : "JACK",
         "line" : "(whispering) Stay here.",
-        "followup" : "He moves off as -- Lovejoy moves over one row and looks along the tables. Nothing. The ship GROANS and CREAKS. He moves another row. ANGLE ON A METAL CART Five feet tall and full of stacks of china dishes. It starts to roll down the aisle between tables. "
+        "followup" : "He moves off as -- Lovejoy moves over one row and looks along the tables. Nothing. The ship GROANS and CREAKS. He moves another row. ANGLE ON A METAL CART Five feet tall and full of stacks of china dishes. It starts to roll down the aisle between tables."
       } ],
       "key_words" : [ "GROANS", "ANGLE ON", "METAL CART", "CREAKS", "JACK" ]
     }, {
@@ -6790,7 +6628,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "IN A WIDE SHOT we see a wave travel up the boat deck as the bridge house sinks into the water. ",
+      "desc" : "IN A WIDE SHOT we see a wave travel up the boat deck as the bridge house sinks into the water.",
       "sentences" : [ ],
       "key_words" : [ "WIDE SHOT", "IN" ]
     }, {
@@ -6935,40 +6773,34 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "",
-      "sentences" : [ ],
-      "key_words" : [ ]
-    }, {
-      "id" : 1,
-      "on" : "ON THE POOP DECK",
-      "desc" : "Jack and Rose struggle aft as the angle increases. Hundreds of passengers, clinging to every fixed object on deck, huddle on their knees around FATHER BYLES, who has his voice raised in prayer. They are praying, sobbing, or just staring at nothing, their minds blank with dread. Pulling himself from handhold to handhold, Jack tugs Rose aft along the deck.",
+      "desc" : "ON THE POOP DECK Jack and Rose struggle aft as the angle increases. Hundreds of passengers, clinging to every fixed object on deck, huddle on their knees around FATHER BYLES, who has his voice raised in prayer. They are praying, sobbing, or just staring at nothing, their minds blank with dread. Pulling himself from handhold to handhold, Jack tugs Rose aft along the deck.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "JACK",
         "line" : "Come on, Rose. We can't expect God to do all the work for us.",
         "followup" : "They struggle on, pushing through the praying people. A MAN loses his footing ahead and slides toward them. Jack helps him. THE PROPELLERS Are twenty feet above the water and rising faster. JACK AND ROSE Make it to the stern rail, right at the base of the flagpole. They grip the rail, jammed in between other people. It is the spot where Jack pulled her back onto the ship, just two night... and a lifetime... ago. Above the wailing and sobbing, Father Byles' voice carries, cracking with emotion."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FATHER BYLES",
         "line" : "...and I saw new heavens and a new earth. The former heavens and the former earth had passed away and the sea was no longer.",
         "followup" : "The lights flicker, threatening to go out. Rose grips Jack as the stern rises into a night sky ablaze with stars."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FATHER BYLES",
         "line" : "I also saw a new Jerusalem, the holy city coming down out of heaven from God, beautiful as a bride prepared to meet her husband. I heard a loud voice from the throne ring out this is God's dwelling among men. He shall dwell with them and they shall be his people and He shall be their God who is always with them.",
         "followup" : "Rose stares about her at the faces of the doomed. Near them are the DAHL FAMILY, clinging together stoically. Helga looks at her briefly, and her eyes are infinitely sad. Rose sees a young mother next to her, clutching her five year old son, who is crying in terror."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "MOTHER",
         "line" : "Shhh. Don't cry. It'll be over soon, darling. It'll all be over soon.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "FATHER BYLES",
         "line" : "He shall wipe every tear from their eyes. And there shall be no more death or mourning, crying out or pain, for the former world has passed away. ",
         "followup" : ""
       } ],
-      "key_words" : [ "DAHL FAMILY", "THE PROPELLERS", "JACK AND ROSE", "MOTHER", "MAN", "FATHER BYLES", "JACK" ]
+      "key_words" : [ "DAHL FAMILY", "THE PROPELLERS", "JACK AND ROSE", "MOTHER", "ON THE POOP DECK", "MAN", "FATHER BYLES", "JACK" ]
     } ]
   }, {
     "id" : 174,
@@ -6979,15 +6811,15 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "As the ship tilts further everything not bolted down inside shifts. CUPBOARDS Burst open in the pantry showering the floor with tons of china. A PIANO slides across the floor, crashing into a wall. FURNITURE tumbles across the Smoking Room floor. ",
+      "desc" : "As the ship tilts further everything not bolted down inside shifts. CUPBOARDS Burst open in the pantry showering the floor with tons of china. A PIANO slides across the floor, crashing into a wall. FURNITURE tumbles across the Smoking Room floor.",
       "sentences" : [ ],
       "key_words" : [ "PIANO", "CUPBOARDS", "FURNITURE" ]
     }, {
       "id" : 1,
-      "on" : "ON THE",
-      "desc" : "A-DECK PROMENADE Passengers lose their grip and slide down the wooden deck like a bobsled run, hundreds of feet before they hit the water. TRUDY BOLT, Rose's maid, slips as she struggles along the railing and slides away screaming. AT THE STERN The propellers are 100 feet out of the water and rising. Panicking people leap from the poop deck rail, fall screaming and hit the water like mortar rounds. A man falls from the poop deck, hitting the bronze hub of the starboard propeller with a sickening smack. SWIMMERS LOOK UP And see the stern towering over them like a monolith, the propellers rising against the stars. 110 feet. 120. AT THE STERN RAIL A man jumps. IN HIS POV we fall seemingly forever, right past one of the giant screws. The water rushes up -- ",
+      "on" : "ON THE A-DECK PROMENADE",
+      "desc" : "Passengers lose their grip and slide down the wooden deck like a bobsled run, hundreds of feet before they hit the water. TRUDY BOLT, Rose's maid, slips as she struggles along the railing and slides away screaming. AT THE STERN The propellers are 100 feet out of the water and rising. Panicking people leap from the poop deck rail, fall screaming and hit the water like mortar rounds. A man falls from the poop deck, hitting the bronze hub of the starboard propeller with a sickening smack. SWIMMERS LOOK UP And see the stern towering over them like a monolith, the propellers rising against the stars. 110 feet. 120. AT THE STERN RAIL A man jumps. IN HIS POV we fall seemingly forever, right past one of the giant screws. The water rushes up -- ",
       "sentences" : [ ],
-      "key_words" : [ "AT THE STERN RAIL", "TRUDY BOLT", "AT THE STERN", "IN HIS POV", "SWIMMERS LOOK UP", "DECK PROMENADE" ]
+      "key_words" : [ "AT THE STERN RAIL", "TRUDY BOLT", "AT THE STERN", "IN HIS POV", "SWIMMERS LOOK UP" ]
     } ]
   }, {
     "id" : 175,
@@ -7202,15 +7034,9 @@
         "shot_id" : 0,
         "character" : "CAL",
         "line" : "(pointing with the oar) It's that way!",
-        "followup" : "CLOSE "
+        "followup" : "CLOSE ON FABRIZIO As he floats, panting each breath agony. You see the spirit leave him. FABRIZIO'S POV Cal in SLOW MOTION, yelling and wielding the oar. A demon in a tuxedo. The image fades to black. "
       } ],
-      "key_words" : [ "CLOSE", "CLUBS HIM", "CAL", "FABRIZIO" ]
-    }, {
-      "id" : 1,
-      "on" : "ON FABRIZIO",
-      "desc" : "As he floats, panting each breath agony. You see the spirit leave him. FABRIZIO'S POV Cal in SLOW MOTION, yelling and wielding the oar. A demon in a tuxedo. The image fades to black. ",
-      "sentences" : [ ],
-      "key_words" : [ "SLOW MOTION", "FABRIZIO'S POV" ]
+      "key_words" : [ "SLOW MOTION", "CLUBS HIM", "FABRIZIO'S POV", "CLOSE ON FABRIZIO", "CAL", "FABRIZIO" ]
     } ]
   }, {
     "id" : 184,
@@ -7416,46 +7242,34 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "IN A HOVERING DOWNANGLE we see Jack and Rose floating in the black water. The stars reflect in the mill pond surface, and the two of them seem to be floating in interstellar space. They are absolutely still. Their hands are locked together. Rose is staring upwards at the canopy of stars wheeling above her. The music is transparent, floating... as the long sleep steals over Rose, and she feels peace. CLOSE ",
-      "sentences" : [ ],
-      "key_words" : [ "HOVERING DOWNANGLE", "IN", "CLOSE" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE'S FACE",
-      "desc" : "Pale, like the faces of the dead. She seems to be floating in a void. Rose is in a semi-hallucinatory state. She knows she is dying. Her lips barely move as she sings a scrap of Jack's song:",
+      "desc" : "IN A HOVERING DOWNANGLE we see Jack and Rose floating in the black water. The stars reflect in the mill pond surface, and the two of them seem to be floating in interstellar space. They are absolutely still. Their hands are locked together. Rose is staring upwards at the canopy of stars wheeling above her. The music is transparent, floating... as the long sleep steals over Rose, and she feels peace. CLOSE ON ROSE'S FACE Pale, like the faces of the dead. She seems to be floating in a void. Rose is in a semi-hallucinatory state. She knows she is dying. Her lips barely move as she sings a scrap of Jack's song:",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "\"Come Josephine in my flying machine...\"",
-        "followup" : "ROSE'S POV The stars. Like you've never seen them. The Milky Way a glorious band from horizon to horizon. A SHOOTING STAR flares... a line of light across the heavens. TIGHT "
-      } ],
-      "key_words" : [ "ROSE'S POV", "ROSE", "SHOOTING STAR", "TIGHT" ]
-    }, {
-      "id" : 2,
-      "on" : "ON ROSE AGAIN",
-      "desc" : "We see that her hair is dusted with frost crystals. Her breathing is so shallow, she is almost motionless. Her eyes track down from the stars to the water. ROSE'S POV - SLOW MOTION The silhouette of a boat crossing the stars. She sees men in it, rowing so slowly the oars lift out of the syrupy water, leaving weightless pearls floating in the air. The VOICES of the men sound slow and DISTORTED. Then the lookout flashes his torch toward her and the light flares across the water, silhouetting the bobbing corpses in between. It flicks past her motionless form and moves on. The boat is 50 feet away, and moving past her. The men look away. Rose lifts her head to turn to Jack. We see that her hair has frozen to the wood under her.",
-      "sentences" : [ {
-        "shot_id" : 2,
+        "followup" : "ROSE'S POV The stars. Like you've never seen them. The Milky Way a glorious band from horizon to horizon. A SHOOTING STAR flares... a line of light across the heavens. TIGHT ON ROSE AGAIN We see that her hair is dusted with frost crystals. Her breathing is so shallow, she is almost motionless. Her eyes track down from the stars to the water. ROSE'S POV - SLOW MOTION The silhouette of a boat crossing the stars. She sees men in it, rowing so slowly the oars lift out of the syrupy water, leaving weightless pearls floating in the air. The VOICES of the men sound slow and DISTORTED. Then the lookout flashes his torch toward her and the light flares across the water, silhouetting the bobbing corpses in between. It flicks past her motionless form and moves on. The boat is 50 feet away, and moving past her. The men look away. Rose lifts her head to turn to Jack. We see that her hair has frozen to the wood under her."
+      }, {
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "(barely audible) Jack.",
         "followup" : "She touches his shoulder with her free hand. He doesn't respond. Rose gently turns his face toward her. It is rimed with frost. He seems to be sleeping peacefully. But he is not asleep. Rose can only stare at his still face as the realization goes through her."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "Oh, Jack.",
         "followup" : "All hope, will and spirit leave her. She looks at the boat. It is further away now, the voices fainter. Rose watches them go. She closes her eyes. She is so weak, and there just seems to be no reason to even try. And then... her eyes snap open. She raises her head suddenly, cracking the ice as she rips her hair off the wood. She calls out, but her voice is so weak they don't hear her. The boat is invisible now, the torch light a star impossibly far away. She struggles to draw breath, calling again. IN THE BOAT Lowe hears nothing behind him. He points to something ahead, turning the tiller. ROSE Struggles to move. Her hand, she realizes, is actually frozen to Jack's. She breaths on it, melting the ice a little, and gently unclasps their hands, breaking away a thin tinkling film."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I won't let go. I promise.",
         "followup" : "She releases him and he sinks into the black water. He seems to fade out like a spirit returning to some immaterial plane. Rose rolls off the floating staircase and plunges into the icy water. She swims to Chief Officer Wilde's body and grabs his whistle. She starts to BLOW THE WHISTLE with all the strength in her body. Its sound slaps across the still water. IN BOAT 14 Lowe whips around at the sound of the whistle."
       }, {
-        "shot_id" : 2,
+        "shot_id" : 0,
         "character" : "LOWE",
         "line" : "(turning the tiller) Row back! That way! Pull!",
         "followup" : "Rose keeps blowing as the boat comes to her. She is still blowing when Lowe takes the whistle from her mouth as they haul her into the boat. She slips into unconsciousness and they scramble to cover her with blankets... "
       } ],
-      "key_words" : [ "IN THE BOAT", "ROSE", "BLOW THE WHISTLE", "ROSE'S POV", "SLOW MOTION", "LOWE", "DISTORTED", "IN BOAT", "VOICES" ]
+      "key_words" : [ "HOVERING DOWNANGLE", "IN THE BOAT", "IN", "TIGHT ON ROSE AGAIN", "ROSE", "BLOW THE WHISTLE", "ROSE'S POV", "SLOW MOTION", "LOWE", "CLOSE ON ROSE'S FACE", "DISTORTED", "IN BOAT", "VOICES", "SHOOTING STAR" ]
     } ]
   }, {
     "id" : 190,
@@ -7502,21 +7316,9 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "And then ANOTHER, seeing faces we know among the survivors: Ismay in a trance, just staring and trembling... Cal, sipping from a hip flask offered to him by a black-faced stoker... Ruth hugging herself, rocking gently. IN BOAT 14 CLOSE ",
+      "desc" : "And then ANOTHER, seeing faces we know among the survivors: Ismay in a trance, just staring and trembling... Cal, sipping from a hip flask offered to him by a black-faced stoker... Ruth hugging herself, rocking gently. IN BOAT 14 CLOSE ON ROSE Lying swaddled. Only her face is visible, white as the moon. The man next to her jumps up, pointing and yelling. Soon everyone is looking and shouting excitedly. In Rose's POV it is all silent, SLOW MOTION. IN SLOW-MOTION SILENCE We see Lowe light a green flare and wave it as everyone shouts and cheers. Rose doesn't react. She floats beyond all human emotion. ",
       "sentences" : [ ],
-      "key_words" : [ "IN BOAT", "CLOSE", "ANOTHER" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : "Lying swaddled. Only her face is visible, white as the moon. The man next to her jumps up, pointing and yelling. Soon everyone is looking and shouting excitedly. In Rose's POV it is all silent, SLOW MOTION. IN SLOW-MOTI",
-      "sentences" : [ ],
-      "key_words" : [ "SLOW MOTION", "MOTI", "POV", "IN SLOW" ]
-    }, {
-      "id" : 2,
-      "on" : "ON SILENCE",
-      "desc" : "We see Lowe light a green flare and wave it as everyone shouts and cheers. Rose doesn't react. She floats beyond all human emotion. ",
-      "sentences" : [ ],
-      "key_words" : [ ]
+      "key_words" : [ "SLOW MOTION", "IN SLOW-MOTION SILENCE", "POV", "IN BOAT", "CLOSE ON ROSE", "ANOTHER" ]
     } ]
   }, {
     "id" : 193,
@@ -7542,7 +7344,7 @@
       "on" : "LOCATION",
       "desc" : "IMAGES DISSOLVE into one another: a ship's hull looming, with the letters \"CARPATHIA\" visible on the bow... Rose watching, rocked by the sea, her face blank... seamen helping survivors up the rope ladder to the Carpathia's gangway doors... two women crying and hugging each other inside the ship... ALL SILENT, ALL IN SLOW-MOTION. There is just music, so gentle and sad, part elegy, part hymn, part aching song of love lost forever. THE IMAGES CONTINUE to music... Rose, outside of time, outside of herself, coming into Carpathia, barely able to stand... Rose being draped with warm blankets and given hot tea... Bruce Ismay climbing aboard. He has the face and eyes of a damned soul. As Ismay walks along the hall, guided by a crewman toward the doctor's cabin, he passes rows of seated and standing widows. He must run the gauntlet of their accusing gazes. ",
       "sentences" : [ ],
-      "key_words" : [ "CARPATHIA", "MOTION", "ALL SILENT", "IMAGES DISSOLVE", "ALL IN SLOW", "THE IMAGES CONTINUE" ]
+      "key_words" : [ "CARPATHIA", "ALL SILENT", "IMAGES DISSOLVE", "THE IMAGES CONTINUE", "ALL IN SLOW-MOTION" ]
     } ]
   }, {
     "id" : 195,
@@ -7601,33 +7403,26 @@
         "followup" : "We see that in his way, the only way he knows, he does truly love her. After a moment, he turns and walks away."
       }, {
         "shot_id" : 0,
-        "character" : "OLD ROSE (V.O.)",
+        "character" : "OLD ROSE",
         "line" : "That was the last time I ever saw him. He married, of course, and inherited his millions. The crash of 28 hit his interests hard, and he put a pistol in his mouth that year. His children fought over the scraps of his estate like hyenas, or so I read.",
-        "followup" : "ANGLE "
-      } ],
-      "key_words" : [ "OLD ROSE", "ROSE", "ANGLE", "CARPATHIA STEWARD", "CAL" ]
-    }, {
-      "id" : 1,
-      "on" : "ON ROSE",
-      "desc" : "At the railing of the Carpathia, 9pm April 18th. She gazes up at the Statue of Liberty, looking just as it does today, welcoming her home with her glowing torch. It is just as Fabrizio saw it, so clearly, in his mind. LATER CARPATHIA DISGORGES THE SURVIVORS At the Cunard pier, Pier 54. Over 30,000 people line the dock and fill the surrounding streets. The magnesium flashes of the photographers go off like small bombs, lighting an amazing tableau. Several hundred police keep the mob back. The dock is packed with friends and relatives, officials, ambulances, and the press -- Reporters and photographers swarm everywhere... 6 deep at the foot of the gangways, lining the tops of cars and trucks... it is the 1912 equivalent of a media circus. They jostle to get close to the survivors, tugging on them as they pass and shouting over each other to ask them questions. Rose is covered with a woolen shawl and walking with a group of steerage passengers. Immigration officers are asking them questions as they come off the gangway. IMMIGRATI",
-      "sentences" : [ ],
-      "key_words" : [ "LATER CARPATHIA DISGORGES THE SURVIVORS", "IMMIGRATI" ]
-    }, {
-      "id" : 2,
-      "on" : "ON OFFICER",
-      "desc" : "Name?",
-      "sentences" : [ {
-        "shot_id" : 2,
+        "followup" : "ANGLE ON ROSE At the railing of the Carpathia, 9pm April 18th. She gazes up at the Statue of Liberty, looking just as it does today, welcoming her home with her glowing torch. It is just as Fabrizio saw it, so clearly, in his mind. LATER CARPATHIA DISGORGES THE SURVIVORS At the Cunard pier, Pier 54. Over 30,000 people line the dock and fill the surrounding streets. The magnesium flashes of the photographers go off like small bombs, lighting an amazing tableau. Several hundred police keep the mob back. The dock is packed with friends and relatives, officials, ambulances, and the press -- Reporters and photographers swarm everywhere... 6 deep at the foot of the gangways, lining the tops of cars and trucks... it is the 1912 equivalent of a media circus. They jostle to get close to the survivors, tugging on them as they pass and shouting over each other to ask them questions. Rose is covered with a woolen shawl and walking with a group of steerage passengers. Immigration officers are asking them questions as they come off the gangway."
+      }, {
+        "shot_id" : 0,
+        "character" : "IMMIGRATION OFFICER",
+        "line" : "Name?",
+        "followup" : ""
+      }, {
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "Dawson. Rose Dawson.",
         "followup" : "The officer steers her toward a holding area for processing. Rose walks forward with the dazed immigrants. The BOOM! of photographer's magnesium flashes cause them to flinch, and the glare is blinding. There is a sudden disturbance near her as two men burst through the cordon, running to embrace an older woman along the survivors, who cries out with joy. The reporters converge on this emotional scene, and flashes explode. Rose uses this moment to slip away into the crowd. She pushes through the jostling people, moving with purpose, and none challenges her in the confusion."
       }, {
-        "shot_id" : 2,
-        "character" : "OLD ROSE (V.O.)",
+        "shot_id" : 0,
+        "character" : "OLD ROSE",
         "line" : "Can you exchange one life for another? A caterpillar turns into a butterfly. If a mindless insect can do it, why couldn't I? Was it any more unimaginable than the sinking of the Titanic?",
         "followup" : "TRACKING WITH HER as she walks away, further and further until she flashes and the roar are far behind her, and she is still walking, determined. "
       } ],
-      "key_words" : [ "OLD ROSE", "TRACKING WITH HER", "BOOM", "ROSE" ]
+      "key_words" : [ "LATER CARPATHIA DISGORGES THE SURVIVORS", "OLD ROSE", "TRACKING WITH HER", "ANGLE ON ROSE", "ROSE", "CARPATHIA STEWARD", "CAL", "BOOM", "IMMIGRATION OFFICER" ]
     } ]
   }, {
     "id" : 196,
@@ -7707,7 +7502,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Rose walks through the shadows of the deck machinery. Her nightgown blows in the wind. Her feet are bare. Her hands are clutched at her chest, almost as if she is praying. ",
+      "desc" : "Rose walks through the shadows of the deck machinery. Her nightgown blows in the wind. Her feet are bare. Her hands are clutched at her chest, almost as if she is praying.",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -7741,70 +7536,64 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Walking away from Pier 54. The photographers' flashes go off like a battle behind her. She has her hands in her pockets. She stops, feeling something, and pulls out the necklace. She stares at it in amazement. BACK ",
-      "sentences" : [ ],
-      "key_words" : [ "BACK" ]
-    }, {
-      "id" : 1,
-      "on" : "ON KELDYSH",
-      "desc" : "Rose smiles at Brock's incomprehension.",
+      "desc" : "Walking away from Pier 54. The photographers' flashes go off like a battle behind her. She has her hands in her pockets. She stops, feeling something, and pulls out the necklace. She stares at it in amazement. BACK ON KELDYSH Rose smiles at Brock's incomprehension.",
       "sentences" : [ {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "The hardest part about being so poor, was being so rich. But every time I though of selling it, I though of Cal. And somehow I always got by without his help.",
         "followup" : "She holds it out over the water. Bodine and a couple of the other guys come up behind Lovett, reacting to what is in Rose's hand."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "Holy shit.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Don't drop it Rose.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "(a fierce whisper) Rush her.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "(to Bodine) It's hers, you schmuck. (to her) Look, Rose, I... I don't know what to say to a woman who tries to jump off the Titanic when it's not sinking, and jumps back onto it when it is... we're not dealing with logic here, I know that... but please... think about this a second.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "I have. I came all the way here so this could go back where it belongs.",
         "followup" : "The massive diamond glitters. Brock edges closer and holds out his hand..."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Just let me hold it in my hand, Rose. Please. Just once.",
         "followup" : "He comes closer to her. It is reminiscent of Jack slowly moving up to her at the stern of Titanic. Surprisingly, she calmly places the massive stone in the palm of his hand, while still holding onto the necklace. Lovett gazes at the object of his quest. An infinity of cold scalpels glint in its blue depths. It is mesmerizing. It fits in his hand just like he imagined."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "My God.",
         "followup" : "His grip tightens on the diamond. He looks up, meeting her gaze. Her eyes are suddenly infinitely wise and deep."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "ROSE",
         "line" : "You look for treasures in the wrong place, Mr. Lovett. Only life is priceless, and making each day count.",
         "followup" : "His fingers relax. He opens them slowly. Gently she slips the diamond out of his hand. He feels it sliding away. Then, with an impish little grin, Rose tosses the necklace over the rail. Lovett gives a strangled cry and rushes to the rail in time to see it hit the water and disappear forever."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "BODINE",
         "line" : "Aww!! That really sucks, lady!",
         "followup" : "Brock Lovett goes through ten changes before he settles on a reaction... HE LAUGHS. He laughs until the tears come to his eyes. Then he turns to Lizzy."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 0,
         "character" : "LOVETT",
         "line" : "Would you like to dance?",
         "followup" : "Lizzy grins at him and nods. Rose smiles. She looks up at the stars. IN THE BLACK HEART OF THE OCEAN The diamond sinks, twinkling end over end, into the infinite depths. "
       } ],
-      "key_words" : [ "IN THE BLACK HEART OF THE OCEAN", "LOVETT", "ROSE", "BODINE", "HE LAUGHS" ]
+      "key_words" : [ "IN THE BLACK HEART OF THE OCEAN", "LOVETT", "ROSE", "BACK ON KELDYSH", "BODINE", "HE LAUGHS" ]
     } ]
   }, {
     "id" : 201,
