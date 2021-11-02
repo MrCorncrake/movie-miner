@@ -42,7 +42,6 @@ public class Transition {
     }
 
     @XmlElementWrapper(name = "ConnectorGraphicsInfos", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "ConnectorGraphicsInfo", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setConnectorGraphicsInfosList(ArrayList<ConnectorGraphicsInfo> connectorGraphicsInfosList) {
         ConnectorGraphicsInfosList = connectorGraphicsInfosList;

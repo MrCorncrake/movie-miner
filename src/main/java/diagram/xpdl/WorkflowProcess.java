@@ -47,7 +47,6 @@ public class WorkflowProcess {
     }
 
     @XmlElementWrapper(name = "Activities", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Activity", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setActivitiesList(ArrayList<Activity> activitiesList) {
         this.activitiesList = activitiesList;
@@ -58,7 +57,6 @@ public class WorkflowProcess {
     }
 
     @XmlElementWrapper(name = "Transitions", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Transition", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setTransitionsList(ArrayList<Transition> transitionsList) {
         this.transitionsList = transitionsList;

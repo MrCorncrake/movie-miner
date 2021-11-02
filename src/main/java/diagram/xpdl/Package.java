@@ -29,6 +29,11 @@ public class Package {
         this.id = id;
         this.name = name;
         this.packageHeader = new PackageHeader();
+        this.conformanceClass = new ConformanceClass();
+    }
+
+    public void setGraphConformance(String conformanceClass) {
+        this.conformanceClass.setGraphConformance(conformanceClass);
     }
 
     @XmlAttribute(name="Name")
@@ -67,7 +72,6 @@ public class Package {
     }
 
     @XmlElementWrapper(name = "Pools", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Pool", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setPoolsList(ArrayList<Pool> poolsList) {
         this.poolsList = poolsList;
@@ -78,7 +82,6 @@ public class Package {
     }
 
     @XmlElementWrapper(name = "WorkflowProcesses", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "WorkflowProcess", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setWorkflowProcessesList(ArrayList<WorkflowProcess> workflowProcessesList) {
         this.workflowProcessesList = workflowProcessesList;
@@ -89,7 +92,6 @@ public class Package {
     }
 
     @XmlElementWrapper(name = "ExtendedAttributes")
-
     @XmlElement(name = "ExtendedAttribute")
     public void setExtendedAttributesList(ArrayList<ExtendedAttribute> extendedAttributesList) {
         this.extendedAttributesList = extendedAttributesList;
@@ -121,6 +123,20 @@ public class Package {
         @XmlElement(name = "Created", namespace="http://www.wfmc.org/2008/XPDL2.1")
         public Date getCreated() {
             return created;
+        }
+    }
+
+    @Setter
+    private static class ConformanceClass {
+        private String graphConformance;
+
+        @XmlAttribute(name="GraphConformance")
+        public String getGraphConformance() {
+            return graphConformance;
+        }
+
+        public ConformanceClass() {
+            graphConformance = "NON_BLOCKED";
         }
     }
 }

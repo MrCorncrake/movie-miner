@@ -66,7 +66,6 @@ public class Pool {
     }
 
     @XmlElementWrapper(name = "Lanes", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Lane", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setLanesList(ArrayList<Lane> lanesList) {
         this.lanesList = lanesList;
@@ -77,7 +76,6 @@ public class Pool {
     }
 
     @XmlElementWrapper(name = "NodeGraphicsInfos", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "NodeGraphicsInfo", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setNodeGraphicsInfosList(ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList) {
         this.nodeGraphicsInfosList = nodeGraphicsInfosList;

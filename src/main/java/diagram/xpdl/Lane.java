@@ -38,7 +38,6 @@ public class Lane {
     }
 
     @XmlElementWrapper(name = "NodeGraphicsInfos", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "NodeGraphicsInfo", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setNodeGraphicsInfosList(ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList) {
         this.nodeGraphicsInfosList = nodeGraphicsInfosList;
@@ -49,7 +48,6 @@ public class Lane {
     }
 
     @XmlElementWrapper(name = "Performers", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Performer", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setPerformersList(ArrayList<String> performersList) {
         this.performersList = performersList;

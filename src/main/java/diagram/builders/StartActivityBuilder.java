@@ -1,19 +1,15 @@
 package diagram.builders;
 
-import diagram.xpdl.events.Event;
-import diagram.xpdl.events.StartEvent;
-import utils.DiagramGlobals;
+import diagram.xpdl.Activity;
 
 public class StartActivityBuilder extends BaseActivityBuilder {
 
     public StartActivityBuilder(String id, String name, String owner, Integer position) {
         super(id, name, owner, position);
 
-        Event event = new Event();
-        event.setStartEvent(new StartEvent());
-        activity.setEvent(event);
+        activity.setType(Activity.Type.START_EVENT);
 
-        activityNodeGraphicsInfo.setHeight(DiagramGlobals.START_ACTIVITY_SIZE);
-        activityNodeGraphicsInfo.setWidth(DiagramGlobals.START_ACTIVITY_SIZE);
+        activityNodeGraphicsInfo.setHeight(Globals.START_ACTIVITY_SIZE);
+        activityNodeGraphicsInfo.setWidth(Globals.START_ACTIVITY_SIZE);
     }
 }

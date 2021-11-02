@@ -1,19 +1,15 @@
 package diagram.builders;
 
-import diagram.xpdl.events.EndEvent;
-import diagram.xpdl.events.Event;
-import utils.DiagramGlobals;
+import diagram.xpdl.Activity;
 
 public class EndActivityBuilder extends BaseActivityBuilder {
 
     public EndActivityBuilder(String id, String owner, Integer position) {
         super(id, "End", owner, position);
 
-        Event event = new Event();
-        event.setEndEvent(new EndEvent());
-        activity.setEvent(event);
+        activity.setType(Activity.Type.END_EVENT);
 
-        activityNodeGraphicsInfo.setHeight(DiagramGlobals.END_ACTIVITY_SIZE);
-        activityNodeGraphicsInfo.setWidth(DiagramGlobals.END_ACTIVITY_SIZE);
+        activityNodeGraphicsInfo.setHeight(Globals.END_ACTIVITY_SIZE);
+        activityNodeGraphicsInfo.setWidth(Globals.END_ACTIVITY_SIZE);
     }
 }

@@ -1,6 +1,6 @@
-package utils;
+package diagram.builders;
 
-public abstract class DiagramGlobals {
+public abstract class Globals {
     public static final String EDITING_TOOL_VERSION = "1.0-Snapshot";
     public static final String TOOL_ID = "JaWE";
     public static final String DEFAULT_BORDER_COLOUR = "0,0,0";
