@@ -4,6 +4,7 @@ import diagram.xpdl.*;
 import diagram.xpdl.infos.NodeGraphicsInfo;
 import diagram.xpdl.Package;
 import lombok.Getter;
+import utils.DiagramGlobals;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -35,7 +36,7 @@ public class DiagramBuilder {
         // Diagram attributes
         ArrayList<ExtendedAttribute> extendedAttributes = diagram.getExtendedAttributesList();
         editingTool = new ExtendedAttribute("EDITING_TOOL", "Movie-Miner");
-        editingToolVersion = new ExtendedAttribute("EDITING_TOOL_VERSION", Globals.EDITING_TOOL_VERSION);
+        editingToolVersion = new ExtendedAttribute("EDITING_TOOL_VERSION", DiagramGlobals.EDITING_TOOL_VERSION);
         JaWEConfiguration = new ExtendedAttribute("JaWE_CONFIGURATION", "default");
         extendedAttributes.add(editingTool);
         extendedAttributes.add(editingToolVersion);
@@ -44,10 +45,10 @@ public class DiagramBuilder {
         workflowProcess = new WorkflowProcess("Movie", diagramName);
         pool = new Pool(id + "_pool", diagramName, true, true, "HORIZONTAL", "Movie");
         poolNodeGraphicInfo = new NodeGraphicsInfo();
-        poolNodeGraphicInfo.setBorderColor(Globals.DEFAULT_BORDER_COLOUR);
-        poolNodeGraphicInfo.setFillColor(Globals.POOL_DEFAULT_FILL_COLOUR);
+        poolNodeGraphicInfo.setBorderColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
+        poolNodeGraphicInfo.setFillColor(DiagramGlobals.POOL_DEFAULT_FILL_COLOUR);
         poolNodeGraphicInfo.setIsVisible(true);
-        poolNodeGraphicInfo.setToolId(Globals.TOOL_ID);
+        poolNodeGraphicInfo.setToolId(DiagramGlobals.TOOL_ID);
         pool.getNodeGraphicsInfosList().add(poolNodeGraphicInfo);
 
         diagram.getWorkflowProcessesList().add(workflowProcess);

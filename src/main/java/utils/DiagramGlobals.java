@@ -1,6 +1,6 @@
-package diagram.builders;
+package utils;
 
-public abstract class Globals {
+public abstract class DiagramGlobals {
     public static final String EDITING_TOOL_VERSION = "1.0-Snapshot";
     public static final String TOOL_ID = "JaWE";
     public static final String DEFAULT_BORDER_COLOUR = "0,0,0";
@@ -11,6 +11,7 @@ public abstract class Globals {
     public static final Integer ACTIVITY_Y_BASE = 55;
     public static final Integer ACTIVITY_X_BASE = 70;
     public static final Integer ACTIVITY_SPACING = 150;
+    public static final Integer END_ACTIVITY_X_OFFSET = 20;
     public static final Integer START_ACTIVITY_SIZE = 31;
     public static final Integer END_ACTIVITY_SIZE = 31;
     public static final Integer ACTIVITY_WIDTH = 90;

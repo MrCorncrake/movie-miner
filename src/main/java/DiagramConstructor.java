@@ -15,7 +15,9 @@ public class DiagramConstructor {
     private final DiagramBuilder diagram;
     private final Scenario scenario;
     private final HashMap<String, LaneBuilder> lanes = new HashMap<>();
-    private final HashMap<String, String> lanesOrder = new HashMap<>();
+    private final HashMap<String, Integer> lanesOrder = new HashMap<>();
+
+    private Integer laneCounter = 0;
 
     public DiagramConstructor(Scenario scenario) {
         this.scenario = scenario;
@@ -43,7 +45,7 @@ public class DiagramConstructor {
             if (!lanes.containsKey(character)) {
                 LaneBuilder lane = diagram.addLane(character);
                 lanes.put(character, lane);
-                lanesOrder.put(character, lane.getLane().getId());
+                lanesOrder.put(character, ++laneCounter);
                 lane.addStartActivity(sceneId - 1, character);
             }
             LaneBuilder lane = lanes.get(character);
