@@ -85,8 +85,11 @@ public class LaneBuilder {
 
         transition.getConnectorGraphicsInfosList().add(connectorGraphicsInfo);
 
+        if(from instanceof ActivityBuilder) {
+            ((ActivityBuilder) from).addTransition(transition);
+        }
         if(to instanceof ActivityBuilder) {
-            ((ActivityBuilder) to).addTransitionRef(transition.getId());
+            ((ActivityBuilder) to).addTransition(transition);
         }
 
         transitions.add(transition);
@@ -112,14 +115,15 @@ public class LaneBuilder {
         });
         transitions.removeAll(toRemove);
         for(Integer i : activityBuildersMap.keySet()) {
-            toRemove.forEach((Transition t) -> activityBuildersMap.get(i).removeTransitionRef(t.getId()));
-            lane.getTransitions().forEach((Transition t) -> activityBuildersMap.get(i).removeTransitionRef(t.getId()));
+            toRemove.forEach((Transition t) -> activityBuildersMap.get(i).removeTransition(t));
+            lane.getTransitions().forEach((Transition t) -> activityBuildersMap.get(i).removeTransition(t));
         }
     }
 
     // Activities
 
     private void addAnyActivity(BaseActivityBuilder activityBuilder) {
+        // This has to be done for every activity when it's added
         activities.add(activityBuilder.getActivity());
         workflowProcess.getActivitiesList().add(activityBuilder.getActivity());
         lastActivity = activityBuilder;

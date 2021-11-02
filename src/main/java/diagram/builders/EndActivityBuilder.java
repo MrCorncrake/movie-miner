@@ -8,6 +8,8 @@ public class EndActivityBuilder extends BaseActivityBuilder {
         super(id, "End", owner, position);
 
         activity.setType(Activity.Type.END_EVENT);
+        activity.setPerformersList(null);
+        activity.setTransitionRestrictionsList(null);
 
         activityNodeGraphicsInfo.setHeight(Globals.END_ACTIVITY_SIZE);
         activityNodeGraphicsInfo.setWidth(Globals.END_ACTIVITY_SIZE);

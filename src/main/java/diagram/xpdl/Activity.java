@@ -12,15 +12,17 @@ import java.util.ArrayList;
 @Setter
 public class Activity {
 
-    private String Id;
+    private String id;
     private String name;
-    private NoImplementation implementation;
-    private EventWrapper event;
+    private NoImplementation implementation = null;
+    private EventWrapper event = null;
     private ArrayList<String> performersList = new ArrayList<>();
     private ArrayList<NodeGraphicsInfo> nodeGraphicsInfosList = new ArrayList<>();
     private ArrayList<TransitionRestriction> transitionRestrictionsList = new ArrayList<>();
 
-    public Activity() {
+    public Activity(String id, String name) {
+        this.id = id;
+        this.name = name;
         setType(Type.NO_IMPLEMENTATION);
     }
 
@@ -43,7 +45,7 @@ public class Activity {
 
     @XmlAttribute(name="Id")
     public String getId() {
-        return Id;
+        return id;
     }
 
     @XmlAttribute(name="Name")

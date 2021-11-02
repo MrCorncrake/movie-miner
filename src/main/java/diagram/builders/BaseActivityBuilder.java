@@ -4,6 +4,9 @@ import diagram.xpdl.Activity;
 import diagram.xpdl.infos.NodeGraphicsInfo;
 import lombok.Getter;
 
+/**
+ * Basic activity builder class. Sets up all the common elements of different types of activity
+ */
 public abstract class BaseActivityBuilder {
 
     @Getter
@@ -12,9 +15,7 @@ public abstract class BaseActivityBuilder {
     protected final NodeGraphicsInfo activityNodeGraphicsInfo;
 
     public BaseActivityBuilder(String id, String name, String owner, Integer position) {
-        activity = new Activity();
-        activity.setId(id);
-        activity.setName(name);
+        activity = new Activity(id, name);
 
         activityNodeGraphicsInfo = new NodeGraphicsInfo();
         activity.getNodeGraphicsInfosList().add(activityNodeGraphicsInfo);
