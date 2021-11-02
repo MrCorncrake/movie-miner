@@ -14,6 +14,9 @@ public abstract class BaseActivityBuilder {
 
     protected final NodeGraphicsInfo activityNodeGraphicsInfo;
 
+    @Getter
+    protected Integer position;
+
     public BaseActivityBuilder(String id, String name, String owner, Integer position) {
         activity = new Activity(id, name);
 
@@ -25,7 +28,13 @@ public abstract class BaseActivityBuilder {
         activityNodeGraphicsInfo.setIsVisible(true);
         activityNodeGraphicsInfo.setLaneId(owner);
         activityNodeGraphicsInfo.setToolId(Globals.TOOL_ID);
-        activityNodeGraphicsInfo.setCoordinates(Globals.ACTIVITY_X_BASE + position * Globals.ACTIVITY_SPACING, Globals.ACTIVITY_Y_BASE);
+
+        setPosition(position);
+    }
+
+    public void setPosition(Integer position) {
+        this.position = position;
+        setCoordinates(Globals.ACTIVITY_X_BASE + position * Globals.ACTIVITY_SPACING, Globals.ACTIVITY_Y_BASE);
     }
 
     public void setCoordinates(Integer x, Integer y) {

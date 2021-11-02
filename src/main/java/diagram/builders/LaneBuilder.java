@@ -37,7 +37,7 @@ public class LaneBuilder {
     public LaneBuilder(WorkflowProcess workflowProcess, String id, String name, String performer) {
         this.workflowProcess = workflowProcess;
         this.lane = new Lane(id, name);
-        this.performer = new Participant(performer);
+        this.performer = new Participant(name);
 
         laneNodeGraphicsInfo = new NodeGraphicsInfo();
         laneNodeGraphicsInfo.setBorderColor(Globals.DEFAULT_BORDER_COLOUR);

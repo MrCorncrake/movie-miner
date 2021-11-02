@@ -6,6 +6,7 @@ import diagram.xpdl.Package;
 import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class DiagramBuilder {
 
@@ -54,7 +55,8 @@ public class DiagramBuilder {
     }
 
     public LaneBuilder addLane(String performer) {
-        LaneBuilder laneBuilder = new LaneBuilder(workflowProcess, pool.getId() + "_lane" + ++laneCounter, "Test_par" + laneCounter, performer);
+        String performer_id = performer.replace(" ", "_").toLowerCase(Locale.ROOT).replace("'", "");
+        LaneBuilder laneBuilder = new LaneBuilder(workflowProcess, pool.getId() + "_lane" + ++laneCounter, performer_id, performer);
         pool.getLanesList().add(laneBuilder.getLane());
         diagram.getParticipantsList().add(laneBuilder.getPerformer());
         laneBuildersList.add(laneBuilder);
