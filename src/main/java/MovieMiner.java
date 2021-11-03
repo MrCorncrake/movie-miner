@@ -4,6 +4,7 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Collections;
+import java.util.Locale;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import diagram.xpdl.Package;
@@ -18,13 +19,20 @@ import javax.xml.bind.Marshaller;
 
 public class MovieMiner {
     public static void main(String[] args) {
-        if (args[0].contains("help")) {
-            System.out.println("Usage:");
-            System.out.println(" MovieMiner.jar [MODE] [INPUT FILE PATH] [OUTPUT FILE PATH]");
+        if (args[0].toLowerCase(Locale.ROOT).contains("help")) {
+            System.out.println("Usages:");
+            System.out.println(" java -jar [MovieMiner jar] [MODE] [INPUT FILE PATH] [OUTPUT FILE PATH]");
+            System.out.println(" java -jar [MovieMiner jar] help");
+            System.out.println(" java -jar [MovieMiner jar] version");
             System.out.println("Modes: ");
             System.out.println(" PDF-JSON - Parses movie scenario provided in PDF format and downloaded from https://www.dailyscript.com/index.html to json");
             System.out.println(" JSON-XPDL - Creates XPDL diagram from json file obtained by parsing scenario");
             System.out.println(" PDF-XPDL - Combines PDF-JSON and JSON-XPDL modes into one");
+        }
+        else if (args[0].toLowerCase(Locale.ROOT).contains("version")) {
+            System.out.println("MovieMiner 1.0");
+            System.out.println("Authors: Maciej Derkacz, Karol Lempkowski, Hang Liu");
+            System.out.println("Gdansk University of Technology 2021");
         }
         else if (args.length > 2) {
             switch (args[0]) {
@@ -77,7 +85,7 @@ public class MovieMiner {
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
             jaxbMarshaller.setProperty(Marshaller.JAXB_SCHEMA_LOCATION, "http://www.wfmc.org/2008/XPDL2.1 http://www.wfmc.org/standards/docs/bpmnxpdl_31.xsd");
-            jaxbMarshaller.setProperty("com.sun.xml.internal.bind.namespacePrefixMapper", new XPDLNamespaceMapper());
+            jaxbMarshaller.setProperty("com.sun.xml.bind.namespacePrefixMapper", new XPDLNamespaceMapper());
             // Preparing output file
             OutputStream os = new FileOutputStream(outputFile);
             jaxbMarshaller.marshal(diagram, os);

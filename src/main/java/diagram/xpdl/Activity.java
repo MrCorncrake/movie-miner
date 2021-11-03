@@ -2,6 +2,7 @@ package diagram.xpdl;
 
 import diagram.xpdl.infos.NodeGraphicsInfo;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.xml.bind.annotation.XmlAttribute;
@@ -10,6 +11,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import java.util.ArrayList;
 
 @Setter
+@NoArgsConstructor
 public class Activity {
 
     private String id;
@@ -139,6 +141,7 @@ public class Activity {
     }
 
     @AllArgsConstructor
+    @NoArgsConstructor
     @Setter
     private static class EventWrapper {
         private StartEvent startEvent;

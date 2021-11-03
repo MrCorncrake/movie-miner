@@ -1,6 +1,6 @@
 package utils;
 
-import com.sun.xml.internal.bind.marshaller.NamespacePrefixMapper;
+import com.sun.xml.bind.marshaller.NamespacePrefixMapper;
 
 public class XPDLNamespaceMapper extends NamespacePrefixMapper {
 
