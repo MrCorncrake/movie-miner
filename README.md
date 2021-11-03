@@ -11,7 +11,7 @@ Use `mvn package` to build the project and create jar package.
 * Main usage: `java -jar [MovieMiner jar] [MODE] [INPUT FILE PATH] [OUTPUT FILE PATH]`
 * Help: `java -jar [MovieMiner jar] help`
 * Version: `java -jar [MovieMiner jar] version`
-###Modes:
+### Modes:
 * PDF-JSON - Parses movie scenario provided in PDF format and downloaded from https://www.dailyscript.com/index.html to json
 * JSON-XPDL - Creates XPDL diagram from json file obtained by parsing scenario
 * PDF-XPDL - Combines PDF-JSON and JSON-XPDL modes into one
