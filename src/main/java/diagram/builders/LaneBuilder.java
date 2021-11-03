@@ -79,7 +79,7 @@ public class LaneBuilder {
         transition.setTo(to.getActivity().getId());
 
         ConnectorGraphicsInfo connectorGraphicsInfo = new ConnectorGraphicsInfo();
-        connectorGraphicsInfo.setFillColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
+        connectorGraphicsInfo.setFillColor(DiagramGlobals.DEFAULT_TRANSITION_COLOUR);
         connectorGraphicsInfo.setIsVisible(true);
         connectorGraphicsInfo.setToolId(DiagramGlobals.TOOL_ID);
         connectorGraphicsInfo.setStyle(DiagramGlobals.TRANSITION_STYLE);

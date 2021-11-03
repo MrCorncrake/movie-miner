@@ -12,7 +12,7 @@ public class EndActivityBuilder extends BaseActivityBuilder {
         activity.setPerformersList(null);
         activity.setTransitionRestrictionsList(null);
 
-        offsetCoordinates(DiagramGlobals.END_ACTIVITY_X_OFFSET, 0);
+        offsetCoordinates(DiagramGlobals.END_ACTIVITY_X_OFFSET, DiagramGlobals.END_ACTIVITY_Y_OFFSET);
 
         activityNodeGraphicsInfo.setHeight(DiagramGlobals.END_ACTIVITY_SIZE);
         activityNodeGraphicsInfo.setWidth(DiagramGlobals.END_ACTIVITY_SIZE);

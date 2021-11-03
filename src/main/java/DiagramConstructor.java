@@ -6,9 +6,7 @@ import scenario.Scenario;
 import scenario.Scene;
 import scenario.Shot;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class DiagramConstructor {
 
@@ -30,12 +28,13 @@ public class DiagramConstructor {
 
     public void buildDiagram() {
         for (Scene scene : scenario.getScenes()) {
+            Set<String> characters = new HashSet<>();
             for (Shot shot : scene.getShots()) {
-                List<String> characters = shot.getKey_words();
+                characters.addAll(shot.getKey_words());
                 characters.removeIf((String character) -> !scenario.getCharacters().contains(character));
-                addActivities(scene.getId(), characters);
-                connectCharactersAt(scene.getId(), characters);
             }
+            addActivities(scene.getId(), new ArrayList<>(characters));
+            connectCharactersAt(scene.getId(), new ArrayList<>(characters));
         }
         endLines();
     }

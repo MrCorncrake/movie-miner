@@ -12,6 +12,8 @@ public class StartActivityBuilder extends BaseActivityBuilder {
         activity.setPerformersList(null);
         activity.setTransitionRestrictionsList(null);
 
+        offsetCoordinates(DiagramGlobals.START_ACTIVITY_X_OFFSET, DiagramGlobals.START_ACTIVITY_Y_OFFSET);
+
         activityNodeGraphicsInfo.setHeight(DiagramGlobals.START_ACTIVITY_SIZE);
         activityNodeGraphicsInfo.setWidth(DiagramGlobals.START_ACTIVITY_SIZE);
     }
