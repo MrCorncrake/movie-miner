@@ -28,6 +28,7 @@ public class NodeGraphicsInfo extends GraphicsInfo {
 
     @Setter
     @AllArgsConstructor
+    @NoArgsConstructor
     private static class Coordinates {
         private Integer xCoordinate;
         private Integer yCoordinate;

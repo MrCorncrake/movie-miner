@@ -4,6 +4,7 @@ import diagram.xpdl.infos.ConnectorGraphicsInfo;
 import diagram.xpdl.infos.NodeGraphicsInfo;
 import diagram.xpdl.*;
 import lombok.Getter;
+import utils.DiagramGlobals;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,13 +38,13 @@ public class LaneBuilder {
     public LaneBuilder(WorkflowProcess workflowProcess, String id, String name, String performer) {
         this.workflowProcess = workflowProcess;
         this.lane = new Lane(id, name);
-        this.performer = new Participant(performer);
+        this.performer = new Participant(name);
 
         laneNodeGraphicsInfo = new NodeGraphicsInfo();
-        laneNodeGraphicsInfo.setBorderColor(Globals.DEFAULT_BORDER_COLOUR);
-        laneNodeGraphicsInfo.setFillColor(Globals.POOL_LANE_FILL_COLOUR);
+        laneNodeGraphicsInfo.setBorderColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
+        laneNodeGraphicsInfo.setFillColor(DiagramGlobals.POOL_LANE_FILL_COLOUR);
         laneNodeGraphicsInfo.setIsVisible(true);
-        laneNodeGraphicsInfo.setToolId(Globals.TOOL_ID);
+        laneNodeGraphicsInfo.setToolId(DiagramGlobals.TOOL_ID);
 
         lane.getNodeGraphicsInfosList().add(laneNodeGraphicsInfo);
         lane.getPerformersList().add(performer);
@@ -78,10 +79,10 @@ public class LaneBuilder {
         transition.setTo(to.getActivity().getId());
 
         ConnectorGraphicsInfo connectorGraphicsInfo = new ConnectorGraphicsInfo();
-        connectorGraphicsInfo.setFillColor(Globals.DEFAULT_BORDER_COLOUR);
+        connectorGraphicsInfo.setFillColor(DiagramGlobals.DEFAULT_TRANSITION_COLOUR);
         connectorGraphicsInfo.setIsVisible(true);
-        connectorGraphicsInfo.setToolId(Globals.TOOL_ID);
-        connectorGraphicsInfo.setStyle(Globals.TRANSITION_STYLE);
+        connectorGraphicsInfo.setToolId(DiagramGlobals.TOOL_ID);
+        connectorGraphicsInfo.setStyle(DiagramGlobals.TRANSITION_STYLE);
 
         transition.getConnectorGraphicsInfosList().add(connectorGraphicsInfo);
 

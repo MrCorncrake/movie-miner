@@ -37,6 +37,7 @@ public class TransitionRestriction {
     }
 
     @AllArgsConstructor
+    @NoArgsConstructor
     @Setter
     private static class Join {
         private String type;
@@ -74,6 +75,7 @@ public class TransitionRestriction {
         }
 
         @Setter
+        @NoArgsConstructor
         @AllArgsConstructor
         private static class TransitionRef {
             private String Id;

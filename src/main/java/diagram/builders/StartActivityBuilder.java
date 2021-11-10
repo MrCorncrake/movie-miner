@@ -1,6 +1,7 @@
 package diagram.builders;
 
 import diagram.xpdl.Activity;
+import utils.DiagramGlobals;
 
 public class StartActivityBuilder extends BaseActivityBuilder {
 
@@ -11,7 +12,9 @@ public class StartActivityBuilder extends BaseActivityBuilder {
         activity.setPerformersList(null);
         activity.setTransitionRestrictionsList(null);
 
-        activityNodeGraphicsInfo.setHeight(Globals.START_ACTIVITY_SIZE);
-        activityNodeGraphicsInfo.setWidth(Globals.START_ACTIVITY_SIZE);
+        offsetCoordinates(DiagramGlobals.START_ACTIVITY_X_OFFSET, DiagramGlobals.START_ACTIVITY_Y_OFFSET);
+
+        activityNodeGraphicsInfo.setHeight(DiagramGlobals.START_ACTIVITY_SIZE);
+        activityNodeGraphicsInfo.setWidth(DiagramGlobals.START_ACTIVITY_SIZE);
     }
 }

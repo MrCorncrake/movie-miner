@@ -3,6 +3,7 @@ package diagram.builders;
 import diagram.xpdl.Transition;
 import diagram.xpdl.TransitionRestriction;
 import lombok.Getter;
+import utils.DiagramGlobals;
 
 import java.util.ArrayList;
 
@@ -17,10 +18,10 @@ public class ActivityBuilder extends BaseActivityBuilder {
     public ActivityBuilder(String id, String name, String owner, String performer, Integer position) {
         super(id, name, owner, position);
 
-        activityNodeGraphicsInfo.setWidth(Globals.ACTIVITY_WIDTH);
-        activityNodeGraphicsInfo.setHeight(Globals.ACTIVITY_HEIGHT);
+        activityNodeGraphicsInfo.setWidth(DiagramGlobals.ACTIVITY_WIDTH);
+        activityNodeGraphicsInfo.setHeight(DiagramGlobals.ACTIVITY_HEIGHT);
 
-        this.offsetCoordinates(Globals.ACTIVITY_WIDTH/-2, Globals.ACTIVITY_HEIGHT/-4);
+        this.offsetCoordinates(DiagramGlobals.ACTIVITY_WIDTH/-2, DiagramGlobals.ACTIVITY_HEIGHT/-4);
 
         activity.getPerformersList().add(performer);
 
