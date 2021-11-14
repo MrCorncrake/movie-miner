@@ -3,8 +3,8 @@ import utils.ParseException;
 import utils.ParserRegex;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.net.URI;
+import java.nio.file.*;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.regex.Matcher;
@@ -17,14 +17,23 @@ public class ScriptParser {
     private final List<String> transitions;
     private final Set<String> characterSet = new HashSet<>();
 
-    public ScriptParser(String text) {
+    public ScriptParser(String text, URI transitionPath) {
         this.text = text;
-        this.transitions = getKeywords("transitions.txt");
+        this.transitions = getKeywords(transitionPath);
     }
 
-    private List<String> getKeywords(String filename) {
+    private List<String> getKeywords(URI filename) {
         try {
             return Files.readAllLines(Paths.get(filename));
+        } catch(FileSystemNotFoundException nfe ) {
+            try {
+                Map<String, String> env = new HashMap<>();
+                env.put( "create", "true" );
+                FileSystem fs = FileSystems.newFileSystem(filename, env);
+                return Files.readAllLines(fs.provider().getPath(filename));
+            } catch(IOException e) {
+                throw new RuntimeException(e);
+            }
         } catch (IOException e) {
             e.printStackTrace();
             return null;
@@ -186,7 +195,7 @@ public class ScriptParser {
             position = "EXT.";
             locationString = locationString.substring(4);
         }
-        String[] parts = locationString.split(" *-+ +"); //splitting of line designating location into separate parts
+        String[] parts = locationString.split(ParserRegex.LOCATION_SPLIT); //splitting of line designating location into separate parts
         String time = "";
         for (int i = 1; i < parts.length; i++) time = String.join(" ", time, parts[i]);
         scene.setPosition(position);

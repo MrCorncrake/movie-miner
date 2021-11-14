@@ -1,10 +1,12 @@
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.*;
 import java.util.Collections;
 import java.util.Locale;
+import java.util.Objects;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import diagram.xpdl.Package;
@@ -18,10 +20,10 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
 public class MovieMiner {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws URISyntaxException, IOException {
         if (args[0].toLowerCase(Locale.ROOT).contains("help")) {
             System.out.println("Usages:");
-            System.out.println(" java -jar [MovieMiner jar] [MODE] [INPUT FILE PATH] [OUTPUT FILE PATH]");
+            System.out.println(" java -jar [MovieMiner jar] [MODE] [INPUT FILE PATH] [OUTPUT FILE PATH] [(optional) TRANSITIONS FILE PATH]");
             System.out.println(" java -jar [MovieMiner jar] help");
             System.out.println(" java -jar [MovieMiner jar] version");
             System.out.println("Modes: ");
@@ -35,15 +37,17 @@ public class MovieMiner {
             System.out.println("Gdansk University of Technology 2021");
         }
         else if (args.length > 2) {
+            URI transitionFile = Objects.requireNonNull(MovieMiner.class.getClassLoader().getResource("transitions.txt")).toURI();
+            if (args.length > 3) transitionFile = Paths.get(args[3]).toUri();
             switch (args[0]) {
                 case "PDF-JSON":
-                    parseScenario(args[1], args[2]);
+                    parseScenario(args[1], args[2], transitionFile);
                     break;
                 case "JSON-XPDL":
                     buildDiagram(args[1], args[2]);
                     break;
                 case "PDF-XPDL":
-                    parseScenario(args[1], "tmp.json");
+                    parseScenario(args[1], "tmp.json", transitionFile);
                     buildDiagram("tmp.json", args[2]);
                     boolean done = Paths.get("tmp.json").toFile().delete();
                     break;
@@ -53,14 +57,14 @@ public class MovieMiner {
         }
     }
 
-    private static void parseScenario(String inputFile, String outputFile) {
+    private static void parseScenario(String inputFile, String outputFile, URI transitionsFile) {
         ObjectMapper mapper = new ObjectMapper();
         mapper.findAndRegisterModules();
 
         try {
             String text = new PdfReader(inputFile).getText();
             // Adding script text to parser
-            ScriptParser scriptParser = new ScriptParser(text);
+            ScriptParser scriptParser = new ScriptParser(text, transitionsFile);
             // Creating scenario object
             Scenario scenario = scriptParser.parse();
             // Writing scenario object to json file
