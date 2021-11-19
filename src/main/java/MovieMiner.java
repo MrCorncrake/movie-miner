@@ -10,6 +10,7 @@ import java.util.Objects;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import diagram.xpdl.Package;
+import utils.DiagramException;
 import utils.ParseException;
 import scenario.Scenario;
 import utils.ReaderException;
@@ -94,7 +95,7 @@ public class MovieMiner {
             OutputStream os = new FileOutputStream(outputFile);
             jaxbMarshaller.marshal(diagram, os);
 
-        } catch (IOException | JAXBException e) {
+        } catch (IOException | JAXBException | DiagramException e) {
             e.printStackTrace();
         }
     }

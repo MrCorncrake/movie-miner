@@ -3,9 +3,9 @@ package diagram.builders;
 import diagram.xpdl.Activity;
 import utils.DiagramGlobals;
 
-public class EndActivityBuilder extends BaseActivityBuilder {
+public class EndActivityBuilder extends ActivityBuilder {
 
-    public EndActivityBuilder(String id, String owner, Integer position) {
+    protected EndActivityBuilder(String id, String owner, Integer position) {
         super(id, "End", owner, position);
 
         activity.setType(Activity.Type.END_EVENT);

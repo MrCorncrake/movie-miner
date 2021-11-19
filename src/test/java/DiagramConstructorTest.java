@@ -1,6 +1,7 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import diagram.xpdl.Package;
 import scenario.Scenario;
+import utils.DiagramException;
 import utils.XPDLNamespaceMapper;
 
 import javax.xml.bind.JAXBContext;
@@ -42,7 +43,7 @@ public class DiagramConstructorTest {
             } catch (JAXBException | FileNotFoundException e) {
                 e.printStackTrace();
             }
-        } catch (IOException e) {
+        } catch (IOException | DiagramException e) {
             e.printStackTrace();
         }
     }

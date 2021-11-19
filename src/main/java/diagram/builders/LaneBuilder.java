@@ -16,15 +16,15 @@ public class LaneBuilder {
 
     @Getter
     private final Participant performer;
-
-    private final WorkflowProcess workflowProcess;
     private final NodeGraphicsInfo laneNodeGraphicsInfo;
+
+    private WorkflowProcess workflowProcess;
 
     private Integer activityCounter = 0;
     private Integer transitionCounter = 0;
 
     @Getter
-    private BaseActivityBuilder lastActivity;
+    private ActivityBuilder lastActivity;
 
     @Getter
     private final ArrayList<Activity> activities = new ArrayList<>();
@@ -35,7 +35,7 @@ public class LaneBuilder {
     @Getter
     private final HashMap<Integer, ActivityBuilder> activityBuildersMap = new HashMap<>();
 
-    public LaneBuilder(WorkflowProcess workflowProcess, String id, String name, String performer) {
+    protected LaneBuilder(WorkflowProcess workflowProcess, String id, String name, String performer) {
         this.workflowProcess = workflowProcess;
         this.lane = new Lane(id, name);
         this.performer = new Participant(name);
@@ -67,13 +67,20 @@ public class LaneBuilder {
         lane.getPerformersList().add(performer);
         this.performer.setId(performer);
         for(Integer i : activityBuildersMap.keySet()) {
-                activityBuildersMap.get(i).setPerformer(performer);
+                if (activityBuildersMap.get(i) instanceof NormalActivityBuilder) {
+                    ((NormalActivityBuilder) activityBuildersMap.get(i)).setPerformer(performer);
+                }
         }
+    }
+
+    protected void disconnect() {
+        // If the object was disconnected it will no longer have an impact on the WorkflowProcess object of the parent
+        workflowProcess = null;
     }
 
     // Transitions
 
-    private void addTransition(BaseActivityBuilder from, BaseActivityBuilder to) {
+    private void addTransition(ActivityBuilder from, ActivityBuilder to) {
         Transition transition = new Transition(lane.getId() + "_transition" + transitionCounter++);
         transition.setFrom(from.getActivity().getId());
         transition.setTo(to.getActivity().getId());
@@ -86,11 +93,11 @@ public class LaneBuilder {
 
         transition.getConnectorGraphicsInfosList().add(connectorGraphicsInfo);
 
-        if(from instanceof ActivityBuilder) {
-            ((ActivityBuilder) from).addTransition(transition);
+        if(from instanceof NormalActivityBuilder) {
+            ((NormalActivityBuilder) from).addTransition(transition);
         }
-        if(to instanceof ActivityBuilder) {
-            ((ActivityBuilder) to).addTransition(transition);
+        if(to instanceof NormalActivityBuilder) {
+            ((NormalActivityBuilder) to).addTransition(transition);
         }
 
         transitions.add(transition);
@@ -116,24 +123,25 @@ public class LaneBuilder {
         });
         transitions.removeAll(toRemove);
         for(Integer i : activityBuildersMap.keySet()) {
-            toRemove.forEach((Transition t) -> activityBuildersMap.get(i).removeTransition(t));
-            lane.getTransitions().forEach((Transition t) -> activityBuildersMap.get(i).removeTransition(t));
+            toRemove.forEach((Transition t) -> ((NormalActivityBuilder) activityBuildersMap.get(i)).removeTransition(t));
+            lane.getTransitions().forEach((Transition t) -> ((NormalActivityBuilder) activityBuildersMap.get(i)).removeTransition(t));
         }
     }
 
     // Activities
 
-    private void addAnyActivity(BaseActivityBuilder activityBuilder) {
+    private void addAnyActivity(Integer position, ActivityBuilder activityBuilder) {
         // This has to be done for every activity when it's added
         activities.add(activityBuilder.getActivity());
         workflowProcess.getActivitiesList().add(activityBuilder.getActivity());
         lastActivity = activityBuilder;
+        activityBuildersMap.put(position, activityBuilder);
     }
 
     public boolean addStartActivity(Integer position, String name) {
         if(activityBuildersMap.containsKey(position)) return false;
         StartActivityBuilder startActivityBuilder = new StartActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), position);
-        addAnyActivity(startActivityBuilder);
+        addAnyActivity(position, startActivityBuilder);
         return true;
     }
 
@@ -141,16 +149,15 @@ public class LaneBuilder {
         if(activityBuildersMap.containsKey(position)) return false;
         EndActivityBuilder endActivityBuilder = new EndActivityBuilder(lane.getId() + "_activity" + activityCounter++, lane.getId(), position);
         addTransition(lastActivity, endActivityBuilder);
-        addAnyActivity(endActivityBuilder);
+        addAnyActivity(position, endActivityBuilder);
         return true;
     }
 
     public boolean addActivity(Integer position, String name) {
         if(activityBuildersMap.containsKey(position)) return false;
-        ActivityBuilder activityBuilder = new ActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), performer.getId(),position);
-        addTransition(lastActivity, activityBuilder);
-        addAnyActivity(activityBuilder);
-        activityBuildersMap.put(position, activityBuilder);
+        NormalActivityBuilder normalActivityBuilder = new NormalActivityBuilder(lane.getId() + "_activity" + activityCounter++, name, lane.getId(), performer.getId(),position);
+        addTransition(lastActivity, normalActivityBuilder);
+        addAnyActivity(position, normalActivityBuilder);
         return true;
     }
 

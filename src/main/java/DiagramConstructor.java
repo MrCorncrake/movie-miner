@@ -1,10 +1,10 @@
 import diagram.builders.DiagramBuilder;
 import diagram.builders.LaneBuilder;
 import diagram.xpdl.Package;
-import lombok.Getter;
 import scenario.Scenario;
 import scenario.Scene;
 import scenario.Shot;
+import utils.DiagramException;
 
 import java.util.*;
 
@@ -26,7 +26,7 @@ public class DiagramConstructor {
         return diagram.getDiagram();
     }
 
-    public void buildDiagram() {
+    public void buildDiagram() throws DiagramException {
         for (Scene scene : scenario.getScenes()) {
             Set<String> characters = new HashSet<>();
             for (Shot shot : scene.getShots()) {
@@ -39,33 +39,33 @@ public class DiagramConstructor {
         endLines();
     }
 
-    private void addActivities(int sceneId, List<String> characters) {
+    private void addActivities(int sceneId, List<String> characters) throws DiagramException {
         for (String character : characters) {
             if (!lanes.containsKey(character)) {
                 LaneBuilder lane = diagram.addLane(character);
                 lanes.put(character, lane);
                 lanesOrder.put(character, ++laneCounter);
-                lane.addStartActivity(sceneId - 1, character);
+                if (!lane.addStartActivity(sceneId - 1, character)) throw new DiagramException("Could not create start activity at " + sceneId);
             }
             LaneBuilder lane = lanes.get(character);
-            lane.addActivity(sceneId, "Scene " + sceneId + " - " + character);
+            if (!lane.addActivity(sceneId, "Scene " + sceneId + " - " + character)) throw new DiagramException("Could not create activity at " + sceneId);
         }
     }
 
-    private void connectCharactersAt(int sceneId, List<String> characters) {
+    private void connectCharactersAt(int sceneId, List<String> characters) throws DiagramException {
         characters.sort(Comparator.comparing(lanesOrder::get));
         for (int i = 1; i < characters.size(); i++) {
             LaneBuilder lane1 = lanes.get(characters.get(i - 1));
             LaneBuilder lane2 = lanes.get(characters.get(i));
-            lane1.connectToLaneAt(lane2, sceneId);
+            if (!lane1.connectToLaneAt(lane2, sceneId)) throw new DiagramException("Could not connect lanes at " + sceneId);
         }
     }
 
-    private void endLines() {
+    private void endLines() throws DiagramException {
         for (String character : lanes.keySet()) {
             LaneBuilder lane = lanes.get(character);
             int pos = lane.getLastActivity().getPosition();
-            lane.addEndActivity(pos + 1);
+            if(!lane.addEndActivity(pos + 1)) throw new DiagramException("Could not create end activity at " + pos + 1);
         }
     }
 }

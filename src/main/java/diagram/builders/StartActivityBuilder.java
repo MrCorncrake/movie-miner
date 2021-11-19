@@ -3,9 +3,9 @@ package diagram.builders;
 import diagram.xpdl.Activity;
 import utils.DiagramGlobals;
 
-public class StartActivityBuilder extends BaseActivityBuilder {
+public class StartActivityBuilder extends ActivityBuilder {
 
-    public StartActivityBuilder(String id, String name, String owner, Integer position) {
+    protected StartActivityBuilder(String id, String name, String owner, Integer position) {
         super(id, name, owner, position);
 
         activity.setType(Activity.Type.START_EVENT);

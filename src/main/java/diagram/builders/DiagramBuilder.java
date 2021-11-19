@@ -71,6 +71,7 @@ public class DiagramBuilder {
         diagram.getParticipantsList().remove(laneBuilder.getPerformer());
         laneBuildersList.remove(laneBuilder);
         laneBuildersList.forEach((LaneBuilder lb) -> lb.disconnectFromLane(laneBuilder));
+        laneBuilder.disconnect();
     }
 
     // Diagram config

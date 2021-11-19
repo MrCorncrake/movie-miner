@@ -1,63 +1,56 @@
 package diagram.builders;
 
-import diagram.xpdl.Transition;
-import diagram.xpdl.TransitionRestriction;
+import diagram.xpdl.Activity;
+import diagram.xpdl.infos.NodeGraphicsInfo;
 import lombok.Getter;
 import utils.DiagramGlobals;
 
-import java.util.ArrayList;
-
-public class ActivityBuilder extends BaseActivityBuilder {
+/**
+ * Basic activity builder class. Sets up all the common elements of different types of activity
+ */
+public abstract class ActivityBuilder {
 
     @Getter
-    private final TransitionRestriction transitionRestriction;
+    protected final Activity activity;
 
-    private final ArrayList<String> transitions = new ArrayList<>();
-    private int joins = 0;
+    protected final NodeGraphicsInfo activityNodeGraphicsInfo;
 
-    public ActivityBuilder(String id, String name, String owner, String performer, Integer position) {
-        super(id, name, owner, position);
+    @Getter
+    protected Integer position;
 
-        activityNodeGraphicsInfo.setWidth(DiagramGlobals.ACTIVITY_WIDTH);
-        activityNodeGraphicsInfo.setHeight(DiagramGlobals.ACTIVITY_HEIGHT);
+    protected ActivityBuilder(String id, String name, String owner, Integer position) {
+        activity = new Activity(id, name);
 
-        this.offsetCoordinates(DiagramGlobals.ACTIVITY_WIDTH/-2, DiagramGlobals.ACTIVITY_HEIGHT/-4);
+        activityNodeGraphicsInfo = new NodeGraphicsInfo();
+        activity.getNodeGraphicsInfosList().add(activityNodeGraphicsInfo);
 
-        activity.getPerformersList().add(performer);
+        activityNodeGraphicsInfo.setBorderColor(DiagramGlobals.DEFAULT_BORDER_COLOUR);
+        activityNodeGraphicsInfo.setFillColor(DiagramGlobals.ACTIVITY_FILL_COLOUR);
+        activityNodeGraphicsInfo.setIsVisible(true);
+        activityNodeGraphicsInfo.setLaneId(owner);
+        activityNodeGraphicsInfo.setToolId(DiagramGlobals.TOOL_ID);
 
-        transitionRestriction = new TransitionRestriction();
-    }
-    
-    public void setPerformer(String performer) {
-        activity.getPerformersList().clear();
-        activity.getPerformersList().add(performer);
-    }
-
-    public void addTransition(Transition transition) {
-        // Adjusts joins and splits with every added transition
-        if (transition.getTo().equals(this.activity.getId())) {
-            joins++;
-            if (joins > 1) transitionRestriction.setJoin("Exclusive");
-        }
-        else {
-            transitions.add(transition.getId());
-            if (transitions.size() > 1) transitionRestriction.setSplit("Parallel", transitions);
-        }
-        if (joins > 1 || transitions.size() > 1) {
-            activity.getTransitionRestrictionsList().add(transitionRestriction);
-        }
+        setPosition(position);
     }
 
-    public void removeTransition(Transition transition) {
-        // Adjusts joins and splits with every removed transition
-        if (transition.getTo().equals(this.activity.getId())) {
-            joins--;
-            if (joins < 2) transitionRestriction.setJoin(null);
-        }
-        else {
-            transitions.remove(transition.getId());
-            if (transitions.size() < 2) transitionRestriction.setSplit(null, null);
-        }
-        if (joins < 2 && transitions.size() < 2) activity.getTransitionRestrictionsList().remove(transitionRestriction);
+    public void setBorderColor(String borderColor) {
+        activityNodeGraphicsInfo.setBorderColor(borderColor);
+    }
+
+    public void setFillColor(String fillColor) {
+        activityNodeGraphicsInfo.setFillColor(fillColor);
+    }
+
+    protected void setPosition(Integer position) {
+        this.position = position;
+        setCoordinates(DiagramGlobals.ACTIVITY_X_BASE + position * DiagramGlobals.ACTIVITY_SPACING, DiagramGlobals.ACTIVITY_Y_BASE);
+    }
+
+    protected void setCoordinates(Integer x, Integer y) {
+        activityNodeGraphicsInfo.setCoordinates(x, y);
+    }
+
+    protected void offsetCoordinates(Integer xOffset, Integer yOffset) {
+        activityNodeGraphicsInfo.offsetCoordinates(xOffset, yOffset);
     }
 }
