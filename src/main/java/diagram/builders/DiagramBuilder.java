@@ -94,11 +94,11 @@ public class DiagramBuilder {
 
     // Pool config
 
-    public void setPoolBorderColor(String red, String green, String blue) {
+    public void setPoolBorderColor(int red, int green, int blue) {
         poolNodeGraphicInfo.setBorderColor(red + "," + green + "," + blue);
     }
 
-    public void setPoolFillColor(String red, String green, String blue) {
+    public void setPoolFillColor(int red, int green, int blue) {
         poolNodeGraphicInfo.setBorderColor(red + "," + green + "," + blue);
     }
 

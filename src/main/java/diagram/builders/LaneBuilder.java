@@ -50,12 +50,20 @@ public class LaneBuilder {
         lane.getPerformersList().add(performer);
     }
 
-    public void setBorderColor(String red, String green, String blue) {
-        laneNodeGraphicsInfo.setBorderColor(red + "," + green + "," + blue);
+    public void setBorderColor(String color) {
+        laneNodeGraphicsInfo.setBorderColor(color);
     }
 
-    public void setFillColor(String red, String green, String blue) {
-        laneNodeGraphicsInfo.setBorderColor(red + "," + green + "," + blue);
+    public void setBorderColor(int red, int green, int blue) {
+        setBorderColor(red + "," + green + "," + blue);
+    }
+
+    public void setFillColor(String color) {
+        laneNodeGraphicsInfo.setFillColor(color);
+    }
+
+    public void setFillColor(int red, int green, int blue) {
+        setFillColor(red + "," + green + "," + blue);
     }
 
     public void setIsVisible(Boolean visible) {

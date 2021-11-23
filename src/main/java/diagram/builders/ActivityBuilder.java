@@ -37,8 +37,16 @@ public abstract class ActivityBuilder {
         activityNodeGraphicsInfo.setBorderColor(borderColor);
     }
 
+    public void setBorderColor(int red, int green, int blue) {
+        setBorderColor(red + "," + green + "," + blue);
+    }
+
     public void setFillColor(String fillColor) {
         activityNodeGraphicsInfo.setFillColor(fillColor);
+    }
+
+    public void setFillColor(int red, int green, int blue) {
+        setFillColor(red + "," + green + "," + blue);
     }
 
     protected void setPosition(Integer position) {

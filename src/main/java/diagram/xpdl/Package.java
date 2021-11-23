@@ -61,7 +61,6 @@ public class Package {
     }
 
     @XmlElementWrapper(name = "Participants", namespace="http://www.wfmc.org/2008/XPDL2.1")
-
     @XmlElement(name = "Participant", namespace="http://www.wfmc.org/2008/XPDL2.1")
     public void setParticipantsList(ArrayList<Participant> participantsList) {
         this.participantsList = participantsList;
