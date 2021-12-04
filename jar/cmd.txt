@@ -1,0 +1,24 @@
+java -jar E:\tutorials\Semester_Thesises\Diploma_thesis\movie-miner-master_15_11_2021\movie-miner-master\target\movie-miner-1.0.jar PDF-XPDL E:\tutorials\Semester_Thesises\Diploma_thesis\movie-miner-master_15_11_2021\movie-miner-master\Titanic.pdf E:\tutorials\Semester_Thesises\Diploma_thesis\movie-miner-master_15_11_2021\movie-miner-master\Titanic.xpdl
+
+subprocess.call(['java', '-jar', JAR_PATH, PDF_JSON, PDF_PATH, RESULT_PATH])
+
+
+subprocess.call(['java', '-jar', JAR_PATH, PDF_JSON, pdf_path, result_path])
+
+java -jar E:\tutorials\Semester_Thesises\Diploma_thesis\ms-web-app\jar\movie-miner-1.0.jar PDF-XPDL E:\tutorials\Semester_Thesises\Diploma_thesis\ms-web-app\jar\Titanic.pdf E:\tutorials\Semester_Thesises\Diploma_thesis\ms-web-app\jar\Titanic.xpdl
+
+
+working:
+java -jar E:\tutorials\Semester_Thesises\Diploma_thesis\movie-miner-master_15_11_2021\movie-miner-master\target\movie-miner-1.0.jar PDF-XPDL E:\tutorials\Semester_Thesises\Diploma_thesis\ms-web-app\jar\Titanic.pdf E:\tutorials\Semester_Thesises\Diploma_thesis\ms-web-app\jar\Tita
+nic.xpdl
+
+
+JAR_PATH = './jar/movie-miner-1.0.jar'
+TXT_PATH = './jar/transitions.txt'
+PDF_PATH = './uploads'
+RESULT_PATH = 'tmp2.json'
+XPDL_RESULT_PATH = 'tmp.xpdl'
+PDF_JSON = 'PDF-JSON'
+JSON_XPDL = 'JSON-XPDL'
+PDF_XPDL = 'PDF-XPDL'
+

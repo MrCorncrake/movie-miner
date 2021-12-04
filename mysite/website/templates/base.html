@@ -30,12 +30,14 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+    <!-- Custom styles for this template -->
+<!--    <link href="carousel.css" rel="stylesheet">-->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/carousel.css') }}">
     <title>{% block title %}Home{% endblock %}</title>
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <button
         class="navbar-toggler"
         type="button"
@@ -45,8 +47,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
+        <a class="navbar-brand" href="/">Movie Miner</a>
         <div class="navbar-nav">
-          <a class="nav-item nav-link" id="views" href="/">Views</a>
+          <a class="nav-item nav-link" id="aboutus" href="/">About us</a>
+          <a class="nav-item nav-link" id="views" href="/views">Parser</a>
+
 <!--          <a class="nav-item nav-link" id="json_edit" href="/json_edit">JSON Edit</a>-->
         </div>
       </div>

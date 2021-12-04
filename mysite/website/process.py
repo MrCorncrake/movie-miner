@@ -8,9 +8,13 @@ TXT_PATH = './jar/transitions.txt'
 # TXT_PATH = 'E:\\Diploma_thesis\\ms-web-app\\jar\\transitions.txt'
 PDF_PATH = './uploads'
 RESULT_PATH = 'tmp2.json'
+XPDL_RESULT_PATH = 'tmp.xpdl'
+PDF_JSON = 'PDF-JSON'
+JSON_XPDL = 'JSON-XPDL'
+PDF_XPDL = 'PDF-XPDL'
+
 
 process = Blueprint('process', __name__)
-
 
 @process.route('/process')
 def script_parser(PDF_NAME):

@@ -1,7 +1,7 @@
 {
   "name" : "RUSH HOUR",
   "authors" : [ "Ross LaManna", "Jim Kouf" ],
-  "characters" : [ "MAN'S VOICE", "WHITNEY", "EVANS", "CARTER", "FBI AGENT WILLIS", "RUSS", "LAFONTAINE", "DRIVER", "PATIO AGENT", "EVANS VOICE", "DIEL", "LEE AND CARTER", "GRIFFIN", "LOIS", "AGENT", "CHI-YING", "SOCIALITE", "BODYGUARD", "LOIS VO", "MONROE", "THE DETECTIVE", "SANG", "FIRST DETECTIVE", "CARTER'S VOICE", "SOON YOUNG", "AGENT WHITNEY", "LEAD AGENT TACTICAL TEAM", "NEWS ANNOUNCER", "OFFICER", "POLICE OFFICER", "LEE", "BIG DUDE", "ATTRACTIVE WAITRESS", "OSCAR", "JOHNSON", "SANG'S VOICE", "CARTER VO", "LEE VO", "HAN", "FBI AGENT GEIGER", "HOSTESS", "SOON YOUNG'S VOICE", "LEE'S VOICE", "HESS", "SECOND DETECTIVE", "SECOND POLICE OFFICER", "FLIGHT ATTENDANT" ],
+  "characters" : [ "MAN'S VOICE", "WHITNEY", "EVANS", "GRIFFIN (cont'd)", "LAFONTAINE", "DRIVER", "CARTER (cont'd)", "BODYGUARD", "LOIS VO", "SANG", "FIRST DETECTIVE", "CARTER'S VOICE", "NEWS ANNOUNCER", "JOHNSON (cont'd)", "BIG DUDE", "OSCAR", "HESS", "CARTER", "FBI AGENT WILLIS", "RUSS", "PATIO AGENT", "EVANS VOICE", "DIEL", "LEE AND CARTER", "GRIFFIN", "LOIS", "AGENT", "LOIS (cont'd)", "LEE (cont'd)", "SOCIALITE", "MONROE", "THE DETECTIVE", "AGENT WHITNEY", "LEAD AGENT TACTICAL TEAM", "WHITNEY (cont'd)", "OFFICER", "POLICE OFFICER", "LEE", "ATTRACTIVE WAITRESS", "JOHNSON", "SANG'S VOICE", "CARTER VO", "LEE VO", "RUSS (cont'd)", "HAN", "FBI AGENT GEIGER", "HOSTESS", "LEE'S VOICE", "SECOND DETECTIVE", "SECOND POLICE OFFICER", "LAFONTAINE (cont'd)", "FLIGHT ATTENDANT" ],
   "scenes" : [ {
     "id" : 1,
     "transition" : "FADE IN:",
@@ -55,31 +55,31 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Another GUARD, cradling an M-16, walks around a railing and looks over the side. Suddenly, A HAND reaches up and pulls him over the edge. He disappears and a beat later we HEAR A SPLASH.",
+      "desc" : "Another GUARD, cradling an M-16, walks around a railing and looks over the side. Suddenly, A HAND reaches up and pulls him over the edge. He disappears and a beat later we HEAR A SPLASH. ",
       "sentences" : [ ],
       "key_words" : [ "GUARD", "SPLASH", "HAND", "HEAR" ]
     }, {
       "id" : 1,
       "on" : "ON ANOTHER GUARD",
-      "desc" : "He's coming up a LADDER, automatic weapon slung over his shoulder. He HEARS something, turns on the ladder. Nothing. When he starts back up WHACK! A foot kicks him off the ladder and the ship. SPLASH.",
+      "desc" : "He's coming up a LADDER, automatic weapon slung over his shoulder. He HEARS something, turns on the ladder. Nothing. When he starts back up WHACK! A foot kicks him off the ladder and the ship. SPLASH. ",
       "sentences" : [ ],
       "key_words" : [ "HEARS", "WHACK", "LADDER", "SPLASH" ]
     }, {
       "id" : 2,
       "on" : "ON TWO GUARDS",
-      "desc" : "Lee dispatches them with a FLURRY OF HANDS. SPLASH, SPLASH.",
+      "desc" : "Lee dispatches them with a FLURRY OF HANDS. SPLASH, SPLASH. ",
       "sentences" : [ ],
       "key_words" : [ "FLURRY OF HANDS", "SPLASH" ]
     }, {
       "id" : 3,
       "on" : "ON THE BOSS",
-      "desc" : "A handsome Chinese man named SANG stands at the railing watching the loading process. He SHOUTS in MANDARIN and people jump to his command. Then something catches his eye. CLOSE ON The top of the warehouse. We see another man's FACE peer over the edge. And then disappear again.",
+      "desc" : "A handsome Chinese man named SANG stands at the railing watching the loading process. He SHOUTS in MANDARIN and people jump to his command. Then something catches his eye. CLOSE ON The top of the warehouse. We see another man's FACE peer over the edge. And then disappear again. ",
       "sentences" : [ ],
       "key_words" : [ "SANG", "SHOUTS", "MANDARIN", "FACE", "CLOSE ON" ]
     }, {
       "id" : 4,
       "on" : "ON THE WAREHOUSE",
-      "desc" : "Ten HONG KONG COPS, weapons at the ready, are spread out on the roof watching the loading action.",
+      "desc" : "Ten HONG KONG COPS, weapons at the ready, are spread out on the roof watching the loading action. ",
       "sentences" : [ ],
       "key_words" : [ "HONG KONG COPS" ]
     }, {
@@ -111,7 +111,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Sang runs down another flight of steps, deeper in the bowels of the ship. He stops for an instant and fits the REBREATHER MASK over his face. Then he turns and fires four rounds at Lee who has to dive back in another passageway.",
+      "desc" : "Sang runs down another flight of steps, deeper in the bowels of the ship. He stops for an instant and fits the REBREATHER MASK over his face. Then he turns and fires four rounds at Lee who has to dive back in another passageway. ",
       "sentences" : [ ],
       "key_words" : [ "REBREATHER MASK" ]
     }, {
@@ -153,55 +153,65 @@
         "shot_id" : 0,
         "character" : "HAN",
         "line" : "(to Griffin) Tom, thank you. Very much. (to the group) I am pleased to be able to leave you and Hong Kong with a gift tonight: less than an hour ago, Detective Lee and his special task force have once and for all crushed the Juntao Criminal Organization. Shock and then applause all around the table. This is the kind of legacy I have dreamed about: to leave this city safer than I found it. To Hong Kong...forever.",
-        "followup" : "Everyone drinks."
+        "followup" : "Everyone drinks. "
       } ],
       "key_words" : [ "YING", "THOMAS GRIFFIN", "HAN", "CHI", "LARGE ORIENTAL GARDEN", "GRIFFIN" ]
     }, {
       "id" : 1,
       "on" : "ON LEE",
-      "desc" : "He's walking back up to the house when he senses someone behind him. He turns and receives a fist to the stomach. SOON YOUNG, Han's daughter is pissed.",
+      "desc" : "He's walking back up to the house when he senses someone behind him. He turns and receives a fist to the stomach. SO",
+      "sentences" : [ ],
+      "key_words" : [ "SO" ]
+    }, {
+      "id" : 2,
+      "on" : "ON YOUNG",
+      "desc" : ", Han's daughter is pissed. SO",
+      "sentences" : [ ],
+      "key_words" : [ "SO" ]
+    }, {
+      "id" : 3,
+      "on" : "ON YOUNG",
+      "desc" : "When were you going to tell me you were not going with us?",
       "sentences" : [ {
-        "shot_id" : 1,
-        "character" : "SOON YOUNG",
-        "line" : "When were you going to tell me you were not going with us?",
-        "followup" : ""
-      }, {
-        "shot_id" : 1,
+        "shot_id" : 3,
         "character" : "LEE",
-        "line" : "I still have work to do here.",
+        "line" : "I still have work to do here. SO",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
-        "character" : "SOON YOUNG",
-        "line" : "I don't believe you. My father was explaining to Mr. Griffin. That is how I found out.",
-        "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "SO", "LEE" ]
+    }, {
+      "id" : 4,
+      "on" : "ON YOUNG",
+      "desc" : "I don't believe you. My father was explaining to Mr. Griffin. That is how I found out.",
+      "sentences" : [ {
+        "shot_id" : 4,
         "character" : "LEE",
-        "line" : "I was trying to find the right time.",
+        "line" : "I was trying to find the right time. SO",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
-        "character" : "SOON YOUNG",
-        "line" : "After I left?",
-        "followup" : "And she throws another punch at him. But he catches her hand. And holds it tightly, to keep from being hit again."
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "SO", "LEE" ]
+    }, {
+      "id" : 5,
+      "on" : "ON YOUNG",
+      "desc" : "After I left? And she throws another punch at him. But he catches her hand. And holds it tightly, to keep from being hit again.",
+      "sentences" : [ {
+        "shot_id" : 5,
         "character" : "LEE",
-        "line" : "I am going to miss you very much, Soon Young. If I ever have a daughter, I hope she is like you. Soon Young yanks her hand away from him. She glares at him for a moment, then --",
+        "line" : "I am going to miss you very much, Soon Young. If I ever have a daughter, I hope she is like you. Soon Young yanks her hand away from him. She glares at him for a moment, then -- SO",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
-        "character" : "SOON YOUNG",
-        "line" : "I will not have friends in America.",
-        "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "SO", "LEE" ]
+    }, {
+      "id" : 6,
+      "on" : "ON YOUNG",
+      "desc" : "I will not have friends in America.",
+      "sentences" : [ {
+        "shot_id" : 6,
         "character" : "LEE",
         "line" : "Soon Young, don't worry. You will have many friends very soon. You will see. America is a very friendly place. ",
         "followup" : ""
       } ],
-      "key_words" : [ "SOON YOUNG", "LEE" ]
+      "key_words" : [ "LEE" ]
     } ]
   }, {
     "id" : 9,
@@ -330,7 +340,7 @@
       "sentences" : [ {
         "shot_id" : 0,
         "character" : "JOHNSON",
-        "line" : "OK, Carter, gimme something here. Start with the color of the packaging.",
+        "line" : "OK, Carter, gimme something here. Start with the color of the packaging. ",
         "followup" : ""
       } ],
       "key_words" : [ "JOHNSON", "OK" ]
@@ -341,100 +351,124 @@
       "sentences" : [ {
         "shot_id" : 1,
         "character" : "CARTER",
-        "line" : "Yeah...beautiful. What would you call that paper there? Kind of a...Robin egg blue color? ON JOHNSON",
+        "line" : "Yeah...beautiful. What would you call that paper there? Kind of a...Robin egg blue color? ",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "CARTER", "TINY MICROPHONE", "INSERT" ]
+    }, {
+      "id" : 2,
+      "on" : "ON JOHNSON",
+      "desc" : "",
+      "sentences" : [ {
+        "shot_id" : 2,
         "character" : "JOHNSON",
-        "line" : "(into the mike) Good. That's standard military packaging for plastique. Get a look under it. ON CARTER He leans over the packages and slits one open.",
+        "line" : "(into the mike) Good. That's standard military packaging for plastique. Get a look under it. ",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "JOHNSON" ]
+    }, {
+      "id" : 3,
+      "on" : "ON CARTER",
+      "desc" : "He leans over the packages and slits one open.",
+      "sentences" : [ {
+        "shot_id" : 3,
         "character" : "CARTER",
         "line" : "You know something? Every time I see this stuff, it reminds me of...uh...a double latte grande... (still looking) With two shots of non-fat milk.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 3,
         "character" : "LAFONTAINE",
-        "line" : "What are you talking about? ON JOHNSON",
+        "line" : "What are you talking about? ",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "CARTER", "LAFONTAINE" ]
+    }, {
+      "id" : 4,
+      "on" : "ON JOHNSON",
+      "desc" : "",
+      "sentences" : [ {
+        "shot_id" : 4,
         "character" : "JOHNSON",
         "line" : "(into the mike) That's it. High intensity C-4. We got his ass.",
         "followup" : "CLICK. Carter looks up at a cute little silver plated .38 that Lois is pointing down on her from the next stall."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 4,
         "character" : "LOIS",
-        "line" : "Step out slowly. Or I'll blow your hair style into the toilet. Where it belongs. ON CARTER He sees a wire coming out of one side of the package.",
+        "line" : "Step out slowly. Or I'll blow your hair style into the toilet. Where it belongs. ",
         "followup" : ""
-      }, {
-        "shot_id" : 1,
+      } ],
+      "key_words" : [ "JOHNSON", "CLICK", "LOIS", "I'" ]
+    }, {
+      "id" : 5,
+      "on" : "ON CARTER",
+      "desc" : "He sees a wire coming out of one side of the package.",
+      "sentences" : [ {
+        "shot_id" : 5,
         "character" : "CARTER",
         "line" : "(speaking loudly) What's this little green wire coming out one side of the package?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LAFONTAINE",
         "line" : "I wouldn't touch that if I were you. Lafontaine pulls a remote DETONATOR out of his pocket.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LAFONTAINE",
         "line" : "I get the money, you get the detonator. (smiles) First date's are always scary. Lafontaine shuts the trunk. Hands the keys to Carter.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "HESS",
         "line" : "on the sidewalk. I'll leave the detonator on my side. Then we trade places. Get the picture?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LOIS VO",
         "line" : "Hey, honey...",
         "followup" : "Lafontaine turns to see Johnson, who's wearing a sexy short skirt, walking toward them with Lois bringing up the rear."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LOIS",
         "line" : "She talks to herself on the potty.",
         "followup" : "Lois shoves Johnson ahead, revealing the GUN in one hand and Johnson's TRANSMITTER in the other."
       }, {
-        "shot_id" : 1,
-        "character" : "LOIS",
+        "shot_id" : 5,
+        "character" : "LOIS (cont'd)",
         "line" : "(to Lafontaine ) Let's kill her. (cocking the .38) I'll flip you for it.",
         "followup" : "Lafontaine turns to Carter, but Carter is already throwing a punch. Connecting. Lafontaine falls. The remote drops as Lois FIRES at Carter. The bullet ricochets off the car. Lafontaine sees the remote, makes a dive for it. But another hand gets there first. Lois turns the gun on Johnson."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "CARTER",
         "line" : "No!",
         "followup" : "Carter is holding the detonator. Stand-off. Carter grabs Lafontaine. Pulls him up. Lois grabs Johnson, pulls her back by her hair, shoves the gun to her head. She's going to shoot anyway."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LAFONTAINE",
         "line" : "Lois, don't!",
         "followup" : "Lois has the look of a child who hates to be told she can't do something. Johnson looks at Carter. She offers the best I'm sorry she can muster with her eyes."
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "CARTER",
         "line" : "Put the gun down.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LOIS",
         "line" : "After you're dead. I promise. Carter tightens his grip around Lafontaine's throat.",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "CARTER",
         "line" : "Okay, look, we're gonna make a trade. You cross the street, leave her on the sidewalk. I will leave him on this him, I get her. Get the picture, Lois?",
         "followup" : ""
       }, {
-        "shot_id" : 1,
+        "shot_id" : 5,
         "character" : "LAFONTAINE",
         "line" : "(to Lois) Do it! ",
         "followup" : ""
       } ],
-      "key_words" : [ "CARTER", "LAFONTAINE", "DETONATOR", "LOIS", "TRANSMITTER", "LOIS VO", "GUN", "FIRES", "ON JOHNSON", "TINY MICROPHONE", "JOHNSON", "INSERT", "CLICK", "HESS", "ON CARTER", "I'" ]
+      "key_words" : [ "GUN", "FIRES", "CARTER", "LAFONTAINE", "DETONATOR", "LOIS", "TRANSMITTER", "HESS", "I'", "LOIS VO" ]
     } ]
   }, {
     "id" : 13,
@@ -473,7 +507,7 @@
         "followup" : "Carter looks at Johnson and points to his heart. She suddenly looks pissed."
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON",
+        "character" : "JOHNSON (cont'd)",
         "line" : "Oh, give it up! ",
         "followup" : ""
       } ],
@@ -488,19 +522,20 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "A large entrance to the Ambassador's Residence. Han is waiting by the door, briefcase in hand, as Soon Young sweeps down the grand stairway, backpack over one shoulder, lunch bag in hand. She stops at the bottom of the stairs.",
+      "desc" : "A large entrance to the Ambassador's Residence. Han is waiting by the door, briefcase in hand, as Soon Young sweeps down the grand stairway, backpack over one shoulder, lunch bag in hand. She stops at the bottom of the stairs. SO",
+      "sentences" : [ ],
+      "key_words" : [ "SO" ]
+    }, {
+      "id" : 1,
+      "on" : "ON YOUNG",
+      "desc" : "I forgot -- (races back upstairs) -- something. Han starts to protest, but... what's the use? He looks at his watch. Then up at Chi-Ying as she comes down the stairs.",
       "sentences" : [ {
-        "shot_id" : 0,
-        "character" : "SOON YOUNG",
-        "line" : "I forgot -- (races back upstairs) -- something.",
-        "followup" : "Han starts to protest, but... what's the use? He looks at his watch. Then up at Chi-Ying as she comes down the stairs."
-      }, {
-        "shot_id" : 0,
+        "shot_id" : 1,
         "character" : "HAN",
         "line" : "Will somebody please tell our daughter that I am the Ambassador?",
         "followup" : "Chi-Ying just shrugs. Nothing can be done about it. "
       } ],
-      "key_words" : [ "SOON YOUNG", "HAN" ]
+      "key_words" : [ "HAN" ]
     } ]
   }, {
     "id" : 15,
@@ -511,13 +546,8 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "ESTABLISHING. FLAG of PEOPLES REPUBLIC OF CHINA hanging from a standard. A MERCEDES waiting in front. DRIVER and BODY GUARD with the car. Han and Soon Young finally appear. Heading for the car. Soon Young gets into the back seat. And just as Han is about to get in next to her, Chi-Ying comes out after him.",
+      "desc" : "ESTABLISHING. FLAG of PEOPLES REPUBLIC OF CHINA hanging from a standard. A MERCEDES waiting in front. DRIVER and BODY GUARD with the car. Han and Soon Young finally appear. Heading for the car. Soon Young gets into the back seat. And just as Han is about to get in next to her, Chi-Ying comes out after him. CHI-YING Telephone. China. The Ambassador holds up his hands in exasperation. What's a guy to do? ",
       "sentences" : [ {
-        "shot_id" : 0,
-        "character" : "CHI-YING",
-        "line" : "Telephone. China.",
-        "followup" : "The Ambassador holds up his hands in exasperation. What's a guy to do? "
-      }, {
         "shot_id" : 0,
         "character" : "HAN",
         "line" : "Drop her off, then come back. (to Body Guard) Go with them. (to Soon Young) I love you.",
@@ -653,7 +683,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Soon Young runs around the corner breathing hard. She hugs the edge of the building. Peeks back around. Sees a van making a sharp U-turn, headed her way. She starts across the cobblestones. BEHIND HER, a MOTORCYCLE pulls out. She's in the middle of the street. The biker scoops her up under his left arm, pulls onto Rodeo. THE DELIVERY VAN Screeches up.",
+      "desc" : "Soon Young runs around the corner breathing hard. She hugs the edge of the building. Peeks back around. Sees a van making a sharp U-turn, headed her way. She starts across the cobblestones. BEHIND HER, a MOTORCYCLE pulls out. She's in the middle of the street. The biker scoops her up under his left arm, pulls onto Rodeo. THE DELIVERY VAN Screeches up. ",
       "sentences" : [ ],
       "key_words" : [ "THE DELIVERY VAN", "MOTORCYCLE", "BEHIND HER" ]
     }, {
@@ -693,7 +723,7 @@
         "followup" : "DAN WHITNEY, thirty-eight, ex-football type, solid American, shakes hands with the Ambassador."
       }, {
         "shot_id" : 0,
-        "character" : "RUSS",
+        "character" : "RUSS (cont'd)",
         "line" : "I know this is a difficult time but...",
         "followup" : ""
       }, {
@@ -837,7 +867,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Captain wants to see me.",
         "followup" : ""
       }, {
@@ -1236,7 +1266,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Yeah, gotta be careful. Might get run over by a Sky Cap. ",
         "followup" : ""
       } ],
@@ -1302,7 +1332,7 @@
         "followup" : "No response from Lee. Carter assumes he can't speak English."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Oh shit, you gotta be kiddin'. Carter holds out his FBI IDENTIFICATION.",
         "followup" : ""
       }, {
@@ -1877,9 +1907,15 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Carter reaches the corner in time to watch the Garbage Truck heading toward Sunset Blvd. But he can't give up. What would he tell Russ? He lost his assignment? He starts running after the Garbage Truck. And as Carter runs past CAMERA CRANES ACROSS TO ANOTHER DELIVERY TRUCK moving the opposite direction. And ON TOP OF THE DELIVERY TRUCK is Lee, staying low, watching Carter run his poor tired ass off in the wrong direction. Lee looks around quickly. A YELLOW CAB is moving down the cross street. ",
+      "desc" : "Carter reaches the corner in time to watch the Garbage Truck heading toward Sunset Blvd. But he can't give up. What would he tell Russ? He lost his assignment? He starts running after the Garbage Truck. And as Carter runs past CAMERA CRANES ACROSS TO ANOTHER DELIVERY TRUCK moving the opposite direction. And ",
       "sentences" : [ ],
-      "key_words" : [ "CAMERA CRANES ACROSS TO ANOTHER DELIVERY TRUCK", "ON TOP OF THE DELIVERY TRUCK", "YELLOW CAB" ]
+      "key_words" : [ "CAMERA CRANES ACROSS TO ANOTHER DELIVERY TRUCK" ]
+    }, {
+      "id" : 1,
+      "on" : "ON TOP OF THE DELIVERY TRUCK",
+      "desc" : "is Lee, staying low, watching Carter run his poor tired ass off in the wrong direction. Lee looks around quickly. A YELLOW CAB is moving down the cross street. ",
+      "sentences" : [ ],
+      "key_words" : [ "YELLOW CAB" ]
     } ]
   }, {
     "id" : 51,
@@ -2012,7 +2048,7 @@
         "shot_id" : 0,
         "character" : "WHITNEY",
         "line" : "There he is!",
-        "followup" : "Lee darts across the driveway and around the corner of the house."
+        "followup" : "Lee darts across the driveway and around the corner of the house. "
       } ],
       "key_words" : [ "WHITNEY", "RUSS", "BACK TO LEE AND THE TWO AGENTS", "FBI AGENT GEIGER", "SEES SIX MORE AGENTS", "LEE" ]
     }, {
@@ -2085,13 +2121,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Lee crawls along the steeply pitched roof looking for a way in. He gets to a GABLE with a WINDOW. But before he can look inside, an AGENT sticks his head out the window and looks around. The agent turns to his left. Nothing. He turns to his right and there's Lee, smiling at him. POW. Lee connects with a right and the agent ACCIDENTALLY FALLS out the window. Lee freaks and DIVES for the guy as he slides down the roof.",
+      "desc" : "Lee crawls along the steeply pitched roof looking for a way in. He gets to a GABLE with a WINDOW. But before he can look inside, an AGENT sticks his head out the window and looks around. The agent turns to his left. Nothing. He turns to his right and there's Lee, smiling at him. POW. Lee connects with a right and the agent ACCIDENTALLY FALLS out the window. Lee freaks and DIVES for the guy as he slides down the roof. ",
       "sentences" : [ ],
       "key_words" : [ "AGENT", "GABLE", "POW", "ACCIDENTALLY FALLS", "WINDOW", "DIVES" ]
     }, {
       "id" : 1,
       "on" : "ON TWO AGENTS",
-      "desc" : "They're walking in the back yard, guns drawn. Something makes one of them look up. AGENTS POV The guy from the window, still out cold, is dangling off the edge of the house.",
+      "desc" : "They're walking in the back yard, guns drawn. Something makes one of them look up. AGENTS POV The guy from the window, still out cold, is dangling off the edge of the house. ",
       "sentences" : [ ],
       "key_words" : [ "AGENTS POV" ]
     }, {
@@ -2235,7 +2271,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "I see you came via Malibu.",
         "followup" : ""
       }, {
@@ -2485,7 +2521,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "(to himself) Lame ass country. ",
         "followup" : ""
       } ],
@@ -2514,7 +2550,7 @@
       }, {
         "shot_id" : 0,
         "character" : "CARTER",
-        "line" : "Hey! What did you do to my phone, man!? You people can't keep your hands off electronics, can you?!",
+        "line" : "Hey! What did you do to my phone, man!? You people can't keep your hands off electronics, can you?! ",
         "followup" : ""
       } ],
       "key_words" : [ "CELL PHONE", "CARTER", "RIPS", "HEE HAW", "LEE" ]
@@ -2524,7 +2560,7 @@
       "desc" : "He pulls across the street from a MINI-MART. We see EMPTY PHONE BOOTHS out front.",
       "sentences" : [ {
         "shot_id" : 1,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Wait here.",
         "followup" : "Carter shuts the door. Starts away. Stops. Then returns to the car, reaches in and quickly snaps a hand cuff on Lee's arm and another on the steering wheel."
       }, {
@@ -2580,7 +2616,7 @@
         "followup" : "Carter reaches down to start the car and finds that his steering wheel is gone. Along with Lee."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Sonuvabitch! ",
         "followup" : ""
       } ],
@@ -2603,7 +2639,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "WHITNEY",
+        "character" : "WHITNEY (cont'd)",
         "line" : "Where's Carter?",
         "followup" : ""
       }, {
@@ -2658,13 +2694,13 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Hold me back. (yelling) After I kick it first!",
         "followup" : ""
       }, {
         "shot_id" : 0,
         "character" : "RUSS",
-        "line" : "(to OTHER AGENTS) Get them the hell out of here! (on the radio) You are cleared to go.",
+        "line" : "(to OTHER AGENTS) Get them the hell out of here! (on the radio) You are cleared to go. ",
         "followup" : ""
       } ],
       "key_words" : [ "WHITNEY", "CARTER", "RUSS", "TEAM OF BLACK CLAD FBI", "FBI", "OLD OFFICE BUILDING", "FBI SPECIAL TACTICS TEAMS", "OTHER AGENTS", "LEE", "UNMARKED CARS", "TAXI", "AGENTS", "I'", "WHISPERS" ]
@@ -2688,30 +2724,36 @@
       "sentences" : [ {
         "shot_id" : 0,
         "character" : "LEAD AGENT TACTICAL TEAM",
-        "line" : "(into radio) Area secured. The room is empty. INTERCUT WITH RUSS ON THE STREET as he gets the message.",
+        "line" : "(into radio) Area secured. The room is empty. INTERCUT WITH RUSS ",
         "followup" : ""
-      }, {
-        "shot_id" : 0,
+      } ],
+      "key_words" : [ "LEAD AGENT TACTICAL TEAM", "KICKED OPEN", "AGENTS BURST INTO THE ROOM", "INTERCUT WITH RUSS", "DOOR" ]
+    }, {
+      "id" : 1,
+      "on" : "ON THE STREET",
+      "desc" : "as he gets the message.",
+      "sentences" : [ {
+        "shot_id" : 1,
         "character" : "RUSS",
         "line" : "Dammit!",
         "followup" : ""
       }, {
-        "shot_id" : 0,
+        "shot_id" : 1,
         "character" : "LEAD AGENT TACTICAL TEAM",
         "line" : "A table, chair and phone.",
         "followup" : "THE PHONE RINGS. The Lead Agent turns to the phone. First ring, second ring."
       }, {
-        "shot_id" : 0,
+        "shot_id" : 1,
         "character" : "LEAD AGENT TACTICAL TEAM",
         "line" : "And it's ringing. (Third ring) What do you want me to do? Russ hesitates. Then starts running for the building.",
         "followup" : ""
       }, {
-        "shot_id" : 0,
+        "shot_id" : 1,
         "character" : "RUSS",
         "line" : "I'm on my way.",
         "followup" : "FOURTH RING. FIFTH RING. Finally he takes off his helmet, picks up the receiver. "
       } ],
-      "key_words" : [ "LEAD AGENT TACTICAL TEAM", "RUSS", "FIFTH RING", "FOURTH RING", "DOOR", "THE PHONE RINGS", "INTERCUT WITH RUSS ON THE STREET", "KICKED OPEN", "AGENTS BURST INTO THE ROOM", "I'" ]
+      "key_words" : [ "LEAD AGENT TACTICAL TEAM", "RUSS", "FIFTH RING", "FOURTH RING", "I'", "THE PHONE RINGS" ]
     } ]
   }, {
     "id" : 75,
@@ -2722,9 +2764,15 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "The TOP FLOOR OF THE BUILDING SUDDENLY BLOWS UP in a huge fireball. Russ and Agents are knocked down. Lee and Carter take cover from the debris. CLOUD OF DUST AND SMOKE roll over them. When Lee gets up, he's facing away from the building. He sees something. P.O.V. OF A MAN -- CONTINUOUS Standing in a doorway as the FLASH FROM THE EXPLOSION LIGHTS up his ",
+      "desc" : "The TOP FLOOR OF THE BUILDING SUDDENLY BLOWS UP in a huge fireball. Russ and Agents are knocked down. Lee and Carter take cover from the debris. CLOUD OF DUST AND SMOKE roll over them. When Lee gets up, he's facing away from the building. He sees something. P.O.V. OF A MAN -- CONTINUOUS Standing in a doorway as the FLASH FROM THE EXPLOSI",
       "sentences" : [ ],
-      "key_words" : [ "OF", "TOP FLOOR OF THE BUILDING SUDDENLY BLOWS UP", "MAN", "CONTINUOUS", "FLASH FROM THE EXPLOSION LIGHTS", "CLOUD OF DUST AND SMOKE" ]
+      "key_words" : [ "OF", "FLASH FROM THE EXPLOSI", "TOP FLOOR OF THE BUILDING SUDDENLY BLOWS UP", "MAN", "CONTINUOUS", "CLOUD OF DUST AND SMOKE" ]
+    }, {
+      "id" : 1,
+      "on" : "ON LIGHTS",
+      "desc" : "up his ",
+      "sentences" : [ ],
+      "key_words" : [ ]
     } ]
   }, {
     "id" : 76,
@@ -2766,7 +2814,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Sang is running hard when he turns and sees Lee. Sang jumps onto a DUMPSTER in the alley, grabs a FIRE ESCAPE LADDER and starts climbing. Lee leaps onto the dumpster, grabs the ladder and goes up. Sang climbs two stories, smashes a WINDOW and climbs into the building.",
+      "desc" : "Sang is running hard when he turns and sees Lee. Sang jumps onto a DUMPSTER in the alley, grabs a FIRE ESCAPE LADDER and starts climbing. Lee leaps onto the dumpster, grabs the ladder and goes up. Sang climbs two stories, smashes a WINDOW and climbs into the building. ",
       "sentences" : [ ],
       "key_words" : [ "FIRE ESCAPE LADDER", "DUMPSTER", "WINDOW" ]
     }, {
@@ -2790,13 +2838,13 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "We're in an ABANDONED ATRIUM moving down an open, dirty hallway. Lee moves quickly and quietly. He peaks over the edge of the atrium: LEE'S POV Two floors below we see a TUNNEL filled with trash. Lee passes SCAFFOLDING that's been abandoned. He stops and listens. Suddenly, we hear SOMEONE RUNNING. Lee takes off.",
+      "desc" : "We're in an ABANDONED ATRIUM moving down an open, dirty hallway. Lee moves quickly and quietly. He peaks over the edge of the atrium: LEE'S POV Two floors below we see a TUNNEL filled with trash. Lee passes SCAFFOLDING that's been abandoned. He stops and listens. Suddenly, we hear SOMEONE RUNNING. Lee takes off. ",
       "sentences" : [ ],
       "key_words" : [ "LEE'S POV", "TUNNEL", "SOMEONE RUNNING", "ABANDONED ATRIUM", "SCAFFOLDING" ]
     }, {
       "id" : 1,
       "on" : "ON CARTER",
-      "desc" : "He climbs through the window and takes off down the open hallway.",
+      "desc" : "He climbs through the window and takes off down the open hallway. ",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -2811,7 +2859,7 @@
       }, {
         "shot_id" : 2,
         "character" : "CARTER",
-        "line" : "...ahhh.",
+        "line" : "...ahhh. ",
         "followup" : ""
       } ],
       "key_words" : [ "DANGER", "CARTER", "STUMBLES", "UNDER", "DETONATOR", "CREAKS", "BRIDGE", "CRACK", "CLOSE ON", "CONSTRUCTION", "WHAT SANG DROPPED" ]
@@ -3024,7 +3072,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "(back to phone) I mean I don't think he even gets paid in dollars. They probably pay in yang or yin or...rice, whatever it is they got there. Lee walks over. Carter holds the phone so Lee can hear.",
         "followup" : ""
       }, {
@@ -3132,7 +3180,7 @@
         "followup" : "Carter offers a smile, then starts back toward Lee. The smile disappears as he turns his back on Russ."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "(to himself) Prick. ",
         "followup" : ""
       } ],
@@ -3253,7 +3301,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Let's go see a friend of mine. ",
         "followup" : ""
       } ],
@@ -3282,7 +3330,7 @@
       }, {
         "shot_id" : 0,
         "character" : "CARTER",
-        "line" : "Welcome to the wide open spaces of America!",
+        "line" : "Welcome to the wide open spaces of America! ",
         "followup" : ""
       } ],
       "key_words" : [ "CARTER", "WHITE ELDORADO CONVERTIBLE", "HUGE", "LEE" ]
@@ -3330,7 +3378,7 @@
         "followup" : "Carter gets out of the car and walks away. Lee doesn't move. After a beat, Carter comes back."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "What?",
         "followup" : ""
       }, {
@@ -3371,22 +3419,22 @@
       "desc" : "CARTER (to the guy) That better not be what I think it is. Gimme that. Carter swipes the joint out of the guy's hand. He takes a big hit. He holds it and tastes it for a beat. Lee is looking at Carter in disbelief.",
       "sentences" : [ {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Wait a minute. He takes ANOTHER HIT. Gives the joint back.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Don't leave town. I'm watching you.",
         "followup" : "Carter keeps moving. He walks by a luscious looking girl with tight stuff on."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "You see my ride, baby? You'd look good in that. Go outside. Take a look. He walks by a guy who gives him a dirty look.",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "What are you lookin' at, dickhead? three more wait and four nasty looking BITCHES watch the action.",
         "followup" : "One of the players looks nervous when he sees Carter. This is OSCAR."
       }, {
@@ -3525,14 +3573,20 @@
         "shot_id" : 0,
         "character" : "CARTER",
         "line" : "It happens.",
-        "followup" : "Carter spots one of the fighters ON THE FLOOR as they walk out. It's the same guy who was smoking the joint. The guy moans as they go past."
-      }, {
-        "shot_id" : 0,
-        "character" : "CARTER",
+        "followup" : "Carter spots one of the fighters "
+      } ],
+      "key_words" : [ "CARTER", "WHAM", "BREAKS", "UNDER", "BIG DUDE", "LEE", "I'" ]
+    }, {
+      "id" : 1,
+      "on" : "ON THE FLOOR",
+      "desc" : "as they walk out. It's the same guy who was smoking the joint. The guy moans as they go past.",
+      "sentences" : [ {
+        "shot_id" : 1,
+        "character" : "CARTER (cont'd)",
         "line" : "(to the doper/fighter) Hey, lightweight, I told you to lay off that shit. (over his shoulder) Get an education! ",
         "followup" : ""
       } ],
-      "key_words" : [ "CARTER", "ON THE FLOOR", "UNDER", "BIG DUDE", "LEE", "WHAM", "BREAKS", "I'" ]
+      "key_words" : [ "CARTER" ]
     } ]
   }, {
     "id" : 92,
@@ -3657,7 +3711,7 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LAFONTAINE",
+        "character" : "LAFONTAINE (cont'd)",
         "line" : "(quietly) Fang Shan. A restaurant. China Town. ",
         "followup" : ""
       } ],
@@ -4058,9 +4112,15 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "In a private room, TEN MILLION DOLLARS is running though a money counting machine. Ambassador Han watches with Russ, Whitney and SEVERAL ASIAN BANK OFFICIALS. ",
+      "desc" : "In a private room, TEN MILLI",
       "sentences" : [ ],
-      "key_words" : [ "TEN MILLION DOLLARS", "SEVERAL ASIAN BANK OFFICIALS" ]
+      "key_words" : [ "TEN MILLI" ]
+    }, {
+      "id" : 1,
+      "on" : "ON DOLLARS",
+      "desc" : "is running though a money counting machine. Ambassador Han watches with Russ, Whitney and SEVERAL ASIAN BANK OFFICIALS. ",
+      "sentences" : [ ],
+      "key_words" : [ "SEVERAL ASIAN BANK OFFICIALS" ]
     } ]
   }, {
     "id" : 108,
@@ -4539,7 +4599,7 @@
         "followup" : "Carter's outburst draws Sang's attention. And Lee takes advantage - swinging the tray of food at him. The metal tray smashes into Sang's head, food flying. The men charge Lee. Lee swings the tray, smacking the first two in the heads, blocking a punch from a third, then flinging it like a frisbee at Shu, catching him in the forehead."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "(shocked) Damn, you're good!",
         "followup" : "Carter gets immediately decked by two guys who run into the room."
       }, {
@@ -4786,10 +4846,16 @@
       }, {
         "shot_id" : 0,
         "character" : "SECOND POLICE OFFICER",
-        "line" : "No, I can see the resemblance. GET YOUR HANDS ON TOP OF YOUR HEADS! ",
+        "line" : "No, I can see the resemblance. GET YOUR HANDS ",
         "followup" : ""
       } ],
-      "key_words" : [ "YOUR HANDS ON TOP OF YOUR HEADS", "CARTER", "IMMEDIATELY TURN", "GUNS POINTED AT CARTER", "BLOWING", "POLICE", "GUN", "POLICE OFFICER", "FLAMES BLOW INTO THE ALLEY", "LEE", "POLICE CAR", "KITCHEN IGNITES", "GAS MAIN", "GET", "WINDOWS SHATTER", "I'", "SECOND POLICE OFFICER" ]
+      "key_words" : [ "CARTER", "IMMEDIATELY TURN", "YOUR HANDS", "GUNS POINTED AT CARTER", "BLOWING", "POLICE", "GUN", "POLICE OFFICER", "FLAMES BLOW INTO THE ALLEY", "LEE", "POLICE CAR", "KITCHEN IGNITES", "GAS MAIN", "GET", "WINDOWS SHATTER", "I'", "SECOND POLICE OFFICER" ]
+    }, {
+      "id" : 1,
+      "on" : "ON TOP OF YOUR HEADS",
+      "desc" : "! ",
+      "sentences" : [ ],
+      "key_words" : [ ]
     } ]
   }, {
     "id" : 139,
@@ -4943,20 +5009,21 @@
       }, {
         "shot_id" : 0,
         "character" : "HAN",
-        "line" : "Please, you must understand, what happened today was not --",
+        "line" : "Please, you must understand, what happened today was not -- SO",
         "followup" : ""
-      }, {
-        "shot_id" : 0,
-        "character" : "SOON YOUNG'S VOICE",
-        "line" : "Dad, are you okay?",
-        "followup" : ""
-      }, {
-        "shot_id" : 0,
+      } ],
+      "key_words" : [ "CARTER", "RUSS", "MANDARIN", "FBI", "LEE", "AGENT", "TWO AGENTS", "SANG'S VOICE", "HAN", "PHONE RINGS", "SO" ]
+    }, {
+      "id" : 1,
+      "on" : "ON YOUNG'S VOICE",
+      "desc" : "Dad, are you okay?",
+      "sentences" : [ {
+        "shot_id" : 1,
         "character" : "HAN",
         "line" : "(stunned) Soon Young! ",
         "followup" : ""
       } ],
-      "key_words" : [ "CARTER", "RUSS", "MANDARIN", "FBI", "LEE", "AGENT", "TWO AGENTS", "SANG'S VOICE", "HAN", "SOON YOUNG'S VOICE", "PHONE RINGS" ]
+      "key_words" : [ "HAN" ]
     } ]
   }, {
     "id" : 143,
@@ -4967,19 +5034,20 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Sang is holding the phone to Soon Young. The black mask has been pulled up so she can talk.",
+      "desc" : "Sang is holding the phone to Soon Young. The black mask has been pulled up so she can talk. SO",
+      "sentences" : [ ],
+      "key_words" : [ "SO" ]
+    }, {
+      "id" : 1,
+      "on" : "ON YOUNG",
+      "desc" : "Please, do what they ask or they will kill me. BACK TO HAN",
       "sentences" : [ {
-        "shot_id" : 0,
-        "character" : "SOON YOUNG",
-        "line" : "Please, do what they ask or they will kill me. BACK TO HAN",
-        "followup" : ""
-      }, {
-        "shot_id" : 0,
+        "shot_id" : 1,
         "character" : "HAN",
         "line" : "Soon Young, tell them I will do --",
         "followup" : "The phone goes dead. End of conversation. Han looks at Russ, then turns away, trying to maintain his composure. "
       } ],
-      "key_words" : [ "SOON YOUNG", "HAN", "BACK TO HAN" ]
+      "key_words" : [ "HAN", "BACK TO HAN" ]
     } ]
   }, {
     "id" : 144,
@@ -5172,7 +5240,7 @@
         "followup" : "Carter moves up the aisle to a FLIGHT ATTENDANT. He takes a handkerchief out of his pocket and puts it over his face."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Excuse me. I'm declaring a medical emergency.",
         "followup" : ""
       }, {
@@ -5202,22 +5270,22 @@
         "followup" : "A collective GASP goes up from the first class passengers."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Especially bad breath.",
         "followup" : "Lee immediately starts MOANING. Carter suddenly goes into FAKE CHINESE, directed at Lee. Lee looks at him for a beat and then ANSWERS IN REAL MANDARIN. Oh God, we're in trouble. He's already started the chills... Lee starts SHAKING like he has a fever."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "And diarrhea. Lee looks at him like, łhow am I supposed to do that?˛",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "I mean gas?",
         "followup" : "Lee looks over at a middle aged woman, and COUGHS at her. The woman SCREAMS."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "Open the door!",
         "followup" : ""
       }, {
@@ -5425,7 +5493,7 @@
         "followup" : "Lee gallantly opens the door for Johnson who reluctantly gets in the back seat. Lee starts to get back there with her."
       }, {
         "shot_id" : 0,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "(to Lee) Where the hell are you goin'?!",
         "followup" : "Lee gets up front. "
       } ],
@@ -5466,7 +5534,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "AGENTS monitor the event with video monitors and listening devices.",
+      "desc" : "AGENTS monitor the event with video monitors and listening devices. ",
       "sentences" : [ ],
       "key_words" : [ "AGENTS" ]
     }, {
@@ -5555,7 +5623,7 @@
       }, {
         "shot_id" : 0,
         "character" : "RUSS",
-        "line" : "I want them picked up. NOW!",
+        "line" : "I want them picked up. NOW! ",
         "followup" : ""
       } ],
       "key_words" : [ "RUSS", "NOW", "SIX CERAMIC DRAGONS", "EVANS VOICE", "CASH" ]
@@ -5575,7 +5643,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Griffin looks at his watch. Glances across the room at ONE OF THE SECURITY GUARDS standing in the b.g. We see it's Sang. Griffin glances at TWO MORE SECURITY GUARDS. Shu and Chung.",
+      "desc" : "Griffin looks at his watch. Glances across the room at ONE OF THE SECURITY GUARDS standing in the b.g. We see it's Sang. Griffin glances at TWO MORE SECURITY GUARDS. Shu and Chung. ",
       "sentences" : [ ],
       "key_words" : [ "SECURITY GUARDS", "ONE OF THE", "TWO MORE SECURITY GUARDS" ]
     }, {
@@ -5599,7 +5667,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Carter, Lee and Johnson come down the escalator into the hall.",
+      "desc" : "Carter, Lee and Johnson come down the escalator into the hall. ",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -5610,7 +5678,7 @@
         "shot_id" : 1,
         "character" : "WHITNEY",
         "line" : "(into radio) How the hell did they get here?",
-        "followup" : "Whitney turns quickly, scanning the crowd. But the place is packed. Black ties and gowns everywhere."
+        "followup" : "Whitney turns quickly, scanning the crowd. But the place is packed. Black ties and gowns everywhere. "
       } ],
       "key_words" : [ "WHITNEY" ]
     }, {
@@ -5666,7 +5734,7 @@
         "shot_id" : 2,
         "character" : "CARTER",
         "line" : "You know him?",
-        "followup" : "But Lee is already moving toward Griffin."
+        "followup" : "But Lee is already moving toward Griffin. "
       } ],
       "key_words" : [ "CARTER", "LEE", "JOHNSON" ]
     }, {
@@ -5677,7 +5745,7 @@
         "shot_id" : 3,
         "character" : "LEE",
         "line" : "Juntao.",
-        "followup" : "Griffin looks around and sees Carter moving in from another direction. Griffin quickly excuses himself and heads for the escalator."
+        "followup" : "Griffin looks around and sees Carter moving in from another direction. Griffin quickly excuses himself and heads for the escalator. "
       } ],
       "key_words" : [ "LEE" ]
     }, {
@@ -5692,7 +5760,7 @@
       }, {
         "shot_id" : 4,
         "character" : "JOHNSON",
-        "line" : "I got to talk to you. Now.",
+        "line" : "I got to talk to you. Now. ",
         "followup" : ""
       } ],
       "key_words" : [ "JOHNSON", "WHITNEY", "RADIO", "LAPD" ]
@@ -5707,7 +5775,7 @@
         "followup" : ""
       }, {
         "shot_id" : 5,
-        "character" : "GRIFFIN",
+        "character" : "GRIFFIN (cont'd)",
         "line" : "Welcome to Chinese Expo. The exhibit you see before you represents over a thousand years of Chinese art. Up until several months ago, most of this exhibit was in the hands of one private collector. (pause) Me. So, I should say more correctly, welcome to my exhibit. ",
         "followup" : ""
       } ],
@@ -5715,7 +5783,7 @@
     }, {
       "id" : 6,
       "on" : "ON HAN",
-      "desc" : "He looks up with a puzzled expression at his friend.",
+      "desc" : "He looks up with a puzzled expression at his friend. ",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -5724,14 +5792,14 @@
       "desc" : "He looks up at Griffin too as Johnson keeps filling him in.",
       "sentences" : [ {
         "shot_id" : 7,
-        "character" : "GRIFFIN",
+        "character" : "GRIFFIN (cont'd)",
         "line" : "Great collectors are born, not made. It took most of my life to find and catalog the priceless pieces you see. And then, in one fell swoop, they were taken from me. But tonight, I will be paid in full. Griffin holds up a DETONATOR.",
         "followup" : ""
       }, {
         "shot_id" : 7,
-        "character" : "GRIFFIN",
+        "character" : "GRIFFIN (cont'd)",
         "line" : "A bomb is wired to Ambassador Han's daughter in a car outside.",
-        "followup" : "AUDIBLE GASPS from the floor. Carter immediately ducks down in the crowd and runs bent over for the exit."
+        "followup" : "AUDIBLE GASPS from the floor. Carter immediately ducks down in the crowd and runs bent over for the exit. "
       } ],
       "key_words" : [ "AUDIBLE GASPS", "DETONATOR", "GRIFFIN" ]
     }, {
@@ -5740,12 +5808,12 @@
       "desc" : "He turns to his lapel mike. It's immediately ripped off his collar by Sang. Other agents on the floor are quickly stopped from communicating by Griffin's men.",
       "sentences" : [ {
         "shot_id" : 8,
-        "character" : "GRIFFIN",
+        "character" : "GRIFFIN (cont'd)",
         "line" : "No one moves! Lee stares up at Griffin trying to figure out what to do.",
         "followup" : ""
       }, {
         "shot_id" : 8,
-        "character" : "GRIFFIN",
+        "character" : "GRIFFIN (cont'd)",
         "line" : "She will die if I push this button. But if you are all patient, my transportation will be here shortly and you can continue to enjoy my collection. Everyone just stay calm. (to Han) You just picked on the wrong guy, my friend. ",
         "followup" : ""
       } ],
@@ -5793,7 +5861,7 @@
         "shot_id" : 0,
         "character" : "CARTER",
         "line" : "You have the right to remain silent alllll night.",
-        "followup" : "Carter moves to the back of the van. Looks at the LICENSE. CALIFORNIA. LIK. Unlocks the back door. Stands back, ready to shoot, as he opens the door. Looks in."
+        "followup" : "Carter moves to the back of the van. Looks at the LICENSE. CALIFORNIA. LIK. Unlocks the back door. Stands back, ready to shoot, as he opens the door. Looks in. "
       } ],
       "key_words" : [ "MAN'S VOICE", "CARTER", "CALIFORNIA", "LICENSE", "LIK" ]
     }, {
@@ -5803,15 +5871,16 @@
       "sentences" : [ {
         "shot_id" : 1,
         "character" : "CARTER",
-        "line" : "Hi. Detective Carter, LAPD. Let's get this thing off you.",
-        "followup" : ""
-      }, {
-        "shot_id" : 1,
-        "character" : "SOON YOUNG",
-        "line" : "(near tears) NO! Don't touch it! I heard them say it will explode. Carter hesitates. ",
+        "line" : "Hi. Detective Carter, LAPD. Let's get this thing off you. SO",
         "followup" : ""
       } ],
-      "key_words" : [ "NO", "CARTER", "SOON YOUNG", "BULKY VEST", "LAPD" ]
+      "key_words" : [ "CARTER", "BULKY VEST", "LAPD", "SO" ]
+    }, {
+      "id" : 2,
+      "on" : "ON YOUNG",
+      "desc" : "(near tears) NO! Don't touch it! I heard them say it will explode. Carter hesitates. ",
+      "sentences" : [ ],
+      "key_words" : [ "NO" ]
     } ]
   }, {
     "id" : 169,
@@ -5858,7 +5927,7 @@
         "shot_id" : 0,
         "character" : "GRIFFIN",
         "line" : "Thank you, ladies and gentlemen. We'll be calling this an evening.",
-        "followup" : "Suddenly we HEAR a CLATTER AND RUMBLE. Low at first, but building LOUDER and LOUDER. Everyone turns. THROUGH THE PLATE GLASS WINDOW we can SEE THE VAN tearing up the museum steps. Right toward the window. And it's not stopping."
+        "followup" : "Suddenly we HEAR a CLATTER AND RUMBLE. Low at first, but building LOUDER and LOUDER. Everyone turns. THROUGH THE PLATE GLASS WINDOW we can SEE THE VAN tearing up the museum steps. Right toward the window. And it's not stopping. "
       } ],
       "key_words" : [ "THROUGH THE PLATE GLASS WINDOW", "SEE THE VAN", "CLATTER AND RUMBLE", "GRIFFIN", "LOUDER", "HEAR" ]
     }, {
@@ -5874,7 +5943,7 @@
         "shot_id" : 1,
         "character" : "HAN",
         "line" : "Soon Young!",
-        "followup" : "An FBI AGENT grabs Han and his wife and pushes them down on the floor. Lee and Johnson run to Soon Young's side."
+        "followup" : "An FBI AGENT grabs Han and his wife and pushes them down on the floor. Lee and Johnson run to Soon Young's side. "
       } ],
       "key_words" : [ "CARTER", "RAMS", "HAN", "DISPLAY CASE", "FBI AGENT", "BACK DOORS OPEN", "RIGHT INTO THE WINDOW" ]
     }, {
@@ -5924,12 +5993,12 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON",
+        "character" : "JOHNSON (cont'd)",
         "line" : "Get rid of it. The detonator can still set it off. And this... She points to a SWITCH on the front of the vest. ",
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "JOHNSON",
+        "character" : "JOHNSON (cont'd)",
         "line" : "Don't touch. It's a back up. Short fuse. Five...maybe ten seconds.",
         "followup" : ""
       }, {
@@ -6003,7 +6072,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Lee reaches the ladder, PUTS THE BOMB JACKET ON and starts climbing.",
+      "desc" : "Lee reaches the ladder, PUTS THE BOMB JACKET ON and starts climbing. ",
       "sentences" : [ ],
       "key_words" : [ "PUTS THE BOMB JACKET ON" ]
     }, {
@@ -6035,7 +6104,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Lee is flying up it at superhuman speed. When the inside ladder proves too slow, he switches to the outside GUARD CAGE and climbs that.",
+      "desc" : "Lee is flying up it at superhuman speed. When the inside ladder proves too slow, he switches to the outside GUARD CAGE and climbs that. ",
       "sentences" : [ ],
       "key_words" : [ "GUARD CAGE" ]
     }, {
@@ -6072,7 +6141,7 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Two of Griffin's men are cut down by Whitney as they try to escape up the escalator.",
+      "desc" : "Two of Griffin's men are cut down by Whitney as they try to escape up the escalator. ",
       "sentences" : [ ],
       "key_words" : [ ]
     }, {
@@ -6122,9 +6191,21 @@
     "shots" : [ {
       "id" : 0,
       "on" : "LOCATION",
-      "desc" : "Griffin tries to push a groggy Lee off him but he won't let go of his legs. Griffin starts beating Lee over the head with the suitcase. It POPS open and ten million dollars flutters out like confetti. Lee pushes through the money, stands up and grabs Griffin. Griffin tries to get away and HITS THE SWITCH ON THE JACKET. They both stop and look at each other in panic. Then Griffin HEAD BUTTS Lee. Lee starts to go down, but instead, he HEAD BUTTS Griffin back. Griffin crumples. Lee holds him, wriggles out of the vest and PUTS IT ON GRIFFIN. Then he looks down, tips them both over the railing and THEY FALL. WHACK! Lee grabs THE BOTTOM OF THE CATWALK as he goes by. Unfortunately, Griffin woke up and is holding onto Lee's foot. Lee kicks once. Twice. The third is a charm. Griffin falls backwards toward THE BUDDHA POOL. He falls and falls, all the while looking back up at Lee. He hits with a huge splash. CLOSE ON Griffin's face under water. He's still alive. KABOOM! ",
+      "desc" : "Griffin tries to push a groggy Lee off him but he won't let go of his legs. Griffin starts beating Lee over the head with the suitcase. It POPS open and ten million dollars flutters out like confetti. Lee pushes through the money, stands up and grabs Griffin. Griffin tries to get away and HITS THE SWITCH ",
       "sentences" : [ ],
-      "key_words" : [ "PUTS IT ON GRIFFIN", "HEAD BUTTS", "WHACK", "POPS", "THEY FALL", "THE BOTTOM OF THE CATWALK", "HITS THE SWITCH ON THE JACKET", "THE BUDDHA POOL", "CLOSE ON", "KABOOM" ]
+      "key_words" : [ "HITS THE SWITCH", "POPS" ]
+    }, {
+      "id" : 1,
+      "on" : "ON THE JACKET",
+      "desc" : ". They both stop and look at each other in panic. Then Griffin HEAD BUTTS Lee. Lee starts to go down, but instead, he HEAD BUTTS Griffin back. Griffin crumples. Lee holds him, wriggles out of the vest and PUTS IT ",
+      "sentences" : [ ],
+      "key_words" : [ "HEAD BUTTS", "PUTS IT" ]
+    }, {
+      "id" : 2,
+      "on" : "ON GRIFFIN",
+      "desc" : ". Then he looks down, tips them both over the railing and THEY FALL. WHACK! Lee grabs THE BOTTOM OF THE CATWALK as he goes by. Unfortunately, Griffin woke up and is holding onto Lee's foot. Lee kicks once. Twice. The third is a charm. Griffin falls backwards toward THE BUDDHA POOL. He falls and falls, all the while looking back up at Lee. He hits with a huge splash. CLOSE ON Griffin's face under water. He's still alive. KABOOM! ",
+      "sentences" : [ ],
+      "key_words" : [ "WHACK", "THEY FALL", "THE BOTTOM OF THE CATWALK", "THE BUDDHA POOL", "CLOSE ON", "KABOOM" ]
     } ]
   }, {
     "id" : 185,
@@ -6161,9 +6242,9 @@
         "followup" : ""
       }, {
         "shot_id" : 0,
-        "character" : "LEE",
+        "character" : "LEE (cont'd)",
         "line" : "It is so sad. So much beauty ruined. So much of our culture gone. Yes. But... (pointing) Life goes on.",
-        "followup" : "He's pointing to Soon Young who is in the arms of her mother. Lee smiles."
+        "followup" : "He's pointing to Soon Young who is in the arms of her mother. Lee smiles. "
       } ],
       "key_words" : [ "HAN", "CORONER", "FBI", "BROKEN ART", "LEE" ]
     }, {
@@ -6207,14 +6288,14 @@
         "followup" : "Carter looks at Lee and points up to the ladder that leads to the catwalk."
       }, {
         "shot_id" : 1,
-        "character" : "CARTER",
+        "character" : "CARTER (cont'd)",
         "line" : "You got circus blood in you?",
         "followup" : ""
       }, {
         "shot_id" : 1,
         "character" : "LEE",
         "line" : "Shortcut.",
-        "followup" : "Carter laughs and looks down the escalator."
+        "followup" : "Carter laughs and looks down the escalator. "
       } ],
       "key_words" : [ "WHITNEY", "CARTER", "SOAKING WET", "FBI", "LEE", "LEE VO", "OK" ]
     }, {

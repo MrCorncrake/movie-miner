@@ -9,8 +9,11 @@
 <!--    </form>-->
 <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>-->
     <form method=post enctype=multipart/form-data>
-        <p><input type=file id="file_input" name=file>
-            <input type=submit id="upload_btn" value=Upload>
+        <p>
+            <input type=file id="file_input" name=file>
+            <input type=submit id="upload_btn_pdf2json" value=PDFtoJSON>
+            <input type=submit id="upload_btn_json2xpdl" value=JSONtoXPDL formaction="/json2xpdl">
+            <input type=submit id="upload_btn_pdf2xpdl" value=PDFtoXPDL formaction="/pdf2xpdl">
         </p>
     </form>
 
@@ -45,13 +48,10 @@
         progress_interval = setInterval(worker, 1000);
     }
 
-    $(document).on("click", "#upload_btn", function(e){
+    $(document).on("click", "#upload_btn_pdf2json", function(e){
         check_progress($("progress").get(0));
     });
 
-<!--    $(function() {-->
-<!--        check_progress($("progress").get(0));-->
-<!--    });-->
 
 </script>
 {% endblock %}
