@@ -24,7 +24,7 @@ To activate virtualenv run aproperiate script:
    ```
  * On Windows Power Shell (note that you might need to enable execution of scripts first):
    ```
-   .\venv\Scripts\activate.bat
+   .\venv\Scripts\activate.ps1
    ```
 
 To install required packages in activated virtualenv run
